@@ -1,34 +1,34 @@
-# Planting Tips — 室内可食用香草与厨余再生指南原型
+# Planting Tips — 室內可食用香草與廚餘再生指南原型
 
-这是一个以**“交互式对比总表 → 可验证步骤详情页”**为核心结构的静态网页原型，强调**植物学真相、可观察的验收标准、止损红线以及每条知识的书本/文献页码出处**。
+這是一個以**“交互式對比總表 → 可驗證步驟詳情頁”**為核心結構的靜態網頁原型，強調**植物學真相、可觀察的驗收標準、止損紅線以及每條知識的書本/文獻頁碼出處**。
 
-## 目录结构
+## 目錄結構
 
-- `index.html` / `styles.css` / `app.js` — 前端交互原型（支持搜索、多维筛选、总表与详情页 Hash 路由、角标跳转高亮溯源）
-- `data/schema.json` — 数据结构校验规范（JSON Schema）
-- `data/plants.json` — 唯一事实数据源（已预置小葱、香菜、欧芹、芹菜、生姜、大蒜、罗勒 7 种高频植物与真实书目/权威出处）
-- `data/plants-bundle.js` — 由构建脚本生成，保证直接双击 `index.html`（`file://`）也能正常加载
-- `templates/plant-entry-template.md` — 配合 NotebookLM 整理新植物时使用的标准提问词与 Markdown 模板
-- `scripts/validate_and_bundle.py` — 校验 `data/plants.json` 中每条步骤的 `source_refs` 是否有对应页码出处，并同步更新 `data/plants-bundle.js`
-- `assets/media/` — 预留放置实拍图片与步骤演示视频的目录
+- `index.html` / `styles.css` / `app.js` — 前端交互原型（支持搜索、多維篩選、總表與詳情頁 Hash 路由、角標跳轉高亮溯源）
+- `data/schema.json` — 數據結構校驗規範（JSON Schema）
+- `data/plants.json` — 唯一事實數據源（已預置小蔥、香菜、歐芹、芹菜、生薑、大蒜、羅勒 7 種高頻植物與真實書目/權威出處）
+- `data/plants-bundle.js` — 由構建腳本生成，保證直接雙擊 `index.html`（`file://`）也能正常加載
+- `templates/plant-entry-template.md` — 配合 NotebookLM 整理新植物時使用的標準提問詞與 Markdown 模板
+- `scripts/validate_and_bundle.py` — 校驗 `data/plants.json` 中每條步驟的 `source_refs` 是否有對應頁碼出處，並同步更新 `data/plants-bundle.js`
+- `assets/media/` — 預留放置實拍圖片與步驟演示視頻的目錄
 
-## 本地预览方式
+## 本地預覽方式
 
-方式 A（推荐，使用本地静态服务器）：
+方式 A（推薦，使用本地靜態服務器）：
 
 ```powershell
 python -m http.server 8080
 ```
 
-然后访问 `http://localhost:8080`。
+然後訪問 `http://localhost:8080`。
 
-方式 B：直接双击打开 `index.html`。
+方式 B：直接雙擊打開 `index.html`。
 
-## 从 NotebookLM 添加新植物流程
+## 從 NotebookLM 添加新植物流程
 
-1. 参考 `templates/plant-entry-template.md` 中的提示词，让 NotebookLM 输出带 `[书名, 第X页]` 的结构化内容。
-2. 按 `data/schema.json` 格式添加到 `data/plants.json`（如有实拍图/视频可放到 `assets/media/`）。
-3. 运行校验与打包脚本：
+1. 參考 `templates/plant-entry-template.md` 中的提示詞，讓 NotebookLM 輸出帶 `[書名, 第X頁]` 的結構化內容。
+2. 按 `data/schema.json` 格式添加到 `data/plants.json`（如有實拍圖/視頻可放到 `assets/media/`）。
+3. 運行校驗與打包腳本：
 
 ```powershell
 python scripts/validate_and_bundle.py

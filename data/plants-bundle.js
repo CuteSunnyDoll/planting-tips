@@ -5,24 +5,28 @@ window.PLANTS_DATA = {
   "plants": [
     {
       "id": "green-onion",
-      "name_zh": "小葱（香葱 / 青葱）",
+      "name_zh": "小蔥（香蔥 / 青蔥）",
       "name_en": "Green Onion (Scallion)",
       "aliases": [
+        "香蔥",
+        "青蔥",
+        "分蔥",
+        "Scallions",
+        "小葱（香葱 / 青葱）",
         "香葱",
         "青葱",
-        "分葱",
-        "Scallions"
+        "分葱"
       ],
       "botanical_name": "Allium fistulosum",
       "category": "allium",
       "scrap_regrow_verdict": "high_value",
-      "verdict_label": "唯一高性价比厨余水培",
+      "verdict_label": "最推薦的廚餘水耕入門（成功率最高）",
       "best_starting_method": "kitchen_scrap_water_to_soil",
-      "starting_method_label": "葱白水培启动 → 1~2周后转土",
-      "water_only_limit": "7–14 天（仅水培 1–2 轮后变细弱，须转土）",
+      "starting_method_label": "蔥白水培啟動 → 1~2周後轉土",
+      "water_only_limit": "7–14 天（僅水培 1–2 輪後變細弱，須轉土）",
       "light_requirement": "bright_windowsill_ok",
-      "light_label": "明亮窗台即可（耐半阴，15–20℃最佳）",
-      "expected_harvest_window": "水培 5–7 天可剪第一茬；转土可持续数月",
+      "light_label": "明亮窗臺即可（耐半陰，15–20℃最佳）",
+      "expected_harvest_window": "水培 5–7 天可剪第一茬；轉土可持續數月",
       "difficulty": 1,
       "diagrams": [
         "water_line"
@@ -31,11 +35,11 @@ window.PLANTS_DATA = {
         "type": "image",
         "src": "assets/media/plants/green-onion.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Scallion",
-        "caption": "小葱（香葱 / 青葱） (Green Onion (Scallion)) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "小蔥（香蔥 / 青蔥） (Green Onion (Scallion)) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "只要把葱根泡在清水里，就能一辈子无限免费吃葱。",
-        "botanical_truth": "清水不含氮磷钾等矿质营养，葱白只是消耗鳞茎基盘储存的碳水化合物抽新叶。1–2 轮后新叶会越长越细、风味变淡；想要长期持续采收，必须在能量耗尽前移栽入土或添加水培营养液。",
+        "common_myth": "只要把蔥根泡在清水裡，就能一輩子無限免費吃蔥。",
+        "botanical_truth": "清水不含氮磷鉀等礦質營養，蔥白只是消耗鱗莖基盤儲存的碳水化合物抽新葉。1–2 輪後新葉會越長越細、風味變淡；想要長期持續採收，必須在能量耗盡前移栽入土或添加水培營養液。",
         "source_refs": [
           "src_almanac",
           "src_reddit"
@@ -44,10 +48,10 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "挑选并修剪带完整根盘的葱白",
-          "action": "从买回来的小葱底部切下 3–5 cm（约 1–2 英寸）带白色根须与基盘的部分，剥去最外层破损老皮。",
-          "verification_checkpoint": "底部白色基盘坚挺、无软烂发黑，根须呈乳白色或浅褐色且未干枯碎裂。",
-          "failure_signal": "基盘一捏发软、有酸腐味或中心发黏，直接丢弃不要水培。",
+          "title": "挑選並修剪帶完整根盤的蔥白",
+          "action": "從買回來的小蔥底部切下 3–5 cm（約 1–2 英寸）帶白色根鬚與基盤的部分，剝去最外層破損老皮。",
+          "verification_checkpoint": "底部白色基盤堅挺、無軟爛發黑，根鬚呈乳白色或淺褐色且未乾枯碎裂。",
+          "failure_signal": "基盤一捏發軟、有酸腐味或中心發黏，直接丟棄不要水培。",
           "source_refs": [
             "src_almanac",
             "src_naturalkitchen"
@@ -55,10 +59,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 2,
-          "title": "浅水启动并每日换水",
-          "action": "直立放入窄口玻璃杯，加入约 1–2 cm 清水——水位只浸没根部和基盘底部，切勿淹没上方绿色切口。置于明亮窗台，每 1–2 天彻底换一次清水。",
-          "verification_checkpoint": "48–72 小时内中心切口顶出鲜绿新芽，水体保持清澈无悬浮絮状物。",
-          "failure_signal": "水体变浑浊、杯壁或葱白表面出现透明黏液、闻到臭味，说明细菌滋生，必须倒掉冲洗或废弃。",
+          "title": "淺水啟動並每日換水",
+          "action": "直立放入窄口玻璃杯，加入約 1–2 cm 清水——水位只浸沒根部和基盤底部，切勿淹沒上方綠色切口。置於明亮窗臺，每 1–2 天徹底換一次清水。",
+          "verification_checkpoint": "48–72 小時內中心切口頂出鮮綠新芽，水體保持清澈無懸浮絮狀物。",
+          "failure_signal": "水體變渾濁、杯壁或蔥白表面出現透明黏液、聞到臭味，說明細菌滋生，必須倒掉沖洗或廢棄。",
           "source_refs": [
             "src_naples",
             "src_almanac"
@@ -66,10 +70,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 3,
-          "title": "第 7–10 天移栽入疏松盆土（长期高产关键）",
-          "action": "水培剪过第 1 茬或看到白色新根长到 2–5 cm 后，移栽进排水孔良好的花盆（配土参考：赤玉土 40% + 堆肥 40% + 腐叶土 10% + 熏炭 10%），埋入深度以露出葱白顶部 1–2 cm 为宜，土表干燥时浇透。",
-          "verification_checkpoint": "转土后 1 周内新叶粗度接近原葱株，叶片挺立不倒伏，可从外侧或基部上方 3–4 cm 处轮流剪叶采收。",
-          "failure_signal": "长期不转土导致新芽细如牙签、叶尖发黄，或花盆积水引发基部软腐。",
+          "title": "第 7–10 天移栽入疏鬆盆土（長期高產關鍵）",
+          "action": "水培剪過第 1 茬或看到白色新根長到 2–5 cm 後，移栽進排水孔良好的花盆（配土參考：赤玉土 40% + 堆肥 40% + 腐葉土 10% + 燻炭 10%），埋入深度以露出蔥白頂部 1–2 cm 為宜，土表乾燥時澆透。",
+          "verification_checkpoint": "轉土後 1 周內新葉粗度接近原蔥株，葉片挺立不倒伏，可從外側或基部上方 3–4 cm 處輪流剪葉採收。",
+          "failure_signal": "長期不轉土導致新芽細如牙籤、葉尖發黃，或花盆積水引發基部軟腐。",
           "source_refs": [
             "src_fujita_48",
             "src_almanac"
@@ -78,18 +82,18 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "玻璃杯水发臭、葱段表皮发黏软烂",
-          "root_cause": "水位过高淹没伤口且未每日换水，厨房温暖环境下厌氧细菌与真菌繁殖。",
-          "fix": "降低水位至仅触及根须；每天换水并冲洗根部；若已发黏发臭请直接丢弃（防食源性细菌风险）。",
+          "symptom": "玻璃杯水發臭、蔥段表皮發黏軟爛",
+          "root_cause": "水位過高淹沒傷口且未每日換水，廚房溫暖環境下厭氧細菌與真菌繁殖。",
+          "fix": "降低水位至僅觸及根鬚；每天換水並沖洗根部；若已發黏發臭請直接丟棄（防食源性細菌風險）。",
           "source_refs": [
             "src_almanac",
             "src_reddit"
           ]
         },
         {
-          "symptom": "徒长倒伏、颜色浅黄细弱",
-          "root_cause": "室内光照不足或氮肥/养分耗尽。",
-          "fix": "移到日照更足的南向窗台或补光灯下，并转入有基肥的盆土中。",
+          "symptom": "徒長倒伏、顏色淺黃細弱",
+          "root_cause": "室內光照不足或氮肥/養分耗盡。",
+          "fix": "移到日照更足的南向窗臺或補光燈下，並轉入有基肥的盆土中。",
           "source_refs": [
             "src_soilless_9"
           ]
@@ -99,19 +103,19 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_fujita_48",
           "source_type": "book",
-          "title": "最新有机家庭盆栽种菜法",
+          "title": "最新有機家庭盆栽種菜法",
           "author_or_publisher": "藤田智",
-          "page_or_section": "书本第 48 页 (PDF 第 49 页) — 香葱",
-          "quote_or_note": "百合科，栽培适温 15–20℃，喜凉爽半遮荫处；推荐配土赤玉土40%+堆肥40%+腐叶土10%+熏炭10%+有机石灰6g/L；干燥时浇满水，留意霜霉病与蓟马。",
+          "page_or_section": "書本第 48 頁 (PDF 第 49 頁) — 香蔥",
+          "quote_or_note": "百合科，栽培適溫 15–20℃，喜涼爽半遮蔭處；推薦配土赤玉土40%+堆肥40%+腐葉土10%+燻炭10%+有機石灰6g/L；乾燥時澆滿水，留意霜黴病與薊馬。",
           "verified": true
         },
         {
           "ref_id": "src_soilless_9",
           "source_type": "book",
-          "title": "阳台种菜、种花技术全攻略",
-          "author_or_publisher": "中国无土栽培技术论坛",
-          "page_or_section": "PDF 第 9 页 — 种菜常见问题及其防治措施",
-          "quote_or_note": "植株徒长细长多因光照不足或氮素过量；底部发黄黯淡多因浇水过多或肥力不足。",
+          "title": "陽臺種菜、種花技術全攻略",
+          "author_or_publisher": "中國無土栽培技術論壇",
+          "page_or_section": "PDF 第 9 頁 — 種菜常見問題及其防治措施",
+          "quote_or_note": "植株徒長細長多因光照不足或氮素過量；底部發黃黯淡多因澆水過多或肥力不足。",
           "verified": true
         },
         {
@@ -121,7 +125,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Farmers' Almanac",
           "page_or_section": "Green Onions / Scallions",
           "url": "https://www.farmersalmanac.com/",
-          "quote_or_note": "水培仅利用基盘储存能量启动，1–2 轮后必须转土补充养分；停滞水体需防微生物污染。",
+          "quote_or_note": "水培僅利用基盤儲存能量啟動，1–2 輪後必須轉土補充養分；停滯水體需防微生物汙染。",
           "verified": true
         },
         {
@@ -131,7 +135,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Naples Botanical Garden",
           "page_or_section": "Kitchen Scrap Guidelines",
           "url": "https://www.naplesgarden.org/",
-          "quote_or_note": "需每日换水并及时清理发黏腐烂组织。",
+          "quote_or_note": "需每日換水並及時清理發黏腐爛組織。",
           "verified": true
         },
         {
@@ -140,16 +144,16 @@ window.PLANTS_DATA = {
           "title": "Cut-and-Come-Again Scraps Guide",
           "author_or_publisher": "Natural Kitchen School",
           "page_or_section": "Scallions",
-          "quote_or_note": "保留底部约 1–2 英寸带根段。",
+          "quote_or_note": "保留底部約 1–2 英寸帶根段。",
           "verified": true
         },
         {
           "ref_id": "src_reddit",
           "source_type": "community",
-          "title": "Reddit r/IndoorGarden & r/ZeroWaste 长期实测共识",
+          "title": "Reddit r/IndoorGarden & r/ZeroWaste 長期實測共識",
           "author_or_publisher": "Reddit Gardening Communities",
           "page_or_section": "Water-jar regrowth threads",
-          "quote_or_note": "小葱是唯一在水杯里普遍稳定出芽的厨余，但纯水会越长越细，且单买成本低，建议转土或当作趣味入门。",
+          "quote_or_note": "小蔥是唯一在水杯裡普遍穩定出芽的廚餘，但純水會越長越細，且單買成本低，建議轉土或當作趣味入門。",
           "verified": true
         }
       ]
@@ -166,13 +170,13 @@ window.PLANTS_DATA = {
       "botanical_name": "Coriandrum sativum",
       "category": "herb",
       "scrap_regrow_verdict": "not_recommended",
-      "verdict_label": "不建议菜梗水培（极易烂茎/抽薹）",
+      "verdict_label": "不建議菜梗水培（極易爛莖/抽薹）",
       "best_starting_method": "direct_seed",
-      "starting_method_label": "直接播种（或谨慎拆盆），勿信剪梗水培",
-      "water_only_limit": "不适用（切口剪枝水培成功率极低，易发黏腐烂）",
+      "starting_method_label": "直接播種（或謹慎拆盆），勿信剪梗水培",
+      "water_only_limit": "不適用（切口剪枝水培成功率極低，易發黏腐爛）",
       "light_requirement": "grow_light_required",
-      "light_label": "强光/补光灯（每天至少 4–6 小时直射级光照，忌闷热）",
-      "expected_harvest_window": "种子播种约 7–14 天出芽，30–45 天可采收嫩叶",
+      "light_label": "強光/補光燈（每天至少 4–6 小時直射級光照，忌悶熱）",
+      "expected_harvest_window": "種子播種約 7–14 天出芽，30–45 天可採收嫩葉",
       "difficulty": 4,
       "diagrams": [
         "superpot_split",
@@ -182,11 +186,11 @@ window.PLANTS_DATA = {
         "type": "image",
         "src": "assets/media/plants/cilantro.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Coriander",
-        "caption": "香菜（芫荽） (Cilantro (Coriander)) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "香菜（芫荽） (Cilantro (Coriander)) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "把超市买来的香菜梗插进水杯，很快就能生根长出源源不断的新香菜。",
-        "botanical_truth": "香菜属于直根系（Taproot）一年生植物，根系极脆弱且受环境胁迫会迅速抽薹开花（Bolting）。超市切下来的商品香菜茎通常无活跃不定根节点且常经历冷链损伤，泡水大概率变成细菌黏液；想在室内稳定吃香菜，直接用种子浅播远比水培梗靠谱。",
+        "common_myth": "把超市買來的香菜梗插進水杯，很快就能生根長出源源不斷的新香菜。",
+        "botanical_truth": "香菜屬於直根系（Taproot）一年生植物，根系極脆弱且受環境脅迫會迅速抽薹開花（Bolting）。超市切下來的商品香菜莖通常無活躍不定根節點且常經歷冷鏈損傷，泡水大概率變成細菌黏液；想在室內穩定吃香菜，直接用種子淺播遠比水培梗靠譜。",
         "source_refs": [
           "src_almanac_cilantro",
           "src_reddit_cilantro"
@@ -195,10 +199,10 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "放弃菜梗再生，准备深度 ≥ 15–20 cm 的花盆与种子",
-          "action": "选用深度至少 15–20 cm 的透气深盆（容纳香菜直根，减少抽薹压力）。将圆球状香菜种子（其实是双悬果）用擀面杖或杯底轻轻压裂成两半（切勿碾碎），温水浸泡 12–24 小时。",
-          "verification_checkpoint": "每颗圆果裂开为两瓣半圆种子，播种前吸水微胀。",
-          "failure_signal": "使用浅盘（< 8 cm）或直接拿无根超市菜梗泡水，会导致直根受阻早衰或迅速烂茎。",
+          "title": "放棄菜梗再生，準備深度 ≥ 15–20 cm 的花盆與種子",
+          "action": "選用深度至少 15–20 cm 的透氣深盆（容納香菜直根，減少抽薹壓力）。將圓球狀香菜種子（其實是雙懸果）用擀麵杖或杯底輕輕壓裂成兩半（切勿碾碎），溫水浸泡 12–24 小時。",
+          "verification_checkpoint": "每顆圓果裂開為兩瓣半圓種子，播種前吸水微脹。",
+          "failure_signal": "使用淺盤（< 8 cm）或直接拿無根超市菜梗泡水，會導致直根受阻早衰或迅速爛莖。",
           "source_refs": [
             "src_almanac_cilantro",
             "src_reddit_cilantro",
@@ -207,10 +211,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 2,
-          "title": "疏松基质点播并保持凉爽通风",
-          "action": "在排水良好的盆栽土表面点播，覆土约 0.5–1 cm，保持土壤微潮但不积水。摆放于凉爽且光照充足处（室内避免紧贴暖气或夏季西晒高温玻璃，温度控制在 15–22℃ 最不易抽薹）。",
-          "verification_checkpoint": "7–14 天内破土长出两片细长子叶，随后长出羽状真叶，植株直立不向一侧大幅倾斜。",
-          "failure_signal": "幼苗颈部细长倒伏（光照严重不足）或基部倒苗（浇水过多引发猝倒病）。",
+          "title": "疏鬆基質點播並保持涼爽通風",
+          "action": "在排水良好的盆栽土表面點播，覆土約 0.5–1 cm，保持土壤微潮但不積水。擺放於涼爽且光照充足處（室內避免緊貼暖氣或夏季西曬高溫玻璃，溫度控制在 15–22℃ 最不易抽薹）。",
+          "verification_checkpoint": "7–14 天內破土長出兩片細長子葉，隨後長出羽狀真葉，植株直立不向一側大幅傾斜。",
+          "failure_signal": "幼苗頸部細長倒伏（光照嚴重不足）或基部倒苗（澆水過多引發猝倒病）。",
           "source_refs": [
             "src_soilless_9",
             "src_reddit_cilantro"
@@ -218,10 +222,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 3,
-          "title": "间苗、强光补光与外叶采收",
-          "action": "真叶长出后间苗保留株距 5–8 cm；若窗台有 Low-E 镀膜或日照不足 4 小时，距叶冠上方 15–25 cm 加装全光谱 LED 补光灯。长到 12–15 cm 时从外圈采收老叶，保留中心生长点。",
-          "verification_checkpoint": "叶片厚实呈浓绿扇形、揉搓香气浓；采收外叶后中心持续抽出新叶。",
-          "failure_signal": "顶部突然抽出细长茎干并分裂出针状细叶（即将抽薹开花），此时叶片会变少，可采完本茬后重新播种。",
+          "title": "間苗、強光補光與外葉採收",
+          "action": "真葉長出後間苗保留株距 5–8 cm；若窗臺有 Low-E 鍍膜或日照不足 4 小時，距葉冠上方 15–25 cm 加裝全光譜 LED 補光燈。長到 12–15 cm 時從外圈採收老葉，保留中心生長點。",
+          "verification_checkpoint": "葉片厚實呈濃綠扇形、揉搓香氣濃；採收外葉後中心持續抽出新葉。",
+          "failure_signal": "頂部突然抽出細長莖幹並分裂出針狀細葉（即將抽薹開花），此時葉片會變少，可採完本茬後重新播種。",
           "source_refs": [
             "src_reddit_cilantro",
             "src_almanac_cilantro"
@@ -230,9 +234,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "超市整盆香菜买回家 3 天就全盆塌倒发黄",
-          "root_cause": "超市盆栽“超密植陷阱”（4 寸小盆强行塞了几十株幼苗），加上根系缠死及骤然脱离温室高湿强光环境。",
-          "fix": "刚买回时不要整坨硬拽，可锋利小刀把土坨切为 3–4 份小块温和移栽，或直接当作一次性鲜菜吃完，用种子从头播。",
+          "symptom": "超市整盆香菜買回家 3 天就全盆塌倒發黃",
+          "root_cause": "超市盆栽“超密植陷阱”（4 寸小盆強行塞了幾十株幼苗），加上根系纏死及驟然脫離溫室高溼強光環境。",
+          "fix": "剛買回時不要整坨硬拽，可鋒利小刀把土坨切為 3–4 份小塊溫和移栽，或直接當作一次性鮮菜吃完，用種子從頭播。",
           "source_refs": [
             "src_reddit_cilantro"
           ]
@@ -246,7 +250,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Farmers' Almanac",
           "page_or_section": "Cilantro & Parsley",
           "url": "https://www.farmersalmanac.com/",
-          "quote_or_note": "香菜具有脆弱直根系且极易受胁迫抽薹，超市切枝水培通常腐烂或直接开花，播种远比再生可靠。",
+          "quote_or_note": "香菜具有脆弱直根系且極易受脅迫抽薹，超市切枝水培通常腐爛或直接開花，播種遠比再生可靠。",
           "verified": true
         },
         {
@@ -255,59 +259,62 @@ window.PLANTS_DATA = {
           "title": "r/IndoorGarden Supermarket Herb Pots & Grow Light Consensus",
           "author_or_publisher": "Reddit Gardening Communities",
           "page_or_section": "Indoor Cilantro Threads",
-          "quote_or_note": "超市密植小盆极易团灭；普通窗台光照对室内香菜普遍不足，需要全光谱补光灯防止徒长。",
+          "quote_or_note": "超市密植小盆極易整盆枯死；普通窗臺光照對室內香菜普遍不足，需要全光譜補光燈防止徒長。",
           "verified": true
         },
         {
           "ref_id": "src_soilless_9",
           "source_type": "book",
-          "title": "阳台种菜、种花技术全攻略",
-          "author_or_publisher": "中国无土栽培技术论坛",
-          "page_or_section": "PDF 第 9 页 — 常见问题及防治措施",
-          "quote_or_note": "植株徒长细长由光照不足导致；浇水过多与排水不良导致底部发黄与萎蔫。",
+          "title": "陽臺種菜、種花技術全攻略",
+          "author_or_publisher": "中國無土栽培技術論壇",
+          "page_or_section": "PDF 第 9 頁 — 常見問題及防治措施",
+          "quote_or_note": "植株徒長細長由光照不足導致；澆水過多與排水不良導致底部發黃與萎蔫。",
           "verified": true
         },
         {
           "ref_id": "src_baike_cilantro",
           "source_type": "book",
-          "title": "蔬菜栽培百科全书（已拆分第03章）",
-          "author_or_publisher": "板木利隆 / 机械工业出版社",
-          "page_or_section": "书本第 290–291 页 (PDF 第 55–56 页) — 香菜",
-          "quote_or_note": "耐寒与耐热性均不高，夏季需遮阴降温，易开花；每穴播 4–5 粒覆薄土，15 cm 株距，播后 6–7 周可连续摘采或拔采，防干燥。",
+          "title": "蔬菜栽培百科全書（已拆分第03章）",
+          "author_or_publisher": "板木利隆 / 機械工業出版社",
+          "page_or_section": "書本第 290–291 頁 (PDF 第 55–56 頁) — 香菜",
+          "quote_or_note": "耐寒與耐熱性均不高，夏季需遮陰降溫，易開花；每穴播 4–5 粒覆薄土，15 cm 株距，播後 6–7 周可連續摘採或拔採，防乾燥。",
           "verified": true
         }
       ]
     },
     {
       "id": "parsley",
-      "name_zh": "欧芹（法香 / 洋芫荽）",
+      "name_zh": "歐芹（法香 / 洋芫荽）",
       "name_en": "Parsley",
       "aliases": [
         "法香",
         "洋香菜",
+        "平葉歐芹",
+        "卷葉歐芹",
+        "欧芹（法香 / 洋芫荽）",
         "平叶欧芹",
         "卷叶欧芹"
       ],
       "botanical_name": "Petroselinum crispum",
       "category": "herb",
       "scrap_regrow_verdict": "partial_greens_only",
-      "verdict_label": "带基盘可偶发再生，更推荐播种或买苗分株",
+      "verdict_label": "帶基盤可偶發再生，更推薦播種或買苗分株",
       "best_starting_method": "grocery_pot_split",
-      "starting_method_label": "买活体盆栽分株 / 种子慢发芽培育",
-      "water_only_limit": "切枝水培成功率有限；若有根颈基盘，出根后需在 2 周内转土",
+      "starting_method_label": "買活體盆栽分株 / 種子慢發芽培育",
+      "water_only_limit": "切枝水培成功率有限；若有根頸基盤，出根後需在 2 周內轉土",
       "light_requirement": "grow_light_recommended",
-      "light_label": "中强光照（南向亮窗台或补光灯）",
-      "expected_harvest_window": "活苗分株后 2 周可采；种子发芽极慢（需 2–4 周）",
+      "light_label": "中強光照（南向亮窗臺或補光燈）",
+      "expected_harvest_window": "活苗分株後 2 周可採；種子發芽極慢（需 2–4 周）",
       "difficulty": 3,
       "hero_media": {
         "type": "image",
         "src": "assets/media/plants/parsley.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Parsley",
-        "caption": "欧芹（法香 / 洋芫荽） (Parsley) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "歐芹（法香 / 洋芫荽） (Parsley) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "随便剪一根菜市场买的欧芹茎插水里就能变出一整盆。",
-        "botanical_truth": "欧芹是二年生植物。只有带有部分“茎冠/根颈节点（crown）”的健康茎段才偶尔能在水中长出根系；如果只是半路剪断的中上部叶柄，插水里最多保鲜几天就会黄化腐烂。更可靠的做法是买超市活体盆栽温和分株，或耐心用温水浸种后播种。",
+        "common_myth": "隨便剪一根菜市場買的歐芹莖插水裡就能變出一整盆。",
+        "botanical_truth": "歐芹是二年生植物。只有帶有部分“莖冠/根頸節點（crown）”的健康莖段才偶爾能在水中長出根系；如果只是半路剪斷的中上部葉柄，插水裡最多保鮮幾天就會黃化腐爛。更可靠的做法是買超市活體盆栽溫和分株，或耐心用溫水浸種後播種。",
         "source_refs": [
           "src_naturalkitchen_parsley",
           "src_almanac_parsley"
@@ -316,10 +323,10 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "辨别可用起点：带节点枝条 vs 活苗分盆",
-          "action": "若用厨余尝试，只选底部还连着白色微硬茎基节点（crown）的粗壮外茎，摘掉下 2/3 叶片；若追求高成功率，直接买带土活体欧芹小盆，把过密的土坨切成 2–3 份分栽入深 15 cm 以上的透气盆。",
-          "verification_checkpoint": "切面干净无黑斑；分株后各小丛根系仍裹有原土团，未强行洗根撕断主根。",
-          "failure_signal": "光秃秃的中段叶柄（无任何节点）插水，或把纠缠成死结的根团硬撕烂。",
+          "title": "辨別可用起點：帶節點枝條 vs 活苗分盆",
+          "action": "若用廚餘嘗試，只選底部還連著白色微硬莖基節點（crown）的粗壯外莖，摘掉下 2/3 葉片；若追求高成功率，直接買帶土活體歐芹小盆，把過密的土坨切成 2–3 份分栽入深 15 cm 以上的透氣盆。",
+          "verification_checkpoint": "切面乾淨無黑斑；分株後各小叢根系仍裹有原土團，未強行洗根撕斷主根。",
+          "failure_signal": "光禿禿的中段葉柄（無任何節點）插水，或把糾纏成死結的根團硬撕爛。",
           "source_refs": [
             "src_naturalkitchen_parsley",
             "src_reddit_parsley"
@@ -327,10 +334,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 2,
-          "title": "水培生根监控或分株缓苗",
-          "action": "水培插条置于明亮散射光处（避免暴晒把水晒热），每周至少换水 2–3 次；若是分盆土培，浇透定根水后先放散射光处缓苗 5–7 天再移至强光处。",
-          "verification_checkpoint": "水培在 10–21 天内底部冒出 2–4 cm 白色须根；土培缓苗 1 周后中心抽出新卷叶。",
-          "failure_signal": "水中插条基部发黑软烂、叶片全面耷拉无法恢复，说明导管堵塞已不可逆。",
+          "title": "水培生根監控或分株緩苗",
+          "action": "水培插條置於明亮散射光處（避免暴曬把水曬熱），每週至少換水 2–3 次；若是分盆土培，澆透定根水後先放散射光處緩苗 5–7 天再移至強光處。",
+          "verification_checkpoint": "水培在 10–21 天內底部冒出 2–4 cm 白色鬚根；土培緩苗 1 周後中心抽出新卷葉。",
+          "failure_signal": "水中插條基部發黑軟爛、葉片全面耷拉無法恢復，說明導管堵塞已不可逆。",
           "source_refs": [
             "src_marias",
             "src_naturalkitchen_parsley"
@@ -338,10 +345,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 3,
-          "title": "转土养护与“只剪外圈”采收法",
-          "action": "水培生根达 3–5 cm 后移入排水良好的通用营养土，土表下 2 cm 干了再浇水；每次采收从最外圈老茎齐根剪下，永远保留中心至少 2/3 叶片进行光合作用。",
-          "verification_checkpoint": "中心芽点不断更新，单次采收量不超过整株总叶量的 1/3。",
-          "failure_signal": "盆面长期潮湿引来成群小黑飞（蕈蚊）或老叶从底部大面积黄萎。",
+          "title": "轉土養護與“只剪外圈”採收法",
+          "action": "水培生根達 3–5 cm 後移入排水良好的通用營養土，土表下 2 cm 幹了再澆水；每次採收從最外圈老莖齊根剪下，永遠保留中心至少 2/3 葉片進行光合作用。",
+          "verification_checkpoint": "中心芽點不斷更新，單次採收量不超過整株總葉量的 1/3。",
+          "failure_signal": "盆面長期潮溼引來成群小黑飛（蕈蚊）或老葉從底部大面積黃萎。",
           "source_refs": [
             "src_soilless_9",
             "src_reddit_parsley"
@@ -350,9 +357,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "欧芹种子播下 2 周毫无动静以为坏了",
-          "root_cause": "伞形科种子自带发芽抑制物质且种皮厚，发芽原本就需 14–28 天。",
-          "fix": "播前温水浸泡 24 小时可缩短发芽期；保持表土湿润耐心等待，不要提前翻土。",
+          "symptom": "歐芹種子播下 2 周毫無動靜以為壞了",
+          "root_cause": "傘形科種子自帶發芽抑制物質且種皮厚，發芽原本就需 14–28 天。",
+          "fix": "播前溫水浸泡 24 小時可縮短髮芽期；保持表土溼潤耐心等待，不要提前翻土。",
           "source_refs": [
             "src_reddit_parsley"
           ]
@@ -365,7 +372,7 @@ window.PLANTS_DATA = {
           "title": "Propagating Herbs from Cuttings",
           "author_or_publisher": "Natural Kitchen School",
           "page_or_section": "Parsley Crown & Stem Tips",
-          "quote_or_note": "欧芹需保留带有茎基节点（crown）的健康茎段才较有希望诱发根系。",
+          "quote_or_note": "歐芹需保留帶有莖基節點（crown）的健康莖段才較有希望誘發根系。",
           "verified": true
         },
         {
@@ -375,7 +382,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Farmers' Almanac",
           "page_or_section": "Parsley & Cilantro",
           "url": "https://www.farmersalmanac.com/",
-          "quote_or_note": "二年生植物，商品切枝再生成功率远低于直接育苗或活株分盆。",
+          "quote_or_note": "二年生植物，商品切枝再生成功率遠低於直接育苗或活株分盆。",
           "verified": true
         },
         {
@@ -384,7 +391,7 @@ window.PLANTS_DATA = {
           "title": "Indoor Herb Water Propagation",
           "author_or_publisher": "Maria's Farm Country Kitchen",
           "page_or_section": "Transplanting Rooted Cuttings",
-          "quote_or_note": "根系长到 1–2 英寸（2.5–5 cm）时移入室内营养土。",
+          "quote_or_note": "根系長到 1–2 英寸（2.5–5 cm）時移入室內營養土。",
           "verified": true
         },
         {
@@ -393,16 +400,16 @@ window.PLANTS_DATA = {
           "title": "r/IndoorGarden Herb Splitting & Pest Quarantine",
           "author_or_publisher": "Reddit Gardening Communities",
           "page_or_section": "Grocery Herb Care",
-          "quote_or_note": "超市活盆需分割种植且注意检疫防蚜虫/蕈蚊。",
+          "quote_or_note": "超市活盆需分割種植且注意檢疫防蚜蟲/蕈蚊。",
           "verified": true
         },
         {
           "ref_id": "src_soilless_9",
           "source_type": "book",
-          "title": "阳台种菜、种花技术全攻略",
-          "author_or_publisher": "中国无土栽培技术论坛",
-          "page_or_section": "PDF 第 9 页 — 常见问题",
-          "quote_or_note": "底部发黄黯淡多为浇水过多或肥力不足。",
+          "title": "陽臺種菜、種花技術全攻略",
+          "author_or_publisher": "中國無土栽培技術論壇",
+          "page_or_section": "PDF 第 9 頁 — 常見問題",
+          "quote_or_note": "底部發黃黯淡多為澆水過多或肥力不足。",
           "verified": true
         }
       ]
@@ -419,13 +426,13 @@ window.PLANTS_DATA = {
       "botanical_name": "Apium graveolens",
       "category": "leafy_stem",
       "scrap_regrow_verdict": "partial_greens_only",
-      "verdict_label": "网红最大误区：水培仅可收少量苦味嫩叶",
+      "verdict_label": "常見迷思：純水泡菜頭僅能收少量嫩葉，長不成大芹菜",
       "best_starting_method": "kitchen_scrap_water_to_soil",
-      "starting_method_label": "切底浅水出芽 → 若要大棵须长期深土+强光",
-      "water_only_limit": "5–7 天（纯水仅能看嫩叶，7 天后不转土必僵苗腐烂）",
+      "starting_method_label": "切底淺水出芽 → 若要大棵須長期深土+強光",
+      "water_only_limit": "5–7 天（純水僅能看嫩葉，7 天后不轉土必僵苗腐爛）",
       "light_requirement": "grow_light_required",
-      "light_label": "高光照需求+凉爽环境（纯窗台极难长粗）",
-      "expected_harvest_window": "5–7 天中心冒嫩叶；长成可炒菜株型需数月",
+      "light_label": "高光照需求+涼爽環境（純窗臺極難長粗）",
+      "expected_harvest_window": "5–7 天中心冒嫩葉；長成可炒菜株型需數月",
       "difficulty": 4,
       "diagrams": [
         "water_line"
@@ -434,11 +441,11 @@ window.PLANTS_DATA = {
         "type": "image",
         "src": "assets/media/plants/celery.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Celery",
-        "caption": "芹菜 / 西芹 (Celery) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "芹菜 / 西芹 (Celery) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "切下西芹底部泡在水碗里，很快就能长出一整棵脆甜大西芹。",
-        "botanical_truth": "这是著名的“植物学透支假象（Telescoping illusion）”。芹菜底座本身就包裹着未展开的心叶原基，吸水后会在几天内迅速向上展开几片黄绿嫩叶；但如果一直泡水不移栽到深厚肥沃的土壤并给足强光与凉爽温度，它永远长不成厚实脆茎，反而会变得纤维粗硬、味苦或直接提前抽薹。",
+        "common_myth": "切下西芹底部泡在水碗裡，很快就能長出一整棵脆甜大西芹。",
+        "botanical_truth": "這是著名的“植物學透支假象（Telescoping illusion）”。芹菜底座本身就包裹著未展開的心葉原基，吸水後會在幾天內迅速向上展開幾片黃綠嫩葉；但如果一直泡水不移栽到深厚肥沃的土壤並給足強光與涼爽溫度，它永遠長不成厚實脆莖，反而會變得纖維粗硬、味苦或直接提前抽薹。",
         "source_refs": [
           "src_almanac_celery",
           "src_countrylife"
@@ -447,10 +454,10 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "切留 4–5 cm 底座并“垫高透气”浅泡",
-          "action": "切下完整未散架的芹菜根座约 4–5 cm。放在浅碟中，倒入约 1.5–2 cm 温清水（可插 3 根牙签架起或放几颗小石子垫底），确保切口上方完全露在空气中，每天彻底换水并冲洗缝隙。",
-          "verification_checkpoint": "3–5 天内底座中心最内圈紧实嫩叶明显向上顶出变绿，外圈切面保持干燥微卷但不发黑。",
-          "failure_signal": "茎柄缝隙里堆积白膜、发滑或产生臭鸡蛋/腐败味，说明中空叶柄间已积水腐烂，立即丢弃。",
+          "title": "切留 4–5 cm 底座並“墊高透氣”淺泡",
+          "action": "切下完整未散架的芹菜根座約 4–5 cm。放在淺碟中，倒入約 1.5–2 cm 溫清水（可插 3 根牙籤架起或放幾顆小石子墊底），確保切口上方完全露在空氣中，每天徹底換水並沖洗縫隙。",
+          "verification_checkpoint": "3–5 天內底座中心最內圈緊實嫩葉明顯向上頂出變綠，外圈切面保持乾燥微卷但不發黑。",
+          "failure_signal": "莖柄縫隙裡堆積白膜、發滑或產生臭雞蛋/腐敗味，說明中空葉柄間已積水腐爛，立即丟棄。",
           "source_refs": [
             "src_naples_celery",
             "src_reddit_celery"
@@ -458,10 +465,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 2,
-          "title": "若只图“取香菜叶做汤料”：7–10 天直接采收结束",
-          "action": "如果室内没有补光灯和深盆，将之视为“一次性趣味实验”：待中心嫩叶长到 5–8 cm 时剪下做汤料提味，底座随后堆肥或丢弃，不必勉强留水里撑到发臭。",
-          "verification_checkpoint": "在底座变软前收获干净清香的嫩心叶。",
-          "failure_signal": "明知无土壤和强光仍强留水碗 3 周以上，最终满碗绿藻和细菌软腐。",
+          "title": "若只圖“取香菜葉做湯料”：7–10 天直接採收結束",
+          "action": "如果室內沒有補光燈和深盆，將之視為“一次性趣味實驗”：待中心嫩葉長到 5–8 cm 時剪下做湯料提味，底座隨後堆肥或丟棄，不必勉強留水裡撐到發臭。",
+          "verification_checkpoint": "在底座變軟前收穫乾淨清香的嫩心葉。",
+          "failure_signal": "明知無土壤和強光仍強留水碗 3 周以上，最終滿碗綠藻和細菌軟腐。",
           "source_refs": [
             "src_almanac_celery",
             "src_countrylife"
@@ -469,10 +476,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 3,
-          "title": "若真想继续养大：生根后立刻转入深土重肥强光",
-          "action": "一旦底座边缘或底部冒出 1–2 cm 白根（通常第 7–10 天），立刻埋入深度 ≥ 20 cm 的大盆富含有机质的疏松土壤中（土面刚好盖过底座老切口即可，切勿埋住中心新芽），配合植物补光灯与定期追肥。",
-          "verification_checkpoint": "转土 2 周后外侧开始长出独立的新叶柄，植株稳定扎根。",
-          "failure_signal": "长出的全是非常细长如筷子般的茎，说明室内光照远不够且肥力不足。",
+          "title": "若真想繼續養大：生根後立刻轉入深土重肥強光",
+          "action": "一旦底座邊緣或底部冒出 1–2 cm 白根（通常第 7–10 天），立刻埋入深度 ≥ 20 cm 的大盆富含有機質的疏鬆土壤中（土面剛好蓋過底座老切口即可，切勿埋住中心新芽），配合植物補光燈與定期追肥。",
+          "verification_checkpoint": "轉土 2 周後外側開始長出獨立的新葉柄，植株穩定紮根。",
+          "failure_signal": "長出的全是非常細長如筷子般的莖，說明室內光照遠不夠且肥力不足。",
           "source_refs": [
             "src_almanac_celery",
             "src_baike_celery"
@@ -481,9 +488,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "空心叶柄夹缝里长白毛/透明果冻状黏液",
-          "root_cause": "芹菜茎基重叠缝隙极易卡住不流动的脏水。",
-          "fix": "换水时用流动清水冲刷叶柄夹缝，水位一定低于最外层切口。",
+          "symptom": "空心葉柄夾縫裡長白毛/透明果凍狀黏液",
+          "root_cause": "芹菜莖基重疊縫隙極易卡住不流動的髒水。",
+          "fix": "換水時用流動清水沖刷葉柄夾縫，水位一定低於最外層切口。",
           "source_refs": [
             "src_reddit_celery"
           ]
@@ -497,7 +504,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Farmers' Almanac",
           "page_or_section": "Celery",
           "url": "https://www.farmersalmanac.com/",
-          "quote_or_note": "纯水只会引发储存能量透支；缺乏数月深土、强光与凉爽环境无法长成商品级大芹菜，易变苦抽薹。",
+          "quote_or_note": "純水只會引發儲存能量透支；缺乏數月深土、強光與涼爽環境無法長成商品級大芹菜，易變苦抽薹。",
           "verified": true
         },
         {
@@ -506,7 +513,7 @@ window.PLANTS_DATA = {
           "title": "What Kitchen Scraps Actually Regrow?",
           "author_or_publisher": "Canadian Country Life",
           "page_or_section": "Celery Exaggerated Yield",
-          "quote_or_note": "水培菜头属于短期二次采收嫩叶，无法凭空再造超市完整植株。",
+          "quote_or_note": "水培菜頭屬於短期二次採收嫩葉，無法憑空再造超市完整植株。",
           "verified": true
         },
         {
@@ -516,7 +523,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Naples Botanical Garden",
           "page_or_section": "Celery & Water Safety",
           "url": "https://www.naplesgarden.org/",
-          "quote_or_note": "需每日换水防止细菌滋生；发霉发黏即弃。",
+          "quote_or_note": "需每日換水防止細菌滋生；發黴發黏即棄。",
           "verified": true
         },
         {
@@ -525,50 +532,54 @@ window.PLANTS_DATA = {
           "title": "r/homestead & r/IndoorGarden Celery Regrowth Failures",
           "author_or_publisher": "Reddit Gardening Communities",
           "page_or_section": "Slimy Stalk Threads",
-          "quote_or_note": "芹菜中空叶柄在停滞水里最易产生黏液与异味，且最终产出多为细苦小叶。",
+          "quote_or_note": "芹菜中空葉柄在停滯水裡最易產生黏液與異味，且最終產出多為細苦小葉。",
           "verified": true
         },
         {
           "ref_id": "src_baike_celery",
           "source_type": "book",
-          "title": "蔬菜栽培百科全书（已拆分第03章）",
-          "author_or_publisher": "板木利隆 / 机械工业出版社",
-          "page_or_section": "书本第 242–243 页(西芹) & 第 334–335 页(芹菜) (PDF 第 7–8, 99–100 页)",
-          "quote_or_note": "西芹适温 16–21℃（25℃ 以上变差），喜肥水忌干，覆土 5 mm 极薄且用寒冷纱防失水；叶芹适温 13–15℃，喜湿润但不耐积水、遇低温易抽薹。",
+          "title": "蔬菜栽培百科全書（已拆分第03章）",
+          "author_or_publisher": "板木利隆 / 機械工業出版社",
+          "page_or_section": "書本第 242–243 頁(西芹) & 第 334–335 頁(芹菜) (PDF 第 7–8, 99–100 頁)",
+          "quote_or_note": "西芹適溫 16–21℃（25℃ 以上變差），喜肥水忌幹，覆土 5 mm 極薄且用寒冷紗防失水；葉芹適溫 13–15℃，喜溼潤但不耐積水、遇低溫易抽薹。",
           "verified": true
         }
       ]
     },
     {
       "id": "ginger",
-      "name_zh": "生姜",
+      "name_zh": "生薑",
       "name_en": "Ginger",
       "aliases": [
-        "老姜",
+        "老薑",
         "嫩姜",
+        "筆生薑",
+        "葉生薑",
+        "生姜",
+        "老姜",
         "笔生姜",
         "叶生姜"
       ],
       "botanical_name": "Zingiber officinale",
       "category": "rhizome",
       "scrap_regrow_verdict": "long_term_rhizome",
-      "verdict_label": "真实可行，但需 8–10 个月耐心培育",
+      "verdict_label": "真實可行，但需 8–10 個月耐心培育",
       "best_starting_method": "clove_or_rhizome_soil",
-      "starting_method_label": "直接带芽眼种姜浅埋深盆（勿长期泡水）",
-      "water_only_limit": "仅建议栽前温水浸泡 12–24 小时洗去抑芽剂，不可长期水培",
+      "starting_method_label": "直接帶芽眼種姜淺埋深盆（勿長期泡水）",
+      "water_only_limit": "僅建議栽前溫水浸泡 12–24 小時洗去抑芽劑，不可長期水培",
       "light_requirement": "bright_windowsill_ok",
-      "light_label": "温暖明亮散射光（适温 25–30℃，耐半阴忌暴晒冷风）",
-      "expected_harvest_window": "约 20 天发芽；3–4 个月可收嫩姜，8–10 个月收老姜",
+      "light_label": "溫暖明亮散射光（適溫 25–30℃，耐半陰忌暴曬冷風）",
+      "expected_harvest_window": "約 20 天發芽；3–4 個月可收嫩姜，8–10 個月收老薑",
       "difficulty": 2,
       "hero_media": {
         "type": "image",
         "src": "assets/media/plants/ginger.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Ginger",
-        "caption": "生姜 (Ginger) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "生薑 (Ginger) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "把超市姜块丢进花盆或水杯里，几周就能挖出大片嫩姜。",
-        "botanical_truth": "生姜确实是用超市根茎就能种活的少数食材之一，但它不是快餐菜：发芽就要约 20 天，且需要持续 25–30℃ 温暖环境长满 8–10 个月才能收获饱满的根生姜（中间 3–4 片叶时可采少量笔生姜/嫩姜）。另外部分超市进口姜喷过抑芽剂，栽前需浸泡观察。",
+        "common_myth": "把超市姜塊丟進花盆或水杯裡，幾周就能挖出大片嫩姜。",
+        "botanical_truth": "生薑確實是用超市根莖就能種活的少數食材之一，但它不是快餐菜：發芽就要約 20 天，且需要持續 25–30℃ 溫暖環境長滿 8–10 個月才能收穫飽滿的根生薑（中間 3–4 片葉時可採少量筆生薑/嫩姜）。另外部分超市進口姜噴過抑芽劑，栽前需浸泡觀察。",
         "source_refs": [
           "src_fujita_89",
           "src_stormwater"
@@ -577,10 +588,10 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "选饱满带芽眼种姜并切块晾干伤口",
-          "action": "挑选表皮紧实不干瘪、表面有突出淡绿/淡红“芽眼”的有机或本地鲜姜。若大块切开，确保每块至少带有 2 个芽眼，切口放在阴凉通风处晾干 1–2 天形成愈伤膜；若怀疑超市姜喷有抑芽剂，先用温水浸泡过夜再晾干。",
-          "verification_checkpoint": "芽眼饱满微微凸起，切口表面干燥起膜无渗水。",
-          "failure_signal": "姜块表皮发皱空心、出现蓝绿霉斑或按压发软（已感染腐败病菌），不能下土。",
+          "title": "選飽滿帶芽眼種姜並切塊晾乾傷口",
+          "action": "挑選表皮緊實不幹癟、表面有突出淡綠/淡紅“芽眼”的有機或本地鮮姜。若大塊切開，確保每塊至少帶有 2 個芽眼，切口放在陰涼通風處晾乾 1–2 天形成愈傷膜；若懷疑超市姜噴有抑芽劑，先用溫水浸泡過夜再晾乾。",
+          "verification_checkpoint": "芽眼飽滿微微凸起，切口表面乾燥起膜無滲水。",
+          "failure_signal": "姜塊表皮發皺空心、出現藍綠黴斑或按壓發軟（已感染腐敗病菌），不能下土。",
           "source_refs": [
             "src_fujita_90",
             "src_stormwater"
@@ -588,10 +599,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 2,
-          "title": "浅埋入深 ≥ 20 cm 宽口大盆",
-          "action": "使用深度 20 cm 以上、底部排水孔充足的宽口盆，填入疏松透气且含基肥的营养土（藤田智推荐配土：赤玉土 40% + 堆肥 40% + 腐叶土 10% + 熏炭 10%）。将姜块水平摆好、芽眼朝上，上面仅覆土约 3 cm 轻压，浇透一次水。",
-          "verification_checkpoint": "覆土厚度控制在 3 cm 左右；浇透水后 10 秒内盆底流出余水，盆面不积水。",
-          "failure_signal": "盆太浅（< 15 cm）限制地下块茎横向膨大，或黏重板结土浇水后半天渗不下去导致闷根。",
+          "title": "淺埋入深 ≥ 20 cm 寬口大盆",
+          "action": "使用深度 20 cm 以上、底部排水孔充足的寬口盆，填入疏鬆透氣且含基肥的營養土（藤田智推薦配土：赤玉土 40% + 堆肥 40% + 腐葉土 10% + 燻炭 10%）。將姜塊水平擺好、芽眼朝上，上面僅覆土約 3 cm 輕壓，澆透一次水。",
+          "verification_checkpoint": "覆土厚度控制在 3 cm 左右；澆透水後 10 秒內盆底流出餘水，盆面不積水。",
+          "failure_signal": "盆太淺（< 15 cm）限制地下塊莖橫向膨大，或黏重板結土澆水後半天滲不下去導致悶根。",
           "source_refs": [
             "src_fujita_89",
             "src_fujita_90"
@@ -599,10 +610,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 3,
-          "title": "保温控水等发芽与分阶段培土采收",
-          "action": "保持 25–30℃ 温暖明亮环境，发芽前“土表干了再浇水”（忌过湿烂姜）。约 20 天出芽后每 2 周追一次薄肥；长出 3–4 片叶可拔出少量“笔生姜”，长出 5–6 片叶可收“叶生姜”，若留到秋末可收“根生姜”（注意看到姜块快露土时培土 2 cm）。",
-          "verification_checkpoint": "约 20–30 天顶出绿色尖笋芽，随后抽出修长竹叶状绿叶，叶片挺拔无焦边。",
-          "failure_signal": "刚冒芽就浇水过勤导致新芽基部发黑软烂（根茎腐败病）。",
+          "title": "保溫控水等發芽與分階段培土採收",
+          "action": "保持 25–30℃ 溫暖明亮環境，發芽前“土表幹了再澆水”（忌過溼爛姜）。約 20 天出芽後每 2 周追一次薄肥；長出 3–4 片葉可拔出少量“筆生薑”，長出 5–6 片葉可收“葉生薑”，若留到秋末可收“根生薑”（注意看到姜塊快露土時培土 2 cm）。",
+          "verification_checkpoint": "約 20–30 天頂出綠色尖筍芽，隨後抽出修長竹葉狀綠葉，葉片挺拔無焦邊。",
+          "failure_signal": "剛冒芽就澆水過勤導致新芽基部發黑軟爛（根莖腐敗病）。",
           "source_refs": [
             "src_fujita_89",
             "src_fujita_91"
@@ -611,9 +622,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "埋土 1 个多月既不发芽也慢慢烂掉",
-          "root_cause": "温度低于 20℃ 休眠不萌发 + 浇水太勤闷烂，或超市姜经强抑芽处理。",
-          "fix": "选春季回暖后或室内 25℃ 以上环境种植；优先买带明显嫩芽眼的本地/有机鲜姜；未出芽前宁干勿涝。",
+          "symptom": "埋土 1 個多月既不發芽也慢慢爛掉",
+          "root_cause": "溫度低於 20℃ 休眠不萌發 + 澆水太勤悶爛，或超市姜經強抑芽處理。",
+          "fix": "選春季回暖後或室內 25℃ 以上環境種植；優先買帶明顯嫩芽眼的本地/有機鮮姜；未出芽前寧幹勿澇。",
           "source_refs": [
             "src_fujita_89",
             "src_almanac_ginger"
@@ -624,28 +635,28 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_fujita_89",
           "source_type": "book",
-          "title": "最新有机家庭盆栽种菜法",
+          "title": "最新有機家庭盆栽種菜法",
           "author_or_publisher": "藤田智",
-          "page_or_section": "书本第 89 页 (PDF 第 90 页) — 生姜",
-          "quote_or_note": "生姜科，栽培适温 25–30℃，花盆深度 20 cm 以上；不耐旱但过湿环境下根部会腐烂（根茎腐败病）。",
+          "page_or_section": "書本第 89 頁 (PDF 第 90 頁) — 生薑",
+          "quote_or_note": "生薑科，栽培適溫 25–30℃，花盆深度 20 cm 以上；不耐旱但過溼環境下根部會腐爛（根莖腐敗病）。",
           "verified": true
         },
         {
           "ref_id": "src_fujita_90",
           "source_type": "book",
-          "title": "最新有机家庭盆栽种菜法",
+          "title": "最新有機家庭盆栽種菜法",
           "author_or_publisher": "藤田智",
-          "page_or_section": "书本第 90 页 (PDF 第 91 页) — 种姜栽植步骤",
-          "quote_or_note": "大块切开每块应留 2 个芽眼，芽朝上紧密排列，盖土厚约 3 厘米，约 20 天发芽。",
+          "page_or_section": "書本第 90 頁 (PDF 第 91 頁) — 種姜栽植步驟",
+          "quote_or_note": "大塊切開每塊應留 2 個芽眼，芽朝上緊密排列，蓋土厚約 3 釐米，約 20 天發芽。",
           "verified": true
         },
         {
           "ref_id": "src_fujita_91",
           "source_type": "book",
-          "title": "最新有机家庭盆栽种菜法",
+          "title": "最新有機家庭盆栽種菜法",
           "author_or_publisher": "藤田智",
-          "page_or_section": "书本第 91 页 (PDF 第 92 页) — 追肥培土与收获",
-          "quote_or_note": "出芽后每 2 周追肥一次；可分阶段收获笔生姜(3–4叶)、叶生姜(5–6叶)及根生姜，防露出需培土 2 厘米。",
+          "page_or_section": "書本第 91 頁 (PDF 第 92 頁) — 追肥培土與收穫",
+          "quote_or_note": "出芽後每 2 周追肥一次；可分階段收穫筆生薑(3–4葉)、葉生薑(5–6葉)及根生薑，防露出需培土 2 釐米。",
           "verified": true
         },
         {
@@ -654,7 +665,7 @@ window.PLANTS_DATA = {
           "title": "Growing Ginger in Containers",
           "author_or_publisher": "Stormwater Hawaii / Extension Guide",
           "page_or_section": "Rhizome Planting",
-          "quote_or_note": "生姜属于根茎植物，需温暖湿润但排水良好的环境，约 8–10 个月才能达到成熟大块收获。",
+          "quote_or_note": "生薑屬於根莖植物，需溫暖溼潤但排水良好的環境，約 8–10 個月才能達到成熟大塊收穫。",
           "verified": true
         },
         {
@@ -664,7 +675,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Farmers' Almanac",
           "page_or_section": "Ginger",
           "url": "https://www.farmersalmanac.com/",
-          "quote_or_note": "并非快速小把戏，需 8–10 个月热带型温暖条件才能获丰收。",
+          "quote_or_note": "並非快速小把戲，需 8–10 個月熱帶型溫暖條件才能獲豐收。",
           "verified": true
         }
       ]
@@ -682,23 +693,23 @@ window.PLANTS_DATA = {
       "botanical_name": "Allium sativum",
       "category": "allium",
       "scrap_regrow_verdict": "partial_greens_only",
-      "verdict_label": "吃蒜苗极简单；室内水培不可能结出新蒜头",
+      "verdict_label": "吃蒜苗極簡單；室內水培不可能結出新蒜頭",
       "best_starting_method": "clove_or_rhizome_soil",
-      "starting_method_label": "带皮蒜瓣浅土种收蒜苗（或极浅水短暂水培）",
-      "water_only_limit": "仅收 1–2 茬蒜苗（约 14–21 天后养分耗尽）",
+      "starting_method_label": "帶皮蒜瓣淺土種收蒜苗（或極淺水短暫水培）",
+      "water_only_limit": "僅收 1–2 茬蒜苗（約 14–21 天后養分耗盡）",
       "light_requirement": "bright_windowsill_ok",
-      "light_label": "明亮窗台即可（收蒜苗耐受度高）",
+      "light_label": "明亮窗臺即可（收蒜苗耐受度高）",
       "expected_harvest_window": "7–10 天冒苗，14–20 天剪第一茬蒜苗",
       "difficulty": 1,
       "hero_media": {
         "type": "image",
         "src": "assets/media/plants/garlic.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Garlic",
-        "caption": "大蒜 / 蒜苗（青蒜） (Garlic & Garlic Greens) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "大蒜 / 蒜苗（青蒜） (Garlic & Garlic Greens) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "把一瓣蒜泡在水里，就能长出一整头新的大蒜。",
-        "botanical_truth": "必须明确区分你要收什么：① 收“蒜苗/青蒜（Garlic greens）”超级简单，泡浅水或埋浅土 2 周就能剪来炒菜；② 但想要“结出整头多瓣新大蒜”，水培一定会烂掉——结蒜头需要秋播深土、长达数周的低温春化（Vernalization）以及强日照。此外，超市部分大蒜喷过抑芽剂，可能只静坐烂掉不发芽。",
+        "common_myth": "把一瓣蒜泡在水裡，就能長出一整頭新的大蒜。",
+        "botanical_truth": "必須明確區分你要收什麼：① 收“蒜苗/青蒜（Garlic greens）”超級簡單，泡淺水或埋淺土 2 周就能剪來炒菜；② 但想要“結出整頭多瓣新大蒜”，水培一定會爛掉——結蒜頭需要秋播深土、長達數週的低溫春化（Vernalization）以及強日照。此外，超市部分大蒜噴過抑芽劑，可能只靜坐爛掉不發芽。",
         "source_refs": [
           "src_almanac_garlic",
           "src_tastingtable"
@@ -707,20 +718,20 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "选未受抑芽处理、底部饱满的整瓣蒜",
-          "action": "挑已经开始微微冒绿尖或未经过度辐射/化学抑芽的硬实蒜瓣（最好保留外层薄蒜皮保护，不要剥得光溜溜泡水）。",
-          "verification_checkpoint": "蒜瓣饱满有重量、底盘（茎盘）完整未霉变干瘪。",
-          "failure_signal": "蒜瓣软绵空心或有黄褐色凹陷霉斑。",
+          "title": "選未受抑芽處理、底部飽滿的整瓣蒜",
+          "action": "挑已經開始微微冒綠尖或未經過度輻射/化學抑芽的硬實蒜瓣（最好保留外層薄蒜皮保護，不要剝得光溜溜泡水）。",
+          "verification_checkpoint": "蒜瓣飽滿有重量、底盤（莖盤）完整未黴變乾癟。",
+          "failure_signal": "蒜瓣軟綿空心或有黃褐色凹陷黴斑。",
           "source_refs": [
             "src_almanac_garlic"
           ]
         },
         {
           "step_number": 2,
-          "title": "极浅水盘或直接入浅土（推荐土培防臭）",
-          "action": "水培法：平底浅盘只放 0.5–1 cm 清水，仅润湿底部根盘（切忌淹过半瓣蒜，否则整瓣泡烂）；更推荐直接按尖头朝上、底盘朝下插入排水盆土中，露出蒜尖 1/3，浇透一次水。",
-          "verification_checkpoint": "3–5 天底部长出白色须根，5–10 天顶部抽出鲜绿直立蒜苗。",
-          "failure_signal": "水培水位太高导致蒜瓣外皮发滑发臭；或土培浇水过多闷烂蒜瓣。",
+          "title": "極淺水盤或直接入淺土（推薦土培防臭）",
+          "action": "水培法：平底淺盤只放 0.5–1 cm 清水，僅潤溼底部根盤（切忌淹過半瓣蒜，否則整瓣泡爛）；更推薦直接按尖頭朝上、底盤朝下插入排水盆土中，露出蒜尖 1/3，澆透一次水。",
+          "verification_checkpoint": "3–5 天底部長出白色鬚根，5–10 天頂部抽出鮮綠直立蒜苗。",
+          "failure_signal": "水培水位太高導致蒜瓣外皮發滑發臭；或土培澆水過多悶爛蒜瓣。",
           "source_refs": [
             "src_almanac_garlic",
             "src_tastingtable"
@@ -728,10 +739,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 3,
-          "title": "长到 15–20 cm 留茬剪取嫩苗",
-          "action": "待蒜苗长到 15–20 cm 时，从距离蒜瓣上方约 3–4 cm 处剪下食用，土培可继续抽第 2–3 茬（直到蒜瓣自身养分耗空缩瘪为止）。",
-          "verification_checkpoint": "剪口平整，第 2 茬嫩芽在 3–5 天内继续顶出。",
-          "failure_signal": "叶尖大量干枯焦黄（盐分过高或过于干燥），或水盘长期不换水长藻发黏。",
+          "title": "長到 15–20 cm 留茬剪取嫩苗",
+          "action": "待蒜苗長到 15–20 cm 時，從距離蒜瓣上方約 3–4 cm 處剪下食用，土培可繼續抽第 2–3 茬（直到蒜瓣自身養分耗空縮癟為止）。",
+          "verification_checkpoint": "剪口平整，第 2 茬嫩芽在 3–5 天內繼續頂出。",
+          "failure_signal": "葉尖大量乾枯焦黃（鹽分過高或過於乾燥），或水盤長期不換水長藻發黏。",
           "source_refs": [
             "src_tastingtable",
             "src_soilless_9"
@@ -740,9 +751,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "泡在水里 2 周一点根都不长，反而开始发黑臭掉",
-          "root_cause": "商业蒜经过抑芽处理，加上水位淹没了半个蒜瓣造成缺氧腐烂。",
-          "fix": "换用农贸市场本地紫皮蒜/已微发芽的蒜瓣，改用疏松浅土种植且控制水位/湿度。",
+          "symptom": "泡在水裡 2 週一點根都不長，反而開始發黑臭掉",
+          "root_cause": "商業蒜經過抑芽處理，加上水位淹沒了半個蒜瓣造成缺氧腐爛。",
+          "fix": "換用農貿市場本地紫皮蒜/已微發芽的蒜瓣，改用疏鬆淺土種植且控制水位/溼度。",
           "source_refs": [
             "src_almanac_garlic"
           ]
@@ -756,7 +767,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Farmers' Almanac",
           "page_or_section": "Garlic",
           "url": "https://www.farmersalmanac.com/",
-          "quote_or_note": "水培只可收蒜苗；结整头大蒜需秋植土培与低温春化，且市售大蒜常有抑芽剂风险。",
+          "quote_or_note": "水培只可收蒜苗；結整頭大蒜需秋植土培與低溫春化，且市售大蒜常有抑芽劑風險。",
           "verified": true
         },
         {
@@ -765,39 +776,42 @@ window.PLANTS_DATA = {
           "title": "How to Regrow Garlic Greens Indoors",
           "author_or_publisher": "Tasting Table",
           "page_or_section": "Garlic Greens Garnish",
-          "quote_or_note": "蒜苗可作为温和蒜香配菜快速剪取。",
+          "quote_or_note": "蒜苗可作為溫和蒜香配菜快速剪取。",
           "verified": true
         },
         {
           "ref_id": "src_soilless_9",
           "source_type": "book",
-          "title": "阳台种菜、种花技术全攻略",
-          "author_or_publisher": "中国无土栽培技术论坛",
-          "page_or_section": "PDF 第 9 页 — 常见症状表",
-          "quote_or_note": "徒长细长与光照不足相关，底部黄萎与积水通风不良相关。",
+          "title": "陽臺種菜、種花技術全攻略",
+          "author_or_publisher": "中國無土栽培技術論壇",
+          "page_or_section": "PDF 第 9 頁 — 常見症狀表",
+          "quote_or_note": "徒長細長與光照不足相關，底部黃萎與積水通風不良相關。",
           "verified": true
         }
       ]
     },
     {
       "id": "basil",
-      "name_zh": "罗勒（甜罗勒 / 九层塔）",
+      "name_zh": "羅勒（甜羅勒 / 九層塔）",
       "name_en": "Basil",
       "aliases": [
+        "甜羅勒",
+        "九層塔",
+        "Sweet Basil",
+        "罗勒（甜罗勒 / 九层塔）",
         "甜罗勒",
-        "九层塔",
-        "Sweet Basil"
+        "九层塔"
       ],
       "botanical_name": "Ocimum basilicum",
       "category": "herb",
       "scrap_regrow_verdict": "high_value",
-      "verdict_label": "枝条水培生根极强（转土+摘心可无限爆盆）",
+      "verdict_label": "枝條水培生根極強（轉土+摘心可無限爆盆）",
       "best_starting_method": "grocery_pot_split",
-      "starting_method_label": "超市鲜枝扦插水培生根 → 转土 / 买活盆拆株",
-      "water_only_limit": "7–14 天生根后必须转土（否则营养不良早衰开花）",
+      "starting_method_label": "超市鮮枝扦插水培生根 → 轉土 / 買活盆拆株",
+      "water_only_limit": "7–14 天生根後必須轉土（否則營養不良早衰開花）",
       "light_requirement": "grow_light_required",
-      "light_label": "强光喜温植物（18–28℃最佳，低光易黑茎徒长）",
-      "expected_harvest_window": "水插 7–14 天生根；转土定植后 3–4 周可持续摘心采收",
+      "light_label": "強光喜溫植物（18–28℃最佳，低光易黑莖徒長）",
+      "expected_harvest_window": "水插 7–14 天生根；轉土定植後 3–4 周可持續摘心採收",
       "difficulty": 2,
       "diagrams": [
         "pinch_node",
@@ -808,11 +822,11 @@ window.PLANTS_DATA = {
         "type": "image",
         "src": "assets/media/plants/basil.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Basil",
-        "caption": "罗勒（甜罗勒 / 九层塔） (Basil) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "羅勒（甜羅勒 / 九層塔） (Basil) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "超市买的活盆罗勒带回家放窗台浇水就行；剪下来的罗勒枝条插水里只能保鲜几天。",
-        "botanical_truth": "① 恰恰相反！新鲜未木质化的罗勒嫩枝只要带有 2–3 个茎节（Node），插水里 7–14 天极易长满白根，是成功率最高的木本/草本水培扦插香草之一；② 而超市卖的“整盆罗勒”反而是死亡陷阱——一个 4 寸盆里通常挤了 20–30 株苗，买回家不拆分成 3–5 盆，两周内必根系窒息团灭。",
+        "common_myth": "超市買的活盆羅勒帶回家放窗臺澆水就行；剪下來的羅勒枝條插水裡只能保鮮幾天。",
+        "botanical_truth": "① 恰恰相反！新鮮未木質化的羅勒嫩枝只要帶有 2–3 個莖節（Node），插水裡 7–14 天極易長滿白根，是成功率最高的木本/草本水培扦插香草之一；② 而超市賣的“整盆羅勒”反而是死亡陷阱——一個 4 寸盆裡通常擠了 20–30 株苗，買回家不拆分成 3–5 盆，兩週內必根系窒息整盆枯死。",
         "source_refs": [
           "src_fujita_94",
           "src_marias_basil",
@@ -822,10 +836,10 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "截取带 2–3 个茎节的 10–15 cm 嫩枝（或拆分超市密植盆）",
-          "action": "若用鲜切枝扦插：在茎节下方约 0.5 cm 处斜剪取 10–15 cm 健康枝条，彻底摘除下半段浸泡在水中的叶片（防止烂叶污染水体），顶部保留 2–4 片嫩叶。若买超市活盆：温和拆分成每盆仅留 2–3 株的独立盆。",
-          "verification_checkpoint": "浸入水中的茎段完全光洁无残留叶柄，至少有 1–2 个明显茎节处于水下。",
-          "failure_signal": "叶片泡进水里未摘除，或枝条已发黑起皱脱水。",
+          "title": "截取帶 2–3 個莖節的 10–15 cm 嫩枝（或拆分超市密植盆）",
+          "action": "若用鮮切枝扦插：在莖節下方約 0.5 cm 處斜剪取 10–15 cm 健康枝條，徹底摘除下半段浸泡在水中的葉片（防止爛葉汙染水體），頂部保留 2–4 片嫩葉。若買超市活盆：溫和拆分成每盆僅留 2–3 株的獨立盆。",
+          "verification_checkpoint": "浸入水中的莖段完全光潔無殘留葉柄，至少有 1–2 個明顯莖節處於水下。",
+          "failure_signal": "葉片泡進水裡未摘除，或枝條已發黑起皺脫水。",
           "source_refs": [
             "src_pnw_basil",
             "src_reddit_basil"
@@ -833,10 +847,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 2,
-          "title": "亮处水培生根（切勿低温或冷风直吹）",
-          "action": "放入透明玻璃杯，加清水至淹没最下方 1–2 个茎节，置于温暖明亮散射光处（18℃ 以上，远离空调风口和冬夜冰冷窗玻璃）。每 3–5 天换水一次（水浑则立即换）。",
-          "verification_checkpoint": "7–14 天内水下茎节处冒出大量 2–5 cm 长的白色根须，顶部叶片保持坚挺。",
-          "failure_signal": "茎部下端发黑软烂并向上蔓延（黑腐），需立刻高于黑斑 2 cm 处重剪换干净水杯。",
+          "title": "亮處水培生根（切勿低溫或冷風直吹）",
+          "action": "放入透明玻璃杯，加清水至淹沒最下方 1–2 個莖節，置於溫暖明亮散射光處（18℃ 以上，遠離空調風口和冬夜冰冷窗玻璃）。每 3–5 天換水一次（水渾則立即換）。",
+          "verification_checkpoint": "7–14 天內水下莖節處冒出大量 2–5 cm 長的白色根鬚，頂部葉片保持堅挺。",
+          "failure_signal": "莖部下端發黑軟爛並向上蔓延（黑腐），需立刻高於黑斑 2 cm 處重剪換乾淨水杯。",
           "source_refs": [
             "src_marias_basil",
             "src_pnw_basil"
@@ -844,10 +858,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 3,
-          "title": "转入肥沃排水土 + “双分枝节点”摘心法",
-          "action": "白根达 2.5–5 cm 后移入通用营养土（不要让根在纯水里泡太久变脆），土表干燥时再浇透（注意罗勒怕涝又怕彻底旱萎）。株高约 20–30 cm 时，从两对真叶交叉处的上方 0.5 cm 剪下顶部嫩芽——这样剪口会一分二爆出双倍侧枝；见到花苞立刻掐掉。",
-          "verification_checkpoint": "每次摘心后 7 天内叶腋冒出两根新侧枝，株型越来越茂密呈灌木状。",
-          "failure_signal": "任其开花抽穗，之后叶子会迅速变小变苦、整株衰老。",
+          "title": "轉入肥沃排水土 + “雙分枝節點”摘心法",
+          "action": "白根達 2.5–5 cm 後移入通用營養土（不要讓根在純水裡泡太久變脆），土表乾燥時再澆透（注意羅勒怕澇又怕徹底旱萎）。株高約 20–30 cm 時，從兩對真葉交叉處的上方 0.5 cm 剪下頂部嫩芽——這樣剪口會一分二爆出雙倍側枝；見到花苞立刻掐掉。",
+          "verification_checkpoint": "每次摘心後 7 天內葉腋冒出兩根新側枝，株型越來越茂密呈灌木狀。",
+          "failure_signal": "任其開花抽穗，之後葉子會迅速變小變苦、整株衰老。",
           "source_refs": [
             "src_fujita_94",
             "src_baike_422"
@@ -856,9 +870,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "叶片背面出现细密黄白斑点或有粘腻蜜露",
-          "root_cause": "罗勒极易在室内干燥或买苗带入的情况下爆发红蜘蛛与蚜虫。",
-          "fix": "新买植物先单独隔离检疫 7–14 天；发现蚜虫/红蜘蛛可用高压水流冲洗叶背或喷施稀释肥皂水/苦楝油，并加强通风。",
+          "symptom": "葉片背面出現細密黃白斑點或有粘膩蜜露",
+          "root_cause": "羅勒極易在室內乾燥或買苗帶入的情況下爆發紅蜘蛛與蚜蟲。",
+          "fix": "新買植物先單獨隔離檢疫 7–14 天；發現蚜蟲/紅蜘蛛可用高壓水流沖洗葉背或噴施稀釋肥皂水/苦楝油，並加強通風。",
           "source_refs": [
             "src_fujita_94",
             "src_reddit_basil"
@@ -869,19 +883,19 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_fujita_94",
           "source_type": "book",
-          "title": "最新有机家庭盆栽种菜法",
+          "title": "最新有機家庭盆栽種菜法",
           "author_or_publisher": "藤田智",
-          "page_or_section": "书本第 94 页 (PDF 第 95 页) — 罗勒",
-          "quote_or_note": "紫苏科，茎高长到 30 厘米左右可采收；土层表面干燥时浇满水，需经常留意是否缺水以及蚜虫、红蜘蛛。",
+          "page_or_section": "書本第 94 頁 (PDF 第 95 頁) — 羅勒",
+          "quote_or_note": "紫蘇科，莖高長到 30 釐米左右可採收；土層表面乾燥時澆滿水，需經常留意是否缺水以及蚜蟲、紅蜘蛛。",
           "verified": true
         },
         {
           "ref_id": "src_baike_422",
           "source_type": "book",
-          "title": "蔬菜栽培百科全书（已拆分第04章）",
-          "author_or_publisher": "板木利隆 / 机械工业出版社",
-          "page_or_section": "书本第 422 页 (PDF 第 424 页) — 罗勒",
-          "quote_or_note": "喜充足日照、排水良好微干土壤；生长需 10℃ 以上，最适温 20℃ 左右；花芽开始分化时尽早收获及摘心。",
+          "title": "蔬菜栽培百科全書（已拆分第04章）",
+          "author_or_publisher": "板木利隆 / 機械工業出版社",
+          "page_or_section": "書本第 422 頁 (PDF 第 424 頁) — 羅勒",
+          "quote_or_note": "喜充足日照、排水良好微乾土壤；生長需 10℃ 以上，最適溫 20℃ 左右；花芽開始分化時儘早收穫及摘心。",
           "verified": true
         },
         {
@@ -890,7 +904,7 @@ window.PLANTS_DATA = {
           "title": "Herb Cutting Propagation Guide",
           "author_or_publisher": "PNW Salmon Center",
           "page_or_section": "Basil & Mint Cuttings",
-          "quote_or_note": "取 4–6 英寸茎段，摘除下部叶片后水培。",
+          "quote_or_note": "取 4–6 英寸莖段，摘除下部葉片後水培。",
           "verified": true
         },
         {
@@ -899,7 +913,7 @@ window.PLANTS_DATA = {
           "title": "Indoor Herb Water Propagation",
           "author_or_publisher": "Maria's Farm Country Kitchen",
           "page_or_section": "Transplanting to Soil",
-          "quote_or_note": "白色根须长至 1–2 英寸后及时移入室内盆栽土。",
+          "quote_or_note": "白色根鬚長至 1–2 英寸後及時移入室內盆栽土。",
           "verified": true
         },
         {
@@ -908,34 +922,37 @@ window.PLANTS_DATA = {
           "title": "Reddit r/IndoorGarden Supermarket Basil & Quarantine Consensus",
           "author_or_publisher": "Reddit Gardening Communities",
           "page_or_section": "Super-pot Splitting & Pest Control",
-          "quote_or_note": "超市 4 寸罗勒盆必须拆株防止根系绞杀，且买回后须防蚜虫与红蜘蛛传染全屋。",
+          "quote_or_note": "超市 4 寸羅勒盆必須拆株防止根系絞殺，且買回後須防蚜蟲與紅蜘蛛傳染全屋。",
           "verified": true
         }
       ]
     },
     {
       "id": "mint",
-      "name_zh": "薄荷（辣薄荷 / 留兰香）",
+      "name_zh": "薄荷（辣薄荷 / 留蘭香）",
       "name_en": "Mint",
       "aliases": [
         "辣薄荷",
-        "留兰香",
-        "绿薄荷",
+        "留蘭香",
+        "綠薄荷",
         "Peppermint",
-        "Spearmint"
+        "Spearmint",
+        "薄荷（辣薄荷 / 留兰香）",
+        "留兰香",
+        "绿薄荷"
       ],
       "botanical_name": "Mentha spp. (M. × piperita, M. spicata)",
       "category": "herb",
       "scrap_regrow_verdict": "high_value",
-      "verdict_label": "鲜嫩茎节水插生根极高，但须单盆隔离防蔓延",
+      "verdict_label": "鮮嫩莖節水插生根極高，但須單盆隔離防蔓延",
       "best_starting_method": "grocery_pot_split",
-      "starting_method_label": "鲜枝带节水插转土 / 超市活盆切块分株（不建议播种）",
-      "water_only_limit": "7–14 天（最长不超过 2–3 周，须转土或 EC 2.0–2.4 营养液）",
+      "starting_method_label": "鮮枝帶節水插轉土 / 超市活盆切塊分株（不建議播種）",
+      "water_only_limit": "7–14 天（最長不超過 2–3 周，須轉土或 EC 2.0–2.4 營養液）",
       "light_requirement": "grow_light_recommended",
-      "light_label": "明亮窗台或补光灯（秋冬季必须补光防徒长）",
+      "light_label": "明亮窗臺或補光燈（秋冬季必須補光防徒長）",
       "ppfd_dli": "PPFD 150–250 μmol·m⁻²·s⁻¹（水培 200–320）｜DLI 10–16｜12–14 h/天",
-      "container_and_soil": "深 20–25 cm 宽口单盆（禁混栽）；60% 泥炭/椰糠 + 20% 珍珠岩 + 20% 腐熟堆肥（忌盆底垫碎石）",
-      "expected_harvest_window": "水插 7–14 天发根；上盆后 2–3 周可摘心轻采（全周期 3–4 周）",
+      "container_and_soil": "深 20–25 cm 寬口單盆（禁混栽）；60% 泥炭/椰糠 + 20% 珍珠岩 + 20% 腐熟堆肥（忌盆底墊碎石）",
+      "expected_harvest_window": "水插 7–14 天髮根；上盆後 2–3 周可摘心輕採（全週期 3–4 周）",
       "difficulty": 1,
       "diagrams": [
         "water_line",
@@ -946,11 +963,11 @@ window.PLANTS_DATA = {
         "type": "image",
         "src": "assets/media/plants/mint.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Spearmint",
-        "caption": "薄荷（辣薄荷 / 留兰香） (Mint) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "薄荷（辣薄荷 / 留蘭香） (Mint) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "薄荷插在清水杯里能无限长，或者和迷迭香、百里香种在同一个大花盆里省地方。",
-        "botanical_truth": "① 纯水无法提供矿质营养，两周后叶片必褪绿、芳香油骤降且水生根易烂；② 薄荷具有强侵略性的地下匍匐走茎（Stolons/Runners），会缠死同盆其它香草，必须单独单盆隔离种植；③ 超市密植活盆买回后必须切块分株，否则 1–2 周内根系窒息倒伏。",
+        "common_myth": "薄荷插在清水杯裡能無限長，或者和迷迭香、百里香種在同一個大花盆裡省地方。",
+        "botanical_truth": "① 純水無法提供礦質營養，兩週後葉片必褪綠、芳香油驟降且水生根易爛；② 薄荷具有強侵略性的地下匍匐走莖（Stolons/Runners），會纏死同盆其它香草，必須單獨單盆隔離種植；③ 超市密植活盆買回後必須切塊分株，否則 1–2 周內根系窒息倒伏。",
         "source_refs": [
           "src_mint_almanac",
           "src_mint_zuihao_57",
@@ -960,10 +977,10 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "选枝与剥叶露节（拒用冷藏脱水黑渣）",
-          "action": "剪取母株或新鲜超市薄荷顶部 8–10 cm（3–4 英寸）健壮顶芽，用洁净锋利剪刀在茎节下方斜切，剥除基部 1/2 至 2/3 叶片，仅留顶部 3–4 片嫩叶。",
-          "verification_checkpoint": "切口平整无挤压撕裂伤，下部至少露出 1–2 个裸露茎节，叶片不沾水。",
-          "failure_signal": "浸入水中的叶片未剥除（48 小时内腐烂发臭），或枝条已发黑脱水无顶芽。",
+          "title": "選枝與剝葉露節（拒用冷藏脫水黑渣）",
+          "action": "剪取母株或新鮮超市薄荷頂部 8–10 cm（3–4 英寸）健壯頂芽，用潔淨鋒利剪刀在莖節下方斜切，剝除基部 1/2 至 2/3 葉片，僅留頂部 3–4 片嫩葉。",
+          "verification_checkpoint": "切口平整無擠壓撕裂傷，下部至少露出 1–2 個裸露莖節，葉片不沾水。",
+          "failure_signal": "浸入水中的葉片未剝除（48 小時內腐爛發臭），或枝條已發黑脫水無頂芽。",
           "source_refs": [
             "src_mint_yangtai_69",
             "src_mint_foliage"
@@ -971,10 +988,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 2,
-          "title": "浅水诱根并勤换水",
-          "action": "将枝条插入盛有清水的洁净玻璃杯，淹没裸露节位，置于明亮散射光处，水温维持 18–24°C，每 2–3 天彻底换水一次。",
-          "verification_checkpoint": "5–10 天内节点萌生多条白色脆嫩不定根，根长 2.5–5 cm（1–2 英寸）且开始分叉。",
-          "failure_signal": "水体浑浊发臭、茎基部变褐软化（软腐菌感染，须立即剪除腐段并消毒容器）。",
+          "title": "淺水發根並勤換水",
+          "action": "將枝條插入盛有清水的潔淨玻璃杯，淹沒裸露節位，置於明亮散射光處，水溫維持 18–24°C，每 2–3 天徹底換水一次。",
+          "verification_checkpoint": "5–10 天內節點萌生多條白色脆嫩不定根，根長 2.5–5 cm（1–2 英寸）且開始分叉。",
+          "failure_signal": "水體渾濁發臭、莖基部變褐軟化（軟腐菌感染，須立即剪除腐段並消毒容器）。",
           "source_refs": [
             "src_mint_foliage",
             "src_mint_unr"
@@ -982,10 +999,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 3,
-          "title": "独立深盆定植（禁在盆底垫碎石）",
-          "action": "选用深度 20–25 cm、带排水孔的独立宽口盆（切勿与迷迭香等混种），填入 60% 泥炭/椰糠 + 20% 珍珠岩 + 20% 腐熟堆肥；轻柔放入枝条埋土压实，浇透定根水。",
-          "verification_checkpoint": "基质均匀湿润且多余水分从底孔流出，植株直立不倒伏。",
-          "failure_signal": "暴力下压折断脆嫩水生根，或在盆底垫碎石/陶粒制造悬挂滞水层（Perched Water Table）加速闷根。",
+          "title": "獨立深盆定植（禁在盆底墊碎石）",
+          "action": "選用深度 20–25 cm、帶排水孔的獨立寬口盆（切勿與迷迭香等混種），填入 60% 泥炭/椰糠 + 20% 珍珠岩 + 20% 腐熟堆肥；輕柔放入枝條埋土壓實，澆透定根水。",
+          "verification_checkpoint": "基質均勻溼潤且多餘水分從底孔流出，植株直立不倒伏。",
+          "failure_signal": "暴力下壓折斷脆嫩水生根，或在盆底墊碎石/陶粒製造盆底滯水層（Perched Water Table）加速悶根。",
           "source_refs": [
             "src_mint_foliage",
             "src_mint_zuihao_57",
@@ -994,10 +1011,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 4,
-          "title": "缓苗与补光灯控水养护",
-          "action": "定植前 48–72 小时放明亮无直射光处缓苗（湿度 60%–70%）；恢复后移至全光谱补光灯下 20–30 cm，每日照射 12–14 小时；表土 1 cm 干了浇透，托盘积水 30 分钟内倒掉。",
-          "verification_checkpoint": "新叶展开，节间紧凑（< 1.5 cm），揉搓有强烈薄荷醇香气。",
-          "failure_signal": "盆底长期泡在托盘积水中，或光照不足导致节间拉长徒长。",
+          "title": "緩苗與補光燈控水養護",
+          "action": "定植前 48–72 小時放明亮無直射光處緩苗（溼度 60%–70%）；恢復後移至全光譜補光燈下 20–30 cm，每日照射 12–14 小時；表土 1 cm 幹了澆透，托盤積水 30 分鐘內倒掉。",
+          "verification_checkpoint": "新葉展開，節間緊湊（< 1.5 cm），揉搓有強烈薄荷醇香氣。",
+          "failure_signal": "盆底長期泡在托盤積水中，或光照不足導致節間拉長徒長。",
           "source_refs": [
             "src_mint_led",
             "src_mint_synthesis"
@@ -1006,18 +1023,18 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "茎秆细长倒伏、下层老叶黄化脱落",
-          "root_cause": "典型光饥饿徒长，环境 PPFD 低于 150 μmol·m⁻²·s⁻¹。",
-          "fix": "顶部回剪 1/3 促发侧枝，将全光谱补光灯降至冠层上方 20–30 cm，确保每日 12–14 小时照射。",
+          "symptom": "莖稈細長倒伏、下層老葉黃化脫落",
+          "root_cause": "典型光照不足引起的徒長，環境 PPFD 低於 150 μmol·m⁻²·s⁻¹。",
+          "fix": "頂部回剪 1/3 促發側枝，將全光譜補光燈降至冠層上方 20–30 cm，確保每日 12–14 小時照射。",
           "source_refs": [
             "src_mint_led",
             "src_mint_agronomy"
           ]
         },
         {
-          "symptom": "叶面出现白色粉状斑块（白粉病）",
-          "root_cause": "室内空气完全停滞且局部湿度过高。",
-          "fix": "剪除严重感染叶，开启小型循环风扇保持空气扰动，可喷施稀释碳酸氢钾或碳酸氢钠溶液。",
+          "symptom": "葉面出現白色粉狀斑塊（白粉病）",
+          "root_cause": "室內空氣完全停滯且局部溼度過高。",
+          "fix": "剪除嚴重感染葉，開啟小型循環風扇保持空氣擾動，可噴施稀釋碳酸氫鉀或碳酸氫鈉溶液。",
           "source_refs": [
             "src_mint_penn",
             "src_mint_synthesis"
@@ -1028,28 +1045,28 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_mint_xiangcao_69",
           "source_type": "book",
-          "title": "香草生活，恋上有香气的日常.pdf",
-          "author_or_publisher": "本地图书（已人工核对实页）",
-          "page_or_section": "书本第 69 页 (PDF 第 73 页) — 在小花盆里也能茁壮生长的香草",
-          "quote_or_note": "收录留兰香等小型盆栽香草介绍（核验实图确认第 69 页为小花盆香草选品页）。",
+          "title": "香草生活，戀上有香氣的日常.pdf",
+          "author_or_publisher": "本地圖書（已人工核對實頁）",
+          "page_or_section": "書本第 69 頁 (PDF 第 73 頁) — 在小花盆裡也能茁壯生長的香草",
+          "quote_or_note": "收錄留蘭香等小型盆栽香草介紹（核驗實圖確認第 69 頁為小花盆香草選品頁）。",
           "verified": true
         },
         {
           "ref_id": "src_mint_zuihao_57",
           "source_type": "book",
-          "title": "最好的家庭种菜书_日 靓丽出版社.pdf",
-          "author_or_publisher": "靓丽出版社（已人工核对实页）",
-          "page_or_section": "书本第 57 页 (PDF 第 40 页) — 私家菜园 Q&A",
-          "quote_or_note": "左下角 Q&A 明确解答“为什么薄荷要与其他种类的香草分开种植”：薄荷地下茎繁殖力极强，混栽会蔓延压制其他香草。",
+          "title": "最好的家庭種菜書_日 靚麗出版社.pdf",
+          "author_or_publisher": "靚麗出版社（已人工核對實頁）",
+          "page_or_section": "書本第 57 頁 (PDF 第 40 頁) — 私家菜園 Q&A",
+          "quote_or_note": "左下角 Q&A 明確解答“為什麼薄荷要與其他種類的香草分開種植”：薄荷地下莖繁殖力極強，混栽會蔓延壓制其他香草。",
           "verified": true
         },
         {
           "ref_id": "src_mint_yangtai_69",
           "source_type": "book",
-          "title": "阳台菜园：栽培可口蔬菜的 70 个诀窍.pdf",
-          "author_or_publisher": "本地图书（已人工核对实页）",
-          "page_or_section": "书本第 69 页 (PDF 第 76 页) — 香草的扦插",
-          "quote_or_note": "4–6 月、9–10 月剪约 10 cm 健壮幼枝，切口斜剪并摘除一半以下叶片后插入蛭石/赤玉土诱根。",
+          "title": "陽臺菜園：栽培可口蔬菜的 70 個訣竅.pdf",
+          "author_or_publisher": "本地圖書（已人工核對實頁）",
+          "page_or_section": "書本第 69 頁 (PDF 第 76 頁) — 香草的扦插",
+          "quote_or_note": "4–6 月、9–10 月剪約 10 cm 健壯幼枝，切口斜剪並摘除一半以下葉片後插入蛭石/赤玉土發根。",
           "verified": true
         },
         {
@@ -1059,7 +1076,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Farmers' Almanac",
           "page_or_section": "Quick Reference, Mint & Herbs",
           "url": "https://www.farmersalmanac.com/regrow-vegetables-from-kitchen-scraps",
-          "quote_or_note": "薄荷带节嫩枝可快速水培发根，但仍需转土才能长期高产。",
+          "quote_or_note": "薄荷帶節嫩枝可快速水培髮根，但仍需轉土才能長期高產。",
           "verified": true
         },
         {
@@ -1069,7 +1086,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Foliage Factory",
           "page_or_section": "Basic Method, When to Transplant, Common Problems",
           "url": "https://foliage-factory.com/blogs/plant-care/water-propagation-houseplants-guide",
-          "quote_or_note": "水下叶片必须摘除防腐败；根长 1–2 英寸后及时轻柔上盆。",
+          "quote_or_note": "水下葉片必須摘除防腐敗；根長 1–2 英寸後及時輕柔上盆。",
           "verified": true
         },
         {
@@ -1079,7 +1096,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Garden Betty (Linda Ly)",
           "page_or_section": "Tips 1–3",
           "url": "https://gardenbetty.com/gardening-quick-tip-transplant-your-supermarket-living-herbs/",
-          "quote_or_note": "超市活盆为密集播种，需分株换土防窒息。",
+          "quote_or_note": "超市活盆為密集播種，需分株換土防窒息。",
           "verified": true
         },
         {
@@ -1089,7 +1106,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "LED Grow Lights Depot",
           "page_or_section": "DLI Categories & Guidelines",
           "url": "https://www.ledgrowlightsdepot.com/blogs/blog/urban-indoor-herb-garden-lighting-guide-for-apartments",
-          "quote_or_note": "室内窗台秋冬 DLI 常低至 5–8，需补光维持生长。",
+          "quote_or_note": "室內窗臺秋冬 DLI 常低至 5–8，需補光維持生長。",
           "verified": true
         },
         {
@@ -1098,7 +1115,7 @@ window.PLANTS_DATA = {
           "title": "Growing Herbs Indoors",
           "author_or_publisher": "Penn State Extension",
           "page_or_section": "Disease Management / Powdery Mildew",
-          "quote_or_note": "空气停滞高湿易诱发白粉病，需加强通风与及时修剪。",
+          "quote_or_note": "空氣停滯高溼易誘發白粉病，需加強通風與及時修剪。",
           "verified": true
         },
         {
@@ -1108,25 +1125,25 @@ window.PLANTS_DATA = {
           "author_or_publisher": "University of Nevada, Reno Extension",
           "page_or_section": "Indoor Herb Cuttings & Winter Care",
           "url": "https://extension.unr.edu/",
-          "quote_or_note": "内华达大学推广站冬季室内蔬菜与香草水插/窗台补光技术指南。",
+          "quote_or_note": "內華達大學推廣站冬季室內蔬菜與香草水插/窗臺補光技術指南。",
           "verified": true
         },
         {
           "ref_id": "src_mint_agronomy",
           "source_type": "web",
-          "title": "Agronomic Protocols for Indoor Container Cultivation (NotebookLM 内部综合报告)",
-          "author_or_publisher": "NotebookLM Deep Research 综合笔记",
+          "title": "Agronomic Protocols for Indoor Container Cultivation (NotebookLM 內部綜合報告)",
+          "author_or_publisher": "NotebookLM Deep Research 綜合筆記",
           "page_or_section": "Photobiological Requirements & Failure Diagnostics (/workspace/knowledge/...)",
-          "quote_or_note": "记录 PPFD 150–250、DLI 10–16 及光饥饿诊断；属二手中转报告，建议追查原始文献。",
+          "quote_or_note": "記錄 PPFD 150–250、DLI 10–16 及光飢餓診斷；屬二手中轉報告，建議追查原始文獻。",
           "verified": false
         },
         {
           "ref_id": "src_mint_synthesis",
           "source_type": "web",
-          "title": "Indoor Culinary Herb Agronomy (NotebookLM 内部综合报告)",
-          "author_or_publisher": "NotebookLM Deep Research 综合笔记",
+          "title": "Indoor Culinary Herb Agronomy (NotebookLM 內部綜合報告)",
+          "author_or_publisher": "NotebookLM Deep Research 綜合筆記",
           "page_or_section": "Container Fluid Physics & Canopy Management (/workspace/knowledge/...)",
-          "quote_or_note": "记录盆底垫碎石产生悬挂滞水层（PWT）与缓苗湿度 60%–70%；属二手中转报告。",
+          "quote_or_note": "記錄盆底墊碎石產生盆底滯水層（PWT）與緩苗溼度 60%–70%；屬二手中轉報告。",
           "verified": false
         }
       ]
@@ -1137,20 +1154,21 @@ window.PLANTS_DATA = {
       "name_en": "Rosemary",
       "aliases": [
         "Salvia rosmarinus",
+        "Rosmarinus officinalis (舊學名)",
         "Rosmarinus officinalis (旧学名)"
       ],
       "botanical_name": "Salvia rosmarinus",
       "category": "herb",
       "scrap_regrow_verdict": "not_recommended",
-      "verdict_label": "室内最高难度（5★）：老枝必烂，强光+红陶盆干湿交替",
+      "verdict_label": "室內高難度（5★）：木質老枝泡水易爛，需強光、素燒陶盆與乾濕交替",
       "best_starting_method": "grocery_pot_split",
-      "starting_method_label": "买苗圃活体盆栽 / 仅用绿色半木质化嫩梢基质扦插（严禁播种）",
-      "water_only_limit": "仅限诱根 2–4 周（根系极度好氧，长到 2.5–5 cm 须立刻转颗粒土）",
+      "starting_method_label": "買苗圃活體盆栽 / 僅用綠色半木質化嫩梢基質扦插（嚴禁播種）",
+      "water_only_limit": "僅限發根 2–4 周（根系極度好氧，長到 2.5–5 cm 須立刻轉顆粒土）",
       "light_requirement": "grow_light_required",
-      "light_label": "补光灯必选项（全光谱强光 14–16 小时，普通窗台秋冬必死）",
-      "ppfd_dli": "PPFD 300–400 μmol·m⁻²·s⁻¹（高产 400–600）｜DLI 18–25+｜14–16 h/天",
-      "container_and_soil": "仅比原土球大 2.5–5 cm 的未上釉红陶盆；2:1 地中海配方（2 份无泥炭堆肥/椰糠 + 1 份粗珍珠岩/轻石/粗园艺砂）",
-      "expected_harvest_window": "现成盆栽定植约 3 个月可采；扦插需 8–12 周；播种需 15 个月（发芽率仅约 15%）",
+      "light_label": "補光燈必選項（全光譜強光 14–16 小時，普通窗臺秋冬必死）",
+      "ppfd_dli": "PPFD 300–400 μmol·m⁻²·s⁻¹（高產 400–600）｜DLI 18–25+｜14–16 h/天",
+      "container_and_soil": "僅比原土球大 2.5–5 cm 的未上釉紅陶盆；2:1 地中海配方（2 份無泥炭堆肥/椰糠 + 1 份粗珍珠岩/輕石/粗園藝砂）",
+      "expected_harvest_window": "現成盆栽定植約 3 個月可採；扦插需 8–12 周；播種需 15 個月（發芽率僅約 15%）",
       "difficulty": 5,
       "diagrams": [
         "pwt",
@@ -1160,11 +1178,11 @@ window.PLANTS_DATA = {
         "type": "image",
         "src": "assets/media/plants/rosemary.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Rosemary",
-        "caption": "迷迭香 (Rosemary) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "迷迭香 (Rosemary) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "看到迷迭香针叶发干变脆就是缺水，赶紧多浇水；换个豪华大花盆能让它长更大。",
-        "botanical_truth": "① 假性缺水是第一大死因：当根系积水烂死后无法吸水，地上针叶同样会干脆发黑——此时再灌水必彻底杀死植株，必须脱盆看根（白硬=缺水，黑软臭=烂根）；② 大盆死土干得极慢，必形成厌氧积水死区，只能用小一号的未上釉红陶盆且盆底绝不能垫碎石（会抬高悬挂滞水层 PWT）；③ 室内秋冬窗台 DLI 常低于 8，没有补光灯必落叶死亡。",
+        "common_myth": "看到迷迭香針葉發乾變脆就是缺水，趕緊多澆水；換個豪華大花盆能讓它長更大。",
+        "botanical_truth": "① 假性缺水是第一大死因：當根系積水爛死後無法吸水，地上針葉同樣會乾脆發黑——此時再灌水必徹底殺死植株，必須脫盆看根（白硬=缺水，黑軟臭=爛根）；② 大盆死土幹得極慢，必形成厭氧積水死區，只能用小一號的未上釉紅陶盆且盆底絕不能墊碎石（會抬高盆底滯水層 PWT）；③ 室內秋冬窗臺 DLI 常低於 8，沒有補光燈必落葉死亡。",
         "source_refs": [
           "src_rose_modernsprout",
           "src_rose_gardenmyths",
@@ -1174,10 +1192,10 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "选未木质化绿嫩梢（拒用超市老硬枝或播种）",
-          "action": "从健康母株剪取顶部 7–10 cm（3–4 英寸）当年生的嫩绿软枝，用锋利修枝剪小心剪除下部 4 cm 针叶（不要暴力向下撕扯茎皮）。",
-          "verification_checkpoint": "基部切口平滑紧实不发软，上部保留翠绿健康针叶。",
-          "failure_signal": "选用已褐化变硬的老木质枝（极易霉烂难生根），或直接把超市密植盆栽暴力手撕分株。",
+          "title": "選未木質化綠嫩梢（拒用超市老硬枝或播種）",
+          "action": "從健康母株剪取頂部 7–10 cm（3–4 英寸）當年生的嫩綠軟枝，用鋒利修枝剪小心剪除下部 4 cm 針葉（不要暴力向下撕扯莖皮）。",
+          "verification_checkpoint": "基部切口平滑緊實不發軟，上部保留翠綠健康針葉。",
+          "failure_signal": "選用已褐化變硬的老木質枝（極易黴爛難生根），或直接把超市密植盆栽暴力手撕分株。",
           "source_refs": [
             "src_rose_aggie",
             "src_rose_gardenbetty"
@@ -1185,10 +1203,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 2,
-          "title": "透气无肥基质（或勤换清水）诱根",
-          "action": "优先插入湿润的无肥介质（50% 珍珠岩 + 50% 泥炭/蛭石或粗砂），放 18–21°C 明亮散射光处；若水培则每 2–3 天换水，生根达 2.5–5 cm 立刻上盆。",
-          "verification_checkpoint": "基质插 4–8 周轻轻上提感到明显阻力，或水插冒出 2.5–5 cm 白色粗壮不定根。",
-          "failure_signal": "插穗基部发黑黏滑、针叶大量变黑脱落，说明已烂根应丢弃。",
+          "title": "透氣無肥基質（或勤換清水）發根",
+          "action": "優先插入溼潤的無肥介質（50% 珍珠岩 + 50% 泥炭/蛭石或粗砂），放 18–21°C 明亮散射光處；若水培則每 2–3 天換水，生根達 2.5–5 cm 立刻上盆。",
+          "verification_checkpoint": "基質插 4–8 周輕輕上提感到明顯阻力，或水插冒出 2.5–5 cm 白色粗壯不定根。",
+          "failure_signal": "插穗基部發黑黏滑、針葉大量變黑脫落，說明已爛根應丟棄。",
           "source_refs": [
             "src_rose_aggie",
             "src_rose_wsu",
@@ -1197,10 +1215,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 3,
-          "title": "未上釉红陶盆 + 2:1 地中海高透水配土",
-          "action": "选用口径仅比土球大 2.5–5 cm（1–2 英寸）、带大排水孔的未上釉红陶盆（忌釉面瓷盆和大深盆）；配制 2:1 配方（2 份无泥炭堆肥/椰糠 + 1 份粗珍珠岩/轻石/粗园艺砂，严禁用建筑细沙）；根颈必须平齐或微高于土表。",
-          "verification_checkpoint": "浇水后数秒内瞬间渗透并从底孔畅通流出，土表不留水洼。",
-          "failure_signal": "使用保水通用土、建筑细沙，或将根颈深埋土中导致烂冠。",
+          "title": "未上釉紅陶盆 + 2:1 地中海高透水配土",
+          "action": "選用口徑僅比土球大 2.5–5 cm（1–2 英寸）、帶大排水孔的未上釉紅陶盆（忌釉面瓷盆和大深盆）；配製 2:1 配方（2 份無泥炭堆肥/椰糠 + 1 份粗珍珠岩/輕石/粗園藝砂，嚴禁用建築細沙）；根頸必須平齊或微高於土表。",
+          "verification_checkpoint": "澆水後數秒內瞬間滲透並從底孔暢通流出，土表不留水窪。",
+          "failure_signal": "使用保水通用土、建築細沙，或將根頸深埋土中導致爛冠。",
           "source_refs": [
             "src_rose_amazing",
             "src_rose_modernsprout"
@@ -1208,10 +1226,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 4,
-          "title": "强补光灯 + 24小时微风 + 深度干湿交替",
-          "action": "在冠层上方 25–40 cm 悬挂全光谱补光灯（14–16 h/天，PPFD 300–400）；旁边配微型摇头扇扰动空气；只有当表土下 5 cm（2 英寸）干透且盆明显变轻时才浇透（约每 1–2 周一次）。",
-          "verification_checkpoint": "针叶坚韧直立、香气浓郁，叶片与土壤表面无白色粉状菌斑。",
-          "failure_signal": "按日历固定隔两天浅浇一点水，导致表湿底烂或闷湿发白粉病。",
+          "title": "強補光燈 + 24小時微風 + 深度乾溼交替",
+          "action": "在冠層上方 25–40 cm 懸掛全光譜補光燈（14–16 h/天，PPFD 300–400）；旁邊配微型搖頭扇擾動空氣；只有當表土下 5 cm（2 英寸）乾透且盆明顯變輕時才澆透（約每 1–2 週一次）。",
+          "verification_checkpoint": "針葉堅韌直立、香氣濃郁，葉片與土壤表面無白色粉狀菌斑。",
+          "failure_signal": "按日曆固定隔兩天淺澆一點水，導致表溼底爛或悶溼發白粉病。",
           "source_refs": [
             "src_rose_modernsprout",
             "src_rose_gorilla",
@@ -1221,17 +1239,17 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "针叶干脆发黑，但摸盆土还是湿的",
-          "root_cause": "典型厌氧根腐导致的假性缺水表象，根系坏死已无法吸水。",
-          "fix": "立刻停水！脱盆清除烂土并剪除黑软死根，若尚有硬白根则换 2:1 粗颗粒土与红陶盆干养抢救。",
+          "symptom": "針葉乾脆發黑，但摸盆土還是溼的",
+          "root_cause": "典型厭氧根腐導致的假性缺水錶象，根系壞死已無法吸水。",
+          "fix": "立刻停水！脫盆清除爛土並剪除黑軟死根，若尚有硬白根則換 2:1 粗顆粒土與紅陶盆幹養搶救。",
           "source_refs": [
             "src_rose_modernsprout"
           ]
         },
         {
-          "symptom": "针叶表面出现白霜（白粉病）或细密黄白点（红蜘蛛）",
-          "root_cause": "室内空气完全静止潮闷诱发白粉病；靠近暖气片过分干热诱发红蜘蛛。",
-          "fix": "白粉病需修剪透风 + 微型风扇 + 喷碳酸氢钾；红蜘蛛需远离暖气（控温 13–21°C）并喷杀虫皂液。",
+          "symptom": "針葉表面出現白霜（白粉病）或細密黃白點（紅蜘蛛）",
+          "root_cause": "室內空氣完全靜止潮悶誘發白粉病；靠近暖氣片過分乾熱誘發紅蜘蛛。",
+          "fix": "白粉病需修剪透風 + 微型風扇 + 噴碳酸氫鉀；紅蜘蛛需遠離暖氣（控溫 13–21°C）並噴殺蟲皂液。",
           "source_refs": [
             "src_rose_modernsprout"
           ]
@@ -1244,7 +1262,7 @@ window.PLANTS_DATA = {
           "title": "Easy Gardening: Rosemary (E-623)",
           "author_or_publisher": "Texas A&M AgriLife Extension (Joseph Masabni & Stephen King)",
           "page_or_section": "Planting, Table 1, Watering",
-          "quote_or_note": "嫩枝扦插 4–8 周生根；种子发芽率仅约 15% 且形成可采株冠需约 15 个月；浇水须等表土干透。",
+          "quote_or_note": "嫩枝扦插 4–8 周生根；種子發芽率僅約 15% 且形成可採株冠需約 15 個月；澆水須等表土乾透。",
           "verified": true
         },
         {
@@ -1254,7 +1272,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Modern Sprout",
           "page_or_section": "Setting Up, Under Grow Light, How to Water, Airflow, Why Indoor Rosemary Dies",
           "url": "https://modernsprout.com/blogs/gardening/how-to-grow-rosemary-indoors",
-          "quote_or_note": "推荐未上釉红陶盆（仅大 1–2 英寸）、浅埋不埋根颈、24小时微风防白粉病，并详解烂根造成的假性缺水误区。",
+          "quote_or_note": "推薦未上釉紅陶盆（僅大 1–2 英寸）、淺埋不埋根頸、24小時微風防白粉病，並詳解爛根造成的假性缺水誤區。",
           "verified": true
         },
         {
@@ -1264,7 +1282,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Amazing Herb Garden",
           "page_or_section": "How to make your own mix, Signs current mix is wrong",
           "url": "https://www.amazingherbgarden.com/best-soil-for-rosemary/",
-          "quote_or_note": "推荐 2:1 高排水配方（堆肥/椰糠 + 粗珍珠岩/轻石/粗沙），浇水后须数秒内快速渗透排出。",
+          "quote_or_note": "推薦 2:1 高排水配方（堆肥/椰糠 + 粗珍珠岩/輕石/粗沙），澆水後須數秒內快速滲透排出。",
           "verified": true
         },
         {
@@ -1274,7 +1292,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Garden Myths (Robert Pavlis)",
           "page_or_section": "Container Drainage Physics",
           "url": "https://www.gardenmyths.com/perched-water-table/",
-          "quote_or_note": "盆底垫碎石或陶粒会抬高饱和滞水层（PWT），反而压缩植物根系透气空间。",
+          "quote_or_note": "盆底墊碎石或陶粒會抬高飽和滯水層（PWT），反而壓縮植物根系透氣空間。",
           "verified": true
         },
         {
@@ -1284,7 +1302,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Gorilla Grow Tent",
           "page_or_section": "Plant Specs - Rosemary",
           "url": "https://www.gorillagrowtent.com/blogs/news/indoor-herb-garden",
-          "quote_or_note": "迷迭香室内强光规格参数。",
+          "quote_or_note": "迷迭香室內強光規格參數。",
           "verified": true
         },
         {
@@ -1293,7 +1311,7 @@ window.PLANTS_DATA = {
           "title": "HANDBOOK: General Propagation Instructions",
           "author_or_publisher": "Washington State University Extension",
           "page_or_section": "General Propagation",
-          "quote_or_note": "半木质化扦插控温 18–21°C 与无肥透气生根基质标准。",
+          "quote_or_note": "半木質化扦插控溫 18–21°C 與無肥透氣生根基質標準。",
           "verified": true
         },
         {
@@ -1303,16 +1321,16 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Garden Betty (Linda Ly)",
           "page_or_section": "Grocery Store Cuttings",
           "url": "https://gardenbetty.com/gardening-quick-tip-transplant-your-supermarket-living-herbs/",
-          "quote_or_note": "老木质枝极难水中生根，应选嫩绿新梢。",
+          "quote_or_note": "老木質枝極難水中生根，應選嫩綠新梢。",
           "verified": true
         },
         {
           "ref_id": "src_rose_yangtai_69",
           "source_type": "book",
-          "title": "阳台菜园：栽培可口蔬菜的 70 个诀窍.pdf",
-          "author_or_publisher": "本地图书（已人工核对实页）",
-          "page_or_section": "书本第 69 页 (PDF 第 76 页) — 香草的扦插",
-          "quote_or_note": "明文列举迷迭香可用嫩枝扦插繁殖，提拉有明显阻力即表示已生根。",
+          "title": "陽臺菜園：栽培可口蔬菜的 70 個訣竅.pdf",
+          "author_or_publisher": "本地圖書（已人工核對實頁）",
+          "page_or_section": "書本第 69 頁 (PDF 第 76 頁) — 香草的扦插",
+          "quote_or_note": "明文列舉迷迭香可用嫩枝扦插繁殖，提拉有明顯阻力即表示已生根。",
           "verified": true
         },
         {
@@ -1322,7 +1340,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Urban Hydro Space",
           "page_or_section": "Rosemary",
           "url": "https://urbanhydrospace.com/hydroponic-crop-sources/",
-          "quote_or_note": "迷迭香光照与生长周期对照数据。",
+          "quote_or_note": "迷迭香光照與生長週期對照數據。",
           "verified": true
         },
         {
@@ -1332,7 +1350,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Horticulture Magazine (Jennifer Smith)",
           "page_or_section": "Indoor Overwintering & Cuttings",
           "url": "https://www.hortmag.com/",
-          "quote_or_note": "迷迭香室内过冬强光、排水与避免过度浇水要点。",
+          "quote_or_note": "迷迭香室內過冬強光、排水與避免過度澆水要點。",
           "verified": true
         }
       ]
@@ -1349,15 +1367,15 @@ window.PLANTS_DATA = {
       "botanical_name": "Thymus vulgaris",
       "category": "herb",
       "scrap_regrow_verdict": "partial_greens_only",
-      "verdict_label": "水插易烂（中等难度）：禁头顶淋水，宜嫩枝基质插或整盆换盆",
+      "verdict_label": "水插易爛（中等難度）：禁頭頂淋水，宜嫩枝基質插或整盆換盆",
       "best_starting_method": "grocery_pot_split",
-      "starting_method_label": "买苗整盆换大红陶盆（最多二等分，禁碎分）/ 嫩梢基质扦插",
-      "water_only_limit": "仅限诱根 1–2 周（高度敏感易烂，长到 2.5–5 cm 须立刻转土）",
+      "starting_method_label": "買苗整盆換大紅陶盆（最多二等分，禁碎分）/ 嫩梢基質扦插",
+      "water_only_limit": "僅限發根 1–2 周（高度敏感易爛，長到 2.5–5 cm 須立刻轉土）",
       "light_requirement": "grow_light_required",
-      "light_label": "高光作物（仅春夏全日照南窗勉强够用，室内常年需补光灯）",
-      "ppfd_dli": "PPFD 250–300 μmol·m⁻²·s⁻¹（水培试验 300–400）｜DLI 14–20｜12–16 h/天",
-      "container_and_soil": "深 15–20 cm 未上釉红陶浅盆；仙人掌多肉土 或 60–65% 泥炭/营养土 + 35% 粗珍珠岩/粗砂/浮石",
-      "expected_harvest_window": "扦插定植后 4–6 周可轻采；实生播种需 10–13 周（75–95 天）",
+      "light_label": "高光作物（僅春夏全日照南窗勉強夠用，室內常年需補光燈）",
+      "ppfd_dli": "PPFD 250–300 μmol·m⁻²·s⁻¹（水培試驗 300–400）｜DLI 14–20｜12–16 h/天",
+      "container_and_soil": "深 15–20 cm 未上釉紅陶淺盆；仙人掌多肉土 或 60–65% 泥炭/營養土 + 35% 粗珍珠岩/粗砂/浮石",
+      "expected_harvest_window": "扦插定植後 4–6 周可輕採；實生播種需 10–13 周（75–95 天）",
       "difficulty": 3,
       "diagrams": [
         "pwt",
@@ -1367,11 +1385,11 @@ window.PLANTS_DATA = {
         "type": "image",
         "src": "assets/media/plants/thyme.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Thymus_vulgaris",
-        "caption": "百里香（麝香草） (Thyme) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "百里香（麝香草） (Thyme) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "拿喷壶从百里香头顶直接浇水，或者把超市一盆百里香拆成十几小盆。",
-        "botanical_truth": "① 百里香贴地丛生、冠层极密，头顶淋水会让水珠卡在中心根颈，室内极易诱发“冠腐/中心融化（Canopy melt）”，必须改用底部浸盆法或沿盆壁注入；② 百里香须根极细弱，暴力撕成十几小份几乎必死，超市盆栽只宜整盆换大或最多二等分；③ 浅层勤喷水会让表土发霉而深根干死，须“干透浸盆浇透”。",
+        "common_myth": "拿噴壺從百里香頭頂直接澆水，或者把超市一盆百里香拆成十幾小盆。",
+        "botanical_truth": "① 百里香貼地叢生、冠層極密，頭頂淋水會讓水珠卡在中心根頸，室內極易誘發“冠腐/中心融化（Canopy melt）”，必須改用底部浸盆法或沿盆壁注入；② 百里香鬚根極細弱，暴力撕成十幾小份幾乎必死，超市盆栽只宜整盆換大或最多二等分；③ 淺層勤噴水會讓表土發黴而深根乾死，須“乾透浸盆澆透”。",
         "source_refs": [
           "src_thyme_groovy",
           "src_thyme_westlondon",
@@ -1381,10 +1399,10 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "春季/秋季剪取 5–10 cm 非木质嫩梢（拒用开花老硬枝）",
-          "action": "在春（4–6 月）或秋（9–10 月）气温 20°C 左右，用锋利灭菌剪刀取健壮母株上部 5–10 cm 未木质化嫩梢，轻柔剪除下半段小叶，斜切基部并微晾干切口。",
-          "verification_checkpoint": "切口干净坚韧无汁液挤出，露出 2–3 个茎节，上部保留完整顶叶。",
-          "failure_signal": "选用开花后的深褐色枯老硬枝（极难生根且易枯朽）。",
+          "title": "春季/秋季剪取 5–10 cm 非木質嫩梢（拒用開花老硬枝）",
+          "action": "在春（4–6 月）或秋（9–10 月）氣溫 20°C 左右，用鋒利滅菌剪刀取健壯母株上部 5–10 cm 未木質化嫩梢，輕柔剪除下半段小葉，斜切基部並微晾乾切口。",
+          "verification_checkpoint": "切口乾淨堅韌無汁液擠出，露出 2–3 個莖節，上部保留完整頂葉。",
+          "failure_signal": "選用開花後的深褐色枯老硬枝（極難生根且易枯朽）。",
           "source_refs": [
             "src_thyme_baike_424",
             "src_thyme_yangtai_69",
@@ -1393,10 +1411,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 2,
-          "title": "无肥透气基质扦插诱根（优先于纯水泡）",
-          "action": "装入湿润纯净的珍珠岩、蛭石或河沙，将插穗斜插 3–5 cm 深并轻压稳固，放 18–25°C 明亮散射光处（若买超市整盆活苗，则直接带完整土球移入大一号透气盆，最多二等分）。",
-          "verification_checkpoint": "1–2 周后轻提插穗有明显阻力，并见新芽萌发。",
-          "failure_signal": "基质积水导致切口黑腐，或暴晒脱水干枯。",
+          "title": "無肥透氣基質扦插發根（優先於純水泡）",
+          "action": "裝入溼潤純淨的珍珠岩、蛭石或河沙，將插穗斜插 3–5 cm 深並輕壓穩固，放 18–25°C 明亮散射光處（若買超市整盆活苗，則直接帶完整土球移入大一號透氣盆，最多二等分）。",
+          "verification_checkpoint": "1–2 周後輕提插穗有明顯阻力，並見新芽萌發。",
+          "failure_signal": "基質積水導致切口黑腐，或暴曬脫水乾枯。",
           "source_refs": [
             "src_thyme_yangtai_69",
             "src_thyme_westlondon",
@@ -1405,10 +1423,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 3,
-          "title": "未上釉红陶浅盆 + 高颗粒排水土定植",
-          "action": "选用深 15–20 cm 的未上釉红陶浅盆，配土用多肉土或 60–65% 通用土 + 35% 粗珍珠岩/粗砂/浮石（禁止用带保水颗粒的土，禁止盆底垫碎石）；定植时让根颈完全露出土表。",
-          "verification_checkpoint": "灌水能瞬间穿透土层从底孔排出，根颈清爽不埋土。",
-          "failure_signal": "土壤含保水颗粒或黏重板结，浇完数天仍湿重。",
+          "title": "未上釉紅陶淺盆 + 高顆粒排水土定植",
+          "action": "選用深 15–20 cm 的未上釉紅陶淺盆，配土用多肉土或 60–65% 通用土 + 35% 粗珍珠岩/粗砂/浮石（禁止用帶保水顆粒的土，禁止盆底墊碎石）；定植時讓根頸完全露出土表。",
+          "verification_checkpoint": "灌水能瞬間穿透土層從底孔排出，根頸清爽不埋土。",
+          "failure_signal": "土壤含保水顆粒或黏重板結，澆完數天仍溼重。",
           "source_refs": [
             "src_thyme_groovy",
             "src_thyme_baike_424"
@@ -1416,10 +1434,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 4,
-          "title": "补光灯 14–16 小时 + 底部浸盆给水",
-          "action": "补光灯置于冠层上方 15–20 cm，每日照 14–16 小时（PPFD 250–300）；待土表下 4–5 cm 干透且花盆变轻时，将花盆坐入 2–3 cm 深水盘浸吸 15–20 分钟后取出沥干（严禁头顶淋水）。",
-          "verification_checkpoint": "植株呈密实丛状、香气浓，盆土 2–3 天内恢复干爽。",
-          "failure_signal": "从顶部灌水致中心黑软烂，或长久泡在托盘积水中。",
+          "title": "補光燈 14–16 小時 + 底部浸盆給水",
+          "action": "補光燈置於冠層上方 15–20 cm，每日照 14–16 小時（PPFD 250–300）；待土表下 4–5 cm 乾透且花盆變輕時，將花盆坐入 2–3 cm 深水盤浸吸 15–20 分鐘後取出瀝乾（嚴禁頭頂淋水）。",
+          "verification_checkpoint": "植株呈密實叢狀、香氣濃，盆土 2–3 天內恢復乾爽。",
+          "failure_signal": "從頂部灌水致中心黑軟爛，或長久泡在托盤積水中。",
           "source_refs": [
             "src_thyme_groovy",
             "src_thyme_urbanhydro",
@@ -1429,17 +1447,17 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "植株正中心突然发黑、倒伏、叶片软烂化水（Canopy melt）",
-          "root_cause": "长期从头顶浇水导致水分滞留在密闭枝叶与根颈之间，室内通风不足诱发冠腐病。",
-          "fix": "彻底剪除中央黑烂枝叶，改用底部浸盆法给水，并在旁边加强空气流动。",
+          "symptom": "植株正中心突然發黑、倒伏、葉片軟爛化水（Canopy melt）",
+          "root_cause": "長期從頭頂澆水導致水分滯留在密閉枝葉與根頸之間，室內通風不足誘發冠腐病。",
+          "fix": "徹底剪除中央黑爛枝葉，改用底部浸盆法給水，並在旁邊加強空氣流動。",
           "source_refs": [
             "src_thyme_groovy"
           ]
         },
         {
-          "symptom": "枝条下部光秃木质化、节间细长稀疏",
-          "root_cause": "光照不足（DLI < 14 mol·m⁻²·day⁻¹）导致的徒长与下部老叶早衰。",
-          "fix": "移到补光灯正下方维持 14 小时以上照射，并对过长枝梢轻度短截促发侧枝。",
+          "symptom": "枝條下部光禿木質化、節間細長稀疏",
+          "root_cause": "光照不足（DLI < 14 mol·m⁻²·day⁻¹）導致的徒長與下部老葉早衰。",
+          "fix": "移到補光燈正下方維持 14 小時以上照射，並對過長枝梢輕度短截促發側枝。",
           "source_refs": [
             "src_thyme_groovy",
             "src_thyme_led"
@@ -1450,37 +1468,37 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_thyme_baike_424",
           "source_type": "book",
-          "title": "蔬菜栽培百科全书（已拆分第04章）",
-          "author_or_publisher": "板木利隆 / 机械工业出版社",
-          "page_or_section": "书本第 424 页 (PDF 第 59 页) — 百里香（别名：麝香草）",
-          "quote_or_note": "唇形科百里香属多年生小灌木；喜欢光照、排水与透气良好的场所；可采用扦插繁殖，栽培要点强调防潮湿。",
+          "title": "蔬菜栽培百科全書（已拆分第04章）",
+          "author_or_publisher": "板木利隆 / 機械工業出版社",
+          "page_or_section": "書本第 424 頁 (PDF 第 59 頁) — 百里香（別名：麝香草）",
+          "quote_or_note": "唇形科百里香屬多年生小灌木；喜歡光照、排水與透氣良好的場所；可採用扦插繁殖，栽培要點強調防潮溼。",
           "verified": true
         },
         {
           "ref_id": "src_thyme_zuihao_101",
           "source_type": "book",
-          "title": "最好的家庭种菜书_日 靓丽出版社.pdf",
-          "author_or_publisher": "靓丽出版社（已人工核对实页）",
-          "page_or_section": "书本第 101 页 (PDF 第 83 页) — 麝香草",
-          "quote_or_note": "详细图解百里香（麝香草）盆栽管理、采收与扦插/压条繁殖流程。",
+          "title": "最好的家庭種菜書_日 靚麗出版社.pdf",
+          "author_or_publisher": "靚麗出版社（已人工核對實頁）",
+          "page_or_section": "書本第 101 頁 (PDF 第 83 頁) — 麝香草",
+          "quote_or_note": "詳細圖解百里香（麝香草）盆栽管理、採收與扦插/壓條繁殖流程。",
           "verified": true
         },
         {
           "ref_id": "src_thyme_yangtai_69",
           "source_type": "book",
-          "title": "阳台菜园：栽培可口蔬菜的 70 个诀窍.pdf",
-          "author_or_publisher": "本地图书（已人工核对实页）",
-          "page_or_section": "书本第 69 页 (PDF 第 76 页) — 香草的扦插",
-          "quote_or_note": "明文列举百里香（麝香草）适用 4–6 月或 9–10 月约 10 cm 嫩枝插入蛭石/赤玉土诱根，1–2 周轻提有阻力即生根。",
+          "title": "陽臺菜園：栽培可口蔬菜的 70 個訣竅.pdf",
+          "author_or_publisher": "本地圖書（已人工核對實頁）",
+          "page_or_section": "書本第 69 頁 (PDF 第 76 頁) — 香草的扦插",
+          "quote_or_note": "明文列舉百里香（麝香草）適用 4–6 月或 9–10 月約 10 cm 嫩枝插入蛭石/赤玉土發根，1–2 周輕提有阻力即生根。",
           "verified": true
         },
         {
           "ref_id": "src_thyme_zhaoling_29",
           "source_type": "book",
-          "title": "家庭种菜最健康_赵玲.pdf",
-          "author_or_publisher": "赵玲（已人工核对实页）",
-          "page_or_section": "书本第 29 页 (PDF 第 40 页) — 通用草本嫩枝扦插参数",
-          "quote_or_note": "注：该页原章为“救心菜”，提供了通用草本嫩枝扦插控温（18–25°C）及留 3–4 节插入疏松基质的参考。",
+          "title": "家庭種菜最健康_趙玲.pdf",
+          "author_or_publisher": "趙玲（已人工核對實頁）",
+          "page_or_section": "書本第 29 頁 (PDF 第 40 頁) — 通用草本嫩枝扦插參數",
+          "quote_or_note": "注：該頁原章為“救心菜”，提供了通用草本嫩枝扦插控溫（18–25°C）及留 3–4 節插入疏鬆基質的參考。",
           "verified": true
         },
         {
@@ -1490,7 +1508,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Groovy Root",
           "page_or_section": "Full Sunlight, Keep Soil Dry, Soil, Common Issues",
           "url": "https://www.groovyroot.com/pages/thyme",
-          "quote_or_note": "强调强光需求、干透再浇（禁用保水土）、防冠腐与霉斑通风。",
+          "quote_or_note": "強調強光需求、乾透再澆（禁用保水土）、防冠腐與黴斑通風。",
           "verified": true
         },
         {
@@ -1500,7 +1518,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "West London Gardener (YouTube)",
           "page_or_section": "Repotting Thyme",
           "url": "https://www.youtube.com/watch?v=YHWpvLm6IYc",
-          "quote_or_note": "百里香细弱须根禁暴力碎分十几小株，建议整盆移大或最多二等分。",
+          "quote_or_note": "百里香細弱鬚根禁暴力碎分十幾小株，建議整盆移大或最多二等分。",
           "verified": true
         },
         {
@@ -1510,7 +1528,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Urban Hydro Space",
           "page_or_section": "Thyme (Light, Germination, Harvest)",
           "url": "https://urbanhydrospace.com/hydroponic-crop-sources/",
-          "quote_or_note": "DLI 18–20 显著提升鲜重与精油含量；实生播种采收约 10–13 周（75–95 天）。",
+          "quote_or_note": "DLI 18–20 顯著提升鮮重與精油含量；實生播種採收約 10–13 周（75–95 天）。",
           "verified": true
         },
         {
@@ -1520,7 +1538,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Glowrium",
           "page_or_section": "Recommended PPFD for Plant Shelves",
           "url": "https://www.glowrium.com/blogs/news/houseplant-lighting-ppfd-guide",
-          "quote_or_note": "室内香草补光灯 PPFD 参考区间。",
+          "quote_or_note": "室內香草補光燈 PPFD 參考區間。",
           "verified": true
         },
         {
@@ -1530,7 +1548,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "LED Grow Lights Depot",
           "page_or_section": "DLI Categories",
           "url": "https://www.ledgrowlightsdepot.com/blogs/blog/urban-indoor-herb-garden-lighting-guide-for-apartments",
-          "quote_or_note": "公寓窗台秋冬 DLI 不足以支持地中海高光香草。",
+          "quote_or_note": "公寓窗臺秋冬 DLI 不足以支持地中海高光香草。",
           "verified": true
         },
         {
@@ -1539,43 +1557,47 @@ window.PLANTS_DATA = {
           "title": "Handbook of herbs and spices",
           "author_or_publisher": "Woodhead Publishing (Chapter 19 Thyme)",
           "page_or_section": "Chapter 19: Morphological description, Propagation, Cultivation",
-          "quote_or_note": "百里香为细弱须根丛生半灌木，宜用绿色非木质化嫩枝扦插；种子微小好光且发芽较慢。",
+          "quote_or_note": "百里香為細弱鬚根叢生半灌木，宜用綠色非木質化嫩枝扦插；種子微小好光且發芽較慢。",
           "verified": true
         }
       ]
     },
     {
       "id": "chives",
-      "name_zh": "细香葱（虾夷葱）",
+      "name_zh": "細香蔥（蝦夷蔥）",
       "name_en": "Chives",
       "aliases": [
+        "蝦夷蔥",
+        "北蔥",
+        "西餐香蔥",
+        "White-flowered Chives",
+        "细香葱（虾夷葱）",
         "虾夷葱",
         "北葱",
-        "西餐香葱",
-        "White-flowered Chives"
+        "西餐香葱"
       ],
       "botanical_name": "Allium schoenoprasum",
       "category": "allium",
       "scrap_regrow_verdict": "high_value",
-      "verdict_label": "带鳞茎丛分株极易成活（剪剩的叶子不再生，须带根株）",
+      "verdict_label": "帶鱗莖叢分株極易成活（剪剩的葉子不再生，須帶根株）",
       "best_starting_method": "grocery_pot_split",
-      "starting_method_label": "买活体株丛分株移栽（3–4 株/丛）或秋春播种",
-      "water_only_limit": "不适用纯剪叶水培（须带鳞茎根株入土，长保水力肥沃土最佳）",
+      "starting_method_label": "買活體株叢分株移栽（3–4 株/叢）或秋春播種",
+      "water_only_limit": "不適用純剪葉水培（須帶鱗莖根株入土，長保水力肥沃土最佳）",
       "light_requirement": "bright_windowsill_ok",
-      "light_label": "明亮窗台即可（耐寒多年生，凉爽至常温表现极佳）",
+      "light_label": "明亮窗臺即可（耐寒多年生，涼爽至常溫表現極佳）",
       "ppfd_dli": "PPFD 150–250 μmol·m⁻²·s⁻¹｜DLI 10–14｜12–14 h/天",
-      "container_and_soil": "箱式花盆或深 15 cm 透气盆；保水力良好的肥沃疏松营养土（切忌长期干涸）",
-      "expected_harvest_window": "活丛剃头修剪后 2 周发新叶；播种第一年少剪养株，第二年起高产",
+      "container_and_soil": "箱式花盆或深 15 cm 透氣盆；保水力良好的肥沃疏鬆營養土（切忌長期乾涸）",
+      "expected_harvest_window": "活叢剃頭修剪後 2 周發新葉；播種第一年少剪養株，第二年起高產",
       "difficulty": 1,
       "hero_media": {
         "type": "image",
         "src": "assets/media/plants/chives.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Chives",
-        "caption": "细香葱（虾夷葱） (Chives) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "細香蔥（蝦夷蔥） (Chives) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "拿西餐装饰剪下的细香葱叶梢插水里就能长出一整盆。",
-        "botanical_truth": "与小葱不同，菜市场切下的细香葱通常只有空心管状叶片、没有白色鳞茎基盘（Bulb/Crown），插水里只会慢慢变黄腐烂。想室内长久剪着吃，必须买带小鳞茎的活体株丛分株入盆（3–4 株一丛），定植后先剪短至 5 cm（2 英寸）逼出整齐强壮新叶。",
+        "common_myth": "拿西餐裝飾剪下的細香蔥葉梢插水裡就能長出一整盆。",
+        "botanical_truth": "與小蔥不同，菜市場切下的細香蔥通常只有空心管狀葉片、沒有白色鱗莖基盤（Bulb/Crown），插水裡只會慢慢變黃腐爛。想室內長久剪著吃，必須買帶小鱗莖的活體株叢分株入盆（3–4 株一叢），定植後先剪短至 5 cm（2 英寸）逼出整齊強壯新葉。",
         "source_refs": [
           "src_chives_baike_428",
           "src_chives_uvm",
@@ -1585,20 +1607,20 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "分株定植或穴播育苗（3–4 株一小组）",
-          "action": "若买活体细香葱盆栽，将过密根球分切为每丛 3–4 株的小丛定植（行距 7–8 cm 或箱式花盆分布）；若用种子，在肥沃保水良好的盆土表面每穴播 6–7 粒薄覆土。",
-          "verification_checkpoint": "每小丛底部鳞茎饱满无软烂，栽后株基直立。",
-          "failure_signal": "把没有根盘的纯绿葱叶插进水杯，或用极易干透的纯沙土栽培。",
+          "title": "分株定植或穴播育苗（3–4 株一小組）",
+          "action": "若買活體細香蔥盆栽，將過密根球分切為每叢 3–4 株的小叢定植（行距 7–8 cm 或箱式花盆分佈）；若用種子，在肥沃保水良好的盆土表面每穴播 6–7 粒薄覆土。",
+          "verification_checkpoint": "每小叢底部鱗莖飽滿無軟爛，栽後株基直立。",
+          "failure_signal": "把沒有根盤的純綠蔥葉插進水杯，或用極易乾透的純沙土栽培。",
           "source_refs": [
             "src_chives_baike_428"
           ]
         },
         {
           "step_number": 2,
-          "title": "定植“留茬 5 cm”剃头促新芽",
-          "action": "活丛买回或分株移栽进室内花盆后，若原有枝叶瘦弱徒长，直接用洁净剪刀留茬约 5 cm（2 英寸）剪平，放置于明亮窗台，保持土壤微潮但不积水。",
-          "verification_checkpoint": "7–14 天内从留茬中心迅速抽出整齐、粗壮且直立的深绿管状新叶。",
-          "failure_signal": "剪后土面长期积水导致鳞茎腐烂发臭，或持续半个月不抽新叶。",
+          "title": "定植“留茬 5 cm”剃頭促新芽",
+          "action": "活叢買回或分株移栽進室內花盆後，若原有枝葉瘦弱徒長，直接用潔淨剪刀留茬約 5 cm（2 英寸）剪平，放置於明亮窗臺，保持土壤微潮但不積水。",
+          "verification_checkpoint": "7–14 天內從留茬中心迅速抽出整齊、粗壯且直立的深綠管狀新葉。",
+          "failure_signal": "剪后土面長期積水導致鱗莖腐爛發臭，或持續半個月不抽新葉。",
           "source_refs": [
             "src_chives_iastate",
             "src_chives_uvm"
@@ -1606,10 +1628,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 3,
-          "title": "及时摘除花蕾并分月追肥",
-          "action": "细香葱长到 15 cm 以上可留茬剪食（第 1 年少剪养鳞茎，第 2 年起可大量多次剪收）；发现抽出紫红色（或白色）花苞时尽早摘蕾（除非特意留花食用），并每 1 个月追一次薄肥。",
-          "verification_checkpoint": "未留花消耗的植株叶片柔嫩辛香，每 2–3 年分株换土一次保持活力。",
-          "failure_signal": "任由大量开花结籽后，管状叶片迅速变老变硬、风味下降。",
+          "title": "及時摘除花蕾並分月追肥",
+          "action": "細香蔥長到 15 cm 以上可留茬剪食（第 1 年少剪養鱗莖，第 2 年起可大量多次剪收）；發現抽出紫紅色（或白色）花苞時儘早摘蕾（除非特意留花食用），並每 1 個月追一次薄肥。",
+          "verification_checkpoint": "未留花消耗的植株葉片柔嫩辛香，每 2–3 年分株換土一次保持活力。",
+          "failure_signal": "任由大量開花結籽後，管狀葉片迅速變老變硬、風味下降。",
           "source_refs": [
             "src_chives_baike_428"
           ]
@@ -1617,9 +1639,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "细香葱叶尖大面积干枯发黄",
-          "root_cause": "细香葱耐寒但不耐长期干旱，保水不足或室内空气过干。",
-          "fix": "改用保水力较好的有机营养土，土表刚发白微干时即浇透并剪去枯尖。",
+          "symptom": "細香蔥葉尖大面積乾枯發黃",
+          "root_cause": "細香蔥耐寒但不耐長期乾旱，保水不足或室內空氣過幹。",
+          "fix": "改用保水力較好的有機營養土，土表剛發白微干時即澆透並剪去枯尖。",
           "source_refs": [
             "src_chives_baike_428"
           ]
@@ -1629,10 +1651,10 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_chives_baike_428",
           "source_type": "book",
-          "title": "蔬菜栽培百科全书（已拆分第04章）",
-          "author_or_publisher": "板木利隆 / 机械工业出版社",
-          "page_or_section": "书本第 428–429 页 (PDF 第 63–64 页) — 细香葱",
-          "quote_or_note": "耐寒不耐旱，宜选保水力良好的肥沃土壤与箱式花盆；3–4 小株为一丛定植；若开花叶片会变硬，应及早摘蕾；第1年少采养株，第2年起可高产。",
+          "title": "蔬菜栽培百科全書（已拆分第04章）",
+          "author_or_publisher": "板木利隆 / 機械工業出版社",
+          "page_or_section": "書本第 428–429 頁 (PDF 第 63–64 頁) — 細香蔥",
+          "quote_or_note": "耐寒不耐旱，宜選保水力良好的肥沃土壤與箱式花盆；3–4 小株為一叢定植；若開花葉片會變硬，應及早摘蕾；第1年少採養株，第2年起可高產。",
           "verified": true
         },
         {
@@ -1642,7 +1664,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "University of Vermont Extension",
           "page_or_section": "Chives",
           "url": "https://www.uvm.edu/",
-          "quote_or_note": "细香葱为强健多年生植物，非常适合室内窗台栽培。",
+          "quote_or_note": "細香蔥為強健多年生植物，非常適合室內窗臺栽培。",
           "verified": true
         },
         {
@@ -1652,7 +1674,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Iowa State University Extension",
           "page_or_section": "Chives & Clump Trimming",
           "url": "https://www.extension.iastate.edu/",
-          "quote_or_note": "移栽入盆后修剪至约 2 英寸（5 cm），可迫使株丛长出强健整齐的新芽。",
+          "quote_or_note": "移栽入盆後修剪至約 2 英寸（5 cm），可迫使株叢長出強健整齊的新芽。",
           "verified": true
         }
       ]
@@ -1662,6 +1684,9 @@ window.PLANTS_DATA = {
       "name_zh": "韭菜",
       "name_en": "Garlic Chives (Chinese Chive)",
       "aliases": [
+        "寬葉韭",
+        "扁蔥",
+        "起陽草",
         "宽叶韭",
         "扁葱",
         "起阳草"
@@ -1669,25 +1694,25 @@ window.PLANTS_DATA = {
       "botanical_name": "Allium tuberosum",
       "category": "allium",
       "scrap_regrow_verdict": "high_value",
-      "verdict_label": "最耐半阴的室内常年“剪不死”蔬菜（需用带根分株/播种）",
+      "verdict_label": "最耐半陰的室內多年生蔬菜（需用帶根株叢分株或播種）",
       "best_starting_method": "grocery_pot_split",
-      "starting_method_label": "种根分株栽种或播种（可连续割 3–4 年）",
-      "water_only_limit": "不适用纯剪叶水培（菜场割下的无根韭菜叶不能水培再生）",
+      "starting_method_label": "種根分株栽種或播種（可連續割 3–4 年）",
+      "water_only_limit": "不適用純剪葉水培（菜場割下的無根韭菜葉不能水培再生）",
       "light_requirement": "bright_windowsill_ok",
-      "light_label": "极其耐半阴（普通窗台或半遮荫阳台均能长好，适温约 20℃）",
+      "light_label": "極其耐半陰（普通窗臺或半遮蔭陽臺均能長好，適溫約 20℃）",
       "ppfd_dli": "PPFD 120–220 μmol·m⁻²·s⁻¹｜DLI 8–12｜10–14 h/天",
-      "container_and_soil": "深 18–25 cm 标准长条花盆；赤玉土 40% + 堆肥 40% + 腐叶土 10% + 熏炭 10%（加基肥）",
-      "expected_harvest_window": "播种约 10 天发芽；株高 20–25 cm 可剪割，留茬 3–4 cm 后 2–3 周再割",
+      "container_and_soil": "深 18–25 cm 標準長條花盆；赤玉土 40% + 堆肥 40% + 腐葉土 10% + 燻炭 10%（加基肥）",
+      "expected_harvest_window": "播種約 10 天發芽；株高 20–25 cm 可剪割，留茬 3–4 cm 後 2–3 周再割",
       "difficulty": 1,
       "hero_media": {
         "type": "image",
         "src": "assets/media/plants/garlic-chives.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Allium_tuberosum",
-        "caption": "韭菜 (Garlic Chives (Chinese Chive)) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "韭菜 (Garlic Chives (Chinese Chive)) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "室内阳台光线不如大田，肯定种不好韭菜；或者拿一把割下来的韭菜泡水也能再长。",
-        "botanical_truth": "① 韭菜是极少数在室内半遮荫处也能长势旺盛的多年生蔬菜（藤田智明确指出适合稍微遮荫的阴凉场所），只要买带鳞茎根的韭菜根块或播种，种一次可连续割 3–4 年；② 关键规矩是：第一年少割“养株”、每次收割必须留出 3–4 cm 株基（切忌贴泥剃光头），且在土壤完全干透前就浇水，否则叶片变老变硬。",
+        "common_myth": "室內陽臺光線不如大田，肯定種不好韭菜；或者拿一把割下來的韭菜泡水也能再長。",
+        "botanical_truth": "① 韭菜是極少數在室內半遮蔭處也能長勢旺盛的多年生蔬菜（藤田智明確指出適合稍微遮蔭的陰涼場所），只要買帶鱗莖根的韭菜根塊或播種，種一次可連續割 3–4 年；② 關鍵規矩是：第一年少割“養株”、每次收割必須留出 3–4 cm 株基（切忌貼泥剃光頭），且在土壤完全乾透前就澆水，否則葉片變老變硬。",
         "source_refs": [
           "src_jiucai_fujita_44",
           "src_jiucai_baike_210"
@@ -1696,10 +1721,10 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "播种或带根分株定植（2–4 株/穴）",
-          "action": "按 15–20 cm 间隔挖 0.5–1 cm 浅坑，每坑点播 5–6 粒种子覆薄土浇透（约 10 天发芽）；若买现成韭菜根块，每穴栽 2–4 株健壮带根苗。",
-          "verification_checkpoint": "约 10 天出苗如细绿针；定植苗基部白色根茎挺立无腐烂。",
-          "failure_signal": "覆土过深（> 2 cm）导致不出苗，或第 1 年幼苗太细时就急着全割。",
+          "title": "播種或帶根分株定植（2–4 株/穴）",
+          "action": "按 15–20 cm 間隔挖 0.5–1 cm 淺坑，每坑點播 5–6 粒種子覆薄土澆透（約 10 天發芽）；若買現成韭菜根塊，每穴栽 2–4 株健壯帶根苗。",
+          "verification_checkpoint": "約 10 天出苗如細綠針；定植苗基部白色根莖挺立無腐爛。",
+          "failure_signal": "覆土過深（> 2 cm）導致不出苗，或第 1 年幼苗太細時就急著全割。",
           "source_refs": [
             "src_jiucai_fujita_45",
             "src_jiucai_baike_210"
@@ -1707,20 +1732,20 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 2,
-          "title": "防干控水（土一干叶子就变硬）",
-          "action": "置于约 20°C、稍微遮荫或散射光良好的窗台/阳台；在表土完全干透之前就浇满水（保持基质适度湿润但盆底不积涝），留意蓟马、蚜虫与锈病。",
-          "verification_checkpoint": "叶片宽厚直立、叶色翠绿柔嫩，捏起来脆而不发柴。",
-          "failure_signal": "盆土长期干透才浇水，导致韭菜叶纤维化变硬难嚼。",
+          "title": "防幹控水（土一干葉子就變硬）",
+          "action": "置於約 20°C、稍微遮蔭或散射光良好的窗臺/陽臺；在表土完全乾透之前就澆滿水（保持基質適度溼潤但盆底不積澇），留意薊馬、蚜蟲與鏽病。",
+          "verification_checkpoint": "葉片寬厚直立、葉色翠綠柔嫩，捏起來脆而不發柴。",
+          "failure_signal": "盆土長期乾透才澆水，導致韭菜葉纖維化變硬難嚼。",
           "source_refs": [
             "src_jiucai_fujita_44"
           ]
         },
         {
           "step_number": 3,
-          "title": "留茬 3–4 cm 剪切 + 割后追肥培土",
-          "action": "待株高长到 20–30 cm 时，用洁净刀剪在离土面 3–4 cm 处平割（第一年少割养根，之后可反复割）；每次收割后追施有机肥并轻培一层薄土，秋季抽花茎及时剪除。",
-          "verification_checkpoint": "割完后 3–5 天伤口上方冒出嫩绿新叶，2–3 周可再割一茬；3–4 年后叶片变细可挖起分株重栽。",
-          "failure_signal": "贴着土面剪断生长点，或连续割 3 茬不追肥导致韭菜越来越细如杂草。",
+          "title": "留茬 3–4 cm 剪切 + 割後追肥培土",
+          "action": "待株高長到 20–30 cm 時，用潔淨刀剪在離土面 3–4 cm 處平割（第一年少割養根，之後可反覆割）；每次收割後追施有機肥並輕培一層薄土，秋季抽花莖及時剪除。",
+          "verification_checkpoint": "割完後 3–5 天傷口上方冒出嫩綠新葉，2–3 周可再割一茬；3–4 年後葉片變細可挖起分株重栽。",
+          "failure_signal": "貼著土面剪斷生長點，或連續割 3 茬不追肥導致韭菜越來越細如雜草。",
           "source_refs": [
             "src_jiucai_fujita_45",
             "src_jiucai_baike_210"
@@ -1729,9 +1754,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "越割越细、长势一年不如一年",
-          "root_cause": "每次割完未及时追肥培土（缺乏“礼肥”与基质老化），或任由秋季抽花苔开花消耗鳞茎养分。",
-          "fix": "每割一次按说明追施腐熟肥/堆肥并培薄土；见到花茎立刻剪除；每 3 年翻盆分株更新一次。",
+          "symptom": "越割越細、長勢一年不如一年",
+          "root_cause": "每次割完未及時追肥培土（缺乏“禮肥”與基質老化），或任由秋季抽花苔開花消耗鱗莖養分。",
+          "fix": "每割一次按說明追施腐熟肥/堆肥並培薄土；見到花莖立刻剪除；每 3 年翻盆分株更新一次。",
           "source_refs": [
             "src_jiucai_fujita_45",
             "src_jiucai_baike_210"
@@ -1742,54 +1767,58 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_jiucai_fujita_44",
           "source_type": "book",
-          "title": "最新有机家庭盆栽种菜法",
+          "title": "最新有機家庭盆栽種菜法",
           "author_or_publisher": "藤田智",
-          "page_or_section": "书本第 44 页 (PDF 第 45 页) — 韭菜",
-          "quote_or_note": "百合科，适温约 20℃，摆放稍微遮荫阴凉处亦可；土壤一旦干燥叶子会变硬，需在干燥前浇满水；第1年鼓励养株，可连续收 3–4 年。",
+          "page_or_section": "書本第 44 頁 (PDF 第 45 頁) — 韭菜",
+          "quote_or_note": "百合科，適溫約 20℃，擺放稍微遮蔭陰涼處亦可；土壤一旦乾燥葉子會變硬，需在乾燥前澆滿水；第1年鼓勵養株，可連續收 3–4 年。",
           "verified": true
         },
         {
           "ref_id": "src_jiucai_fujita_45",
           "source_type": "book",
-          "title": "最新有机家庭盆栽种菜法",
+          "title": "最新有機家庭盆栽種菜法",
           "author_or_publisher": "藤田智",
-          "page_or_section": "书本第 45 页 (PDF 第 46 页) — 韭菜播种与收割",
-          "quote_or_note": "播后约 10 天发芽；高 20–30 cm 时留 3–4 cm 株基用剪刀剪取；割后追肥培土并剪除花茎；数年后变细应挖出分株重栽。",
+          "page_or_section": "書本第 45 頁 (PDF 第 46 頁) — 韭菜播種與收割",
+          "quote_or_note": "播後約 10 天發芽；高 20–30 cm 時留 3–4 cm 株基用剪刀剪取；割後追肥培土並剪除花莖；數年後變細應挖出分株重栽。",
           "verified": true
         },
         {
           "ref_id": "src_jiucai_baike_210",
           "source_type": "book",
-          "title": "蔬菜栽培百科全书（已拆分第02章）",
-          "author_or_publisher": "板木利隆 / 机械工业出版社",
-          "page_or_section": "书本第 210–211 页 (PDF 第 85–86 页) — 韭菜",
-          "quote_or_note": "栽植 1 次可反复收割多次，1 年可收割数次；3–4 年后根系过密需重新定植；每穴栽 3–4 株健壮苗。",
+          "title": "蔬菜栽培百科全書（已拆分第02章）",
+          "author_or_publisher": "板木利隆 / 機械工業出版社",
+          "page_or_section": "書本第 210–211 頁 (PDF 第 85–86 頁) — 韭菜",
+          "quote_or_note": "栽植 1 次可反覆收割多次，1 年可收割數次；3–4 年後根系過密需重新定植；每穴栽 3–4 株健壯苗。",
           "verified": true
         }
       ]
     },
     {
       "id": "perilla",
-      "name_zh": "紫苏（青紫苏 / 红紫苏）",
+      "name_zh": "紫蘇（青紫蘇 / 紅紫蘇）",
       "name_en": "Perilla (Shiso)",
       "aliases": [
+        "青紫蘇",
+        "大葉紫蘇",
+        "回回蘇",
+        "Shiso",
+        "紫苏（青紫苏 / 红紫苏）",
         "青紫苏",
         "大叶紫苏",
-        "回回苏",
-        "Shiso"
+        "回回苏"
       ],
       "botanical_name": "Perilla frutescens",
       "category": "herb",
       "scrap_regrow_verdict": "high_value",
-      "verdict_label": "带节嫩枝极易水培生根；种子好光浅播也极稳",
+      "verdict_label": "帶節嫩枝極易水培生根；種子好光淺播也極穩",
       "best_starting_method": "kitchen_scrap_water_to_soil",
-      "starting_method_label": "鲜嫩茎段水插生根转土 / 5 mm 极浅条播育苗",
-      "water_only_limit": "7–14 天水插生根后须转入湿润营养土",
+      "starting_method_label": "鮮嫩莖段水插生根轉土 / 5 mm 極淺條播育苗",
+      "water_only_limit": "7–14 天水插生根後須轉入溼潤營養土",
       "light_requirement": "bright_windowsill_ok",
-      "light_label": "明亮散射至充足阳光（半遮荫也能长，强光叶色更艳香气更足）",
+      "light_label": "明亮散射至充足陽光（半遮蔭也能長，強光葉色更豔香氣更足）",
       "ppfd_dli": "PPFD 180–300 μmol·m⁻²·s⁻¹｜DLI 12–16｜12–14 h/天",
-      "container_and_soil": "深 18–20 cm 以上标准盆；透气保水营养土（忌彻底干透，干则叶硬卷）",
-      "expected_harvest_window": "水插 1–2 周生根；播种至高 30–40 cm 从底叶采收约 6–8 周",
+      "container_and_soil": "深 18–20 cm 以上標準盆；透氣保水營養土（忌徹底乾透，幹則葉硬卷）",
+      "expected_harvest_window": "水插 1–2 周生根；播種至高 30–40 cm 從底葉採收約 6–8 周",
       "difficulty": 2,
       "diagrams": [
         "pinch_node",
@@ -1799,11 +1828,11 @@ window.PLANTS_DATA = {
         "type": "image",
         "src": "assets/media/plants/perilla.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Perilla_frutescens",
-        "caption": "紫苏（青紫苏 / 红紫苏） (Perilla (Shiso)) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "紫蘇（青紫蘇 / 紅紫蘇） (Perilla (Shiso)) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "紫苏和地中海香草（迷迭香/牛至）一样耐旱，要等土彻底干透再浇。",
-        "botanical_truth": "紫苏虽和罗勒、薄荷同属唇形科，但与耐旱的迷迭香截然不同！紫苏叶片大、蒸腾快，非常怕盆土彻底干透（土壤干燥前就应浇满水，否则叶子萎蔫变糙、极易招红蜘蛛）；另外紫苏种子非常细小且好光，播种只能覆极薄一层土（约 5 mm），盖太厚反而闷死不出苗。",
+        "common_myth": "紫蘇和地中海香草（迷迭香/牛至）一樣耐旱，要等土徹底乾透再澆。",
+        "botanical_truth": "紫蘇雖和羅勒、薄荷同屬唇形科，但與耐旱的迷迭香截然不同！紫蘇葉片大、蒸騰快，非常怕盆土徹底乾透（土壤乾燥前就應澆滿水，否則葉子萎蔫變糙、極易招紅蜘蛛）；另外紫蘇種子非常細小且好光，播種只能覆極薄一層土（約 5 mm），蓋太厚反而悶死不出苗。",
         "source_refs": [
           "src_perilla_fujita_42",
           "src_perilla_extension"
@@ -1812,10 +1841,10 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "浅播育苗（5 mm 极薄覆土）或鲜枝带节水插",
-          "action": "若播种：划约 5 mm 浅槽条播，仅盖极薄一层细土并保持湿润不干；若用买来的新鲜紫苏枝：保留 2 个茎节摘除水下叶片，插清水每天换水至长出 2–4 cm 白根后上盆。",
-          "verification_checkpoint": "7–12 天破土出双子叶（或水插 7–14 天节位冒出白色须根）。",
-          "failure_signal": "种子埋深超过 1.5 cm 不出芽，或发芽后土表干涸一次幼苗即成片倒死。",
+          "title": "淺播育苗（5 mm 極薄覆土）或鮮枝帶節水插",
+          "action": "若播種：劃約 5 mm 淺槽條播，僅蓋極薄一層細土並保持溼潤不幹；若用買來的新鮮紫蘇枝：保留 2 個莖節摘除水下葉片，插清水每天換水至長出 2–4 cm 白根後上盆。",
+          "verification_checkpoint": "7–12 天破土出雙子葉（或水插 7–14 天節位冒出白色鬚根）。",
+          "failure_signal": "種子埋深超過 1.5 cm 不出芽，或發芽后土表乾涸一次幼苗即成片倒死。",
           "source_refs": [
             "src_perilla_fujita_43",
             "src_perilla_yangtai_69"
@@ -1823,20 +1852,20 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 2,
-          "title": "分三次间苗拉足株距（最终留 15 cm）",
-          "action": "发芽后留距 3 cm 第一次间苗；茎高 5–6 cm 时留距 6 cm；长到 10 cm 时最终保留株距 15 cm 的健壮单株（标准花盆通常留 1–2 株即可长成大丛）。",
-          "verification_checkpoint": "叶片舒展互不遮挡，茎干粗壮呈方形（唇形科典型特征）。",
-          "failure_signal": "小盆挤满十几株不间苗，导致全部细长弱小且底部闷烂。",
+          "title": "分三次間苗拉足株距（最終留 15 cm）",
+          "action": "發芽後留距 3 cm 第一次間苗；莖高 5–6 cm 時留距 6 cm；長到 10 cm 時最終保留株距 15 cm 的健壯單株（標準花盆通常留 1–2 株即可長成大叢）。",
+          "verification_checkpoint": "葉片舒展互不遮擋，莖幹粗壯呈方形（唇形科典型特徵）。",
+          "failure_signal": "小盆擠滿十幾株不間苗，導致全部細長弱小且底部悶爛。",
           "source_refs": [
             "src_perilla_fujita_43"
           ]
         },
         {
           "step_number": 3,
-          "title": "定期追肥培土 + 摘心 + 从底部大叶采收",
-          "action": "本叶 7–8 片时追肥培土，之后每 2 周追一次薄肥并轻培土；高 30–40 cm 时先频繁掐去顶端生长点（摘心）促生侧枝，采食时从底部老成的大片叶子开始依次摘取，一次别摘光。",
-          "verification_checkpoint": "越掐顶越呈灌木丛状分枝，底叶采后新叶不断长大，叶片柔软芳香。",
-          "failure_signal": "盆土经常干透导致叶背爆发红蜘蛛（出现细密黄白斑点）或秋末开花抽穗后叶片变硬。",
+          "title": "定期追肥培土 + 摘心 + 從底部大葉採收",
+          "action": "本葉 7–8 片時追肥培土，之後每 2 周追一次薄肥並輕培土；高 30–40 cm 時先頻繁掐去頂端生長點（摘心）促生側枝，採食時從底部老成的大片葉子開始依次摘取，一次別摘光。",
+          "verification_checkpoint": "越掐頂越呈灌木叢狀分枝，底葉採後新葉不斷長大，葉片柔軟芳香。",
+          "failure_signal": "盆土經常乾透導致葉背爆發紅蜘蛛（出現細密黃白斑點）或秋末開花抽穗後葉片變硬。",
           "source_refs": [
             "src_perilla_fujita_42",
             "src_perilla_fujita_43",
@@ -1846,9 +1875,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "叶片正面出现密集针尖大小黄白斑点、叶背有细丝网",
-          "root_cause": "室内空气干燥高温，紫苏极易爆发红蜘蛛（叶螨）与蚜虫。",
-          "fix": "切勿等盆土干裂再浇水；发现初期用流动清水冲洗叶背并隔离喷施杀虫皂液/苦楝油。",
+          "symptom": "葉片正面出現密集針尖大小黃白斑點、葉背有細絲網",
+          "root_cause": "室內空氣乾燥高溫，紫蘇極易爆發紅蜘蛛（葉蟎）與蚜蟲。",
+          "fix": "切勿等盆土乾裂再澆水；發現初期用流動清水沖洗葉背並隔離噴施殺蟲皂液/苦楝油。",
           "source_refs": [
             "src_perilla_fujita_42",
             "src_perilla_zuihao_77"
@@ -1859,37 +1888,37 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_perilla_fujita_42",
           "source_type": "book",
-          "title": "最新有机家庭盆栽种菜法",
+          "title": "最新有機家庭盆栽種菜法",
           "author_or_publisher": "藤田智",
-          "page_or_section": "书本第 42 页 (PDF 第 43 页) — 紫苏",
-          "quote_or_note": "唇形科，适温 20–25℃，半遮荫也能长好但强光叶色更艳；在土壤干燥之前应浇满水；留意红蜘蛛、蚜虫与锈病。",
+          "page_or_section": "書本第 42 頁 (PDF 第 43 頁) — 紫蘇",
+          "quote_or_note": "唇形科，適溫 20–25℃，半遮蔭也能長好但強光葉色更豔；在土壤乾燥之前應澆滿水；留意紅蜘蛛、蚜蟲與鏽病。",
           "verified": true
         },
         {
           "ref_id": "src_perilla_fujita_43",
           "source_type": "book",
-          "title": "最新有机家庭盆栽种菜法",
+          "title": "最新有機家庭盆栽種菜法",
           "author_or_publisher": "藤田智",
-          "page_or_section": "书本第 43 页 (PDF 第 44 页) — 紫苏间苗与采收",
-          "quote_or_note": "划 5 mm 浅槽条播；分三次间苗至 15 cm 株距；每 2 周追肥培土；高 30–40 cm 时从底下大叶依次采收。",
+          "page_or_section": "書本第 43 頁 (PDF 第 44 頁) — 紫蘇間苗與採收",
+          "quote_or_note": "劃 5 mm 淺槽條播；分三次間苗至 15 cm 株距；每 2 周追肥培土；高 30–40 cm 時從底下大葉依次採收。",
           "verified": true
         },
         {
           "ref_id": "src_perilla_zuihao_77",
           "source_type": "book",
-          "title": "最好的家庭种菜书_日 靓丽出版社.pdf",
-          "author_or_publisher": "靓丽出版社（已人工核对实页）",
-          "page_or_section": "书本第 77 页 (PDF 第 59 页) — 紫苏",
-          "quote_or_note": "介绍紫苏盆栽移栽、摘心促分枝与叶面水肥管理要点。",
+          "title": "最好的家庭種菜書_日 靚麗出版社.pdf",
+          "author_or_publisher": "靚麗出版社（已人工核對實頁）",
+          "page_or_section": "書本第 77 頁 (PDF 第 59 頁) — 紫蘇",
+          "quote_or_note": "介紹紫蘇盆栽移栽、摘心促分枝與葉面水肥管理要點。",
           "verified": true
         },
         {
           "ref_id": "src_perilla_yangtai_69",
           "source_type": "book",
-          "title": "阳台菜园：栽培可口蔬菜的 70 个诀窍.pdf",
-          "author_or_publisher": "本地图书（已人工核对实页）",
-          "page_or_section": "书本第 69 页 (PDF 第 76 页) — 香草的扦插",
-          "quote_or_note": "明文列举紫苏适用于嫩枝扦插繁殖。",
+          "title": "陽臺菜園：栽培可口蔬菜的 70 個訣竅.pdf",
+          "author_or_publisher": "本地圖書（已人工核對實頁）",
+          "page_or_section": "書本第 69 頁 (PDF 第 76 頁) — 香草的扦插",
+          "quote_or_note": "明文列舉紫蘇適用於嫩枝扦插繁殖。",
           "verified": true
         },
         {
@@ -1898,43 +1927,46 @@ window.PLANTS_DATA = {
           "title": "Indoor Herb Care: Perilla / Shiso",
           "author_or_publisher": "Horticultural Care Synthesis",
           "page_or_section": "Perilla Moisture & Pinching",
-          "quote_or_note": "紫苏喜微湿不耐彻底干透，频繁摘心可防长成光杆单枝。",
+          "quote_or_note": "紫蘇喜微溼不耐徹底乾透，頻繁摘心可防長成光桿單枝。",
           "verified": true
         }
       ]
     },
     {
       "id": "lettuce",
-      "name_zh": "散叶生菜（罗马生菜头再生辟谣）",
+      "name_zh": "散葉生菜（羅馬生菜頭再生闢謠）",
       "name_en": "Loose-leaf Lettuce",
       "aliases": [
         "生菜",
+        "葉用萵苣",
+        "羅馬生菜頭",
+        "Romaine Core",
+        "散叶生菜（罗马生菜头再生辟谣）",
         "叶用莴苣",
-        "罗马生菜头",
-        "Romaine Core"
+        "罗马生菜头"
       ],
       "botanical_name": "Lactuca sativa",
       "category": "leafy_stem",
       "scrap_regrow_verdict": "partial_greens_only",
-      "verdict_label": "网红水碗长整棵系谣言：菜头仅收 1 次嫩心叶；持续吃须浅播散叶种",
+      "verdict_label": "常見迷思：菜頭泡水僅能收 1 次小嫩葉；想長期採收應播種散葉生菜",
       "best_starting_method": "direct_seed",
-      "starting_method_label": "5–10 mm 浅播散叶生菜（菜头水培仅作 10 天趣味实验）",
-      "water_only_limit": "7–14 天（菜头纯水 2 周内必耗尽能量变苦抽薹，不可持续）",
+      "starting_method_label": "5–10 mm 淺播散葉生菜（菜頭水培僅作 10 天趣味實驗）",
+      "water_only_limit": "7–14 天（菜頭純水 2 周內必耗盡能量變苦抽薹，不可持續）",
       "light_requirement": "grow_light_recommended",
-      "light_label": "中强光照 + 凉爽环境（15–20℃，夜间须放全黑无光处防抽薹）",
-      "ppfd_dli": "PPFD 150–250 μmol·m⁻²·s⁻¹｜DLI 10–14｜12–14 h/天（夜间须漆黑）",
-      "container_and_soil": "宽口浅盆或标准盆（株距 20 cm）；赤玉土 40% + 堆肥 40% + 腐叶土 10% + 熏炭 10%",
-      "expected_harvest_window": "菜头水培 10–14 天剪 1 份迷你嫩叶；播种散叶生菜 35–45 天可一片片摘外叶吃",
+      "light_label": "中強光照 + 涼爽環境（15–20℃，夜間須放全黑無光處防抽薹）",
+      "ppfd_dli": "PPFD 150–250 μmol·m⁻²·s⁻¹｜DLI 10–14｜12–14 h/天（夜間須漆黑）",
+      "container_and_soil": "寬口淺盆或標準盆（株距 20 cm）；赤玉土 40% + 堆肥 40% + 腐葉土 10% + 燻炭 10%",
+      "expected_harvest_window": "菜頭水培 10–14 天剪 1 份迷你嫩葉；播種散葉生菜 35–45 天可一片片摘外葉吃",
       "difficulty": 2,
       "hero_media": {
         "type": "image",
         "src": "assets/media/plants/lettuce.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Lettuce",
-        "caption": "散叶生菜（罗马生菜头再生辟谣） (Loose-leaf Lettuce) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "散葉生菜（羅馬生菜頭再生闢謠） (Loose-leaf Lettuce) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "把吃剩的罗马生菜菜头泡进水碗，就能长出一整棵脆甜大生菜。",
-        "botanical_truth": "多个大学农业推广站与园艺实测已明确辟谣：纯水碗里的生菜头**不可能**再长出超市整棵生菜！菜心只是靠内部储存的碳水化合物在 10–14 天内快速吐出几片小内叶，随后因缺乏完整根系与矿质营养，迅速变苦并抽薹（Bolting）。若真想在家持续吃沙拉，直接买散叶生菜（Loose-leaf）种子浅播才是正解，而且夜间必须放到没有灯光照射的黑暗处。",
+        "common_myth": "把吃剩的羅馬生菜菜頭泡進水碗，就能長出一整棵脆甜大生菜。",
+        "botanical_truth": "多個大學農業推廣站與園藝實測已明確闢謠：純水碗裡的生菜頭**不可能**再長出超市整棵生菜！菜心只是靠內部儲存的碳水化合物在 10–14 天內快速吐出幾片小內葉，隨後因缺乏完整根系與礦質營養，迅速變苦並抽薹（Bolting）。若真想在家持續吃沙拉，直接買散葉生菜（Loose-leaf）種子淺播才是正解，而且夜間必須放到沒有燈光照射的黑暗處。",
         "source_refs": [
           "src_lettuce_gardenerspath",
           "src_lettuce_almanac",
@@ -1944,10 +1976,10 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "【路线选择】菜头趣味实验 vs 散叶生菜正经播种",
-          "action": "若只图 10 天玩一下菜头：留 4–5 cm 底座放 1 cm 浅水每日换水，第 10–14 天剪掉长出的那小撮嫩叶后即可丢弃。若想真正连续吃生菜：在透气营养土表挖 5–10 mm 极浅坑（间距 20 cm），每坑放 4–7 粒散叶生菜种子薄覆土浇透。",
-          "verification_checkpoint": "播种后放在阴凉处保持湿润，3–7 天内成片破土出芽。",
-          "failure_signal": "覆土过厚（> 2 cm）焖住好光性生菜种子导致不出芽，或仲夏高温下强行播种不发芽。",
+          "title": "【路線選擇】菜頭趣味實驗 vs 散葉生菜正經播種",
+          "action": "若只圖 10 天玩一下菜頭：留 4–5 cm 底座放 1 cm 淺水每日換水，第 10–14 天剪掉長出的那小撮嫩葉後即可丟棄。若想真正連續吃生菜：在透氣營養土表挖 5–10 mm 極淺坑（間距 20 cm），每坑放 4–7 粒散葉生菜種子薄覆土澆透。",
+          "verification_checkpoint": "播種後放在陰涼處保持溼潤，3–7 天內成片破土出芽。",
+          "failure_signal": "覆土過厚（> 2 cm）燜住好光性生菜種子導致不出芽，或仲夏高溫下強行播種不發芽。",
           "source_refs": [
             "src_lettuce_fujita_35",
             "src_lettuce_baike_224",
@@ -1956,10 +1988,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 2,
-          "title": "三次间苗每穴只留 1 棵壮苗 + 防蚜虫",
-          "action": "双子叶展开后每穴留 3 棵培土；长出 2–3 片真叶留 2 棵；5–6 片真叶时拔掉弱苗仅留 1 棵健壮单株并追肥培土。室内如曾带入蚜虫建议套防虫网或隔离。",
-          "verification_checkpoint": "单株之间不互相挤压重叠，莲座叶盘平展贴地或微翘。",
-          "failure_signal": "密密麻麻挤在一起不间苗，长成一盆瘦弱拉长的“菜苗草”且底部发霉（菌核病）。",
+          "title": "三次間苗每穴只留 1 棵壯苗 + 防蚜蟲",
+          "action": "雙子葉展開後每穴留 3 棵培土；長出 2–3 片真葉留 2 棵；5–6 片真葉時拔掉弱苗僅留 1 棵健壯單株並追肥培土。室內如曾帶入蚜蟲建議套防蟲網或隔離。",
+          "verification_checkpoint": "單株之間不互相擠壓重疊，蓮座葉盤平展貼地或微翹。",
+          "failure_signal": "密密麻麻擠在一起不間苗，長成一盆瘦弱拉長的“菜苗草”且底部發黴（菌核病）。",
           "source_refs": [
             "src_lettuce_fujita_35",
             "src_lettuce_baike_224"
@@ -1967,10 +1999,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 3,
-          "title": "控温 + 夜间避光 + 剥外留心连续采收",
-          "action": "白天给足 12–14 小时补光灯或明亮散射光（适温 15–20°C），**夜晚务必关闭室内强灯光**（放置在无光漆黑环境以免扰乱光周期提前抽薹）；吃的时候从最外圈一片一片摘大叶，永远留住中心生长点。",
-          "verification_checkpoint": "外叶脆嫩微甜无苦味，每 3–5 天可稳定采摘一次做沙拉。",
-          "failure_signal": "室内温度持续 > 25°C 或夜间长期受客厅白炽/LED灯直射，导致生菜突然拔高抽薹、汁液发苦。",
+          "title": "控溫 + 夜間避光 + 剝外留心連續採收",
+          "action": "白天給足 12–14 小時補光燈或明亮散射光（適溫 15–20°C），**夜晚務必關閉室內強燈光**（放置在無光漆黑環境以免擾亂光週期提前抽薹）；吃的時候從最外圈一片一片摘大葉，永遠留住中心生長點。",
+          "verification_checkpoint": "外葉脆嫩微甜無苦味，每 3–5 天可穩定採摘一次做沙拉。",
+          "failure_signal": "室內溫度持續 > 25°C 或夜間長期受客廳白熾/LED燈直射，導致生菜突然拔高抽薹、汁液發苦。",
           "source_refs": [
             "src_lettuce_fujita_34",
             "src_lettuce_baike_224",
@@ -1980,9 +2012,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "生菜还没长多大就突然中间拔起一根长杆、叶子变苦",
-          "root_cause": "环境温度过高（> 24°C）或夜间人造光源照射造成生理性抽薹（Bolting）。",
-          "fix": "避开夏季高温及暖气旁种植；晚上务必断光放在黑暗处；已抽薹发苦可整株采收换新茬。",
+          "symptom": "生菜還沒長多大就突然中間拔起一根長杆、葉子變苦",
+          "root_cause": "環境溫度過高（> 24°C）或夜間人造光源照射造成生理性抽薹（Bolting）。",
+          "fix": "避開夏季高溫及暖氣旁種植；晚上務必斷光放在黑暗處；已抽薹發苦可整株採收換新茬。",
           "source_refs": [
             "src_lettuce_fujita_34",
             "src_lettuce_baike_224"
@@ -1993,28 +2025,28 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_lettuce_fujita_34",
           "source_type": "book",
-          "title": "最新有机家庭盆栽种菜法",
+          "title": "最新有機家庭盆栽種菜法",
           "author_or_publisher": "藤田智",
-          "page_or_section": "书本第 34 页 (PDF 第 35 页) — 散叶生菜",
-          "quote_or_note": "菊科，适温 15–20℃（避开仲夏）；适合阳光良好处，但夜间需放在没有光照的漆黑场所；可一片一片采收外叶，留意蚜虫与菌核病。",
+          "page_or_section": "書本第 34 頁 (PDF 第 35 頁) — 散葉生菜",
+          "quote_or_note": "菊科，適溫 15–20℃（避開仲夏）；適合陽光良好處，但夜間需放在沒有光照的漆黑場所；可一片一片採收外葉，留意蚜蟲與菌核病。",
           "verified": true
         },
         {
           "ref_id": "src_lettuce_fujita_35",
           "source_type": "book",
-          "title": "最新有机家庭盆栽种菜法",
+          "title": "最新有機家庭盆栽種菜法",
           "author_or_publisher": "藤田智",
-          "page_or_section": "书本第 35 页 (PDF 第 36 页) — 播种、三次间苗与采收",
-          "quote_or_note": "覆土 5–10 mm 不宜过厚；分三次间苗最终每穴留 1 棵并追肥培土；高约 25 cm 可整株收或按需剥叶。",
+          "page_or_section": "書本第 35 頁 (PDF 第 36 頁) — 播種、三次間苗與採收",
+          "quote_or_note": "覆土 5–10 mm 不宜過厚；分三次間苗最終每穴留 1 棵並追肥培土；高約 25 cm 可整株收或按需剝葉。",
           "verified": true
         },
         {
           "ref_id": "src_lettuce_baike_224",
           "source_type": "book",
-          "title": "蔬菜栽培百科全书（已拆分第02章）",
-          "author_or_publisher": "板木利隆 / 机械工业出版社",
-          "page_or_section": "书本第 224–225 页 (PDF 第 99–100 页) — 散叶生菜",
-          "quote_or_note": "种子极小浅播；高温长日照下易抽薹；从外侧叶片依次剥采可持续吃很久。",
+          "title": "蔬菜栽培百科全書（已拆分第02章）",
+          "author_or_publisher": "板木利隆 / 機械工業出版社",
+          "page_or_section": "書本第 224–225 頁 (PDF 第 99–100 頁) — 散葉生菜",
+          "quote_or_note": "種子極小淺播；高溫長日照下易抽薹；從外側葉片依次剝採可持續吃很久。",
           "verified": true
         },
         {
@@ -2023,7 +2055,7 @@ window.PLANTS_DATA = {
           "title": "Can You Really Regrow Lettuce from a Scrap?",
           "author_or_publisher": "Gardeners' Path",
           "page_or_section": "Extension & Horticultural Verdict",
-          "quote_or_note": "水培生菜底座永远无法长成完整商品大生菜，持续食用必须从种子或水培带根整株起步。",
+          "quote_or_note": "水培生菜底座永遠無法長成完整商品大生菜，持續食用必須從種子或水培帶根整株起步。",
           "verified": true
         },
         {
@@ -2033,32 +2065,35 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Farmers' Almanac",
           "page_or_section": "Romaine Lettuce",
           "url": "https://www.farmersalmanac.com/",
-          "quote_or_note": "仅靠内源养分吐出一小撮嫩叶，10–14 天内易耗竭抽薹变苦。",
+          "quote_or_note": "僅靠內源養分吐出一小撮嫩葉，10–14 天內易耗竭抽薹變苦。",
           "verified": true
         }
       ]
     },
     {
       "id": "oregano",
-      "name_zh": "牛至（披萨草）",
+      "name_zh": "牛至（披薩草）",
       "name_en": "Oregano",
       "aliases": [
+        "披薩草",
+        "俄力岡",
+        "地中海牛至",
+        "牛至（披萨草）",
         "披萨草",
-        "俄力冈",
-        "地中海牛至"
+        "俄力冈"
       ],
       "botanical_name": "Origanum vulgare",
       "category": "herb",
       "scrap_regrow_verdict": "partial_greens_only",
-      "verdict_label": "地中海耐旱香草：嫩枝可插，室内死因 90% 为浇水过多与缺光",
+      "verdict_label": "地中海耐旱香草：嫩枝可插，室內死因 90% 為澆水過多與缺光",
       "best_starting_method": "grocery_pot_split",
-      "starting_method_label": "买活苗换疏松红陶盆 / 嫩梢扦插（重强光、忌积水）",
-      "water_only_limit": "仅限未木质化嫩梢水插生根（1–2 周出根须立即转透水颗粒土）",
+      "starting_method_label": "買活苗換疏鬆紅陶盆 / 嫩梢扦插（重強光、忌積水）",
+      "water_only_limit": "僅限未木質化嫩梢水插生根（1–2 周出根鬚立即轉透水顆粒土）",
       "light_requirement": "grow_light_required",
-      "light_label": "极强光需求（最亮南/西向窗台或每日 10–14+ 小时补光灯）",
+      "light_label": "極強光需求（最亮南/西向窗臺或每日 10–14+ 小時補光燈）",
       "ppfd_dli": "PPFD 300–450 μmol·m⁻²·s⁻¹｜DLI 16–22｜14–16 h/天",
-      "container_and_soil": "带排水孔的红陶盆或透气盆；无菌无土疏松盆栽基质（可混 30% 珍珠岩提升排水）",
-      "expected_harvest_window": "活苗定植 2–3 周可掐枝；播种约 6–8 周可轻采",
+      "container_and_soil": "帶排水孔的紅陶盆或透氣盆；無菌無土疏鬆盆栽基質（可混 30% 珍珠岩提升排水）",
+      "expected_harvest_window": "活苗定植 2–3 周可掐枝；播種約 6–8 周可輕採",
       "difficulty": 3,
       "diagrams": [
         "pwt",
@@ -2068,11 +2103,11 @@ window.PLANTS_DATA = {
         "type": "image",
         "src": "assets/media/plants/oregano.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Oregano",
-        "caption": "牛至（披萨草） (Oregano) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "牛至（披薩草） (Oregano) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "牛至和薄荷、香菜放一起每天顺手浇一次水就好，用院子里的园土种更省钱。",
-        "botanical_truth": "① 农业推广站（Iowa State / NC State Extension）明确警告：绝对不要把室外园土挖进室内种香草（易板结且自带害虫病菌），必须用无菌无土疏松盆栽基质（Soilless mix）；② 过度浇水是室内牛至的头号杀手，必须让盆土向下干透几英寸再浇透；③ 没强光就没有香味——缺光不仅徒长，牛至标志性的芳香精油浓度也会大幅下降。",
+        "common_myth": "牛至和薄荷、香菜放一起每天順手澆一次水就好，用院子裡的園土種更省錢。",
+        "botanical_truth": "① 農業推廣站（Iowa State / NC State Extension）明確警告：絕對不要把室外園土挖進室內種香草（易板結且自帶害蟲病菌），必須用無菌無土疏鬆盆栽基質（Soilless mix）；② 過度澆水是室內牛至的頭號殺手，必須讓盆土向下乾透幾英寸再澆透；③ 沒強光就沒有香味——缺光不僅徒長，牛至標誌性的芳香精油濃度也會大幅下降。",
         "source_refs": [
           "src_oregano_iastate",
           "src_oregano_ncsu",
@@ -2082,10 +2117,10 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "选用无菌疏松无土基质 + 有底孔花盆",
-          "action": "准备带充足排水孔的花盆（优选透气陶盆），填入无菌无土轻质盆栽土（可再混入 25%–30% 珍珠岩增强透气），严禁掺入室外院子园土。",
-          "verification_checkpoint": "基质抓起松散成团一碰即散，浇水后顺畅从底孔流出、托盘余水立即倒掉。",
-          "failure_signal": "使用室外田园泥土或无底孔装饰套盆导致长期闷水。",
+          "title": "選用無菌疏鬆無土基質 + 有底孔花盆",
+          "action": "準備帶充足排水孔的花盆（優選透氣陶盆），填入無菌無土輕質盆栽土（可再混入 25%–30% 珍珠岩增強透氣），嚴禁摻入室外院子園土。",
+          "verification_checkpoint": "基質抓起鬆散成團一碰即散，澆水後順暢從底孔流出、托盤餘水立即倒掉。",
+          "failure_signal": "使用室外田園泥土或無底孔裝飾套盆導致長期悶水。",
           "source_refs": [
             "src_oregano_ncsu",
             "src_oregano_psu"
@@ -2093,10 +2128,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 2,
-          "title": "放置全光谱强光下并严格“深干后浇”",
-          "action": "放到家里阳光最猛的南/西向窗台，或直接置于全光谱 LED 补光灯下每天照射 14–16 小时；浇水前用手指探入盆土数厘米至深层干爽再一次浇透（切勿天天浅浇）。",
-          "verification_checkpoint": "枝条紧凑匍匐或半直立，叶片厚实绒感明显、揉搓香气浓烈。",
-          "failure_signal": "茎节突然拉得又细又长、倒向窗外且几乎闻不到披萨草香气（典型缺光徒长）。",
+          "title": "放置全光譜強光下並嚴格“深幹後澆”",
+          "action": "放到家裡陽光最猛的南/西向窗臺，或直接置於全光譜 LED 補光燈下每天照射 14–16 小時；澆水前用手指探入盆土數釐米至深層乾爽再一次澆透（切勿天天淺澆）。",
+          "verification_checkpoint": "枝條緊湊匍匐或半直立，葉片厚實絨感明顯、揉搓香氣濃烈。",
+          "failure_signal": "莖節突然拉得又細又長、倒向窗外且幾乎聞不到披薩草香氣（典型缺光徒長）。",
           "source_refs": [
             "src_oregano_iastate",
             "src_oregano_ncsu",
@@ -2105,10 +2140,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 3,
-          "title": "花前摘心修剪促进分枝",
-          "action": "当枝条长到 12–15 cm 以上时，从两对叶节点上方 0.5 cm 剪取顶部枝梢食用；看到花蕾及时掐除，防止养分消耗在开花上。",
-          "verification_checkpoint": "剪口下叶腋迅速分生双侧枝，株型饱满不光秃。",
-          "failure_signal": "茎基部发黑软烂并伴有小黑飞（蕈蚊）飞舞，说明浇水太勤已烂根。",
+          "title": "花前摘心修剪促進分枝",
+          "action": "當枝條長到 12–15 cm 以上時，從兩對葉節點上方 0.5 cm 剪取頂部枝梢食用；看到花蕾及時掐除，防止養分消耗在開花上。",
+          "verification_checkpoint": "剪口下葉腋迅速分生雙側枝，株型飽滿不光禿。",
+          "failure_signal": "莖基部發黑軟爛並伴有小黑飛（蕈蚊）飛舞，說明澆水太勤已爛根。",
           "source_refs": [
             "src_oregano_uvm",
             "src_oregano_iastate"
@@ -2117,9 +2152,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "底部茎叶发黑萎蔫、土面爬满小黑飞",
-          "root_cause": "过度浇水 + 排水不良（牛至室内 1 号死因），积水环境正合蕈蚊幼虫繁殖。",
-          "fix": "立刻停止浇水、倒空托盘，换用混入 30% 珍珠岩的干燥无菌基质；用黄色粘虫板控虫。",
+          "symptom": "底部莖葉發黑萎蔫、土面爬滿小黑飛",
+          "root_cause": "過度澆水 + 排水不良（牛至室內 1 號死因），積水環境正合蕈蚊幼蟲繁殖。",
+          "fix": "立刻停止澆水、倒空托盤，換用混入 30% 珍珠岩的乾燥無菌基質；用黃色粘蟲板控蟲。",
           "source_refs": [
             "src_oregano_iastate",
             "src_oregano_ncsu"
@@ -2134,7 +2169,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Iowa State University Extension",
           "page_or_section": "Oregano & Overwatering Warning",
           "url": "https://www.extension.iastate.edu/",
-          "quote_or_note": "牛至需最强室内光照（南/西窗或 10–14 小时补光），两次浇水间须让土壤向下干透几英寸，过度浇水是头号杀手。",
+          "quote_or_note": "牛至需最強室內光照（南/西窗或 10–14 小時補光），兩次澆水間須讓土壤向下乾透幾英寸，過度澆水是頭號殺手。",
           "verified": true
         },
         {
@@ -2144,7 +2179,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "NC State Extension",
           "page_or_section": "Soilless Mix & Finger Watering Test",
           "url": "https://content.ces.ncsu.edu/",
-          "quote_or_note": "严禁室内使用室外园土；必须用带排水孔容器配无菌无土基质，手指测土干再浇并倒空底盘积水。",
+          "quote_or_note": "嚴禁室內使用室外園土；必須用帶排水孔容器配無菌無土基質，手指測土幹再澆並倒空底盤積水。",
           "verified": true
         },
         {
@@ -2154,7 +2189,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "University of Vermont Extension",
           "page_or_section": "Mediterranean Herbs (Oregano)",
           "url": "https://www.uvm.edu/",
-          "quote_or_note": "地中海多年生香草，需要强光与干燥透气的根系环境。",
+          "quote_or_note": "地中海多年生香草，需要強光與乾燥透氣的根系環境。",
           "verified": true
         },
         {
@@ -2164,44 +2199,48 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Penn State Extension",
           "page_or_section": "Light & Soil Mix",
           "url": "https://extension.psu.edu/",
-          "quote_or_note": "大多烹饪香草每天至少需 6 小时直射光或全光谱补光灯，否则徒长且风味精油下降。",
+          "quote_or_note": "大多烹飪香草每天至少需 6 小時直射光或全光譜補光燈，否則徒長且風味精油下降。",
           "verified": true
         }
       ]
     },
     {
       "id": "microgreens",
-      "name_zh": "芽苗菜 / 微菜苗（萝卜苗 · 紫甘蓝苗 · 豆芽）",
+      "name_zh": "芽苗菜 / 微菜苗（蘿蔔苗 · 紫甘藍苗 · 豆芽）",
       "name_en": "Microgreens & Sprouts",
       "aliases": [
         "芽菜",
+        "蘿蔔芽",
+        "紫甘藍芽",
+        "豌豆苗",
+        "西蘭花苗",
+        "芽苗菜 / 微菜苗（萝卜苗 · 紫甘蓝苗 · 豆芽）",
         "萝卜芽",
         "紫甘蓝芽",
-        "豌豆苗",
         "西兰花苗"
       ],
       "botanical_name": "Raphanus sativus / Brassica oleracea (Sprouts)",
       "category": "leafy_stem",
       "scrap_regrow_verdict": "high_value",
-      "verdict_label": "室内新手零失败王牌：无土只用水，7–10 天必收",
+      "verdict_label": "新手零失敗首選：免用土只用水，7–10 天即可收成",
       "best_starting_method": "direct_seed",
-      "starting_method_label": "海绵/纱布保水盘密播，前期遮光出芽后见光（豆芽全程遮光）",
-      "water_only_limit": "全程仅靠清水喷雾/换水（依靠种子内源高浓缩营养，7–10 天采收完毕）",
+      "starting_method_label": "海綿/紗布保水盤密播，前期遮光出芽後見光（豆芽全程遮光）",
+      "water_only_limit": "全程僅靠清水噴霧/換水（依靠種子內源高濃縮營養，7–10 天採收完畢）",
       "light_requirement": "bright_windowsill_ok",
-      "light_label": "前期铝箔纸全黑遮光；展叶期移至明亮窗台绿化即可（大豆芽全程避光）",
-      "ppfd_dli": "展叶绿化期 PPFD 100–200 μmol·m⁻²·s⁻¹ 或明亮窗台散射光",
-      "container_and_soil": "平底浅盒铺湿润海绵/棉花/纱布（萝卜芽、紫甘蓝芽）；或纱布封口玻璃罐（豆芽）",
-      "expected_harvest_window": "18–22℃ 下约 2 天发芽，7–10 天即可齐根剪下收割",
+      "light_label": "前期鋁箔紙全黑遮光；展葉期移至明亮窗臺綠化即可（大豆芽全程避光）",
+      "ppfd_dli": "展葉綠化期 PPFD 100–200 μmol·m⁻²·s⁻¹ 或明亮窗臺散射光",
+      "container_and_soil": "平底淺盒鋪溼潤海綿/棉花/紗布（蘿蔔芽、紫甘藍芽）；或紗布封口玻璃罐（豆芽）",
+      "expected_harvest_window": "18–22℃ 下約 2 天發芽，7–10 天即可齊根剪下收割",
       "difficulty": 1,
       "hero_media": {
         "type": "image",
         "src": "assets/media/plants/microgreens.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Microgreen",
-        "caption": "芽苗菜 / 微菜苗（萝卜苗 · 紫甘蓝苗 · 豆芽） (Microgreens & Sprouts) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "芽苗菜 / 微菜苗（蘿蔔苗 · 紫甘藍苗 · 豆芽） (Microgreens & Sprouts) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "室内没阳光没花盆就种不出新鲜蔬菜，只能拿烂菜头泡水碰运气。",
-        "botanical_truth": "芽苗菜（Microgreens/Sprouts）完全不需要土壤和大空间：利用种子自身浓缩的蛋白质与维生素，只需海绵/纱布和清水，在 18–22℃ 厨房里 2 天发芽、7–10 天就能稳定收割一整盘高营养鲜菜，产出效率与成功率远超泡芹菜头或生菜头。",
+        "common_myth": "室內沒陽光沒花盆就種不出新鮮蔬菜，只能拿爛菜頭泡水碰運氣。",
+        "botanical_truth": "芽苗菜（Microgreens/Sprouts）完全不需要土壤和大空間：利用種子自身濃縮的蛋白質與維生素，只需海綿/紗布和清水，在 18–22℃ 廚房裡 2 天發芽、7–10 天就能穩定收割一整盤高營養鮮菜，產出效率與成功率遠超泡芹菜頭或生菜頭。",
         "source_refs": [
           "src_micro_fujita_50"
         ]
@@ -2209,30 +2248,30 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "铺湿润保水底垫并无缝密播（或玻璃瓶浸种）",
-          "action": "【萝卜芽/紫甘蓝芽】在平底浅盒底铺海绵、棉花或纱布，加水润湿（不淹没种子），将芽菜专用种子无缝隙平铺；【豆芽】玻璃罐放入种子后加 4–5 倍清水，瓶口蒙纱布用橡皮筋扎紧。",
-          "verification_checkpoint": "种子均匀单层紧挨分布，底垫湿润但无深积水淹没种子。",
-          "failure_signal": "水加太多把种子彻底泡在水底缺氧发臭，或使用了包衣拌药的农业大田种子。",
+          "title": "鋪溼潤保水底墊並無縫密播（或玻璃瓶浸種）",
+          "action": "【蘿蔔芽/紫甘藍芽】在平底淺盒底鋪海綿、棉花或紗布，加水潤溼（不淹沒種子），將芽菜專用種子無縫隙平鋪；【豆芽】玻璃罐放入種子後加 4–5 倍清水，瓶口蒙紗布用橡皮筋紮緊。",
+          "verification_checkpoint": "種子均勻單層緊挨分佈，底墊溼潤但無深積水淹沒種子。",
+          "failure_signal": "水加太多把種子徹底泡在水底缺氧發臭，或使用了包衣拌藥的農業大田種子。",
           "source_refs": [
             "src_micro_fujita_50"
           ]
         },
         {
           "step_number": 2,
-          "title": "铝箔纸遮光催芽 + 每日早晚喷水/淘洗",
-          "action": "发芽前用铝箔纸或遮光盖包好遮光，保持 18–22℃；浅盒型每天早晚用喷雾器喷水防干；玻璃瓶豆芽型每天将瓶倒置从纱布口沥干旧水，加水晃动刷洗 2–3 次再排干继续遮光。",
-          "verification_checkpoint": "约 48 小时（2 天左右）整齐萌发洁白嫩芽与主根（根上的白色绒毛是正常根毛，不是发霉）。",
-          "failure_signal": "忘记换水/喷水导致闷臭发黏（真霉菌呈灰黑色蛛网状且有腐臭）。",
+          "title": "鋁箔紙遮光催芽 + 每日早晚噴水/淘洗",
+          "action": "發芽前用鋁箔紙或遮光蓋包好遮光，保持 18–22℃；淺盒型每天早晚用噴霧器噴水防幹；玻璃瓶豆芽型每天將瓶倒置從紗布口瀝乾舊水，加水晃動刷洗 2–3 次再排幹繼續遮光。",
+          "verification_checkpoint": "約 48 小時（2 天左右）整齊萌發潔白嫩芽與主根（根上的白色絨毛是正常根毛，不是發黴）。",
+          "failure_signal": "忘記換水/噴水導致悶臭發黏（真黴菌呈灰黑色蛛網狀且有腐臭）。",
           "source_refs": [
             "src_micro_fujita_50"
           ]
         },
         {
           "step_number": 3,
-          "title": "双叶展开后移向阳处绿化并剪割（豆芽除外）",
-          "action": "萝卜芽、紫甘蓝芽等长齐并看到两片子叶（双叶）时，揭去铝箔纸移到明亮窗台见光转绿，继续早晚喷雾供水；大豆芽则全程不可见光（见光会变绿发苦）。第 7–10 天齐基部剪下食用。",
-          "verification_checkpoint": "萝卜芽子叶迅速由鹅黄转为鲜翠绿（或紫甘蓝芽呈鲜紫红），茎秆脆嫩挺拔。",
-          "failure_signal": "超过 12 天不采收导致子叶老化苦涩或因水中无肥而倒伏腐烂。",
+          "title": "雙葉展開後移向陽處綠化並剪割（豆芽除外）",
+          "action": "蘿蔔芽、紫甘藍芽等長齊並看到兩片子葉（雙葉）時，揭去鋁箔紙移到明亮窗臺見光轉綠，繼續早晚噴霧供水；大豆芽則全程不可見光（見光會變綠髮苦）。第 7–10 天齊基部剪下食用。",
+          "verification_checkpoint": "蘿蔔芽子葉迅速由鵝黃轉為鮮翠綠（或紫甘藍芽呈鮮紫紅），莖稈脆嫩挺拔。",
+          "failure_signal": "超過 12 天不採收導致子葉老化苦澀或因水中無肥而倒伏腐爛。",
           "source_refs": [
             "src_micro_fujita_50"
           ]
@@ -2240,9 +2279,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "把白色毛茸茸的“根毛”误认成发霉整盘扔掉",
-          "root_cause": "萝卜芽等十字花科幼根在湿润空气中会长出密集的显微吸水根毛。",
-          "fix": "喷一点水：若白毛紧贴主根、闻起来是清新菜香且喷水后贴伏，就是健康根毛；若跨越几颗种子连成灰黑丝网且有酸臭味才是发霉。",
+          "symptom": "把白色毛茸茸的“根毛”誤認成發黴整盤扔掉",
+          "root_cause": "蘿蔔芽等十字花科幼根在溼潤空氣中會長出密集的顯微吸水根毛。",
+          "fix": "噴一點水：若白毛緊貼主根、聞起來是清新菜香且噴水後貼伏，就是健康根毛；若跨越幾顆種子連成灰黑絲網且有酸臭味才是發黴。",
           "source_refs": [
             "src_micro_fujita_50"
           ]
@@ -2252,10 +2291,10 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_micro_fujita_50",
           "source_type": "book",
-          "title": "最新有机家庭盆栽种菜法",
+          "title": "最新有機家庭盆栽種菜法",
           "author_or_publisher": "藤田智",
-          "page_or_section": "书本第 50 页 (PDF 第 51 页) — 一起种芽菜吧",
-          "quote_or_note": "详解海绵/纱布浅盒法（萝卜芽、紫甘蓝：18–20℃ 铝箔纸遮光 2 天发芽、见双叶后移向阳处、早晚喷雾）与纱布封口瓶法（豆芽：18–22℃ 全程遮光、每日换水刷洗 2–3 次，7–10 天满瓶收获）。",
+          "page_or_section": "書本第 50 頁 (PDF 第 51 頁) — 一起種芽菜吧",
+          "quote_or_note": "詳解海綿/紗布淺盒法（蘿蔔芽、紫甘藍：18–20℃ 鋁箔紙遮光 2 天發芽、見雙葉後移向陽處、早晚噴霧）與紗布封口瓶法（豆芽：18–22℃ 全程遮光、每日換水刷洗 2–3 次，7–10 天滿瓶收穫）。",
           "verified": true
         }
       ]
@@ -2267,21 +2306,22 @@ window.PLANTS_DATA = {
       "aliases": [
         "蕹菜",
         "通菜",
-        "竹叶菜",
-        "Ong Choy"
+        "竹葉菜",
+        "Ong Choy",
+        "竹叶菜"
       ],
       "botanical_name": "Ipomoea aquatica",
       "category": "leafy_stem",
       "scrap_regrow_verdict": "high_value",
-      "verdict_label": "超市菜梗水插发根王牌：耐湿热、2–3 周即可掐嫩梢",
+      "verdict_label": "超市菜梗扦插首選：耐濕熱、水插極易發根，2–3 週即可採收嫩梢",
       "best_starting_method": "kitchen_scrap_water_to_soil",
-      "starting_method_label": "粗壮带节菜梗水培出根 → 转湿润肥沃盆土（或浸种一昼夜直播）",
-      "water_only_limit": "5–10 天极速出根，随后转入保水重肥盆土（或营养液）以防空心茎老化",
+      "starting_method_label": "粗壯帶節菜梗水培出根 → 轉溼潤肥沃盆土（或浸種一晝夜直播）",
+      "water_only_limit": "5–10 天極速出根，隨後轉入保水重肥盆土（或營養液）以防空心莖老化",
       "light_requirement": "bright_windowsill_ok",
-      "light_label": "喜充足阳光与高温（25–30℃ 疯长，低于 15℃ 停滞发黄）",
+      "light_label": "喜充足陽光與高溫（25–30℃ 瘋長，低於 15℃ 停滯發黃）",
       "ppfd_dli": "PPFD 200–350 μmol·m⁻²·s⁻¹｜DLI 12–18｜12–14 h/天",
-      "container_and_soil": "深 20 cm 保水力强的花盆（或无底孔半水耕盆）；富含有机质且不断水的肥沃土壤",
-      "expected_harvest_window": "菜梗水插 3–5 天冒白根；定植后每 2–3 周可频繁掐顶采收嫩梢",
+      "container_and_soil": "深 20 cm 保水力強的花盆（或無底孔半水耕盆）；富含有機質且不斷水的肥沃土壤",
+      "expected_harvest_window": "菜梗水插 3–5 天冒白根；定植後每 2–3 周可頻繁掐頂採收嫩梢",
       "difficulty": 1,
       "diagrams": [
         "water_line",
@@ -2291,11 +2331,11 @@ window.PLANTS_DATA = {
         "type": "image",
         "src": "assets/media/plants/water-spinach.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Ipomoea_aquatica",
-        "caption": "空心菜（蕹菜 / 通菜） (Water Spinach (Kangkong)) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "空心菜（蕹菜 / 通菜） (Water Spinach (Kangkong)) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "所有绿叶菜梗泡水都会烂；或者冬天冷窗台也能种空心菜。",
-        "botanical_truth": "① 空心菜（旋花科，与红薯同属）茎节上布满极易萌发的不定根原基，《蔬菜栽培百科全书》第 338–339 页明确指出“可直接利用市场上买的茎叶剪下顶端枝条进行扦插繁殖”；② 但它是典型热带喜温耐湿蔬菜，盛夏别的菜热死时它疯长，而室温低于 15℃ 就会生长停滞甚至冷害枯死；③ 绝不能缺水缺肥，一旦干旱茎秆就会老化变韧。",
+        "common_myth": "所有綠葉菜梗泡水都會爛；或者冬天冷窗臺也能種空心菜。",
+        "botanical_truth": "① 空心菜（旋花科，與紅薯同屬）莖節上佈滿極易萌發的不定根原基，《蔬菜栽培百科全書》第 338–339 頁明確指出“可直接利用市場上買的莖葉剪下頂端枝條進行扦插繁殖”；② 但它是典型熱帶喜溫耐溼蔬菜，盛夏別的菜熱死時它瘋長，而室溫低於 15℃ 就會生長停滯甚至冷害枯死；③ 絕不能缺水缺肥，一旦乾旱莖稈就會老化變韌。",
         "source_refs": [
           "src_kongxin_baike_338"
         ]
@@ -2303,30 +2343,30 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "截取带 2–3 个节位的超市健壮菜梗（或温水浸种一夜）",
-          "action": "把买来的空心菜上半部嫩尖掐下炒菜，留下底部长 10–15 cm、带有 2–3 个明显茎节的粗壮下半段，摘掉最底下节位的老叶；若用种子，因种皮坚硬需先泡水一昼夜再播（每穴 3–4 粒，覆土 1 cm）。",
-          "verification_checkpoint": "扦插茎秆坚挺中空未压扁，下部至少有 1–2 个节位干净无残叶。",
-          "failure_signal": "茎节已被指甲掐烂发黑，或在室温 < 15℃ 的寒冬冷水里扦插。",
+          "title": "截取帶 2–3 個節位的超市健壯菜梗（或溫水浸種一夜）",
+          "action": "把買來的空心菜上半部嫩尖掐下炒菜，留下底部長 10–15 cm、帶有 2–3 個明顯莖節的粗壯下半段，摘掉最底下節位的老葉；若用種子，因種皮堅硬需先泡水一晝夜再播（每穴 3–4 粒，覆土 1 cm）。",
+          "verification_checkpoint": "扦插莖稈堅挺中空未壓扁，下部至少有 1–2 個節位乾淨無殘葉。",
+          "failure_signal": "莖節已被指甲掐爛發黑，或在室溫 < 15℃ 的寒冬冷水裡扦插。",
           "source_refs": [
             "src_kongxin_baike_338"
           ]
         },
         {
           "step_number": 2,
-          "title": "浅水诱根 3–7 天后移栽入湿润肥土",
-          "action": "将菜梗下部 1–2 个茎节浸入清水中，置于温暖明亮处（22–30℃），每 1–2 天换水；3–7 天节位长出密集白根后，按株距 15–20 cm 移入施足基肥的保水盆土中并浇足水。",
-          "verification_checkpoint": "节位环绕冒出 2–4 cm 洁白须根，顶芽或叶腋开始吐出翠绿新尖。",
-          "failure_signal": "长期留在纯水里不给肥，长出的叶片狭小泛黄且茎细如草。",
+          "title": "淺水發根 3–7 天后移栽入溼潤肥土",
+          "action": "將菜梗下部 1–2 個莖節浸入清水中，置於溫暖明亮處（22–30℃），每 1–2 天換水；3–7 天節位長出密集白根後，按株距 15–20 cm 移入施足基肥的保水盆土中並澆足水。",
+          "verification_checkpoint": "節位環繞冒出 2–4 cm 潔白鬚根，頂芽或葉腋開始吐出翠綠新尖。",
+          "failure_signal": "長期留在純水裡不給肥，長出的葉片狹小泛黃且莖細如草。",
           "source_refs": [
             "src_kongxin_baike_338"
           ]
         },
         {
           "step_number": 3,
-          "title": "不断水不断肥 + 留基部 2 节高频掐梢采收",
-          "action": "生长期切忌干旱，土表稍干即浇透水（可铺草保水），每 2 周追施一次氮磷钾均衡肥；当枝蔓长到 25–30 cm 时，在基部留 2 个节位掐下嫩梢食用——留下的腋芽会继续一分二萌发新梢，每 2–3 周可再采。",
-          "verification_checkpoint": "每次掐梢后腋芽迅速爆出 2 根嫩枝，空心茎脆嫩无硬纤维。",
-          "failure_signal": "盆土干透导致茎蔓木质化变硬，或任由枝蔓爬满不修剪导致过密通风不良。",
+          "title": "不斷水不斷肥 + 留基部 2 節高頻掐梢採收",
+          "action": "生長期切忌乾旱，土表稍幹即澆透水（可鋪草保水），每 2 周追施一次氮磷鉀均衡肥；當枝蔓長到 25–30 cm 時，在基部留 2 個節位掐下嫩梢食用——留下的腋芽會繼續一分二萌發新梢，每 2–3 周可再採。",
+          "verification_checkpoint": "每次掐梢後腋芽迅速爆出 2 根嫩枝，空心莖脆嫩無硬纖維。",
+          "failure_signal": "盆土乾透導致莖蔓木質化變硬，或任由枝蔓爬滿不修剪導致過密通風不良。",
           "source_refs": [
             "src_kongxin_baike_338"
           ]
@@ -2334,9 +2374,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "空心菜梗吃起来又老又柴、咬不动",
-          "root_cause": "盆土经常缺水干燥、肥力不足，或长太长未及时掐嫩梢。",
-          "fix": "换保水力强的深盆并保持基质常湿润；每次追薄肥并在嫩梢 20–25 cm 时及时采收。",
+          "symptom": "空心菜梗吃起來又老又柴、咬不動",
+          "root_cause": "盆土經常缺水乾燥、肥力不足，或長太長未及時掐嫩梢。",
+          "fix": "換保水力強的深盆並保持基質常溼潤；每次追薄肥並在嫩梢 20–25 cm 時及時採收。",
           "source_refs": [
             "src_kongxin_baike_338"
           ]
@@ -2346,10 +2386,10 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_kongxin_baike_338",
           "source_type": "book",
-          "title": "蔬菜栽培百科全书（已拆分第03章）",
-          "author_or_publisher": "板木利隆 / 机械工业出版社",
-          "page_or_section": "书本第 338–339 页 (PDF 第 103–104 页) — 空心菜（蕹菜）",
-          "quote_or_note": "旋花科，耐热耐湿极强（不耐寒）；既可浸种一夜播种，也可直接利用市售茎叶剪下枝条扦插繁殖；不耐旱忌缺水缺肥，2–3 周即可连续掐嫩梢收获。",
+          "title": "蔬菜栽培百科全書（已拆分第03章）",
+          "author_or_publisher": "板木利隆 / 機械工業出版社",
+          "page_or_section": "書本第 338–339 頁 (PDF 第 103–104 頁) — 空心菜（蕹菜）",
+          "quote_or_note": "旋花科，耐熱耐溼極強（不耐寒）；既可浸種一夜播種，也可直接利用市售莖葉剪下枝條扦插繁殖；不耐旱忌缺水缺肥，2–3 周即可連續掐嫩梢收穫。",
           "verified": true
         }
       ]
@@ -2367,25 +2407,25 @@ window.PLANTS_DATA = {
       "botanical_name": "Eruca vesicaria (Eruca sativa)",
       "category": "leafy_stem",
       "scrap_regrow_verdict": "not_recommended",
-      "verdict_label": "不靠厨余再生，但种子直播发芽极快、25–35 天即可剥叶吃",
+      "verdict_label": "不靠廚餘再生，但種子直播發芽極快、25–35 天即可剝葉吃",
       "best_starting_method": "direct_seed",
-      "starting_method_label": "箱式花盆直接浅播（覆土 5–10 mm，3–5 天极速出芽）",
-      "water_only_limit": "仅适合做水培微菜苗（7–10 天）；想吃成熟芝麻菜大叶须浅土直播",
+      "starting_method_label": "箱式花盆直接淺播（覆土 5–10 mm，3–5 天極速出芽）",
+      "water_only_limit": "僅適合做水培微菜苗（7–10 天）；想吃成熟芝麻菜大葉須淺土直播",
       "light_requirement": "bright_windowsill_ok",
-      "light_label": "明亮窗台或半阴处皆可（强光暴晒高温反而使叶片变硬过辣）",
+      "light_label": "明亮窗臺或半陰處皆可（強光暴曬高溫反而使葉片變硬過辣）",
       "ppfd_dli": "PPFD 150–250 μmol·m⁻²·s⁻¹｜DLI 10–14｜12–14 h/天",
-      "container_and_soil": "深 15 cm 箱式长条花盆；通用透气营养土（保持微潮防干辣）",
-      "expected_harvest_window": "播后 3–5 天出芽；株高 15 cm（约 3–4 周）即可从外叶连续剥采",
+      "container_and_soil": "深 15 cm 箱式長條花盆；通用透氣營養土（保持微潮防幹辣）",
+      "expected_harvest_window": "播後 3–5 天出芽；株高 15 cm（約 3–4 周）即可從外葉連續剝採",
       "difficulty": 1,
       "hero_media": {
         "type": "image",
         "src": "assets/media/plants/arugula.jpg",
         "wiki_url": "https://zh.wikipedia.org/wiki/%E8%8A%9D%E9%BA%BB%E8%8F%9C",
-        "caption": "芝麻菜（火箭菜） (Arugula (Rocket)) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "芝麻菜（火箭菜） (Arugula (Rocket)) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "芝麻菜只有高级西餐厅才有，家里种肯定很娇贵难伺候。",
-        "botanical_truth": "《蔬菜栽培百科全书》第 234–235 页指出：芝麻菜虽然种子细小，但发芽率极高、生长极其强健，根本不需要复杂管理，最适合在窗台或阳台箱式花盆里随播随吃！唯一诀窍是：千万别等它长得太高太老（超过 15–20 cm 或缺水暴晒会变得辛辣坚硬），趁 15 cm 柔嫩时从外圈摘叶，中心会源源不断冒新芽。",
+        "common_myth": "芝麻菜只有高級西餐廳才有，家裡種肯定很嬌貴難伺候。",
+        "botanical_truth": "《蔬菜栽培百科全書》第 234–235 頁指出：芝麻菜雖然種子細小，但發芽率極高、生長極其強健，根本不需要複雜管理，最適合在窗臺或陽臺箱式花盆裡隨播隨吃！唯一訣竅是：千萬別等它長得太高太老（超過 15–20 cm 或缺水暴曬會變得辛辣堅硬），趁 15 cm 柔嫩時從外圈摘葉，中心會源源不斷冒新芽。",
         "source_refs": [
           "src_arugula_baike_234"
         ]
@@ -2393,30 +2433,30 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "箱式花盆浅沟条播（覆土 0.7–1 cm）",
-          "action": "在箱式花盆通用营养土表面压出深约 0.7–1 cm 的浅沟（行距 10–15 cm），以 1–1.5 cm 间距点播种子，薄覆土后轻压并浇透水。",
-          "verification_checkpoint": "3–5 天内整齐破土长出心形双子叶，发芽率通常超过 85%。",
-          "failure_signal": "覆土超过 2 cm 导致细小种子无力顶土。",
+          "title": "箱式花盆淺溝條播（覆土 0.7–1 cm）",
+          "action": "在箱式花盆通用營養土表面壓出深約 0.7–1 cm 的淺溝（行距 10–15 cm），以 1–1.5 cm 間距點播種子，薄覆土後輕壓並澆透水。",
+          "verification_checkpoint": "3–5 天內整齊破土長出心形雙子葉，發芽率通常超過 85%。",
+          "failure_signal": "覆土超過 2 cm 導致細小種子無力頂土。",
           "source_refs": [
             "src_arugula_baike_234"
           ]
         },
         {
           "step_number": 2,
-          "title": "分两次间苗（间下的幼苗可直接拌沙拉）",
-          "action": "长出 3 片真叶时第一次间苗至株距 5 cm；长出 5 片真叶时第二次间苗至株距 8 cm，并在行间追施少量有机肥混入表土。间苗拔下的嫩苗洗净直接就是高档微菜沙拉。",
-          "verification_checkpoint": "留下的单株叶片深裂舒展，茎基稳固不倒伏。",
-          "failure_signal": "不间苗任其挤成一团，导致下部叶片黄化腐烂。",
+          "title": "分兩次間苗（間下的幼苗可直接拌沙拉）",
+          "action": "長出 3 片真葉時第一次間苗至株距 5 cm；長出 5 片真葉時第二次間苗至株距 8 cm，並在行間追施少量有機肥混入表土。間苗拔下的嫩苗洗淨直接就是高檔微菜沙拉。",
+          "verification_checkpoint": "留下的單株葉片深裂舒展，莖基穩固不倒伏。",
+          "failure_signal": "不間苗任其擠成一團，導致下部葉片黃化腐爛。",
           "source_refs": [
             "src_arugula_baike_234"
           ]
         },
         {
           "step_number": 3,
-          "title": "叶长 15 cm 时“剥外留心”趁嫩采收",
-          "action": "置于明亮窗台（夏季高温强光时适当遮阴，可使叶片更柔嫩），保持盆土湿润不干旱；当叶片伸展到约 15 cm 长时，从外侧依次摘取大叶生食，保留中心生长点继续抽叶。",
-          "verification_checkpoint": "叶片带有浓郁黑芝麻与坚果香气、微辛脆嫩。",
-          "failure_signal": "放任植株长到 > 25 cm 或长期干旱，导致叶片纤维化且辣味刺喉无法生吃。",
+          "title": "葉長 15 cm 時“剝外留心”趁嫩採收",
+          "action": "置於明亮窗臺（夏季高溫強光時適當遮陰，可使葉片更柔嫩），保持盆土溼潤不幹旱；當葉片伸展到約 15 cm 長時，從外側依次摘取大葉生食，保留中心生長點繼續抽葉。",
+          "verification_checkpoint": "葉片帶有濃郁黑芝麻與堅果香氣、微辛脆嫩。",
+          "failure_signal": "放任植株長到 > 25 cm 或長期乾旱，導致葉片纖維化且辣味刺喉無法生吃。",
           "source_refs": [
             "src_arugula_baike_234"
           ]
@@ -2424,9 +2464,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "种出来的芝麻菜辛辣刺鼻、叶片又硬又糙",
-          "root_cause": "采收太晚（株型过大）、环境温度过高暴晒或长期缺水胁迫导致芥子油苷激增。",
-          "fix": "移至明亮半阴凉爽处、保持土壤湿润，并在叶长 12–15 cm 黄金期及时摘取；已变老的叶子可焯水凉拌或炒食。",
+          "symptom": "種出來的芝麻菜辛辣刺鼻、葉片又硬又糙",
+          "root_cause": "採收太晚（株型過大）、環境溫度過高暴曬或長期缺水脅迫導致芥子油苷激增。",
+          "fix": "移至明亮半陰涼爽處、保持土壤溼潤，並在葉長 12–15 cm 黃金期及時摘取；已變老的葉子可焯水涼拌或炒食。",
           "source_refs": [
             "src_arugula_baike_234"
           ]
@@ -2436,46 +2476,48 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_arugula_baike_234",
           "source_type": "book",
-          "title": "蔬菜栽培百科全书（已拆分第02章）",
-          "author_or_publisher": "板木利隆 / 机械工业出版社",
-          "page_or_section": "书本第 234–235 页 (PDF 第 109–110 页) — 芝麻菜 (Rocket)",
-          "quote_or_note": "十字花科，种子小但发芽率极高、直播容易；最适合箱式花盆窗台/阳台栽培；3叶间苗至5cm、5叶间苗至8cm；叶长 15 cm 时从外叶摘收可长期吃嫩芽，长太大则变硬不适合生食。",
+          "title": "蔬菜栽培百科全書（已拆分第02章）",
+          "author_or_publisher": "板木利隆 / 機械工業出版社",
+          "page_or_section": "書本第 234–235 頁 (PDF 第 109–110 頁) — 芝麻菜 (Rocket)",
+          "quote_or_note": "十字花科，種子小但發芽率極高、直播容易；最適合箱式花盆窗臺/陽臺栽培；3葉間苗至5cm、5葉間苗至8cm；葉長 15 cm 時從外葉摘收可長期吃嫩芽，長太大則變硬不適合生食。",
           "verified": true
         }
       ]
     },
     {
       "id": "dill",
-      "name_zh": "莳萝（洋茴香）",
+      "name_zh": "蒔蘿（洋茴香）",
       "name_en": "Dill",
       "aliases": [
         "洋茴香",
         "土茴香",
-        "鱼香草",
-        "Bouquet Dill"
+        "魚香草",
+        "Bouquet Dill",
+        "莳萝（洋茴香）",
+        "鱼香草"
       ],
       "botanical_name": "Anethum graveolens",
       "category": "herb",
       "scrap_regrow_verdict": "not_recommended",
-      "verdict_label": "直根系忌折腾：不建议剪枝水培，宜深盆直播或带完整土坨定植",
+      "verdict_label": "直根系忌折騰：不建議剪枝水培，宜深盆直播或帶完整土坨定植",
       "best_starting_method": "direct_seed",
-      "starting_method_label": "深盆直接点播（5–6 粒/穴，薄覆土）或育苗杯带土坨早移栽",
-      "water_only_limit": "不适用（伞形科细长直根，剪下的羽毛叶插水仅能保鲜数日，极难发根）",
+      "starting_method_label": "深盆直接點播（5–6 粒/穴，薄覆土）或育苗杯帶土坨早移栽",
+      "water_only_limit": "不適用（傘形科細長直根，剪下的羽毛葉插水僅能保鮮數日，極難髮根）",
       "light_requirement": "grow_light_recommended",
-      "light_label": "喜日照充足与通风（缺光易细长弯折，高大品种需立支柱）",
+      "light_label": "喜日照充足與通風（缺光易細長彎折，高大品種需立支柱）",
       "ppfd_dli": "PPFD 200–350 μmol·m⁻²·s⁻¹｜DLI 12–16｜12–14 h/天",
-      "container_and_soil": "深 20–25 cm 以上深盆（容纳主根与高株型）；排水良好的肥沃疏松盆土",
-      "expected_harvest_window": "播种约 7–14 天出芽；株高 20–25 cm 起可随时剪取羽毛嫩叶",
+      "container_and_soil": "深 20–25 cm 以上深盆（容納主根與高株型）；排水良好的肥沃疏鬆盆土",
+      "expected_harvest_window": "播種約 7–14 天出芽；株高 20–25 cm 起可隨時剪取羽毛嫩葉",
       "difficulty": 2,
       "hero_media": {
         "type": "image",
         "src": "assets/media/plants/dill.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Dill",
-        "caption": "莳萝（洋茴香） (Dill) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "蒔蘿（洋茴香） (Dill) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "三文鱼配菜剩下的莳萝嫩枝插水里就能生根；或者随便拿个浅碟子就能种。",
-        "botanical_truth": "莳萝与香菜、胡萝卜同属伞形科（Apiaceae），拥有一条脆弱的深直根，非常讨厌根系被扯动或截断（《蔬菜栽培百科全书》第 446–447 页特别警告“因不耐移植，务必在苗高 20 cm 前小心带完整土坨定植”或直接深盆直播）。切下的羽毛嫩枝没有生根能力，直接用种子在深盆里播反而很容易成功。",
+        "common_myth": "三文魚配菜剩下的蒔蘿嫩枝插水裡就能生根；或者隨便拿個淺碟子就能種。",
+        "botanical_truth": "蒔蘿與香菜、胡蘿蔔同屬傘形科（Apiaceae），擁有一條脆弱的深直根，非常討厭根系被扯動或截斷（《蔬菜栽培百科全書》第 446–447 頁特別警告“因不耐移植，務必在苗高 20 cm 前小心帶完整土坨定植”或直接深盆直播）。切下的羽毛嫩枝沒有生根能力，直接用種子在深盆裡播反而很容易成功。",
         "source_refs": [
           "src_dill_baike_446"
         ]
@@ -2483,30 +2525,30 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "深盆直播或 3 号育苗钵浅播（每穴 5–6 粒）",
-          "action": "选用深度 ≥ 20 cm 的深花盆直接点播（或用 9 cm 育苗杯），每穴播 5–6 粒种子，仅覆极薄一层细土并浇透水，置于温暖向阳处。",
-          "verification_checkpoint": "7–14 天出苗，长出 3 片真叶时先间苗留下 2–3 株健壮苗。",
-          "failure_signal": "等苗长到 30 cm 以上才裸根拔起移栽，会导致直根受损直接萎蔫抽薹。",
+          "title": "深盆直播或 3 號育苗缽淺播（每穴 5–6 粒）",
+          "action": "選用深度 ≥ 20 cm 的深花盆直接點播（或用 9 cm 育苗杯），每穴播 5–6 粒種子，僅覆極薄一層細土並澆透水，置於溫暖向陽處。",
+          "verification_checkpoint": "7–14 天出苗，長出 3 片真葉時先間苗留下 2–3 株健壯苗。",
+          "failure_signal": "等苗長到 30 cm 以上才裸根拔起移栽，會導致直根受損直接萎蔫抽薹。",
           "source_refs": [
             "src_dill_baike_446"
           ]
         },
         {
           "step_number": 2,
-          "title": "苗高 20 cm 时定留单株 + 40 cm 立支柱防倒伏",
-          "action": "当株高约 20 cm 时最终每处定留 1 株（若从育苗杯移栽，必须完整托出土球绝不弄散根部）；株高长到 40–50 cm 时，因茎叶纤细柔弱，在盆内插一根细竹签/支柱轻轻绑缚防倒伏，每月追肥一次。",
-          "verification_checkpoint": "羽状细叶翠绿蓬松、茎干直立不折断。",
-          "failure_signal": "室内无风但缺光导致茎秆极细折腰倒伏。",
+          "title": "苗高 20 cm 時定留單株 + 40 cm 立支柱防倒伏",
+          "action": "當株高約 20 cm 時最終每處定留 1 株（若從育苗杯移栽，必須完整托出土球絕不弄散根部）；株高長到 40–50 cm 時，因莖葉纖細柔弱，在盆內插一根細竹籤/支柱輕輕綁縛防倒伏，每月追肥一次。",
+          "verification_checkpoint": "羽狀細葉翠綠蓬鬆、莖幹直立不折斷。",
+          "failure_signal": "室內無風但缺光導致莖稈極細折腰倒伏。",
           "source_refs": [
             "src_dill_baike_446"
           ]
         },
         {
           "step_number": 3,
-          "title": "随吃随剪中上部嫩叶（勿剪断主生长顶芽）",
-          "action": "生长过程中随时可从侧枝剪取新鲜羽毛状嫩叶搭配鱼类、沙拉或炖菜；若想延长采叶期，不要过早把最顶端的生长点一刀砍断。",
-          "verification_checkpoint": "揉搓叶片有清甜温和的柑橘茴香香气，侧叶采后持续抽新叶。",
-          "failure_signal": "高温长日照下顶部打出伞状黄花（开花后叶片停止生长，此时可改收花穗腌菜或收种子）。",
+          "title": "隨吃隨剪中上部嫩葉（勿剪斷主生長頂芽）",
+          "action": "生長過程中隨時可從側枝剪取新鮮羽毛狀嫩葉搭配魚類、沙拉或燉菜；若想延長採葉期，不要過早把最頂端的生長點一刀砍斷。",
+          "verification_checkpoint": "揉搓葉片有清甜溫和的柑橘茴香香氣，側葉採後持續抽新葉。",
+          "failure_signal": "高溫長日照下頂部打出傘狀黃花（開花後葉片停止生長，此時可改收花穗醃菜或收種子）。",
           "source_refs": [
             "src_dill_baike_446"
           ]
@@ -2514,9 +2556,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "移栽后全株耷拉再也缓不过来",
-          "root_cause": "伞形科直根系对伤根极度敏感，移栽太晚或抖散了护根土球。",
-          "fix": "强烈建议直接在最终深花盆里直播，省去移栽环节，100% 避免伤根。",
+          "symptom": "移栽後全株耷拉再也緩不過來",
+          "root_cause": "傘形科直根系對傷根極度敏感，移栽太晚或抖散了護根土球。",
+          "fix": "強烈建議直接在最終深花盆裡直播，省去移栽環節，100% 避免傷根。",
           "source_refs": [
             "src_dill_baike_446"
           ]
@@ -2526,35 +2568,38 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_dill_baike_446",
           "source_type": "book",
-          "title": "蔬菜栽培百科全书（已拆分第04章）",
-          "author_or_publisher": "板木利隆 / 机械工业出版社",
-          "page_or_section": "书本第 446–447 页 (PDF 第 81–82 页) — 莳萝 (Dill)",
-          "quote_or_note": "伞形科一年生草本；因不耐移植，育苗须在株高 20 cm 左右小心定植；茎叶纤细，高 40–50 cm 时需立支柱并每月追肥；生长期随时可采叶（不用留顶芽以外过多老枝），花和种子亦可利用。",
+          "title": "蔬菜栽培百科全書（已拆分第04章）",
+          "author_or_publisher": "板木利隆 / 機械工業出版社",
+          "page_or_section": "書本第 446–447 頁 (PDF 第 81–82 頁) — 蒔蘿 (Dill)",
+          "quote_or_note": "傘形科一年生草本；因不耐移植，育苗須在株高 20 cm 左右小心定植；莖葉纖細，高 40–50 cm 時需立支柱並每月追肥；生長期隨時可採葉（不用留頂芽以外過多老枝），花和種子亦可利用。",
           "verified": true
         }
       ]
     },
     {
       "id": "sage",
-      "name_zh": "鼠尾草（药用鼠尾草）",
+      "name_zh": "鼠尾草（藥用鼠尾草）",
       "name_en": "Sage (Common Sage)",
       "aliases": [
+        "洋蘇葉",
+        "藥用鼠尾草",
+        "Garden Sage",
+        "鼠尾草（药用鼠尾草）",
         "洋苏叶",
-        "药用鼠尾草",
-        "Garden Sage"
+        "药用鼠尾草"
       ],
       "botanical_name": "Salvia officinalis",
       "category": "herb",
       "scrap_regrow_verdict": "partial_greens_only",
-      "verdict_label": "地中海宿根香草：嫩枝可插、买苗最稳，根部培土需略微堆高利排水",
+      "verdict_label": "地中海宿根香草：嫩枝可插、買苗最穩，根部培土需略微堆高利排水",
       "best_starting_method": "grocery_pot_split",
-      "starting_method_label": "买叶大健康的种苗定植 / 春秋半木质嫩枝扦插",
-      "water_only_limit": "仅限诱根期（绒毛叶片极怕沾水闷烂，发根后须立即转高排水土）",
+      "starting_method_label": "買葉大健康的種苗定植 / 春秋半木質嫩枝扦插",
+      "water_only_limit": "僅限發根期（絨毛葉片極怕沾水悶爛，髮根後須立即轉高排水土）",
       "light_requirement": "grow_light_required",
-      "light_label": "强日照需求（缓苗 2–3 天后须移至全日照南窗或强补光灯下）",
+      "light_label": "強日照需求（緩苗 2–3 天后須移至全日照南窗或強補光燈下）",
       "ppfd_dli": "PPFD 250–400 μmol·m⁻²·s⁻¹｜DLI 15–20｜14–16 h/天",
-      "container_and_soil": "深 20 cm 透气红陶盆；2:1 高排水颗粒土（植苗时将植株根部土壤略堆高以利排水）",
-      "expected_harvest_window": "定植缓苗后发育至株高 30 cm 以上可采上半部绿嫩叶；隔年修剪褐色老枝复壮",
+      "container_and_soil": "深 20 cm 透氣紅陶盆；2:1 高排水顆粒土（植苗時將植株根部土壤略堆高以利排水）",
+      "expected_harvest_window": "定植緩苗後發育至株高 30 cm 以上可採上半部綠嫩葉；隔年修剪褐色老枝復壯",
       "difficulty": 3,
       "diagrams": [
         "pwt"
@@ -2563,11 +2608,11 @@ window.PLANTS_DATA = {
         "type": "image",
         "src": "assets/media/plants/sage.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Salvia_officinalis",
-        "caption": "鼠尾草（药用鼠尾草） (Sage (Common Sage)) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "鼠尾草（藥用鼠尾草） (Sage (Common Sage)) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "鼠尾草种进花盆时要把土填成凹坑存水，长出的老木质枝越多越好。",
-        "botanical_truth": "《最好的家庭种菜书》第 100 页专门给出了两个反直觉的关键窍门：① 定植培土时，必须“将植株根部的土稍微堆高以利于排水”，严禁根颈凹陷积水；② 鼠尾草长久后会逐渐木质化，必须“将变成褐色的老枝从根部剪断以减轻植株负担”，并适时采收改善内部通风，才能保证第 2 年不断抽出饱满新芽。",
+        "common_myth": "鼠尾草種進花盆時要把土填成凹坑存水，長出的老木質枝越多越好。",
+        "botanical_truth": "《最好的家庭種菜書》第 100 頁專門給出了兩個反直覺的關鍵竅門：① 定植培土時，必須“將植株根部的土稍微堆高以利於排水”，嚴禁根頸凹陷積水；② 鼠尾草長久後會逐漸木質化，必須“將變成褐色的老枝從根部剪斷以減輕植株負擔”，並適時採收改善內部通風，才能保證第 2 年不斷抽出飽滿新芽。",
         "source_refs": [
           "src_sage_zuihao_100"
         ]
@@ -2575,30 +2620,30 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "选苗定植 + 根部微堆高排水法",
-          "action": "春（4–5 月）或秋（9–10 月）选取叶大、健康的鼠尾草种苗（或用嫩枝扦插苗），取出时注意不要折断种苗茎；填入高排水盆土，将植株根部的土壤稍微堆高呈微丘状以利排水，轻轻夯实防晃动。",
-          "verification_checkpoint": "植株根颈位于盆土最高点，浇水时水流向四周盆壁散开而不积在茎基。",
-          "failure_signal": "根颈深埋在凹坑里导致浇水后茎基黑腐，或取苗时折断主茎。",
+          "title": "選苗定植 + 根部微堆高排水法",
+          "action": "春（4–5 月）或秋（9–10 月）選取葉大、健康的鼠尾草種苗（或用嫩枝扦插苗），取出時注意不要折斷種苗莖；填入高排水盆土，將植株根部的土壤稍微堆高呈微丘狀以利排水，輕輕夯實防晃動。",
+          "verification_checkpoint": "植株根頸位於盆土最高點，澆水時水流向四周盆壁散開而不積在莖基。",
+          "failure_signal": "根頸深埋在凹坑裡導致澆水後莖基黑腐，或取苗時折斷主莖。",
           "source_refs": [
             "src_sage_zuihao_100"
           ]
         },
         {
           "step_number": 2,
-          "title": "背阴缓苗 2–3 天后移至强光处",
-          "action": "定植后充分浇透一次定根水，先将花盆置于背阴/散射光处缓苗 2–3 天；待植株恢复挺立开始发育，立即移至日照良好处或全光谱补光灯下，日常等盆土干透再浇。",
-          "verification_checkpoint": "表面带银灰绒毛的叶片厚实挺括，无下垂萎蔫。",
-          "failure_signal": "定植当天直接暴晒脱水，或长期放在阴暗处导致叶片变薄、绒毛消失。",
+          "title": "背陰緩苗 2–3 天后移至強光處",
+          "action": "定植後充分澆透一次定根水，先將花盆置於背陰/散射光處緩苗 2–3 天；待植株恢復挺立開始發育，立即移至日照良好處或全光譜補光燈下，日常等盆土乾透再澆。",
+          "verification_checkpoint": "表面帶銀灰絨毛的葉片厚實挺括，無下垂萎蔫。",
+          "failure_signal": "定植當天直接暴曬脫水，或長期放在陰暗處導致葉片變薄、絨毛消失。",
           "source_refs": [
             "src_sage_zuihao_100"
           ]
         },
         {
           "step_number": 3,
-          "title": "株高 30 cm 采嫩叶 + 剪除褐色老枝追肥",
-          "action": "株高发育至 30 cm 以上时，用手优先摘取上半部的绿色嫩叶（既供烹饪又能改善冠层内部通风）；发现下部变成褐色的木质化老枝时，从根部剪断以减轻负担，剪枝后在根周追施少量肥料。",
-          "verification_checkpoint": "冠层内部通风透光，剪枝追肥后基部重新萌发健壮绿芽。",
-          "failure_signal": "枝条过密不通风且从头顶往绒毛叶上喷水，导致整丛发黑霉烂。",
+          "title": "株高 30 cm 採嫩葉 + 剪除褐色老枝追肥",
+          "action": "株高發育至 30 cm 以上時，用手優先摘取上半部的綠色嫩葉（既供烹飪又能改善冠層內部通風）；發現下部變成褐色的木質化老枝時，從根部剪斷以減輕負擔，剪枝後在根周追施少量肥料。",
+          "verification_checkpoint": "冠層內部通風透光，剪枝追肥後基部重新萌發健壯綠芽。",
+          "failure_signal": "枝條過密不通風且從頭頂往絨毛葉上噴水，導致整叢發黑黴爛。",
           "source_refs": [
             "src_sage_zuihao_100",
             "src_sage_yangtai_69"
@@ -2607,9 +2652,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "灰绿色绒毛叶片发黑腐烂、整枝枯死",
-          "root_cause": "鼠尾草叶片密被绒毛极易挂水，加上根部排水不良或枝条过密闷湿。",
-          "fix": "浇水只浇盆边土面切勿喷叶；及时采收并从根部剪除褐色老枝打开通风通道。",
+          "symptom": "灰綠色絨毛葉片發黑腐爛、整枝枯死",
+          "root_cause": "鼠尾草葉片密被絨毛極易掛水，加上根部排水不良或枝條過密悶溼。",
+          "fix": "澆水只澆盆邊土面切勿噴葉；及時採收並從根部剪除褐色老枝打開通風通道。",
           "source_refs": [
             "src_sage_zuihao_100"
           ]
@@ -2619,44 +2664,46 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_sage_zuihao_100",
           "source_type": "book",
-          "title": "最好的家庭种菜书_日 靓丽出版社.pdf",
-          "author_or_publisher": "靓丽出版社（已人工核对实页）",
-          "page_or_section": "书本第 100 页 (PDF 第 82 页) — 鼠尾草",
-          "quote_or_note": "12 步完整图解：选苗→取苗防折茎→植苗→根部土稍微堆高以利排水→夯实→浇水放背阴处 2–3 天→移至日照良好处→高 30 cm 以上采上半部嫩叶改善通风→将褐色老枝从根部剪断减轻负担→追肥。",
+          "title": "最好的家庭種菜書_日 靚麗出版社.pdf",
+          "author_or_publisher": "靚麗出版社（已人工核對實頁）",
+          "page_or_section": "書本第 100 頁 (PDF 第 82 頁) — 鼠尾草",
+          "quote_or_note": "12 步完整圖解：選苗→取苗防折莖→植苗→根部土稍微堆高以利排水→夯實→澆水放背陰處 2–3 天→移至日照良好處→高 30 cm 以上採上半部嫩葉改善通風→將褐色老枝從根部剪斷減輕負擔→追肥。",
           "verified": true
         },
         {
           "ref_id": "src_sage_yangtai_69",
           "source_type": "book",
-          "title": "阳台菜园：栽培可口蔬菜的 70 个诀窍.pdf",
-          "author_or_publisher": "本地图书（已人工核对实页）",
-          "page_or_section": "书本第 69 页 (PDF 第 76 页) — 香草的扦插",
-          "quote_or_note": "明文列举鼠尾草适用于春秋季嫩枝扦插繁殖。",
+          "title": "陽臺菜園：栽培可口蔬菜的 70 個訣竅.pdf",
+          "author_or_publisher": "本地圖書（已人工核對實頁）",
+          "page_or_section": "書本第 69 頁 (PDF 第 76 頁) — 香草的扦插",
+          "quote_or_note": "明文列舉鼠尾草適用於春秋季嫩枝扦插繁殖。",
           "verified": true
         }
       ]
     },
     {
       "id": "lemongrass",
-      "name_zh": "柠檬草（香茅）",
+      "name_zh": "檸檬草（香茅）",
       "name_en": "Lemongrass",
       "aliases": [
         "香茅",
-        "柠檬香茅",
-        "西印度香茅"
+        "檸檬香茅",
+        "西印度香茅",
+        "柠檬草（香茅）",
+        "柠檬香茅"
       ],
       "botanical_name": "Cymbopogon citratus",
       "category": "rhizome",
       "scrap_regrow_verdict": "high_value",
-      "verdict_label": "超市食材水培再生真神：带根盘茎基泡水极易发根成大丛",
+      "verdict_label": "成功率極高：保留底部根盤泡水極易發根，轉土後可長成大叢",
       "best_starting_method": "kitchen_scrap_water_to_soil",
-      "starting_method_label": "超市带底部基盘的香茅杆浅水诱根 → 转深大盆喜温强光养护",
-      "water_only_limit": "14–21 天（长出 3–5 cm 根须后必须转入深盆营养土，否则只长细叶不膨大茎基）",
+      "starting_method_label": "超市帶底部基盤的香茅杆淺水發根 → 轉深大盆喜溫強光養護",
+      "water_only_limit": "14–21 天（長出 3–5 cm 根鬚後必須轉入深盆營養土，否則只長細葉不膨大莖基）",
       "light_requirement": "grow_light_recommended",
-      "light_label": "喜全日照强光与高温（南向亮窗台或补光灯，室温 ≥ 18–22℃）",
+      "light_label": "喜全日照強光與高溫（南向亮窗臺或補光燈，室溫 ≥ 18–22℃）",
       "ppfd_dli": "PPFD 250–400 μmol·m⁻²·s⁻¹｜DLI 14–20｜12–14 h/天",
-      "container_and_soil": "深 25–30 cm、口径 ≥ 25 cm 的稳重大盆；肥沃且排水良好的通用营养土",
-      "expected_harvest_window": "水培 7–14 天生根，2–3 周转土；定植 2–3 个月后可分蘖劈取外侧粗茎",
+      "container_and_soil": "深 25–30 cm、口徑 ≥ 25 cm 的穩重大盆；肥沃且排水良好的通用營養土",
+      "expected_harvest_window": "水培 7–14 天生根，2–3 週轉土；定植 2–3 個月後可分櫱劈取外側粗莖",
       "difficulty": 1,
       "diagrams": [
         "water_line"
@@ -2665,11 +2712,11 @@ window.PLANTS_DATA = {
         "type": "image",
         "src": "assets/media/plants/lemongrass.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Cymbopogon_citratus",
-        "caption": "柠檬草（香茅） (Lemongrass) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "檸檬草（香茅） (Lemongrass) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "超市冰柜里随便哪根干瘪香茅泡水都能活；或者一直泡水杯里就能长出粗壮香茅杆。",
-        "botanical_truth": "① 柠檬草确实是农业推广站公认“厨余再生最成功、真能还原购买部位”的少数植物之一！但前提是购买时底部那个扁平微突的**根盘（Basal root plate）**没有被超市一刀彻底削掉；② 水培只是用来诱发根系，长出 3–5 cm 根后必须移栽进大深盆肥土并给足阳光，它才会不断分蘖（Tillering）长出一整丛新的粗香茅杆。",
+        "common_myth": "超市冰櫃裡隨便哪根乾癟香茅泡水都能活；或者一直泡水杯裡就能長出粗壯香茅杆。",
+        "botanical_truth": "① 檸檬草確實是農業推廣站公認“廚餘再生最成功、真能還原購買部位”的少數植物之一！但前提是購買時底部那個扁平微突的**根盤（Basal root plate）**沒有被超市一刀徹底削掉；② 水培只是用來誘發根系，長出 3–5 cm 根後必須移栽進大深盆肥土並給足陽光，它才會不斷分櫱（Tillering）長出一整叢新的粗香茅杆。",
         "source_refs": [
           "src_lemon_naples",
           "src_lemon_illinois"
@@ -2678,30 +2725,30 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "挑选底部留有完整扁平根盘的鲜香茅杆",
-          "action": "在亚洲超市挑选茎基结实、底部还带着一圈浅褐色微凸根盘的鲜香茅；切去顶部干枯叶梢，留底部约 10–15 cm 粗茎，剥去最外层已经松脱干枯的褐色老鞘。",
-          "verification_checkpoint": "底部根盘完整坚硬，环绕根盘隐约可见微小根点。",
-          "failure_signal": "底部被切得太高（只剩一层层空心散开的叶鞘，无实心根盘）或茎心发黑发霉。",
+          "title": "挑選底部留有完整扁平根盤的鮮香茅杆",
+          "action": "在亞洲超市挑選莖基結實、底部還帶著一圈淺褐色微凸根盤的鮮香茅；切去頂部乾枯葉梢，留底部約 10–15 cm 粗莖，剝去最外層已經鬆脫乾枯的褐色老鞘。",
+          "verification_checkpoint": "底部根盤完整堅硬，環繞根盤隱約可見微小根點。",
+          "failure_signal": "底部被切得太高（只剩一層層空心散開的葉鞘，無實心根盤）或莖心發黑發黴。",
           "source_refs": [
             "src_lemon_naples"
           ]
         },
         {
           "step_number": 2,
-          "title": "浅水 2–3 cm 温暖亮处诱根（每 2 天换水）",
-          "action": "直立放入玻璃杯，加 2–3 cm 清水仅没过底部根盘，放置在温暖阳光充足的窗台（20–28℃），每 2 天换一次清水。",
-          "verification_checkpoint": "7–14 天内底部根盘萌生粗壮白根，中心顶出鲜绿新叶；2–3 周根长达 3–5 cm。",
-          "failure_signal": "水位淹过半根茎杆且不换水，导致外层叶鞘腐烂发臭。",
+          "title": "淺水 2–3 cm 溫暖亮處發根（每 2 天換水）",
+          "action": "直立放入玻璃杯，加 2–3 cm 清水僅沒過底部根盤，放置在溫暖陽光充足的窗臺（20–28℃），每 2 天換一次清水。",
+          "verification_checkpoint": "7–14 天內底部根盤萌生粗壯白根，中心頂出鮮綠新葉；2–3 周根長達 3–5 cm。",
+          "failure_signal": "水位淹過半根莖杆且不換水，導致外層葉鞘腐爛發臭。",
           "source_refs": [
             "src_lemon_naples"
           ]
         },
         {
           "step_number": 3,
-          "title": "移入深大花盆重肥喜阳分蘖",
-          "action": "根系长至 3–5 cm 后移入深 25–30 cm 的大盆肥沃营养土中，埋深约 3–4 cm 稳固茎基；放在家里光照最强处或补光灯下，保持土壤微湿并在生长期每月追施高氮有机肥。",
-          "verification_checkpoint": "定植 1 个月后基部侧面不断冒出新分蘖芽，株丛越长越粗；可从最外圈齐根掰下粗满的香茅杆做泰式料理。",
-          "failure_signal": "盆太小或冬季室温低于 10℃ 导致受冻枯黄。",
+          "title": "移入深大花盆重肥喜陽分櫱",
+          "action": "根系長至 3–5 cm 後移入深 25–30 cm 的大盆肥沃營養土中，埋深約 3–4 cm 穩固莖基；放在家裡光照最強處或補光燈下，保持土壤微溼並在生長期每月追施高氮有機肥。",
+          "verification_checkpoint": "定植 1 個月後基部側面不斷冒出新分櫱芽，株叢越長越粗；可從最外圈齊根掰下粗滿的香茅杆做泰式料理。",
+          "failure_signal": "盆太小或冬季室溫低於 10℃ 導致受凍枯黃。",
           "source_refs": [
             "src_lemon_naples",
             "src_lemon_illinois"
@@ -2710,9 +2757,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "泡水两周只看外皮发滑，一根根须都不出",
-          "root_cause": "买来的香茅底部根盘（Basal plate）已被超市切掉，只剩叶鞘，或者水温太低（< 16℃）。",
-          "fix": "重新挑选底部带实心圆盘底座的鲜香茅，剥除松散外皮并在 22℃ 以上温暖窗台浅水诱根。",
+          "symptom": "泡水兩週只看外皮發滑，一根根鬚都不出",
+          "root_cause": "買來的香茅底部根盤（Basal plate）已被超市切掉，只剩葉鞘，或者水溫太低（< 16℃）。",
+          "fix": "重新挑選底部帶實心圓盤底座的鮮香茅，剝除鬆散外皮並在 22℃ 以上溫暖窗臺淺水發根。",
           "source_refs": [
             "src_lemon_naples"
           ]
@@ -2726,7 +2773,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "Naples Botanical Garden",
           "page_or_section": "Lemongrass Rooting & Soil Transfer",
           "url": "https://www.naplesgarden.org/",
-          "quote_or_note": "保留带根盘的香茅基部置浅水向阳处，每两日换水；根长 1–2 英寸后移入优质营养土即可持续长出新茎。",
+          "quote_or_note": "保留帶根盤的香茅基部置淺水向陽處，每兩日換水；根長 1–2 英寸後移入優質營養土即可持續長出新莖。",
           "verified": true
         },
         {
@@ -2736,31 +2783,35 @@ window.PLANTS_DATA = {
           "author_or_publisher": "University of Illinois Extension / UC Master Gardeners",
           "page_or_section": "Scrap Viability Evaluation",
           "url": "https://extension.illinois.edu/",
-          "quote_or_note": "香茅属于极少数能从厨余基部真正重新长出所购可食部位（新茎秆）的高成功率作物。",
+          "quote_or_note": "香茅屬於極少數能從廚餘基部真正重新長出所購可食部位（新莖稈）的高成功率作物。",
           "verified": true
         }
       ]
     },
     {
       "id": "carrot-tops-and-cabbage",
-      "name_zh": "胡萝卜头 / 白菜心（网红厨余流言终结卡）",
+      "name_zh": "紅蘿蔔頭 / 白菜心（廚餘再生迷思破解）",
       "name_en": "Carrot Tops & Cabbage Core (Myth Buster)",
       "aliases": [
+        "胡蘿蔔纓",
+        "捲心菜心",
+        "大白菜根",
+        "蘿蔔頭",
+        "胡萝卜头 / 白菜心（网红厨余流言终结卡）",
         "胡萝卜缨",
         "卷心菜心",
-        "大白菜根",
         "萝卜头"
       ],
       "botanical_name": "Daucus carota / Brassica oleracea",
       "category": "leafy_stem",
       "scrap_regrow_verdict": "not_recommended",
-      "verdict_label": "流言终结：胡萝卜头绝不会长出新胡萝卜！仅可收少量绿缨或做科普盆景",
+      "verdict_label": "迷思破解：紅蘿蔔頭泡水不會長出新蘿蔔，僅能收少量綠葉或作觀賞盆栽",
       "best_starting_method": "kitchen_scrap_water_to_soil",
-      "starting_method_label": "仅限带孩子做 10 天植物学科普或收一撮胡萝卜绿缨打青酱（正经吃菜请播种）",
-      "water_only_limit": "7–14 天（耗尽残余糖分吐出绿叶后即停滞衰老）",
+      "starting_method_label": "僅限帶孩子做 10 天植物學科普或收一撮胡蘿蔔綠纓打青醬（正經吃菜請播種）",
+      "water_only_limit": "7–14 天（耗盡殘餘糖分吐出綠葉後即停滯衰老）",
       "light_requirement": "bright_windowsill_ok",
-      "light_label": "明亮窗台即可（作为短期观赏绿植要求极低）",
-      "expected_harvest_window": "7–14 天冒出翠绿羽状叶（仅收叶子，不可能结新块根或大菜球）",
+      "light_label": "明亮窗臺即可（作為短期觀賞綠植要求極低）",
+      "expected_harvest_window": "7–14 天冒出翠綠羽狀葉（僅收葉子，不可能結新塊根或大菜球）",
       "difficulty": 1,
       "diagrams": [
         "water_line"
@@ -2769,11 +2820,11 @@ window.PLANTS_DATA = {
         "type": "image",
         "src": "assets/media/plants/carrot-tops-and-cabbage.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Carrot",
-        "caption": "胡萝卜头 / 白菜心（网红厨余流言终结卡） (Carrot Tops & Cabbage Core (Myth Buster)) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "紅蘿蔔頭 / 白菜心（廚餘再生迷思破解） (Carrot Tops & Cabbage Core (Myth Buster)) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "切下胡萝卜顶部泡水能再长出一根大胡萝卜；切下卷心菜/大白菜芯泡水能再包出一个紧实大菜球。",
-        "botanical_truth": "伊利诺伊大学推广站（University of Illinois Extension）与加州大学园艺专家明确辟谣：① 胡萝卜我们吃的是它的主直根（Taproot），切下的顶部早已失去向下再生膨大肉质直根的分生组织，泡水**只会向上长出羽毛状的绿叶（胡萝卜缨）**——绿缨虽然无毒可食（可做青酱 Pesto 或高汤配菜）也很适合带孩子观察植物吸水发芽，但水下永远不会长出新胡萝卜！② 白菜/卷心菜芯同理，残余能量已被掏空，泡水只会松散长几片小苦叶并迅速抽薹开花，绝不可能重新包球。",
+        "common_myth": "切下胡蘿蔔頂部泡水能再長出一根大胡蘿蔔；切下捲心菜/大白菜芯泡水能再包出一個緊實大菜球。",
+        "botanical_truth": "伊利諾伊大學推廣站（University of Illinois Extension）與加州大學園藝專家明確闢謠：① 胡蘿蔔我們吃的是它的主直根（Taproot），切下的頂部早已失去向下再生膨大肉質直根的分生組織，泡水**只會向上長出羽毛狀的綠葉（胡蘿蔔纓）**——綠纓雖然無毒可食（可做青醬 Pesto 或高湯配菜）也很適合帶孩子觀察植物吸水發芽，但水下永遠不會長出新胡蘿蔔！② 白菜/捲心菜芯同理，殘餘能量已被掏空，泡水只會鬆散長几片小苦葉並迅速抽薹開花，絕不可能重新包球。",
         "source_refs": [
           "src_myth_illinois",
           "src_myth_ucanr",
@@ -2783,10 +2834,10 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "明确预期：当作“零成本桌面绿植 + 一把青酱绿缨”",
-          "action": "切下胡萝卜顶部约 2–2.5 cm（带中心芽点），或切下未腐烂的白菜底盘；平放在浅碟中，加约 0.5–1 cm 清水（水位仅没过切块高度的一半，切勿淹没顶部芽心）。",
-          "verification_checkpoint": "切面无黑斑软腐，顶部中心生长点完全暴露在空气中。",
-          "failure_signal": "抱着“省下买胡萝卜和白菜钱”的预期，或水位淹没芽心导致 3 天烂臭。",
+          "title": "明確預期：當作“零成本桌面綠植 + 一把青醬綠纓”",
+          "action": "切下胡蘿蔔頂部約 2–2.5 cm（帶中心芽點），或切下未腐爛的白菜底盤；平放在淺碟中，加約 0.5–1 cm 清水（水位僅沒過切塊高度的一半，切勿淹沒頂部芽心）。",
+          "verification_checkpoint": "切面無黑斑軟腐，頂部中心生長點完全暴露在空氣中。",
+          "failure_signal": "抱著“省下買胡蘿蔔和白菜錢”的預期，或水位淹沒芽心導致 3 天爛臭。",
           "source_refs": [
             "src_myth_illinois",
             "src_myth_gkh"
@@ -2794,10 +2845,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 2,
-          "title": "每日换水观察羽叶萌发（最佳亲子自然课）",
-          "action": "置于明亮窗台，每天更换浅碟清水（《阳台种菜全攻略》PDF 第 10–11 页亦推荐让儿童通过容易出芽的块根观察植物生长乐趣）；3–5 天内顶部会冒出形似蕨类的翠绿羽状嫩叶。",
-          "verification_checkpoint": "7–10 天形成一簇清新翠绿的桌面小森林，水碟无异味。",
-          "failure_signal": "胡萝卜肉质切块变软发黑、水变乳白浑浊，说明糖分外渗引发细菌繁殖，应立即丢弃。",
+          "title": "每日換水觀察羽葉萌發（最佳親子自然課）",
+          "action": "置於明亮窗臺，每天更換淺碟清水（《陽臺種菜全攻略》PDF 第 10–11 頁亦推薦讓兒童通過容易出芽的塊根觀察植物生長樂趣）；3–5 天內頂部會冒出形似蕨類的翠綠羽狀嫩葉。",
+          "verification_checkpoint": "7–10 天形成一簇清新翠綠的桌面小森林，水碟無異味。",
+          "failure_signal": "胡蘿蔔肉質切塊變軟發黑、水變乳白渾濁，說明糖分外滲引發細菌繁殖，應立即丟棄。",
           "source_refs": [
             "src_myth_gkh",
             "src_soilless_11"
@@ -2805,10 +2856,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 3,
-          "title": "第 10–14 天剪取绿缨打青酱或及时谢幕堆肥",
-          "action": "在底部胡萝卜块干瘪或腐烂前（约第 10–14 天），剪下顶部鲜嫩的胡萝卜绿缨，可搭配大蒜、坚果与橄榄油打成胡萝卜缨青酱（Carrot-top Pesto / Chimichurri），随后将残根堆肥；若想真种胡萝卜，必须用深盆疏松沙壤土直接播种。",
-          "verification_checkpoint": "收获干净无霉味的鲜绿胡萝卜叶，不留残块在室内腐烂招小黑飞。",
-          "failure_signal": "强留水碟一个月直到发霉招满厨房蕈蚊。",
+          "title": "第 10–14 天剪取綠纓打青醬或及時謝幕堆肥",
+          "action": "在底部胡蘿蔔塊乾癟或腐爛前（約第 10–14 天），剪下頂部鮮嫩的胡蘿蔔綠纓，可搭配大蒜、堅果與橄欖油打成胡蘿蔔纓青醬（Carrot-top Pesto / Chimichurri），隨後將殘根堆肥；若想真種胡蘿蔔，必須用深盆疏鬆沙壤土直接播種。",
+          "verification_checkpoint": "收穫乾淨無黴味的鮮綠胡蘿蔔葉，不留殘塊在室內腐爛招小黑飛。",
+          "failure_signal": "強留水碟一個月直到發黴招滿廚房蕈蚊。",
           "source_refs": [
             "src_myth_cbc",
             "src_myth_hortuk"
@@ -2817,9 +2868,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "胡萝卜块泡水 3 天水就变得像淘米水一样臭",
-          "root_cause": "胡萝卜富含糖分，切面泡在温水里是细菌极佳的培养基。",
-          "fix": "切块不要留太厚（2 cm 即可），水位仅浅浸底面 0.5 cm，且必须每天换水冲洗浅碟。",
+          "symptom": "胡蘿蔔塊泡水 3 天水就變得像淘米水一樣臭",
+          "root_cause": "胡蘿蔔富含糖分，切面泡在溫水裡是細菌極佳的培養基。",
+          "fix": "切塊不要留太厚（2 cm 即可），水位僅淺浸底面 0.5 cm，且必須每天換水沖洗淺碟。",
           "source_refs": [
             "src_myth_gkh"
           ]
@@ -2833,7 +2884,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "University of Illinois Extension",
           "page_or_section": "Carrot Tops & Cabbage Stumps",
           "url": "https://extension.illinois.edu/",
-          "quote_or_note": "厨余再生是极佳的植物生物学教学演示，但胡萝卜头与卷心菜芯无法还原原有商品块根或紧实菜球，真正产粮应从种子或种苗起步。",
+          "quote_or_note": "廚餘再生是極佳的植物生物學教學演示，但胡蘿蔔頭與捲心菜芯無法還原原有商品塊根或緊實菜球，真正產糧應從種子或種苗起步。",
           "verified": true
         },
         {
@@ -2843,7 +2894,7 @@ window.PLANTS_DATA = {
           "author_or_publisher": "UC Master Gardeners (UC ANR)",
           "page_or_section": "Root Tops & Brassicas",
           "url": "https://ucanr.edu/",
-          "quote_or_note": "块根顶部切块仅能利用残余养分长出叶片，不会再生新块根。",
+          "quote_or_note": "塊根頂部切塊僅能利用殘餘養分長出葉片，不會再生新塊根。",
           "verified": true
         },
         {
@@ -2852,7 +2903,7 @@ window.PLANTS_DATA = {
           "title": "Can You Regrow Carrots from Carrot Tops?",
           "author_or_publisher": "Horticulture Magazine UK",
           "page_or_section": "Taproot Biology",
-          "quote_or_note": "胡萝卜主根一旦采收切断便无法从冠部重新长出新橙色肉质根，仅能收获顶部绿缨。",
+          "quote_or_note": "胡蘿蔔主根一旦採收切斷便無法從冠部重新長出新橙色肉質根，僅能收穫頂部綠纓。",
           "verified": true
         },
         {
@@ -2861,7 +2912,7 @@ window.PLANTS_DATA = {
           "title": "Growing Carrot Tops in Water",
           "author_or_publisher": "Gardening Know How",
           "page_or_section": "Indoor Science Project",
-          "quote_or_note": "适合作为室内趣味实验与观赏绿植，需浅水勤换防烂。",
+          "quote_or_note": "適合作為室內趣味實驗與觀賞綠植，需淺水勤換防爛。",
           "verified": true
         },
         {
@@ -2870,16 +2921,16 @@ window.PLANTS_DATA = {
           "title": "Using Carrot Tops in the Kitchen (Pesto & Chimichurri)",
           "author_or_publisher": "CBC Life / Culinary Guide",
           "page_or_section": "Edible Greens",
-          "quote_or_note": "再生的胡萝卜绿缨可安全食用，适合制作青酱、阿根廷香草酱或高汤。",
+          "quote_or_note": "再生的胡蘿蔔綠纓可安全食用，適合製作青醬、阿根廷香草醬或高湯。",
           "verified": true
         },
         {
           "ref_id": "src_soilless_11",
           "source_type": "book",
-          "title": "阳台种菜、种花技术全攻略",
-          "author_or_publisher": "中国无土栽培技术论坛",
-          "page_or_section": "PDF 第 10–11 页 — 培养小孩子的种植乐趣",
-          "quote_or_note": "优先选择好种易活、发芽生长迅速的植物，让儿童体验种子与植物萌芽的自然乐趣。",
+          "title": "陽臺種菜、種花技術全攻略",
+          "author_or_publisher": "中國無土栽培技術論壇",
+          "page_or_section": "PDF 第 10–11 頁 — 培養小孩子的種植樂趣",
+          "quote_or_note": "優先選擇好種易活、發芽生長迅速的植物，讓兒童體驗種子與植物萌芽的自然樂趣。",
           "verified": true
         }
       ]
@@ -2896,15 +2947,15 @@ window.PLANTS_DATA = {
       "botanical_name": "Nasturtium officinale",
       "category": "leafy_stem",
       "scrap_regrow_verdict": "high_value",
-      "verdict_label": "水培再生天花板：市场买的鲜茎插水杯极速生根，可半水耕爆盆",
+      "verdict_label": "水耕成功率極高：市場買的鮮莖插水極快發根，適合半水耕長期採收",
       "best_starting_method": "kitchen_scrap_water_to_soil",
-      "starting_method_label": "菜场买的新鲜西洋菜插水杯发根 → 定植浅箱花盆坐水盘（半水耕）",
-      "water_only_limit": "3–7 天水杯发根；随后转入“河砂+腐殖土+底盘常盛液肥水”可持续采收",
+      "starting_method_label": "菜場買的新鮮西洋菜插水杯髮根 → 定植淺箱花盆坐水盤（半水耕）",
+      "water_only_limit": "3–7 天水杯髮根；隨後轉入“河砂+腐殖土+底盤常盛液肥水”可持續採收",
       "light_requirement": "bright_windowsill_ok",
-      "light_label": "明亮散射光或半阴凉爽窗台（15–20℃ 最佳，忌夏季高温暴晒）",
+      "light_label": "明亮散射光或半陰涼爽窗臺（15–20℃ 最佳，忌夏季高溫暴曬）",
       "ppfd_dli": "PPFD 150–250 μmol·m⁻²·s⁻¹｜DLI 10–14｜12–14 h/天",
-      "container_and_soil": "浅箱式花盆装入河砂+腐殖土，花盆底部坐入盛有清水/淡液肥的浅托盘内持续吸水",
-      "expected_harvest_window": "水插 3–5 天冒白根；定植后 2–3 周起可随时用指甲掐取顶端嫩梢",
+      "container_and_soil": "淺箱式花盆裝入河砂+腐殖土，花盆底部坐入盛有清水/淡液肥的淺托盤內持續吸水",
+      "expected_harvest_window": "水插 3–5 天冒白根；定植後 2–3 周起可隨時用指甲掐取頂端嫩梢",
       "difficulty": 1,
       "diagrams": [
         "water_line",
@@ -2914,11 +2965,11 @@ window.PLANTS_DATA = {
         "type": "image",
         "src": "assets/media/plants/watercress.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Watercress",
-        "caption": "西洋菜（豆瓣菜 / 水田芥） (Watercress) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "西洋菜（豆瓣菜 / 水田芥） (Watercress) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "所有室内盆栽都怕托盘积水烂根，所以西洋菜也要干透才浇水。",
-        "botanical_truth": "西洋菜（水田芥）是唯一的例外！它天生就是水边湿生植物——《蔬菜栽培百科全书》第 278–279 页专门指出：① 直接把市场上买来的食用水田芥插在有水的玻璃杯里，生根极快，是最好的幼苗；② 在室内栽培时，恰恰需要把装有河砂与腐殖土的箱式花盆**坐进装有水（并经常加入稀释液肥）的底盘里**从底部持续吸水，一旦缺水干燥茎叶就会变辣变老！",
+        "common_myth": "所有室內盆栽都怕托盤積水爛根，所以西洋菜也要乾透才澆水。",
+        "botanical_truth": "西洋菜（水田芥）是唯一的例外！它天生就是水邊溼生植物——《蔬菜栽培百科全書》第 278–279 頁專門指出：① 直接把市場上買來的食用水田芥插在有水的玻璃杯裡，生根極快，是最好的幼苗；② 在室內栽培時，恰恰需要把裝有河砂與腐殖土的箱式花盆**坐進裝有水（並經常加入稀釋液肥）的底盤裡**從底部持續吸水，一旦缺水乾燥莖葉就會變辣變老！",
         "source_refs": [
           "src_watercress_baike_278"
         ]
@@ -2926,30 +2977,30 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "挑选菜场新鲜西洋菜嫩茎插水杯诱根",
-          "action": "从市场上买回的食用西洋菜中，挑出茎节翠绿饱满的枝条（长约 10–15 cm），摘去下半截浸水叶片，插进盛有干净清水的玻璃杯中，放凉爽明亮窗台每日换水。",
-          "verification_checkpoint": "3–5 天内水下各个茎节处迅速冒出细密白色不定根。",
-          "failure_signal": "枝条已被压烂发黄或泡在高温热水中腐烂。",
+          "title": "挑選菜場新鮮西洋菜嫩莖插水杯發根",
+          "action": "從市場上買回的食用西洋菜中，挑出莖節翠綠飽滿的枝條（長約 10–15 cm），摘去下半截浸水葉片，插進盛有乾淨清水的玻璃杯中，放涼爽明亮窗臺每日換水。",
+          "verification_checkpoint": "3–5 天內水下各個莖節處迅速冒出細密白色不定根。",
+          "failure_signal": "枝條已被壓爛發黃或泡在高溫熱水中腐爛。",
           "source_refs": [
             "src_watercress_baike_278"
           ]
         },
         {
           "step_number": 2,
-          "title": "定植“河砂+腐殖土”浅箱并坐入盛水托盘",
-          "action": "在有排水孔的浅箱式花盆中填入透气河砂与腐殖土（或通用营养土+30%河砂/珍珠岩），按 9×9 cm 株距栽入发根苗；将整个花盆放进垫有塑料薄膜的木箱或深托盘内，托盘里常年保持 2–3 cm 清水使盆底持续吸水。",
-          "verification_checkpoint": "表土始终保持湿润清凉，幼苗迅速横向分枝铺满盆面。",
-          "failure_signal": "按旱生植物养法断水干透，导致整盆萎蔫黄叶。",
+          "title": "定植“河砂+腐殖土”淺箱並坐入盛水托盤",
+          "action": "在有排水孔的淺箱式花盆中填入透氣河砂與腐殖土（或通用營養土+30%河砂/珍珠岩），按 9×9 cm 株距栽入髮根苗；將整個花盆放進墊有塑料薄膜的木箱或深托盤內，托盤裡常年保持 2–3 cm 清水使盆底持續吸水。",
+          "verification_checkpoint": "表土始終保持溼潤清涼，幼苗迅速橫向分枝鋪滿盆面。",
+          "failure_signal": "按旱生植物養法斷水乾透，導致整盆萎蔫黃葉。",
           "source_refs": [
             "src_watercress_baike_278"
           ]
         },
         {
           "step_number": 3,
-          "title": "托盘定期加稀释液肥 + 掐取顶端柔嫩梢部",
-          "action": "在托盘水中每隔 7–10 天加入一勺高稀释倍数的液体水培肥（保持叶色翠绿）；当嫩茎长高时，用手指掐取顶端约 10–12 cm 最柔嫩的部分做沙拉、煲汤或配牛排（开花前及时摘花蕾）。",
-          "verification_checkpoint": "掐顶后下部节位继续萌发侧枝，色泽鲜亮、口感脆爽微辛。",
-          "failure_signal": "托盘死水长期不更换发臭，或夏季高温直晒导致抽薹开花变苦。",
+          "title": "托盤定期加稀釋液肥 + 掐取頂端柔嫩梢部",
+          "action": "在托盤水中每隔 7–10 天加入一勺高稀釋倍數的液體水培肥（保持葉色翠綠）；當嫩莖長高時，用手指掐取頂端約 10–12 cm 最柔嫩的部分做沙拉、煲湯或配牛排（開花前及時摘花蕾）。",
+          "verification_checkpoint": "掐頂後下部節位繼續萌發側枝，色澤鮮亮、口感脆爽微辛。",
+          "failure_signal": "托盤死水長期不更換髮臭，或夏季高溫直曬導致抽薹開花變苦。",
           "source_refs": [
             "src_watercress_baike_278"
           ]
@@ -2957,9 +3008,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "叶片颜色变淡发黄、茎变细硬",
-          "root_cause": "纯水吸收完基质养分后缺氮肥，或环境温度过高（> 25℃）。",
-          "fix": "在底部吸水托盘中补充稀释液肥，并移至阴凉通风处。",
+          "symptom": "葉片顏色變淡發黃、莖變細硬",
+          "root_cause": "純水吸收完基質養分後缺氮肥，或環境溫度過高（> 25℃）。",
+          "fix": "在底部吸水托盤中補充稀釋液肥，並移至陰涼通風處。",
           "source_refs": [
             "src_watercress_baike_278"
           ]
@@ -2969,35 +3020,38 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_watercress_baike_278",
           "source_type": "book",
-          "title": "蔬菜栽培百科全书（已拆分第03章）",
-          "author_or_publisher": "板木利隆 / 机械工业出版社",
-          "page_or_section": "书本第 278–279 页 (PDF 第 43–44 页) — 水田芥（西洋菜）",
-          "quote_or_note": "Q&A 明文指导：将市场上买来的食用水田芥插在有水的玻璃杯中即可快速生根作幼苗；室内可用浅箱式花盆装河砂与腐殖土，将花盆放在装有水（常加液肥）的托盘/木箱内从底部持续吸水，掐取顶端柔软部分收获。",
+          "title": "蔬菜栽培百科全書（已拆分第03章）",
+          "author_or_publisher": "板木利隆 / 機械工業出版社",
+          "page_or_section": "書本第 278–279 頁 (PDF 第 43–44 頁) — 水田芥（西洋菜）",
+          "quote_or_note": "Q&A 明文指導：將市場上買來的食用水田芥插在有水的玻璃杯中即可快速生根作幼苗；室內可用淺箱式花盆裝河砂與腐殖土，將花盆放在裝有水（常加液肥）的托盤/木箱內從底部持續吸水，掐取頂端柔軟部分收穫。",
           "verified": true
         }
       ]
     },
     {
       "id": "sweet-potato-greens",
-      "name_zh": "红薯叶（地瓜叶 / 甘薯苗）",
+      "name_zh": "紅薯葉（地瓜葉 / 甘薯苗）",
       "name_en": "Sweet Potato Greens",
       "aliases": [
+        "地瓜葉",
+        "番薯葉",
+        "甘薯嫩梢",
+        "红薯叶（地瓜叶 / 甘薯苗）",
         "地瓜叶",
-        "番薯叶",
-        "甘薯嫩梢"
+        "番薯叶"
       ],
       "botanical_name": "Ipomoea batatas",
       "category": "rhizome",
       "scrap_regrow_verdict": "high_value",
-      "verdict_label": "夏季耐热零失败：1 颗红薯水培/浅埋长满藤，剪藤扦插无限扩繁",
+      "verdict_label": "夏季耐熱好養：1 顆地瓜催芽即可剪藤扦插，持續採收地瓜葉",
       "best_starting_method": "kitchen_scrap_water_to_soil",
-      "starting_method_label": "整颗红薯半浸水/浅埋催芽 → 剪取 25cm 健壮藤苗斜插盆土专收嫩叶",
-      "water_only_limit": "整薯水培可观赏并剪 1–2 茬叶；剪下藤条转入高氮肥盆土可疯狂爆叶",
+      "starting_method_label": "整顆紅薯半浸水/淺埋催芽 → 剪取 25cm 健壯藤苗斜插盆土專收嫩葉",
+      "water_only_limit": "整薯水培可觀賞並剪 1–2 茬葉；剪下藤條轉入高氮肥盆土可瘋狂爆葉",
       "light_requirement": "bright_windowsill_ok",
-      "light_label": "喜高温强光（20–30℃ 生长极旺，普通明亮窗台亦可作垂吊绿植兼采叶）",
+      "light_label": "喜高溫強光（20–30℃ 生長極旺，普通明亮窗臺亦可作垂吊綠植兼採葉）",
       "ppfd_dli": "PPFD 200–350 μmol·m⁻²·s⁻¹｜DLI 12–18｜12–14 h/天",
-      "container_and_soil": "深 20 cm 透气花盆；专收地瓜叶可适度多施氮肥（种块根结薯则忌氮肥过多）",
-      "expected_harvest_window": "薯块催芽约 10–15 天抽藤；藤苗扦插成活后每 2 周可掐一盘嫩叶尖",
+      "container_and_soil": "深 20 cm 透氣花盆；專收地瓜葉可適度多施氮肥（種塊根結薯則忌氮肥過多）",
+      "expected_harvest_window": "薯塊催芽約 10–15 天抽藤；藤苗扦插成活後每 2 周可掐一盤嫩葉尖",
       "difficulty": 1,
       "diagrams": [
         "water_line",
@@ -3007,11 +3061,11 @@ window.PLANTS_DATA = {
         "type": "image",
         "src": "assets/media/plants/sweet-potato-greens.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Sweet_potato",
-        "caption": "红薯叶（地瓜叶 / 甘薯苗） (Sweet Potato Greens) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "紅薯葉（地瓜葉 / 甘薯苗） (Sweet Potato Greens) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "阳台小花盆种红薯既想收大红薯又想猛施氮肥吃叶子。",
-        "botanical_truth": "《蔬菜栽培百科全书》第 394–395 页揭示了一个极有趣的转换：① 如果你想在花盆里结出地下大红薯，绝对不能多施氮肥（氮肥过多会引起茎叶疯长而不结薯）；② 但对于**室内厨房窗台空间有限的人来说，反过来利用这一特性专收“红薯叶（地瓜叶）”性价比极高**——用 1 颗红薯催出藤苗后剪下扦插进盆土并给足水肥，整个夏天都有掐不完的无虫害高纤地瓜叶！",
+        "common_myth": "陽臺小花盆種紅薯既想收大紅薯又想猛施氮肥吃葉子。",
+        "botanical_truth": "《蔬菜栽培百科全書》第 394–395 頁揭示了一個極有趣的轉換：① 如果你想在花盆裡結出地下大紅薯，絕對不能多施氮肥（氮肥過多會引起莖葉瘋長而不結薯）；② 但對於**室內廚房窗臺空間有限的人來說，反過來利用這一特性專收“紅薯葉（地瓜葉）”性價比極高**——用 1 顆紅薯催出藤苗後剪下扦插進盆土並給足水肥，整個夏天都有掐不完的無蟲害高纖地瓜葉！",
         "source_refs": [
           "src_sweetpotato_baike_394"
         ]
@@ -3019,30 +3073,30 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "选无黑斑健康红薯催芽（浅埋湿土或半浸水杯）",
-          "action": "挑一颗表皮完好、未受冷害黑腐的红薯，可横放浅埋在湿润沙土/营养土中（或用牙签架在水杯口使下半截浸水），置于 20–30℃ 温暖明亮处催芽。",
-          "verification_checkpoint": "7–15 天内薯块表面芽眼萌发出多丛紫绿相间的粗壮嫩芽。",
-          "failure_signal": "室温低于 15℃ 导致薯块不发芽并在冷水里心腐。",
+          "title": "選無黑斑健康紅薯催芽（淺埋溼土或半浸水杯）",
+          "action": "挑一顆表皮完好、未受冷害黑腐的紅薯，可橫放淺埋在溼潤沙土/營養土中（或用牙籤架在水杯口使下半截浸水），置於 20–30℃ 溫暖明亮處催芽。",
+          "verification_checkpoint": "7–15 天內薯塊表面芽眼萌發出多叢紫綠相間的粗壯嫩芽。",
+          "failure_signal": "室溫低於 15℃ 導致薯塊不發芽並在冷水裡心腐。",
           "source_refs": [
             "src_sweetpotato_baike_394"
           ]
         },
         {
           "step_number": 2,
-          "title": "剪取 7–8 片叶粗壮薯苗“水平/斜向”浅插",
-          "action": "当薯块上的苗长到 20–25 cm、带 7–8 片叶且节间紧凑时剪下（或直接拿菜场买的新鲜带节地瓜叶梗），摘去基部 2–3 节叶片，按 45° 斜插或水平浅埋入疏松盆土中（深约 3–5 cm），浇透定根水，前 3 天避开烈日暴晒。",
-          "verification_checkpoint": "3–5 天内埋土节位迅速扎根，顶芽重新昂头展叶。",
-          "failure_signal": "选用节间细长发黄的弱苗，或垂直插得过深至盆底闷湿不透气。",
+          "title": "剪取 7–8 片葉粗壯薯苗“水平/斜向”淺插",
+          "action": "當薯塊上的苗長到 20–25 cm、帶 7–8 片葉且節間緊湊時剪下（或直接拿菜場買的新鮮帶節地瓜葉梗），摘去基部 2–3 節葉片，按 45° 斜插或水平淺埋入疏鬆盆土中（深約 3–5 cm），澆透定根水，前 3 天避開烈日暴曬。",
+          "verification_checkpoint": "3–5 天內埋土節位迅速紮根，頂芽重新昂頭展葉。",
+          "failure_signal": "選用節間細長髮黃的弱苗，或垂直插得過深至盆底悶溼不透氣。",
           "source_refs": [
             "src_sweetpotato_baike_394"
           ]
         },
         {
           "step_number": 3,
-          "title": "适度追氮肥促叶 + 循环掐取 10–15 cm 顶端嫩梢",
-          "action": "若专门采食地瓜叶，定植成活后每 2 周追施一次均衡肥或高氮有机液肥，保持土壤微润；每次掐取藤蔓顶端 10–15 cm 的嫩叶与嫩梗清炒或蒜蓉焯水，留下的基部节位会继续爆出新侧蔓。",
-          "verification_checkpoint": "藤叶肥厚柔嫩无苦涩味，一盆可连续采收整个暖季。",
-          "failure_signal": "若想兼顾结地下红薯却猛施氮肥，结果只会满盆藤叶、底下全是细须根。",
+          "title": "適度追氮肥促葉 + 循環掐取 10–15 cm 頂端嫩梢",
+          "action": "若專門採食地瓜葉，定植成活後每 2 周追施一次均衡肥或高氮有機液肥，保持土壤微潤；每次掐取藤蔓頂端 10–15 cm 的嫩葉與嫩梗清炒或蒜蓉焯水，留下的基部節位會繼續爆出新側蔓。",
+          "verification_checkpoint": "藤葉肥厚柔嫩無苦澀味，一盆可連續採收整個暖季。",
+          "failure_signal": "若想兼顧結地下紅薯卻猛施氮肥，結果只會滿盆藤葉、底下全是細鬚根。",
           "source_refs": [
             "src_sweetpotato_baike_394"
           ]
@@ -3050,9 +3104,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "红薯泡水杯里半个月不发芽反而发酸发软",
-          "root_cause": "水温过低（冬季 < 15℃）或整颗红薯超 2/3 泡在水底缺氧。",
-          "fix": "只让红薯底部 1/3 接触水面（或改用微潮椰糠/沙土浅埋），并在 22–28℃ 温暖处催芽。",
+          "symptom": "紅薯泡水杯裡半個月不發芽反而發酸發軟",
+          "root_cause": "水溫過低（冬季 < 15℃）或整顆紅薯超 2/3 泡在水底缺氧。",
+          "fix": "只讓紅薯底部 1/3 接觸水面（或改用微潮椰糠/沙土淺埋），並在 22–28℃ 溫暖處催芽。",
           "source_refs": [
             "src_sweetpotato_baike_394"
           ]
@@ -3062,46 +3116,49 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_sweetpotato_baike_394",
           "source_type": "book",
-          "title": "蔬菜栽培百科全书（已拆分第04章）",
-          "author_or_publisher": "板木利隆 / 机械工业出版社",
-          "page_or_section": "书本第 394–395 页 (PDF 第 29–30 页) — 甘薯",
-          "quote_or_note": "高温强光下生长旺盛（适温 20–30℃）；选茎粗壮、节间短、有 7–8 片叶的健康苗斜向浅插（避免垂直深插结薯不良）；氮肥过多会引起茎叶格外繁茂。",
+          "title": "蔬菜栽培百科全書（已拆分第04章）",
+          "author_or_publisher": "板木利隆 / 機械工業出版社",
+          "page_or_section": "書本第 394–395 頁 (PDF 第 29–30 頁) — 甘薯",
+          "quote_or_note": "高溫強光下生長旺盛（適溫 20–30℃）；選莖粗壯、節間短、有 7–8 片葉的健康苗斜向淺插（避免垂直深插結薯不良）；氮肥過多會引起莖葉格外繁茂。",
           "verified": true
         }
       ]
     },
     {
       "id": "chamomile",
-      "name_zh": "洋甘菊（德国洋甘菊 / 罗马洋甘菊）",
+      "name_zh": "洋甘菊（德國洋甘菊 / 羅馬洋甘菊）",
       "name_en": "Chamomile",
       "aliases": [
         "母菊",
+        "德國洋甘菊",
+        "羅馬洋甘菊",
+        "甘菊",
+        "洋甘菊（德国洋甘菊 / 罗马洋甘菊）",
         "德国洋甘菊",
-        "罗马洋甘菊",
-        "甘菊"
+        "罗马洋甘菊"
       ],
       "botanical_name": "Matricaria chamomilla / Chamaemelum nobile",
       "category": "herb",
       "scrap_regrow_verdict": "not_recommended",
-      "verdict_label": "花茶与伴生防虫名角：不靠菜梗水培，宜买健壮秋春苗或浅播育苗",
+      "verdict_label": "花茶與伴生防蟲名角：不靠菜梗水培，宜買健壯秋春苗或淺播育苗",
       "best_starting_method": "grocery_pot_split",
-      "starting_method_label": "买结实幼苗定植（株距 20 cm）或好光种子表面极浅播",
-      "water_only_limit": "不适用（剪下的鲜花枝插水仅作切花观赏数日）",
+      "starting_method_label": "買結實幼苗定植（株距 20 cm）或好光種子表面極淺播",
+      "water_only_limit": "不適用（剪下的鮮花枝插水僅作切花觀賞數日）",
       "light_requirement": "grow_light_recommended",
-      "light_label": "喜日照充足与通风良好处（适温 15–20℃，忌闷热潮湿）",
+      "light_label": "喜日照充足與通風良好處（適溫 15–20℃，忌悶熱潮溼）",
       "ppfd_dli": "PPFD 200–350 μmol·m⁻²·s⁻¹｜DLI 12–16｜12–14 h/天",
-      "container_and_soil": "深 15–20 cm 小型或标准花盆；赤玉土 40% + 堆肥 40% + 腐叶土 10% + 熏炭 10%（加有机石灰 6g/L）",
-      "expected_harvest_window": "定植后春夏季陆续开花；花瓣刚平展或花心微鼓时即刻摘花",
+      "container_and_soil": "深 15–20 cm 小型或標準花盆；赤玉土 40% + 堆肥 40% + 腐葉土 10% + 燻炭 10%（加有機石灰 6g/L）",
+      "expected_harvest_window": "定植後春夏季陸續開花；花瓣剛平展或花心微鼓時即刻摘花",
       "difficulty": 2,
       "hero_media": {
         "type": "image",
         "src": "assets/media/plants/chamomile.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Matricaria_chamomilla",
-        "caption": "洋甘菊（德国洋甘菊 / 罗马洋甘菊） (Chamomile) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "洋甘菊（德國洋甘菊 / 羅馬洋甘菊） (Chamomile) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "洋甘菊开花了留在枝头越久越好看，等整株花开败了一起摘。",
-        "botanical_truth": "藤田智在《最新有机家庭盆栽种菜法》第 100–101 页特别强调：① 洋甘菊开花后必须**立即分批摘取**（刚开平展，到花心黄色部分鼓起、白色花瓣开始下垂时苹果香气最浓）——如果延误不摘，植株以为已完成结籽任务，整体花期会大幅缩短！只有勤摘花+每月追肥，才能刺激它源源不断爆出新花苞；② 此外它还是优秀的伴生防虫植物（第 105 页）。",
+        "common_myth": "洋甘菊開花了留在枝頭越久越好看，等整株花開敗了一起摘。",
+        "botanical_truth": "藤田智在《最新有機家庭盆栽種菜法》第 100–101 頁特別強調：① 洋甘菊開花後必須**立即分批摘取**（剛開平展，到花心黃色部分鼓起、白色花瓣開始下垂時蘋果香氣最濃）——如果延誤不摘，植株以為已完成結籽任務，整體花期會大幅縮短！只有勤摘花+每月追肥，才能刺激它源源不斷爆出新花苞；② 此外它還是優秀的伴生防蟲植物（第 105 頁）。",
         "source_refs": [
           "src_cham_fujita_100",
           "src_cham_fujita_101"
@@ -3110,10 +3167,10 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "选叶色健康的壮苗定植（株距 20 cm）",
-          "action": "准备排水良好的标准花盆（藤田智配土：赤玉土 40% + 堆肥 40% + 腐叶土 10% + 熏炭 10%），挑选茎基结实、羽毛叶翠绿的洋甘菊幼苗，挖比苗盆略大的坑定植（多株保持 20 cm 间距），覆土轻压稳固并浇透水。",
-          "verification_checkpoint": "植株稳固不晃动，放置于 15–20℃ 日照与通风良好的窗台或补光灯下。",
-          "failure_signal": "盆土长期积水不干或放在阴暗角落导致细弱不开花。",
+          "title": "選葉色健康的壯苗定植（株距 20 cm）",
+          "action": "準備排水良好的標準花盆（藤田智配土：赤玉土 40% + 堆肥 40% + 腐葉土 10% + 燻炭 10%），挑選莖基結實、羽毛葉翠綠的洋甘菊幼苗，挖比苗盆略大的坑定植（多株保持 20 cm 間距），覆土輕壓穩固並澆透水。",
+          "verification_checkpoint": "植株穩固不晃動，放置於 15–20℃ 日照與通風良好的窗臺或補光燈下。",
+          "failure_signal": "盆土長期積水不幹或放在陰暗角落導致細弱不開花。",
           "source_refs": [
             "src_cham_fujita_100",
             "src_cham_fujita_101"
@@ -3121,10 +3178,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 2,
-          "title": "表土干燥再浇透 + 每月追肥培土 + 剪除过长徒长枝",
-          "action": "平时等土层表面干燥时再浇满水；以每月 1 次为基准在株基追施有机肥并轻培一层薄土；当内部枝条生长过长过密时，从根基处剪掉过长弱枝以减轻负担、提高冠层通风（防蚜虫）。",
-          "verification_checkpoint": "羽状细叶清爽无蚜虫蜜露，顶端不断分化出小花蕾。",
-          "failure_signal": "通风不良且氮肥过重招来成群蚜虫聚集在花梗上。",
+          "title": "表土乾燥再澆透 + 每月追肥培土 + 剪除過長徒長枝",
+          "action": "平時等土層表面乾燥時再澆滿水；以每月 1 次為基準在株基追施有機肥並輕培一層薄土；當內部枝條生長過長過密時，從根基處剪掉過長弱枝以減輕負擔、提高冠層通風（防蚜蟲）。",
+          "verification_checkpoint": "羽狀細葉清爽無蚜蟲蜜露，頂端不斷分化出小花蕾。",
+          "failure_signal": "通風不良且氮肥過重招來成群蚜蟲聚集在花梗上。",
           "source_refs": [
             "src_cham_fujita_100",
             "src_cham_fujita_101"
@@ -3132,10 +3189,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 3,
-          "title": "在“白瓣平展至花心鼓起下垂”黄金窗口分批采花",
-          "action": "从刚绽放平展的花朵开始，到黄色管状花心鼓起、外圈白花瓣微下垂时，用手指夹住花托逐朵摘下；趁新鲜直接冲泡洋甘菊茶，或摊在阴凉通风处彻底晾干后装入密封罐长期保存。",
-          "verification_checkpoint": "每次及时摘除盛开花头后，侧枝很快顶出下一批花蕾，收获量倍增。",
-          "failure_signal": "任由花头在枝上枯萎结籽，导致后续花蕾停止萌发。",
+          "title": "在“白瓣平展至花心鼓起下垂”黃金窗口分批採花",
+          "action": "從剛綻放平展的花朵開始，到黃色管狀花心鼓起、外圈白花瓣微下垂時，用手指夾住花托逐朵摘下；趁新鮮直接沖泡洋甘菊茶，或攤在陰涼通風處徹底晾乾後裝入密封罐長期保存。",
+          "verification_checkpoint": "每次及時摘除盛開花頭後，側枝很快頂出下一批花蕾，收穫量倍增。",
+          "failure_signal": "任由花頭在枝上枯萎結籽，導致後續花蕾停止萌發。",
           "source_refs": [
             "src_cham_fujita_101"
           ]
@@ -3143,9 +3200,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "花梗与嫩梢上密密麻麻爬满蚜虫",
-          "root_cause": "洋甘菊对疾病抗性强，但甜香花茎在通风差时容易招引蚜虫（藤田智 p.100）。",
-          "fix": "从根部修剪过密枝改善通风，发现初期用清水冲刷或喷施《最新有机》p.109–110 的自然喷剂（食用花朵采前避免残留）。",
+          "symptom": "花梗與嫩梢上密密麻麻爬滿蚜蟲",
+          "root_cause": "洋甘菊對疾病抗性強，但甜香花莖在通風差時容易招引蚜蟲（藤田智 p.100）。",
+          "fix": "從根部修剪過密枝改善通風，發現初期用清水沖刷或噴施《最新有機》p.109–110 的自然噴劑（食用花朵採前避免殘留）。",
           "source_refs": [
             "src_cham_fujita_100",
             "src_cham_fujita_101"
@@ -3156,19 +3213,19 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_cham_fujita_100",
           "source_type": "book",
-          "title": "最新有机家庭盆栽种菜法",
+          "title": "最新有機家庭盆栽種菜法",
           "author_or_publisher": "藤田智",
-          "page_or_section": "书本第 100 页 (PDF 第 101 页) — 洋甘菊",
-          "quote_or_note": "菊科（分一年生罗马洋甘菊与多年生母菊），适温 15–20℃，置于日照与通风良好处，土表干燥时浇满水；无特殊病害但需留意蚜虫；开花后立即收获并追肥可提高产量。",
+          "page_or_section": "書本第 100 頁 (PDF 第 101 頁) — 洋甘菊",
+          "quote_or_note": "菊科（分一年生羅馬洋甘菊與多年生母菊），適溫 15–20℃，置於日照與通風良好處，土表乾燥時澆滿水；無特殊病害但需留意蚜蟲；開花後立即收穫並追肥可提高產量。",
           "verified": true
         },
         {
           "ref_id": "src_cham_fujita_101",
           "source_type": "book",
-          "title": "最新有机家庭盆栽种菜法",
+          "title": "最新有機家庭盆栽種菜法",
           "author_or_publisher": "藤田智",
-          "page_or_section": "书本第 101 页 (PDF 第 102 页) — 洋甘菊采收与剪枝",
-          "quote_or_note": "株距 20 cm 定植，每月追肥培土；从根基剪掉过长枝提高通风；从刚开平展至花心鼓起、白瓣开始下垂时分批频繁摘取（延误则花期变短），阴干密封保存。",
+          "page_or_section": "書本第 101 頁 (PDF 第 102 頁) — 洋甘菊採收與剪枝",
+          "quote_or_note": "株距 20 cm 定植，每月追肥培土；從根基剪掉過長枝提高通風；從剛開平展至花心鼓起、白瓣開始下垂時分批頻繁摘取（延誤則花期變短），陰乾密封保存。",
           "verified": true
         }
       ]
@@ -3178,23 +3235,26 @@ window.PLANTS_DATA = {
       "name_zh": "薰衣草",
       "name_en": "Lavender",
       "aliases": [
+        "狹葉薰衣草",
+        "羽葉薰衣草",
+        "法國薰衣草",
+        "English Lavender",
         "狭叶薰衣草",
         "羽叶薰衣草",
-        "法国薰衣草",
-        "English Lavender"
+        "法国薰衣草"
       ],
       "botanical_name": "Lavandula angustifolia / Lavandula spp.",
       "category": "herb",
       "scrap_regrow_verdict": "not_recommended",
-      "verdict_label": "高难木本香草（4★）：种子需2年才收，宜买苗或7–8cm顶梢插赤玉土+蛭石",
+      "verdict_label": "高難木本香草（4★）：種子需2年才收，宜買苗或7–8cm頂梢插赤玉土+蛭石",
       "best_starting_method": "grocery_pot_split",
-      "starting_method_label": "买现成盆栽苗换高排水盆 / 剪 7–8 cm 未开花顶梢插无肥赤玉土+蛭石",
-      "water_only_limit": "不建议纯水泡（木本好氧根系在水中极易腐烂，须用赤玉土+蛭石基质扦插）",
+      "starting_method_label": "買現成盆栽苗換高排水盆 / 剪 7–8 cm 未開花頂梢插無肥赤玉土+蛭石",
+      "water_only_limit": "不建議純水泡（木本好氧根系在水中極易腐爛，須用赤玉土+蛭石基質扦插）",
       "light_requirement": "grow_light_required",
-      "light_label": "全日照强光 + 凉爽干燥通风（极度怕高温高湿与闷水）",
+      "light_label": "全日照強光 + 涼爽乾燥通風（極度怕高溫高溼與悶水）",
       "ppfd_dli": "PPFD 300–450 μmol·m⁻²·s⁻¹｜DLI 16–22+｜14–16 h/天",
-      "container_and_soil": "未上釉红陶盆或箱式花盆（株距 30 cm）；排水极佳、微偏干偏碱的颗粒土（加少量石灰）",
-      "expected_harvest_window": "扦插或定植当年/次年春夏季采花；若从种子播种到收获需长达 2 年",
+      "container_and_soil": "未上釉紅陶盆或箱式花盆（株距 30 cm）；排水極佳、微偏幹偏鹼的顆粒土（加少量石灰）",
+      "expected_harvest_window": "扦插或定植當年/次年春夏季採花；若從種子播種到收穫需長達 2 年",
       "difficulty": 4,
       "diagrams": [
         "pwt",
@@ -3204,11 +3264,11 @@ window.PLANTS_DATA = {
         "type": "image",
         "src": "assets/media/plants/lavender.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Lavandula_angustifolia",
-        "caption": "薰衣草 (Lavender) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "薰衣草 (Lavender) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "买一包薰衣草种子在室内花盆随便播就能很快开满紫花；夏天热的时候多浇水多喷雾。",
-        "botanical_truth": "《蔬菜栽培百科全书》第 432–433 页明确指出：① 薰衣草**从种子培育到开花收获需要长达 2 年时间**，家庭栽培直接买苗或剪 7–8 cm 未开花嫩顶梢插在“赤玉土+蛭石”里简单得多；② 薰衣草是典型地中海常绿小灌木，喜欢凉爽、通风、微干偏碱的土壤，**最怕高温高湿**——在进入闷热潮湿季（梅雨/盛夏）前必须把枝条剪短并疏剪过密枝防止内部郁闭，否则在室内湿热环境下一周就会黑腐暴毙！",
+        "common_myth": "買一包薰衣草種子在室內花盆隨便播就能很快開滿紫花；夏天熱的時候多澆水多噴霧。",
+        "botanical_truth": "《蔬菜栽培百科全書》第 432–433 頁明確指出：① 薰衣草**從種子培育到開花收穫需要長達 2 年時間**，家庭栽培直接買苗或剪 7–8 cm 未開花嫩頂梢插在“赤玉土+蛭石”裡簡單得多；② 薰衣草是典型地中海常綠小灌木，喜歡涼爽、通風、微幹偏鹼的土壤，**最怕高溫高溼**——在進入悶熱潮溼季（梅雨/盛夏）前必須把枝條剪短並疏剪過密枝防止內部鬱閉，否則在室內溼熱環境下一週就會黑腐枯死！",
         "source_refs": [
           "src_lav_baike_432"
         ]
@@ -3216,20 +3276,20 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "剪取 7–8 cm 未开花顶梢插“赤玉土+蛭石”（或买苗定植）",
-          "action": "若扦插育苗：剪取健壮未开花枝条顶端 7–8 cm，摘除下半部 4–5 片叶，在清水中吸水 1 小时后插入“赤玉土+蛭石”无肥育苗盆中，避开烈日直射、保持微湿至生根（苗高 10 cm 时定植）。",
-          "verification_checkpoint": "插穗顶芽保持灰绿挺立，3–6 周生根后新叶展开。",
-          "failure_signal": "使用正在开花的花茎扦插，或用含肥黏重黑土扦插导致黑杆。",
+          "title": "剪取 7–8 cm 未開花頂梢插“赤玉土+蛭石”（或買苗定植）",
+          "action": "若扦插育苗：剪取健壯未開花枝條頂端 7–8 cm，摘除下半部 4–5 片葉，在清水中吸水 1 小時後插入“赤玉土+蛭石”無肥育苗盆中，避開烈日直射、保持微溼至生根（苗高 10 cm 時定植）。",
+          "verification_checkpoint": "插穗頂芽保持灰綠挺立，3–6 周生根後新葉展開。",
+          "failure_signal": "使用正在開花的花莖扦插，或用含肥黏重黑土扦插導致黑杆。",
           "source_refs": [
             "src_lav_baike_432"
           ]
         },
         {
           "step_number": 2,
-          "title": "高排水微碱颗粒土定植 + 强光干湿循环",
-          "action": "选用排水孔畅通的红陶盆或长方形箱式花盆（多株间距 30 cm），填入混有 35%+ 粗颗粒（赤玉土/珍珠岩/轻石）及少量苦土石灰的微干爽介质；置于全日照南窗或强光补光灯下，严格等盆土干透再浇透。",
-          "verification_checkpoint": "浇水后数秒排空，灰绿色叶片紧凑、芳香浓郁。",
-          "failure_signal": "盆土长期潮湿不干或盆底垫碎石积水。",
+          "title": "高排水微鹼顆粒土定植 + 強光乾溼循環",
+          "action": "選用排水孔暢通的紅陶盆或長方形箱式花盆（多株間距 30 cm），填入混有 35%+ 粗顆粒（赤玉土/珍珠岩/輕石）及少量苦土石灰的微乾爽介質；置於全日照南窗或強光補光燈下，嚴格等盆土乾透再澆透。",
+          "verification_checkpoint": "澆水後數秒排空，灰綠色葉片緊湊、芳香濃郁。",
+          "failure_signal": "盆土長期潮溼不幹或盆底墊碎石積水。",
           "source_refs": [
             "src_lav_baike_432",
             "src_lav_bible"
@@ -3237,10 +3297,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 3,
-          "title": "梅雨/盛夏前疏剪防郁闭 + 花期连花茎下 1–2 片叶剪收",
-          "action": "在初夏高温高湿季来临前，把过长过密枝条剪短打开冠层通风（防内部闷烂）；开花时带着花穗连同下方 1–2 片叶一起剪下，既能泡花茶/做香包，又能促使留下的下部枝条重新萌发新芽。",
-          "verification_checkpoint": "内膛通风干爽无枯叶堆积，花后顺利抽出新侧芽。",
-          "failure_signal": "夏季闷热潮湿又不修剪，导致内膛整片发黑枯死。",
+          "title": "梅雨/盛夏前疏剪防鬱閉 + 花期連花莖下 1–2 片葉剪收",
+          "action": "在初夏高溫高溼季來臨前，把過長過密枝條剪短打開冠層通風（防內部悶爛）；開花時帶著花穗連同下方 1–2 片葉一起剪下，既能泡花茶/做香包，又能促使留下的下部枝條重新萌發新芽。",
+          "verification_checkpoint": "內膛通風乾爽無枯葉堆積，花後順利抽出新側芽。",
+          "failure_signal": "夏季悶熱潮溼又不修剪，導致內膛整片發黑枯死。",
           "source_refs": [
             "src_lav_baike_432"
           ]
@@ -3248,9 +3308,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "夏天或室内暖气房里整株下半部突然发黑枯死",
-          "root_cause": "高温高湿 + 冠层过密郁闭不通风，或浇水过频引发根腐（《蔬菜栽培百科全书》p.432）。",
-          "fix": "入夏前提前修剪疏枝 1/3 打开通风道，配置循环小风扇，严格控水保持盆土微干。",
+          "symptom": "夏天或室內暖氣房裡整株下半部突然發黑枯死",
+          "root_cause": "高溫高溼 + 冠層過密鬱閉不通風，或澆水過頻引發根腐（《蔬菜栽培百科全書》p.432）。",
+          "fix": "入夏前提前修剪疏枝 1/3 打開通風道，配置循環小風扇，嚴格控水保持盆土微幹。",
           "source_refs": [
             "src_lav_baike_432"
           ]
@@ -3260,45 +3320,48 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_lav_baike_432",
           "source_type": "book",
-          "title": "蔬菜栽培百科全书（已拆分第04章）",
-          "author_or_publisher": "板木利隆 / 机械工业出版社",
-          "page_or_section": "书本第 432–433 页 (PDF 第 67–68 页) — 薰衣草",
-          "quote_or_note": "唇形科常绿小灌木，喜凉爽、排水良好稍干土壤（施少量石灰）；从种子到收获需 2 年，宜用株苗或剪顶端 7–8 cm 嫩枝摘下部 4–5 片叶插赤玉土+蛭石；不耐高温高湿，梅雨前须把枝剪短防郁闭；开花时连花下 1–2 片叶剪下。",
+          "title": "蔬菜栽培百科全書（已拆分第04章）",
+          "author_or_publisher": "板木利隆 / 機械工業出版社",
+          "page_or_section": "書本第 432–433 頁 (PDF 第 67–68 頁) — 薰衣草",
+          "quote_or_note": "唇形科常綠小灌木，喜涼爽、排水良好稍乾土壤（施少量石灰）；從種子到收穫需 2 年，宜用株苗或剪頂端 7–8 cm 嫩枝摘下部 4–5 片葉插赤玉土+蛭石；不耐高溫高溼，梅雨前須把枝剪短防鬱閉；開花時連花下 1–2 片葉剪下。",
           "verified": true
         },
         {
           "ref_id": "src_lav_bible",
           "source_type": "book",
-          "title": "[薰衣草百科圣经].(Lavender: The Genus Lavandula).pdf",
-          "author_or_publisher": "Maria Lis-Balchin（本地文字版图书）",
+          "title": "[薰衣草百科聖經].(Lavender: The Genus Lavandula).pdf",
+          "author_or_publisher": "Maria Lis-Balchin（本地文字版圖書）",
           "page_or_section": "Cultivation & Container Drainage Principles",
-          "quote_or_note": "薰衣草属植物根系对缺氧水涝极度敏感，容器栽培必须保证高孔隙排水与充足光照通风。",
+          "quote_or_note": "薰衣草屬植物根系對缺氧水澇極度敏感，容器栽培必須保證高孔隙排水與充足光照通風。",
           "verified": true
         }
       ]
     },
     {
       "id": "tarragon",
-      "name_zh": "龙蒿（法国龙蒿 / 茵陈蒿）",
+      "name_zh": "龍蒿（法國龍蒿 / 茵陳蒿）",
       "name_en": "Tarragon (French Tarragon)",
       "aliases": [
-        "法国龙蒿",
+        "法國龍蒿",
         "他拉根",
-        "茵陈蒿",
-        "Estragon"
+        "茵陳蒿",
+        "Estragon",
+        "龙蒿（法国龙蒿 / 茵陈蒿）",
+        "法国龙蒿",
+        "茵陈蒿"
       ],
       "botanical_name": "Artemisia dracunculus var. sativa",
       "category": "herb",
       "scrap_regrow_verdict": "partial_greens_only",
-      "verdict_label": "西餐第一防坑品种：正宗法国龙蒿采不到种子！必须买苗分株或嫩枝扦插",
+      "verdict_label": "選購避坑重點：正宗法國龍蒿不結種子，必須買活苗分株或扦插",
       "best_starting_method": "grocery_pot_split",
-      "starting_method_label": "买正宗法国龙蒿活苗分株（每1–2年分株）或春季剪 12–13 cm 子梢扦插",
-      "water_only_limit": "仅限春季新梢诱根期，出根后须转入排水良好微干盆土",
+      "starting_method_label": "買正宗法國龍蒿活苗分株（每1–2年分株）或春季剪 12–13 cm 子梢扦插",
+      "water_only_limit": "僅限春季新梢發根期，出根後須轉入排水良好微幹盆土",
       "light_requirement": "grow_light_recommended",
-      "light_label": "喜阳光与通风良好，但盛夏忌烈日暴晒（夏天气温高时需半遮阴）",
+      "light_label": "喜陽光與通風良好，但盛夏忌烈日暴曬（夏天氣溫高時需半遮陰）",
       "ppfd_dli": "PPFD 200–350 μmol·m⁻²·s⁻¹｜DLI 12–16｜12–14 h/天",
-      "container_and_soil": "深 20 cm 陶瓷盆或箱式花盆（可种在窗边向阳处）；排水良好、施有基肥的疏松土",
-      "expected_harvest_window": "春季新芽伸展旺盛时随时掐取茎尖嫩叶；每 1–2 年必须分株翻盆更新",
+      "container_and_soil": "深 20 cm 陶瓷盆或箱式花盆（可種在窗邊向陽處）；排水良好、施有基肥的疏鬆土",
+      "expected_harvest_window": "春季新芽伸展旺盛時隨時掐取莖尖嫩葉；每 1–2 年必須分株翻盆更新",
       "difficulty": 3,
       "diagrams": [
         "pwt"
@@ -3307,11 +3370,11 @@ window.PLANTS_DATA = {
         "type": "image",
         "src": "assets/media/plants/tarragon.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Tarragon",
-        "caption": "龙蒿（法国龙蒿 / 茵陈蒿） (Tarragon (French Tarragon)) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "龍蒿（法國龍蒿 / 茵陳蒿） (Tarragon (French Tarragon)) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "网购一包便宜的“龙蒿种子”回来播，就能种出法餐熊那兹酱（Béarnaise）里那种带甜八角香的龙蒿。",
-        "botanical_truth": "《蔬菜栽培百科全书》第 442–443 页专门点破了这个最大陷阱：① 龙蒿分为**法国种（French Tarragon）**和**俄罗斯种（Russian Tarragon）**——法国龙蒿叶色鲜绿光滑、香味浓郁纯正，但**因为法国种不结可育种子，市面上卖的龙蒿种子几乎全是叶片带毛、毫无香味且苦涩不适做菜的俄罗斯龙蒿**！② 想要正宗法国龙蒿，唯一途径是买活体母株，在春季剪 12–13 cm 新生子梢扦插或每 1–2 年切根分株。",
+        "common_myth": "網購一包便宜的“龍蒿種子”回來播，就能種出法餐熊那茲醬（Béarnaise）裡那種帶甜八角香的龍蒿。",
+        "botanical_truth": "《蔬菜栽培百科全書》第 442–443 頁專門點破了這個最大陷阱：① 龍蒿分為**法國種（French Tarragon）**和**俄羅斯種（Russian Tarragon）**——法國龍蒿葉色鮮綠光滑、香味濃郁純正，但**因為法國種不結可育種子，市面上賣的龍蒿種子幾乎全是葉片帶毛、毫無香味且苦澀不適做菜的俄羅斯龍蒿**！② 想要正宗法國龍蒿，唯一途徑是買活體母株，在春季剪 12–13 cm 新生子梢扦插或每 1–2 年切根分株。",
         "source_refs": [
           "src_tarragon_baike_442"
         ]
@@ -3319,30 +3382,30 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "认准光滑香叶“法国龙蒿”：春季剪 12–13 cm 子梢扦插或分株",
-          "action": "拒绝购买龙蒿种子！春季从正宗法国龙蒿母株基部刚抽出的新芽（子梢）上剪取 12–13 cm，摘除下半部叶片插入无肥育苗箱诱根；或将 2 年生母株挖出，把盘结的地下根茎分切成带芽小丛。",
-          "verification_checkpoint": "叶片光滑翠绿无绒毛，揉搓有明显甜茴香/八角香气（若叶面多毛无味则是假冒俄罗斯种）。",
-          "failure_signal": "买种子播出一大盆毫无香味的杂草化俄罗斯龙蒿。",
+          "title": "認準光滑香葉“法國龍蒿”：春季剪 12–13 cm 子梢扦插或分株",
+          "action": "拒絕購買龍蒿種子！春季從正宗法國龍蒿母株基部剛抽出的新芽（子梢）上剪取 12–13 cm，摘除下半部葉片插入無肥育苗箱發根；或將 2 年生母株挖出，把盤結的地下根莖分切成帶芽小叢。",
+          "verification_checkpoint": "葉片光滑翠綠無絨毛，揉搓有明顯甜茴香/八角香氣（若葉面多毛無味則是假冒俄羅斯種）。",
+          "failure_signal": "買種子播出一大盆毫無香味的雜草化俄羅斯龍蒿。",
           "source_refs": [
             "src_tarragon_baike_442"
           ]
         },
         {
           "step_number": 2,
-          "title": "高排水花盆定植 + 夏季高温遮阴",
-          "action": "选用排水性好的陶瓷盆或箱式花盆（株距 40 cm，单盆栽 1 株即可），填入排水透气良好的土壤置于向阳通风窗边；注意它喜凉爽、不耐盛夏酷热，夏季高温强光时必须用黑色遮阳网或移至半阴处避暑。",
-          "verification_checkpoint": "春秋季新梢挺拔翠绿，夏季遮阴后叶片不焦枯。",
-          "failure_signal": "盛夏西晒暴晒加闷湿导致整株枯死。",
+          "title": "高排水花盆定植 + 夏季高溫遮陰",
+          "action": "選用排水性好的陶瓷盆或箱式花盆（株距 40 cm，單盆栽 1 株即可），填入排水透氣良好的土壤置於向陽通風窗邊；注意它喜涼爽、不耐盛夏酷熱，夏季高溫強光時必須用黑色遮陽網或移至半陰處避暑。",
+          "verification_checkpoint": "春秋季新梢挺拔翠綠，夏季遮陰後葉片不焦枯。",
+          "failure_signal": "盛夏西曬暴曬加悶溼導致整株枯死。",
           "source_refs": [
             "src_tarragon_baike_442"
           ]
         },
         {
           "step_number": 3,
-          "title": "掐取茎尖嫩叶采收 + 每 1–2 年强制分株防老化",
-          "action": "新芽伸展旺盛时，随时掐取顶端嫩茎叶用于法式酱汁、烤鸡、鱼类或浸泡龙蒿醋；因为是多年生宿根，种满 1–2 年后根系会在盆内严重拥挤导致长势衰退，必须每 1–2 年挖出分株重栽一次（第 2–3 年早春剪掉地上枯老枝并追肥）。",
-          "verification_checkpoint": "分株更新后新芽重新粗壮萌发，年年保持浓郁风味。",
-          "failure_signal": "连续 3 年不换盆分株，根系死结导致春季不再萌芽。",
+          "title": "掐取莖尖嫩葉採收 + 每 1–2 年強制分株防老化",
+          "action": "新芽伸展旺盛時，隨時掐取頂端嫩莖葉用於法式醬汁、烤雞、魚類或浸泡龍蒿醋；因為是多年生宿根，種滿 1–2 年後根系會在盆內嚴重擁擠導致長勢衰退，必須每 1–2 年挖出分株重栽一次（第 2–3 年早春剪掉地上枯老枝並追肥）。",
+          "verification_checkpoint": "分株更新後新芽重新粗壯萌發，年年保持濃郁風味。",
+          "failure_signal": "連續 3 年不換盆分株，根系死結導致春季不再萌芽。",
           "source_refs": [
             "src_tarragon_baike_442"
           ]
@@ -3350,9 +3413,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "种出来的龙蒿长得高达 1.5 米但一点香味都没有",
-          "root_cause": "买到了用种子繁殖的俄罗斯龙蒿（Russian Tarragon，《蔬菜栽培百科全书》p.442）。",
-          "fix": "淘汰重买标明无性扦插/分株的法国龙蒿（*Artemisia dracunculus* var. *sativa*）活体苗。",
+          "symptom": "種出來的龍蒿長得高達 1.5 米但一點香味都沒有",
+          "root_cause": "買到了用種子繁殖的俄羅斯龍蒿（Russian Tarragon，《蔬菜栽培百科全書》p.442）。",
+          "fix": "淘汰重買標明無性扦插/分株的法國龍蒿（*Artemisia dracunculus* var. *sativa*）活體苗。",
           "source_refs": [
             "src_tarragon_baike_442"
           ]
@@ -3362,46 +3425,48 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_tarragon_baike_442",
           "source_type": "book",
-          "title": "蔬菜栽培百科全书（已拆分第04章）",
-          "author_or_publisher": "板木利隆 / 机械工业出版社",
-          "page_or_section": "书本第 442–443 页 (PDF 第 77–78 页) — 龙蒿 (Tarragon)",
-          "quote_or_note": "菊科多年生；详述法国龙蒿（鲜绿香浓、采不到种子，必须用 12–13 cm 子梢扦插或分株）与俄罗斯龙蒿（叶多细毛、味弱不适做菜）的区别；喜凉爽排水好、夏季须遮光防强晒，每 1–2 年分株更新防根系拥挤。",
+          "title": "蔬菜栽培百科全書（已拆分第04章）",
+          "author_or_publisher": "板木利隆 / 機械工業出版社",
+          "page_or_section": "書本第 442–443 頁 (PDF 第 77–78 頁) — 龍蒿 (Tarragon)",
+          "quote_or_note": "菊科多年生；詳述法國龍蒿（鮮綠香濃、採不到種子，必須用 12–13 cm 子梢扦插或分株）與俄羅斯龍蒿（葉多細毛、味弱不適做菜）的區別；喜涼爽排水好、夏季須遮光防強曬，每 1–2 年分株更新防根系擁擠。",
           "verified": true
         }
       ]
     },
     {
       "id": "fennel",
-      "name_zh": "茴香（甜茴香 / 球茎茴香）",
+      "name_zh": "茴香（甜茴香 / 球莖茴香）",
       "name_en": "Fennel (Herb & Bulb Fennel)",
       "aliases": [
         "小茴香",
         "甜茴香",
-        "佛罗伦萨球茎茴香",
-        "Sweet Fennel"
+        "佛羅倫薩球莖茴香",
+        "Sweet Fennel",
+        "茴香（甜茴香 / 球茎茴香）",
+        "佛罗伦萨球茎茴香"
       ],
       "botanical_name": "Foeniculum vulgare",
       "category": "herb",
       "scrap_regrow_verdict": "partial_greens_only",
-      "verdict_label": "直根深长忌晚移栽：球茎底座水培仅吐少量羽叶；正经收叶/球茎须深盆直播",
+      "verdict_label": "直根深長忌晚移栽：球莖底座水培僅吐少量羽葉；正經收葉/球莖須深盆直播",
       "best_starting_method": "direct_seed",
-      "starting_method_label": "深盆直接点播（或 3 号育苗杯在苗高 15 cm 前带完整土坨定植）",
-      "water_only_limit": "超市球茎茴香底座泡浅水可冒 1 茬小嫩叶做装饰，但长不出新球茎",
+      "starting_method_label": "深盆直接點播（或 3 號育苗杯在苗高 15 cm 前帶完整土坨定植）",
+      "water_only_limit": "超市球莖茴香底座泡淺水可冒 1 茬小嫩葉做裝飾，但長不出新球莖",
       "light_requirement": "grow_light_recommended",
-      "light_label": "喜阳光充足与排水透气土壤（耐旱力较强，忌积水烂根）",
+      "light_label": "喜陽光充足與排水透氣土壤（耐旱力較強，忌積水爛根）",
       "ppfd_dli": "PPFD 220–350 μmol·m⁻²·s⁻¹｜DLI 12–18｜12–14 h/天",
-      "container_and_soil": "深 25 cm 以上深花盆（主根极深）；排水良好且富含有机质的疏松盆土",
-      "expected_harvest_window": "播种后苗高 15–20 cm 起可陆续剪羽叶包饺子/配鱼；球茎茴香至直径 6–7 cm 采收",
+      "container_and_soil": "深 25 cm 以上深花盆（主根極深）；排水良好且富含有機質的疏鬆盆土",
+      "expected_harvest_window": "播種後苗高 15–20 cm 起可陸續剪羽葉包餃子/配魚；球莖茴香至直徑 6–7 cm 採收",
       "difficulty": 2,
       "hero_media": {
         "type": "image",
         "src": "assets/media/plants/fennel.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Fennel",
-        "caption": "茴香（甜茴香 / 球茎茴香） (Fennel (Herb & Bulb Fennel)) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "茴香（甜茴香 / 球莖茴香） (Fennel (Herb & Bulb Fennel)) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "甜茴香和球茎茴香是同一种苗随便种；或者茴香长大了再拔出来换盆也没事。",
-        "botanical_truth": "《蔬菜栽培百科全书》第 434–435 页明确提醒两大关键：① **甜茴香**（多年生，株高可达 1m+，主要采羽状嫩叶和茴香籽，可播种或分株）与**佛罗伦萨球茎茴香**（一年生，主要吃地面膨大如拳头的脆嫩叶鞘球茎，**只能用种子繁殖、不能分株**）培育方法不同，买种前必须看清；② 茴香主根极深、非常不耐移植——如果用育苗钵，必须在**株高长到 15 cm 前**原封不动带土坨定植，否则主根一断就会僵苗或直接抽薹！",
+        "common_myth": "甜茴香和球莖茴香是同一種苗隨便種；或者茴香長大了再拔出來換盆也沒事。",
+        "botanical_truth": "《蔬菜栽培百科全書》第 434–435 頁明確提醒兩大關鍵：① **甜茴香**（多年生，株高可達 1m+，主要採羽狀嫩葉和茴香籽，可播種或分株）與**佛羅倫薩球莖茴香**（一年生，主要吃地面膨大如拳頭的脆嫩葉鞘球莖，**只能用種子繁殖、不能分株**）培育方法不同，買種前必須看清；② 茴香主根極深、非常不耐移植——如果用育苗缽，必須在**株高長到 15 cm 前**原封不動帶土坨定植，否則主根一斷就會僵苗或直接抽薹！",
         "source_refs": [
           "src_fennel_baike_434"
         ]
@@ -3409,30 +3474,30 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "深盆直播或 3 号钵育苗（苗高 15 cm 前必须定植）",
-          "action": "选用深度 ≥ 25 cm 的深盆直接点播（每穴 4–5 粒种子，薄覆土）；若用 3 号育苗钵，在长出 1–2 片真叶时留 1 株壮苗，并在株高达到 15 cm 之前小心脱钵、绝不弄伤主根定植进深盆。",
-          "verification_checkpoint": "羽状细叶舒展挺立，无移栽萎蔫现象。",
-          "failure_signal": "用浅盆（< 15 cm）或大苗裸根移栽伤及深主根。",
+          "title": "深盆直播或 3 號缽育苗（苗高 15 cm 前必須定植）",
+          "action": "選用深度 ≥ 25 cm 的深盆直接點播（每穴 4–5 粒種子，薄覆土）；若用 3 號育苗缽，在長出 1–2 片真葉時留 1 株壯苗，並在株高達到 15 cm 之前小心脫缽、絕不弄傷主根定植進深盆。",
+          "verification_checkpoint": "羽狀細葉舒展挺立，無移栽萎蔫現象。",
+          "failure_signal": "用淺盆（< 15 cm）或大苗裸根移栽傷及深主根。",
           "source_refs": [
             "src_fennel_baike_434"
           ]
         },
         {
           "step_number": 2,
-          "title": "向阳通风管理 + 分次追肥培土（球茎茴香需摘下叶覆土）",
-          "action": "放置在日照充足、排水良好的窗台或补光灯下；当株高长到 20 cm 时第一次追肥并与表土轻混；若种的是球茎茴香，在茎基部开始膨大时进行第二次追肥，摘除基部老叶并向球茎四周培土覆盖（遮光软化使球茎洁白脆嫩）。",
-          "verification_checkpoint": "叶用茴香枝叶茂盛浓香；球茎茴香基部膨大紧实。",
-          "failure_signal": "盆底积水或氮肥失衡导致茎基腐烂。",
+          "title": "向陽通風管理 + 分次追肥培土（球莖茴香需摘下葉覆土）",
+          "action": "放置在日照充足、排水良好的窗臺或補光燈下；當株高長到 20 cm 時第一次追肥並與表土輕混；若種的是球莖茴香，在莖基部開始膨大時進行第二次追肥，摘除基部老葉並向球莖四周培土覆蓋（遮光軟化使球莖潔白脆嫩）。",
+          "verification_checkpoint": "葉用茴香枝葉茂盛濃香；球莖茴香基部膨大緊實。",
+          "failure_signal": "盆底積水或氮肥失衡導致莖基腐爛。",
           "source_refs": [
             "src_fennel_baike_434"
           ]
         },
         {
           "step_number": 3,
-          "title": "按需剪取鲜嫩羽叶（或球茎达 6–7 cm 整株收割）",
-          "action": "叶用甜茴香在生长期随时从外侧剪取柔软羽叶（包茴香饺子、煎蛋或西式烤鱼）；球茎茴香待膨大球茎直径达 6–7 cm 时从根部切下整颗食用。",
-          "verification_checkpoint": "叶片茴香脑香气浓郁，剪后新叶持续萌发。",
-          "failure_signal": "留到盛夏高温开花结籽后，下部叶片变黄老化（此时可改收茴香籽作香料）。",
+          "title": "按需剪取鮮嫩羽葉（或球莖達 6–7 cm 整株收割）",
+          "action": "葉用甜茴香在生長期隨時從外側剪取柔軟羽葉（包茴香餃子、煎蛋或西式烤魚）；球莖茴香待膨大球莖直徑達 6–7 cm 時從根部切下整顆食用。",
+          "verification_checkpoint": "葉片茴香腦香氣濃郁，剪後新葉持續萌發。",
+          "failure_signal": "留到盛夏高溫開花結籽後，下部葉片變黃老化（此時可改收茴香籽作香料）。",
           "source_refs": [
             "src_fennel_baike_434"
           ]
@@ -3440,9 +3505,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "想种包饺子的小茴香叶，结果买错种或是移栽后直接死苗",
-          "root_cause": "未区分叶用茴香与球茎茴香，或移栽时扯断了伞形科直根（《蔬菜栽培百科全书》p.434）。",
-          "fix": "家庭吃茴香叶直接用深长条盆直播普通小茴香/甜茴香种子，间苗后不移栽直接剪割。",
+          "symptom": "想種包餃子的小茴香葉，結果買錯種或是移栽後直接死苗",
+          "root_cause": "未區分葉用茴香與球莖茴香，或移栽時扯斷了傘形科直根（《蔬菜栽培百科全書》p.434）。",
+          "fix": "家庭吃茴香葉直接用深長條盆直播普通小茴香/甜茴香種子，間苗後不移栽直接剪割。",
           "source_refs": [
             "src_fennel_baike_434"
           ]
@@ -3452,10 +3517,10 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_fennel_baike_434",
           "source_type": "book",
-          "title": "蔬菜栽培百科全书（已拆分第04章）",
-          "author_or_publisher": "板木利隆 / 机械工业出版社",
-          "page_or_section": "书本第 434–435 页 (PDF 第 69–70 页) — 茴香 (Fennel)",
-          "quote_or_note": "伞形科；明确区分甜茴香（多年生采叶与籽）和佛罗伦萨茴香（采直径 6–7 cm 膨大球茎，只能种子繁殖、需摘除下叶培土软化）；因主根深不耐移植，育苗须在株高 15 cm 前不伤根定植。",
+          "title": "蔬菜栽培百科全書（已拆分第04章）",
+          "author_or_publisher": "板木利隆 / 機械工業出版社",
+          "page_or_section": "書本第 434–435 頁 (PDF 第 69–70 頁) — 茴香 (Fennel)",
+          "quote_or_note": "傘形科；明確區分甜茴香（多年生採葉與籽）和佛羅倫薩茴香（採直徑 6–7 cm 膨大球莖，只能種子繁殖、需摘除下葉培土軟化）；因主根深不耐移植，育苗須在株高 15 cm 前不傷根定植。",
           "verified": true
         }
       ]
@@ -3467,21 +3532,22 @@ window.PLANTS_DATA = {
       "aliases": [
         "春菊",
         "皇帝菜",
-        "蒿子秆",
-        "Shungiku"
+        "蒿子稈",
+        "Shungiku",
+        "蒿子秆"
       ],
       "botanical_name": "Glebionis coronaria (Chrysanthemum coronarium)",
       "category": "leafy_stem",
       "scrap_regrow_verdict": "not_recommended",
-      "verdict_label": "室内少虫害快菜王：种子嗜光薄覆土，手折掐顶可反复采收侧芽",
+      "verdict_label": "室內少蟲害快菜：好光性種子需薄覆土，摘頂可反覆採收側芽",
       "best_starting_method": "direct_seed",
-      "starting_method_label": "标准花盆直接条播（嗜光性种子仅薄盖一层若隐若现的土）",
-      "water_only_limit": "不建议老梗水培（种子直播 1 周即发芽，30–40 天即可间苗带采收）",
+      "starting_method_label": "標準花盆直接條播（嗜光性種子僅薄蓋一層若隱若現的土）",
+      "water_only_limit": "不建議老梗水培（種子直播 1 周即發芽，30–40 天即可間苗帶採收）",
       "light_requirement": "bright_windowsill_ok",
-      "light_label": "明亮通风窗台或补光灯（适温 15–20℃，春秋至冬季表现最佳）",
+      "light_label": "明亮通風窗臺或補光燈（適溫 15–20℃，春秋至冬季表現最佳）",
       "ppfd_dli": "PPFD 150–280 μmol·m⁻²·s⁻¹｜DLI 10–15｜12–14 h/天",
-      "container_and_soil": "深 15–20 cm 标准花盆；赤玉土 40% + 堆肥 40% + 腐叶土 10% + 熏炭 10%（加有机石灰 6g/L）",
-      "expected_harvest_window": "约 7 天发芽；高 8–10 cm 时可边间苗边吃，高 20 cm 时手折掐嫩芽连续采收",
+      "container_and_soil": "深 15–20 cm 標準花盆；赤玉土 40% + 堆肥 40% + 腐葉土 10% + 燻炭 10%（加有機石灰 6g/L）",
+      "expected_harvest_window": "約 7 天發芽；高 8–10 cm 時可邊間苗邊吃，高 20 cm 時手摺掐嫩芽連續採收",
       "difficulty": 1,
       "diagrams": [
         "pinch_node"
@@ -3490,11 +3556,11 @@ window.PLANTS_DATA = {
         "type": "image",
         "src": "assets/media/plants/garland-chrysanthemum.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Glebionis_coronaria",
-        "caption": "茼蒿（春菊 / 皇帝菜） (Garland Chrysanthemum (Crown Daisy / Shungiku)) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "茼蒿（春菊 / 皇帝菜） (Garland Chrysanthemum (Crown Daisy / Shungiku)) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "茼蒿播种要把种子深埋进土里才踏实，长大了必须连根拔起一次性吃完。",
-        "botanical_truth": "藤田智在《最新有机家庭盆栽种菜法》第 40–41 页给出了两个极其实用的技巧：① **茼蒿种子是典型的“嗜光性种子（Photoblastic）”**，有光线照射才能促进发芽——盖土必须极薄，要让种子“若隐若现”见光！盖太厚反而不出苗；② 收获时不要连根拔，等长到 20 cm 左右**用手轻轻折取上部嫩芽（手摘收获）**并配合追肥，留下的下部侧芽会不断长出新梢，实现一盆长期多次吃火锅！",
+        "common_myth": "茼蒿播種要把種子深埋進土裡才踏實，長大了必須連根拔起一次性吃完。",
+        "botanical_truth": "藤田智在《最新有機家庭盆栽種菜法》第 40–41 頁給出了兩個極其實用的技巧：① **茼蒿種子是典型的“嗜光性種子（Photoblastic）”**，有光線照射才能促進發芽——蓋土必須極薄，要讓種子“若隱若現”見光！蓋太厚反而不出苗；② 收穫時不要連根拔，等長到 20 cm 左右**用手輕輕折取上部嫩芽（手摘收穫）**並配合追肥，留下的下部側芽會不斷長出新梢，實現一盆長期多次吃火鍋！",
         "source_refs": [
           "src_tonghao_fujita_40",
           "src_tonghao_fujita_41"
@@ -3503,10 +3569,10 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "嗜光种子极浅条播（盖土须“若隐若现”）",
-          "action": "在花盆营养土表面划两条间隔 10–15 cm 的浅槽，每隔 1 cm 播 1 粒种子；仅薄薄撒一层细土使种子“若隐若现”能照到阳光，浇透水置于 15–20℃ 通风明亮处。",
-          "verification_checkpoint": "约 7 天（1 周左右）整齐破土发芽。",
-          "failure_signal": "覆土超过 1.5 cm 遮断光线导致发芽率极低。",
+          "title": "嗜光種子極淺條播（蓋土須“若隱若現”）",
+          "action": "在花盆營養土表面劃兩條間隔 10–15 cm 的淺槽，每隔 1 cm 播 1 粒種子；僅薄薄撒一層細土使種子“若隱若現”能照到陽光，澆透水置於 15–20℃ 通風明亮處。",
+          "verification_checkpoint": "約 7 天（1 周左右）整齊破土發芽。",
+          "failure_signal": "覆土超過 1.5 cm 遮斷光線導致發芽率極低。",
           "source_refs": [
             "src_tonghao_fujita_40",
             "src_tonghao_fujita_41"
@@ -3514,20 +3580,20 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 2,
-          "title": "三次梯度间苗兼采嫩苗（3cm → 6cm → 15–20cm）",
-          "action": "真叶 1–2 片时按 3 cm 间距第一次间苗；真叶 3–4 片时按 6 cm 间距第二次间苗并追施有机肥培土；株高长到 8–10 cm 时，按 15–20 cm 最终间距把多余苗从根基拔出当嫩菜吃掉，再追肥培土一次。",
-          "verification_checkpoint": "留下的壮苗间距充裕、通风良好，叶片肥厚翠绿。",
-          "failure_signal": "全程不间苗导致植株挤成细丝并引发霜霉病。",
+          "title": "三次梯度間苗兼採嫩苗（3cm → 6cm → 15–20cm）",
+          "action": "真葉 1–2 片時按 3 cm 間距第一次間苗；真葉 3–4 片時按 6 cm 間距第二次間苗並追施有機肥培土；株高長到 8–10 cm 時，按 15–20 cm 最終間距把多餘苗從根基拔出當嫩菜吃掉，再追肥培土一次。",
+          "verification_checkpoint": "留下的壯苗間距充裕、通風良好，葉片肥厚翠綠。",
+          "failure_signal": "全程不間苗導致植株擠成細絲並引發霜黴病。",
           "source_refs": [
             "src_tonghao_fujita_41"
           ]
         },
         {
           "step_number": 3,
-          "title": "株高 20 cm 时“用手折取嫩梢”促侧枝再生",
-          "action": "当主茎长到约 20 cm 高时，保留下部数片本叶，直接用手指轻轻折断上部柔嫩茎梢食用（手摘收获法，或用洁净剪刀留基部侧芽剪取）；每次采后补水追薄肥，侧枝会继续萌发供多次采收。",
-          "verification_checkpoint": "折口清爽不烂，7–10 天内叶腋顶出多根肥嫩侧梢。",
-          "failure_signal": "盆土长期干透导致茎叶老化苦涩。",
+          "title": "株高 20 cm 時“用手摺取嫩梢”促側枝再生",
+          "action": "當主莖長到約 20 cm 高時，保留下部數片本葉，直接用手指輕輕折斷上部柔嫩莖梢食用（手摘收穫法，或用潔淨剪刀留基部側芽剪取）；每次採後補水追薄肥，側枝會繼續萌發供多次採收。",
+          "verification_checkpoint": "折口清爽不爛，7–10 天內葉腋頂出多根肥嫩側梢。",
+          "failure_signal": "盆土長期乾透導致莖葉老化苦澀。",
           "source_refs": [
             "src_tonghao_fujita_41"
           ]
@@ -3535,9 +3601,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "叶片表面出现像白色画线一样的弯曲隧道痕迹",
-          "root_cause": "潜叶蝇（绘图虫）幼虫潜入叶肉内部啃食，或底部通风差引发霜霉病（藤田智 p.40）。",
-          "fix": "一旦发现带白道虫道的叶片立即摘除销毁（阻断化蛹），保持株间 15 cm 通风或加防虫网。",
+          "symptom": "葉片表面出現像白色畫線一樣的彎曲隧道痕跡",
+          "root_cause": "潛葉蠅（繪圖蟲）幼蟲潛入葉肉內部啃食，或底部通風差引發霜黴病（藤田智 p.40）。",
+          "fix": "一旦發現帶白道蟲道的葉片立即摘除銷燬（阻斷化蛹），保持株間 15 cm 通風或加防蟲網。",
           "source_refs": [
             "src_tonghao_fujita_40"
           ]
@@ -3547,55 +3613,58 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_tonghao_fujita_40",
           "source_type": "book",
-          "title": "最新有机家庭盆栽种菜法",
+          "title": "最新有機家庭盆栽種菜法",
           "author_or_publisher": "藤田智",
-          "page_or_section": "书本第 40 页 (PDF 第 41 页) — 茼蒿",
-          "quote_or_note": "菊科，适温 15–20℃，置于通风良好处，土表干时浇满水；种子为嗜光性种子，盖土要薄以促进发芽；留意霜霉病、蚜虫与潜叶蝇。",
+          "page_or_section": "書本第 40 頁 (PDF 第 41 頁) — 茼蒿",
+          "quote_or_note": "菊科，適溫 15–20℃，置於通風良好處，土表干時澆滿水；種子為嗜光性種子，蓋土要薄以促進發芽；留意霜黴病、蚜蟲與潛葉蠅。",
           "verified": true
         },
         {
           "ref_id": "src_tonghao_fujita_41",
           "source_type": "book",
-          "title": "最新有机家庭盆栽种菜法",
+          "title": "最新有機家庭盆栽種菜法",
           "author_or_publisher": "藤田智",
-          "page_or_section": "书本第 41 页 (PDF 第 42 页) — 茼蒿间苗与手摘收获",
-          "quote_or_note": "薄盖一层土使种子若隐若现；1周发芽后按 3cm → 6cm(追肥) → 15–20cm(高8–10cm间苗兼收获) 三次管理；高 20 cm 时用手轻轻折取嫩芽是长期多次收获的重点。",
+          "page_or_section": "書本第 41 頁 (PDF 第 42 頁) — 茼蒿間苗與手摘收穫",
+          "quote_or_note": "薄蓋一層土使種子若隱若現；1周發芽後按 3cm → 6cm(追肥) → 15–20cm(高8–10cm間苗兼收穫) 三次管理；高 20 cm 時用手輕輕折取嫩芽是長期多次收穫的重點。",
           "verified": true
         }
       ]
     },
     {
       "id": "cherry-radish",
-      "name_zh": "樱桃萝卜（二十日大根）",
+      "name_zh": "櫻桃蘿蔔（二十日大根）",
       "name_en": "Cherry Radish (20-Day Radish)",
       "aliases": [
         "二十日大根",
+        "四季小蘿蔔",
+        "小紅蘿蔔",
+        "French Breakfast Radish",
+        "樱桃萝卜（二十日大根）",
         "四季小萝卜",
-        "小红萝卜",
-        "French Breakfast Radish"
+        "小红萝卜"
       ],
       "botanical_name": "Raphanus sativus var. radicula",
       "category": "rhizome",
       "scrap_regrow_verdict": "not_recommended",
-      "verdict_label": "室内唯一 25–30 天真能结出爽脆块根的快菜（正向替代胡萝卜头泡水）",
+      "verdict_label": "室內唯一 25–30 天真能結出爽脆塊根的快菜（正向替代胡蘿蔔頭泡水）",
       "best_starting_method": "direct_seed",
-      "starting_method_label": "浅箱花盆 1 cm 浅沟条播（播后 3–5 天出芽，25–30 天连缨带根全收）",
-      "water_only_limit": "不适用（块根膨大需要疏松土壤与培土护根，水培仅能做萝卜芽苗菜）",
+      "starting_method_label": "淺箱花盆 1 cm 淺溝條播（播後 3–5 天出芽，25–30 天連纓帶根全收）",
+      "water_only_limit": "不適用（塊根膨大需要疏鬆土壤與培土護根，水培僅能做蘿蔔芽苗菜）",
       "light_requirement": "grow_light_recommended",
-      "light_label": "喜日照充足（15–20℃ 最佳，缺光会导致只长长叶子不膨大地下圆萝卜）",
+      "light_label": "喜日照充足（15–20℃ 最佳，缺光會導致只長長葉子不膨大地下圓蘿蔔）",
       "ppfd_dli": "PPFD 200–350 μmol·m⁻²·s⁻¹｜DLI 12–16｜12–14 h/天",
-      "container_and_soil": "深 15 cm 标准或箱式花盆即可；疏松不板结的营养土（赤玉土40%+堆肥40%+腐叶土10%+熏炭10%）",
-      "expected_harvest_window": "播后约 25–30 天，地上露肩的红萝卜直径达 2–3 cm 时即刻拔收",
+      "container_and_soil": "深 15 cm 標準或箱式花盆即可；疏鬆不板結的營養土（赤玉土40%+堆肥40%+腐葉土10%+燻炭10%）",
+      "expected_harvest_window": "播後約 25–30 天，地上露肩的紅蘿蔔直徑達 2–3 cm 時即刻拔收",
       "difficulty": 1,
       "hero_media": {
         "type": "image",
         "src": "assets/media/plants/cherry-radish.jpg",
         "wiki_url": "https://en.wikipedia.org/wiki/Radish",
-        "caption": "樱桃萝卜（二十日大根） (Cherry Radish (20-Day Radish)) · 图源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
+        "caption": "櫻桃蘿蔔（二十日大根） (Cherry Radish (20-Day Radish)) · 圖源：Wikipedia / Wikimedia Commons (CC / Public Domain)"
       },
       "myth_vs_reality": {
-        "common_myth": "在室内花盆种块根蔬菜都要等三四个月，或者萝卜长越大越划算。",
-        "botanical_truth": "① 前面我们辟谣了“胡萝卜头泡水永远长不出新胡萝卜”；如果你真想在室内体验亲手拔出脆甜根茎的快乐，**樱桃萝卜（日语称“二十日大根”）只需 15 cm 深的普通花盆和 25–30 天就能整颗拔出**（连新鲜萝卜缨也能一起吃）！② 藤田智（p.76）与《蔬菜栽培百科全书》（p.380）同时强调两个成败点：**必须狠心间苗保持 3–4 cm 株距并向根颈培土防干**（否则长不成圆球）；且**直径一到 2–3 cm 必须立刻拔收**，多拖几天就会在内部空心（糠心）开裂！",
+        "common_myth": "在室內花盆種塊根蔬菜都要等三四個月，或者蘿蔔長越大越划算。",
+        "botanical_truth": "① 前面我們闢謠了“胡蘿蔔頭泡水永遠長不出新胡蘿蔔”；如果你真想在室內體驗親手拔出脆甜根莖的快樂，**櫻桃蘿蔔（日語稱“二十日大根”）只需 15 cm 深的普通花盆和 25–30 天就能整顆拔出**（連新鮮蘿蔔纓也能一起吃）！② 藤田智（p.76）與《蔬菜栽培百科全書》（p.380）同時強調兩個成敗點：**必須狠心間苗保持 3–4 cm 株距並向根頸培土防幹**（否則長不成圓球）；且**直徑一到 2–3 cm 必須立刻拔收**，多拖幾天就會在內部空心（糠心）開裂！",
         "source_refs": [
           "src_radish_fujita_74",
           "src_radish_fujita_76",
@@ -3605,10 +3674,10 @@ window.PLANTS_DATA = {
       "steps": [
         {
           "step_number": 1,
-          "title": "1 cm 浅沟条播（行距 10–15 cm，粒距 1–2 cm）",
-          "action": "在深 15 cm 花盆疏松营养土上划两条间隔 10–15 cm、深约 1 cm 的播种槽，每隔 1–2 cm 播 1 粒种子；覆土 5–10 mm 后用手掌轻轻压实并浇透水。",
-          "verification_checkpoint": "3–5 天内整齐破土长出心形双子叶（注意发芽后避免浇水过多积涝）。",
-          "failure_signal": "土壤板结或浇水过猛冲翻浅层种子。",
+          "title": "1 cm 淺溝條播（行距 10–15 cm，粒距 1–2 cm）",
+          "action": "在深 15 cm 花盆疏鬆營養土上劃兩條間隔 10–15 cm、深約 1 cm 的播種槽，每隔 1–2 cm 播 1 粒種子；覆土 5–10 mm 後用手掌輕輕壓實並澆透水。",
+          "verification_checkpoint": "3–5 天內整齊破土長出心形雙子葉（注意發芽後避免澆水過多積澇）。",
+          "failure_signal": "土壤板結或澆水過猛衝翻淺層種子。",
           "source_refs": [
             "src_radish_fujita_74",
             "src_radish_baike_380"
@@ -3616,10 +3685,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 2,
-          "title": "真叶 1–2 片时定距 3–4 cm 间苗 + 根部培土防倒伏",
-          "action": "在真叶长出 1–2 片前完成间苗，严格保持株距 3–4 cm（间下的嫩苗直接洗净拌沙拉）；间苗后把植株两侧的土向根基部聚拢培土（防止红白胚轴外露倒伏变形）；真叶 3–4 片时追肥一次并再次轻培土。",
-          "verification_checkpoint": "幼苗根颈被疏松土壤稳固包裹，株间互不挤压，下胚轴开始变红膨大。",
-          "failure_signal": "舍不得间苗导致间距 < 1.5 cm，或盆土干透导致萝卜畸形长不圆。",
+          "title": "真葉 1–2 片時定距 3–4 cm 間苗 + 根部培土防倒伏",
+          "action": "在真葉長出 1–2 片前完成間苗，嚴格保持株距 3–4 cm（間下的嫩苗直接洗淨拌沙拉）；間苗後把植株兩側的土向根基部聚攏培土（防止紅白胚軸外露倒伏變形）；真葉 3–4 片時追肥一次並再次輕培土。",
+          "verification_checkpoint": "幼苗根頸被疏鬆土壤穩固包裹，株間互不擠壓，下胚軸開始變紅膨大。",
+          "failure_signal": "捨不得間苗導致間距 < 1.5 cm，或盆土乾透導致蘿蔔畸形長不圓。",
           "source_refs": [
             "src_radish_fujita_76",
             "src_radish_baike_380"
@@ -3627,10 +3696,10 @@ window.PLANTS_DATA = {
         },
         {
           "step_number": 3,
-          "title": "直径达 2–3 cm 时即刻拔收（严防延迟空心）",
-          "action": "播种后约 25–30 天，观察到土面露肩的红色圆根直径长到 2–3 cm 时，握住根基及时拔出；若想长期陆续吃，可每隔 1–2 周分批错期播种。",
-          "verification_checkpoint": "拔出的樱桃萝卜浑圆饱满、切开肉质紧实雪白多汁无空洞。",
-          "failure_signal": "超过 35–40 天舍不得拔，导致根部木质化空心（糠心）或表皮开裂。",
+          "title": "直徑達 2–3 cm 時即刻拔收（嚴防延遲空心）",
+          "action": "播種後約 25–30 天，觀察到土面露肩的紅色圓根直徑長到 2–3 cm 時，握住根基及時拔出；若想長期陸續吃，可每隔 1–2 周分批錯期播種。",
+          "verification_checkpoint": "拔出的櫻桃蘿蔔渾圓飽滿、切開肉質緊實雪白多汁無空洞。",
+          "failure_signal": "超過 35–40 天捨不得拔，導致根部木質化空心（糠心）或表皮開裂。",
           "source_refs": [
             "src_radish_fujita_76",
             "src_radish_baike_380"
@@ -3639,9 +3708,9 @@ window.PLANTS_DATA = {
       ],
       "pitfalls": [
         {
-          "symptom": "只长一丛高大的萝卜叶子，底下红根却细如红线不膨大",
-          "root_cause": "间苗不彻底（株距太挤）、室内光照严重不足，或氮肥过多而土壤过于干燥（藤田智 p.76）。",
-          "fix": "在 1–2 片真叶期严格间苗至 3–4 cm 间距，移至全日照窗台或补光灯下，间苗后及时培土并保持土壤湿润。",
+          "symptom": "只長一叢高大的蘿蔔葉子，底下紅根卻細如紅線不膨大",
+          "root_cause": "間苗不徹底（株距太擠）、室內光照嚴重不足，或氮肥過多而土壤過於乾燥（藤田智 p.76）。",
+          "fix": "在 1–2 片真葉期嚴格間苗至 3–4 cm 間距，移至全日照窗臺或補光燈下，間苗後及時培土並保持土壤溼潤。",
           "source_refs": [
             "src_radish_fujita_76",
             "src_radish_baike_380"
@@ -3652,28 +3721,28 @@ window.PLANTS_DATA = {
         {
           "ref_id": "src_radish_fujita_74",
           "source_type": "book",
-          "title": "最新有机家庭盆栽种菜法",
+          "title": "最新有機家庭盆栽種菜法",
           "author_or_publisher": "藤田智",
-          "page_or_section": "书本第 74–75 页 (PDF 第 75–76 页) — 红萝卜（二十日大根）",
-          "quote_or_note": "十字花科，适温 15–20℃，约 30 天即可收获的入门盆栽根菜；条播沟深 1 cm、盖土 5–10 mm，置于日照良好处，土表干燥时浇满水。",
+          "page_or_section": "書本第 74–75 頁 (PDF 第 75–76 頁) — 紅蘿蔔（二十日大根）",
+          "quote_or_note": "十字花科，適溫 15–20℃，約 30 天即可收穫的入門盆栽根菜；條播溝深 1 cm、蓋土 5–10 mm，置於日照良好處，土表乾燥時澆滿水。",
           "verified": true
         },
         {
           "ref_id": "src_radish_fujita_76",
           "source_type": "book",
-          "title": "最新有机家庭盆栽种菜法",
+          "title": "最新有機家庭盆栽種菜法",
           "author_or_publisher": "藤田智",
-          "page_or_section": "书本第 76 页 (PDF 第 77 页) — 间苗培土与防不圆要点",
-          "quote_or_note": "本叶 1–2 片前保持 3–4 cm 间距完成间苗并把两侧土向根部培土；本叶 3–4 片追肥培土；长不成圆形的两大主因是土壤干燥与间苗不彻底；直径达 2–3 cm 即可拔收。",
+          "page_or_section": "書本第 76 頁 (PDF 第 77 頁) — 間苗培土與防不圓要點",
+          "quote_or_note": "本葉 1–2 片前保持 3–4 cm 間距完成間苗並把兩側土向根部培土；本葉 3–4 片追肥培土；長不成圓形的兩大主因是土壤乾燥與間苗不徹底；直徑達 2–3 cm 即可拔收。",
           "verified": true
         },
         {
           "ref_id": "src_radish_baike_380",
           "source_type": "book",
-          "title": "蔬菜栽培百科全书（已拆分第04章）",
-          "author_or_publisher": "板木利隆 / 机械工业出版社",
-          "page_or_section": "书本第 380–381 页 (PDF 第 15–16 页) — 樱桃萝卜 (二十日大根)",
-          "quote_or_note": "极适合箱式花盆栽培；因生长极快，如果收获晚了很容易出现空心（糠心）现象，应及时采收并错期分批播种。",
+          "title": "蔬菜栽培百科全書（已拆分第04章）",
+          "author_or_publisher": "板木利隆 / 機械工業出版社",
+          "page_or_section": "書本第 380–381 頁 (PDF 第 15–16 頁) — 櫻桃蘿蔔 (二十日大根)",
+          "quote_or_note": "極適合箱式花盆栽培；因生長極快，如果收穫晚了很容易出現空心（糠心）現象，應及時採收並錯期分批播種。",
           "verified": true
         }
       ]
@@ -3683,67 +3752,67 @@ window.PLANTS_DATA = {
 window.LIGHTING_DATA = {
   "version": "1.0.0",
   "updated_at": "2026-11-21",
-  "title": "室内香草 LED 补光灯 PPFD / DLI 瓦数与吊挂距离对照表",
-  "formula": "DLI (mol/m²/day) = PPFD (μmol/m²/s) × 光照小时数 × 0.0036",
+  "title": "室內香草 LED 補光燈 PPFD / DLI 瓦數與吊掛距離對照表",
+  "formula": "DLI (mol/m²/day) = PPFD (μmol/m²/s) × 光照小時數 × 0.0036",
   "stage_table": [
     {
-      "stage": "扦插诱根 / 幼苗期",
-      "examples": "薄荷水插转土、迷迭香/百里香嫩梢诱根、生菜/香菜出芽期",
+      "stage": "扦插發根 / 幼苗期",
+      "examples": "薄荷水插轉土、迷迭香/百里香嫩梢發根、生菜/香菜出芽期",
       "ppfd": "150 – 200 μmol/m²/s",
       "dli": "8 – 10 mol/m²/day",
-      "photoperiod": "12 – 14 小时/天",
+      "photoperiod": "12 – 14 小時/天",
       "distance_100w": "60 – 75 cm (24 – 30 英寸)",
       "distance_30w": "25 – 35 cm (10 – 14 英寸)"
     },
     {
-      "stage": "叶用香草与葱蒜类（中光耐阴）",
-      "examples": "薄荷、小葱、韭菜、紫苏、欧芹、散叶生菜、细香葱",
+      "stage": "葉用香草與蔥蒜類（中光耐陰）",
+      "examples": "薄荷、小蔥、韭菜、紫蘇、歐芹、散葉生菜、細香蔥",
       "ppfd": "200 – 350 μmol/m²/s（薄荷/生菜最低可耐 150）",
       "dli": "10 – 16 mol/m²/day",
-      "photoperiod": "12 – 14 小时/天（生菜夜间须全黑）",
+      "photoperiod": "12 – 14 小時/天（生菜夜間須全黑）",
       "distance_100w": "45 – 60 cm (18 – 24 英寸)",
       "distance_30w": "15 – 25 cm (6 – 10 英寸)"
     },
     {
-      "stage": "地中海木本与强光香草（高光需求）",
-      "examples": "迷迭香、百里香、牛至、罗勒、香菜（防徒长抽薹）",
+      "stage": "地中海木本與強光香草（高光需求）",
+      "examples": "迷迭香、百里香、牛至、羅勒、香菜（防徒長抽薹）",
       "ppfd": "300 – 450 μmol/m²/s（迷迭香/牛至上限 400–600）",
       "dli": "18 – 22+ mol/m²/day",
-      "photoperiod": "14 – 16 小时/天",
+      "photoperiod": "14 – 16 小時/天",
       "distance_100w": "30 – 45 cm (12 – 18 英寸)",
-      "distance_30w": "12 – 18 cm (5 – 7 英寸，需多条并联)"
+      "distance_30w": "12 – 18 cm (5 – 7 英寸，需多條並聯)"
     }
   ],
   "wattage_table": [
     {
-      "fixture_type": "桌面小夹灯 / 层架细灯条 (10W – 36W)",
-      "typical_use": "小窗台补光、育苗架单层 2–4 盆叶菜",
+      "fixture_type": "桌面小夾燈 / 層架細燈條 (10W – 36W)",
+      "typical_use": "小窗臺補光、育苗架單層 2–4 盆葉菜",
       "safe_distance": "15 – 30 cm (6 – 12 英寸)",
-      "notes": "光子总通量较低，挂太高（> 40 cm）有效 PPFD 会断崖式下跌，导致徒长；对迷迭香等高光香草往往需多根灯条并排才能达标。"
+      "notes": "光子總通量較低，掛太高（> 40 cm）有效 PPFD 會斷崖式下跌，導致徒長；對迷迭香等高光香草往往需多根燈條並排才能達標。"
     },
     {
-      "fixture_type": "家用全光谱量子板 / 面板灯 (100W – 150W)",
-      "typical_use": "60×60 cm 或 90×60 cm 室内香草架主力光源",
+      "fixture_type": "家用全光譜量子板 / 面板燈 (100W – 150W)",
+      "typical_use": "60×60 cm 或 90×60 cm 室內香草架主力光源",
       "safe_distance": "35 – 60 cm (14 – 24 英寸)",
-      "notes": "全功率默认挂 45 cm（18 英寸）防灼伤；若养迷迭香/百里香等高光物种，可降至 35–38 cm（14–15 英寸）并搭配调光。"
+      "notes": "全功率默認掛 45 cm（18 英寸）防灼傷；若養迷迭香/百里香等高光物種，可降至 35–38 cm（14–15 英寸）並搭配調光。"
     },
     {
-      "fixture_type": "大功率多条形灯架 (300W+)",
-      "typical_use": "大型室内种植帐篷或商用层架",
+      "fixture_type": "大功率多條形燈架 (300W+)",
+      "typical_use": "大型室內種植帳篷或商用層架",
       "safe_distance": "60 cm 以上 (24+ 英寸)",
-      "notes": "即便调低亮度，仍需保持至少 60 cm 安全距以防顶叶光漂白（Bleaching）和局部热灼伤。"
+      "notes": "即便調低亮度，仍需保持至少 60 cm 安全距以防頂葉光漂白（Bleaching）和局部熱灼傷。"
     }
   ],
   "diagnostics": [
     {
-      "signal": "光太弱 / 灯太高（PPFD 或 DLI 不足）",
-      "symptoms": "茎秆细长倒伏、节间拉长、下层老叶泛黄、香草气味寡淡",
-      "action": "每次降低灯距 5–8 cm（2–3 英寸），或把定时器每天延长 1–2 小时；有条件用 Photone App 在叶冠高度复测。"
+      "signal": "光太弱 / 燈太高（PPFD 或 DLI 不足）",
+      "symptoms": "莖稈細長倒伏、節間拉長、下層老葉泛黃、香草氣味寡淡",
+      "action": "每次降低燈距 5–8 cm（2–3 英寸），或把定時器每天延長 1–2 小時；有條件用 Photone App 在葉冠高度複測。"
     },
     {
-      "signal": "光太强 / 灯太近（光热灼伤）",
-      "symptoms": "顶叶边缘向上翻卷、叶色发白漂白、出现干脆焦斑",
-      "action": "立刻抬高灯具 8–12 cm（3–5 英寸）或调低 LED 调光旋钮，并确保冠层旁有微风散热。"
+      "signal": "光太強 / 燈太近（光熱灼傷）",
+      "symptoms": "頂葉邊緣向上翻卷、葉色發白漂白、出現乾脆焦斑",
+      "action": "立刻抬高燈具 8–12 cm（3–5 英寸）或調低 LED 調光旋鈕，並確保冠層旁有微風散熱。"
     }
   ],
   "sources": [
@@ -3787,213 +3856,213 @@ window.TOOLKIT_DATA = {
   "soil_recipes": [
     {
       "id": "fujita_general",
-      "name": "通用叶菜与葱蒜盆栽配方（藤田智标准）",
-      "suitable_for": "小葱、韭菜、散叶生菜、紫苏、芽苗转土、生姜、大蒜苗",
-      "source_ref": "《最新有机家庭盆栽种菜法》藤田智 第 34 / 42 / 44 / 48 / 89 页",
+      "name": "通用葉菜與蔥蒜盆栽配方（藤田智標準）",
+      "suitable_for": "小蔥、韭菜、散葉生菜、紫蘇、芽苗轉土、生薑、大蒜苗",
+      "source_ref": "《最新有機家庭盆栽種菜法》藤田智 第 34 / 42 / 44 / 48 / 89 頁",
       "components": [
         {
-          "material": "赤玉土（小粒，透气骨架）",
+          "material": "赤玉土（小粒，透氣骨架）",
           "ratio_pct": 40,
           "unit": "ml"
         },
         {
-          "material": "腐熟堆肥（有机质与缓释养分）",
+          "material": "腐熟堆肥（有機質與緩釋養分）",
           "ratio_pct": 40,
           "unit": "ml"
         },
         {
-          "material": "腐叶土（疏松保水）",
+          "material": "腐葉土（疏鬆保水）",
           "ratio_pct": 10,
           "unit": "ml"
         },
         {
-          "material": "稻壳熏炭（调 pH 与透气）",
+          "material": "稻殼燻炭（調 pH 與透氣）",
           "ratio_pct": 10,
           "unit": "ml"
         }
       ],
       "additives_per_liter": [
         {
-          "name": "有机石灰（调酸补钙）",
+          "name": "有機石灰（調酸補鈣）",
           "amount_g": 6
         },
         {
-          "name": "基肥：油渣（混匀静置 1–2 周）",
+          "name": "基肥：油渣（混勻靜置 1–2 周）",
           "amount_g": 45
         },
         {
-          "name": "基肥：发酵鸡粪（混匀静置 1–2 周）",
+          "name": "基肥：發酵雞糞（混勻靜置 1–2 周）",
           "amount_g": 90
         }
       ],
-      "note": "提示：如果室内怕有机基肥发酵产生气味或招小黑飞，可直接用已灭菌商品通用有机盆栽土替代堆肥与鸡粪部分，再混入 20%–30% 珍珠岩。"
+      "note": "提示：如果室內怕有機基肥發酵產生氣味或招小黑飛，可直接用已滅菌商品通用有機盆栽土替代堆肥與雞糞部分，再混入 20%–30% 珍珠岩。"
     },
     {
       "id": "mediterranean_2_1",
       "name": "地中海耐旱香草 2:1 高排水配方",
-      "suitable_for": "迷迭香、百里香、牛至、鼠尾草（严禁保水颗粒土）",
+      "suitable_for": "迷迭香、百里香、牛至、鼠尾草（嚴禁保水顆粒土）",
       "source_ref": "Amazing Herb Garden / Groovy Root / Agronomic Protocols",
       "components": [
         {
-          "material": "无泥炭椰糠 / 优质堆肥型通用营养土",
+          "material": "無泥炭椰糠 / 優質堆肥型通用營養土",
           "ratio_pct": 65,
           "unit": "ml"
         },
         {
-          "material": "粗珍珠岩 / 轻石 / 粗园艺砂（忌建筑细沙）",
+          "material": "粗珍珠岩 / 輕石 / 粗園藝砂（忌建築細沙）",
           "ratio_pct": 35,
           "unit": "ml"
         }
       ],
       "additives_per_liter": [],
-      "note": "配合未上釉红陶盆使用，且盆底绝不垫碎石或陶粒（避免悬挂滞水层 PWT）。"
+      "note": "配合未上釉紅陶盆使用，且盆底絕不墊碎石或陶粒（避免盆底滯水層 PWT）。"
     },
     {
       "id": "cutting_sterile",
-      "name": "无肥嫩枝扦插诱根介质（1:1 配方）",
-      "suitable_for": "迷迭香、百里香、薄荷、紫苏、鼠尾草嫩梢发根",
-      "source_ref": "《阳台菜园：70个诀窍》第 69 页 / WSU Extension Propagation Handbook",
+      "name": "無肥嫩枝扦插發根介質（1:1 配方）",
+      "suitable_for": "迷迭香、百里香、薄荷、紫蘇、鼠尾草嫩梢髮根",
+      "source_ref": "《陽臺菜園：70個訣竅》第 69 頁 / WSU Extension Propagation Handbook",
       "components": [
         {
-          "material": "珍珠岩 / 粗河沙（提供通气孔隙）",
+          "material": "珍珠岩 / 粗河沙（提供通氣孔隙）",
           "ratio_pct": 50,
           "unit": "ml"
         },
         {
-          "material": "蛭石 / 无肥椰糠泥炭（保持微潮）",
+          "material": "蛭石 / 無肥椰糠泥炭（保持微潮）",
           "ratio_pct": 50,
           "unit": "ml"
         }
       ],
       "additives_per_liter": [],
-      "note": "扦插生根期严禁加任何底肥或液体肥，否则极易烧伤未形成表皮保护层的新生根尖。"
+      "note": "扦插生根期嚴禁加任何底肥或液體肥，否則極易燒傷未形成表皮保護層的新生根尖。"
     }
   ],
   "compatibility_groups": [
     {
-      "group": "🏜️ 喜干强光地中海组（可同盆 / 严禁混入喜湿菜）",
-      "moisture": "深干透再浇透（每 7–14 天）",
-      "light": "需强光补光灯 (DLI 16–22+)",
+      "group": "🏜️ 喜幹強光地中海組（可同盆 / 嚴禁混入喜溼菜）",
+      "moisture": "深乾透再澆透（每 7–14 天）",
+      "light": "需強光補光燈 (DLI 16–22+)",
       "plants": [
         "迷迭香",
         "百里香",
         "牛至",
         "鼠尾草"
       ],
-      "rule": "全员需 35% 粗颗粒透水土 + 未上釉红陶盆；切勿与罗勒、薄荷或生菜混种。"
+      "rule": "全員需 35% 粗顆粒透水土 + 未上釉紅陶盆；切勿與羅勒、薄荷或生菜混種。"
     },
     {
-      "group": "💧 喜湿叶用香草组（需勤浇防萎蔫）",
-      "moisture": "表土下 1–2 cm 干了就浇，忌彻干",
+      "group": "💧 喜溼葉用香草組（需勤澆防萎蔫）",
+      "moisture": "表土下 1–2 cm 幹了就澆，忌徹幹",
       "light": "中高光照 (DLI 12–18)",
       "plants": [
-        "罗勒",
-        "紫苏",
-        "欧芹",
+        "羅勒",
+        "紫蘇",
+        "歐芹",
         "香菜",
         "空心菜"
       ],
-      "rule": "叶面积大、蒸腾快；罗勒与紫苏长高后记得摘心控制株高以免遮挡低矮植物。"
+      "rule": "葉面積大、蒸騰快；羅勒與紫蘇長高後記得摘心控制株高以免遮擋低矮植物。"
     },
     {
-      "group": "🧅 耐阴葱蒜与叶菜组（普通明亮窗台首选）",
-      "moisture": "微潮偏润（韭菜/细香葱忌彻底干硬）",
+      "group": "🧅 耐陰蔥蒜與葉菜組（普通明亮窗臺首選）",
+      "moisture": "微潮偏潤（韭菜/細香蔥忌徹底乾硬）",
       "light": "中低光即可 (DLI 8–14)",
       "plants": [
-        "小葱",
+        "小蔥",
         "大蒜苗",
         "韭菜",
-        "细香葱",
-        "散叶生菜",
+        "細香蔥",
+        "散葉生菜",
         "芝麻菜"
       ],
-      "rule": "散叶生菜晚上须避光防抽薹；葱蒜类与紫苏互为良好伴生植物，可互相减虫。"
+      "rule": "散葉生菜晚上須避光防抽薹；蔥蒜類與紫蘇互為良好伴生植物，可互相減蟲。"
     },
     {
-      "group": "🚫 必须单盆独居组（侵略性根系或特殊周期）",
-      "moisture": "视单株需求控制",
-      "light": "单独摆放",
+      "group": "🚫 必須單盆獨居組（侵略性根系或特殊週期）",
+      "moisture": "視單株需求控制",
+      "light": "單獨擺放",
       "plants": [
-        "薄荷（强侵略地下走茎）",
-        "生姜（8–10月超深盆）",
-        "芹菜（需水肥且忌高温）"
+        "薄荷（強侵略地下走莖）",
+        "生薑（8–10月超深盆）",
+        "芹菜（需水肥且忌高溫）"
       ],
-      "rule": "薄荷地下匍匐茎几个月就能缠死邻近所有植物，必须单盆隔离（《最好的家庭种菜书》p.57）。"
+      "rule": "薄荷地下匍匐莖幾個月就能纏死鄰近所有植物，必須單盆隔離（《最好的家庭種菜書》p.57）。"
     }
   ],
   "companion_pairs": [
     {
-      "pair": "韭菜 + 紫苏",
-      "effect": "有利于预防害虫并促进双方蔬菜生长",
-      "source": "《最新有机家庭盆栽种菜法》第 105 页"
+      "pair": "韭菜 + 紫蘇",
+      "effect": "有利於預防害蟲並促進雙方蔬菜生長",
+      "source": "《最新有機家庭盆栽種菜法》第 105 頁"
     },
     {
-      "pair": "罗勒 + 迷你番茄",
-      "effect": "改善风味并协同生长",
-      "source": "《最新有机家庭盆栽种菜法》第 105 页"
+      "pair": "羅勒 + 迷你番茄",
+      "effect": "改善風味並協同生長",
+      "source": "《最新有機家庭盆栽種菜法》第 105 頁"
     },
     {
       "pair": "迷迭香 / 薰衣草（旁置）",
-      "effect": "散发浓烈精油气味帮助驱避部分害虫",
-      "source": "《最新有机家庭盆栽种菜法》第 105 页"
+      "effect": "散發濃烈精油氣味幫助驅避部分害蟲",
+      "source": "《最新有機家庭盆栽種菜法》第 105 頁"
     }
   ],
   "pest_diagnostics": [
     {
-      "symptom": "盆土表面爬满细小黑色飞虫（小黑飞 / 蕈蚊 Fungus Gnats）",
-      "cause": "表土长期潮湿腐殖质过高（尤其用未腐熟厨余或过度浇水时），雌虫在湿土缝产卵，幼虫啃食嫩根。",
-      "emergency_fix": "① 立刻拉长浇水间隔让表土 3–5 cm 彻底干透；② 盆边插黄色粘虫板黏杀成虫；③ 表土铺 1–2 cm 细河沙/赤玉土物理阻隔产卵，或改用底部浸盆给水。",
+      "symptom": "盆土表面爬滿細小黑色飛蟲（小黑飛 / 蕈蚊 Fungus Gnats）",
+      "cause": "表土長期潮溼腐殖質過高（尤其用未腐熟廚餘或過度澆水時），雌蟲在溼土縫產卵，幼蟲啃食嫩根。",
+      "emergency_fix": "① 立刻拉長澆水間隔讓表土 3–5 cm 徹底乾透；② 盆邊插黃色粘蟲板黏殺成蟲；③ 表土鋪 1–2 cm 細河沙/赤玉土物理阻隔產卵，或改用底部浸盆給水。",
       "source": "Reddit r/IndoorGarden / NC State Extension"
     },
     {
-      "symptom": "嫩梢背面密聚绿/黑色小软虫、叶片卷曲发黏（蚜虫 Aphids）",
-      "cause": "常由超市买回的新植物潜伏带入，室内无瓢虫等天敌导致指数爆发，并分泌蜜露诱发煤污病。",
-      "emergency_fix": "① 立刻将该盆隔离出种植区；② 拿去水龙头/花洒下冲洗叶背（物理冲落 80% 蚜虫）；③ 喷施稀释园艺肥皂水或《最新有机》第 109 页大蒜辣椒皂水液。",
-      "source": "《最新有机家庭盆栽种菜法》p.109 / 《阳台种菜全攻略》p.10 / Reddit"
+      "symptom": "嫩梢背面密聚綠/黑色小軟蟲、葉片捲曲發黏（蚜蟲 Aphids）",
+      "cause": "常由超市買回的新植物潛伏帶入，室內無瓢蟲等天敵導致指數爆發，並分泌蜜露誘發煤汙病。",
+      "emergency_fix": "① 立刻將該盆隔離出種植區；② 拿去水龍頭/花灑下衝洗葉背（物理衝落 80% 蚜蟲）；③ 噴施稀釋園藝肥皂水或《最新有機》第 109 頁大蒜辣椒皂水液。",
+      "source": "《最新有機家庭盆栽種菜法》p.109 / 《陽臺種菜全攻略》p.10 / Reddit"
     },
     {
-      "symptom": "叶面出现密集针尖黄白斑点、叶背有极细蛛丝（红蜘蛛 / 叶螨）",
-      "cause": "室内紧邻暖气片或空调直吹导致高温干热（尤其罗勒、紫苏、迷迭香极易发）。",
-      "emergency_fix": "① 远离热源降温（控温 13–24℃ 以下）；② 彻底冲洗叶片背面；③ 喷施杀虫皂液或稀释牛奶（《最新有机》p.110：晴天上午薄喷叶背，随后注意冲洗防薄膜残留）。",
-      "source": "《最新有机家庭盆栽种菜法》p.107, 110 / Modern Sprout"
+      "symptom": "葉面出現密集針尖黃白斑點、葉背有極細蛛絲（紅蜘蛛 / 葉蟎）",
+      "cause": "室內緊鄰暖氣片或空調直吹導致高溫乾熱（尤其羅勒、紫蘇、迷迭香極易發）。",
+      "emergency_fix": "① 遠離熱源降溫（控溫 13–24℃ 以下）；② 徹底沖洗葉片背面；③ 噴施殺蟲皂液或稀釋牛奶（《最新有機》p.110：晴天上午薄噴葉背，隨後注意沖洗防薄膜殘留）。",
+      "source": "《最新有機家庭盆栽種菜法》p.107, 110 / Modern Sprout"
     },
     {
-      "symptom": "叶面覆盖白色面粉状斑块（白粉病 Powdery Mildew）",
-      "cause": "室内空气完全静止不流通、叶面湿度过高（或迷迭香/薄荷过于密植）。",
-      "emergency_fix": "① 剪除重病叶和过密内部枝；② 在旁边加设小型微风循环扇；③ 叶面喷施稀释碳酸氢钾/小苏打水溶液。",
-      "source": "《最新有机家庭盆栽种菜法》p.106 / Penn State Extension"
+      "symptom": "葉面覆蓋白色麵粉狀斑塊（白粉病 Powdery Mildew）",
+      "cause": "室內空氣完全靜止不流通、葉面溼度過高（或迷迭香/薄荷過於密植）。",
+      "emergency_fix": "① 剪除重病葉和過密內部枝；② 在旁邊加設小型微風循環扇；③ 葉面噴施稀釋碳酸氫鉀/小蘇打水溶液。",
+      "source": "《最新有機家庭盆栽種菜法》p.106 / Penn State Extension"
     },
     {
-      "symptom": "植株从底部老叶发黄暗淡、浇水充分却仍萎蔫",
-      "cause": "排水孔堵塞、盆底垫碎石形成悬挂滞水层、或浇水过频引发根系厌氧腐烂（假性缺水）。",
-      "emergency_fix": "① 立刻停止浇水；② 脱盆看根：白硬=真缺水，黑软发臭=烂根；③ 剪掉黑腐根系换入混有 30%+ 珍珠岩的新土与有底孔红陶盆。",
-      "source": "《阳台种菜、种花技术全攻略》PDF p.9 / Agronomic Protocols"
+      "symptom": "植株從底部老葉發黃暗淡、澆水充分卻仍萎蔫",
+      "cause": "排水孔堵塞、盆底墊碎石形成盆底滯水層、或澆水過頻引發根系厭氧腐爛（假性缺水）。",
+      "emergency_fix": "① 立刻停止澆水；② 脫盆看根：白硬=真缺水，黑軟發臭=爛根；③ 剪掉黑腐根系換入混有 30%+ 珍珠岩的新土與有底孔紅陶盆。",
+      "source": "《陽臺種菜、種花技術全攻略》PDF p.9 / Agronomic Protocols"
     },
     {
-      "symptom": "菜叶边缘干枯焦边，土壤表面结一层白色盐霜",
-      "cause": "基质含盐量过高（施肥过浓或长期使用硬自来水未做淋洗）。",
-      "emergency_fix": "用大量清水从盆面缓慢淋透、让余水从底孔彻底流走以冲洗盐分，暂停施肥 2–3 周。",
-      "source": "《阳台种菜、种花技术全攻略》PDF p.9 / Reddit r/IndoorGarden"
+      "symptom": "菜葉邊緣乾枯焦邊，土壤表面結一層白色鹽霜",
+      "cause": "基質含鹽量過高（施肥過濃或長期使用硬自來水未做淋洗）。",
+      "emergency_fix": "用大量清水從盆面緩慢淋透、讓餘水從底孔徹底流走以沖洗鹽分，暫停施肥 2–3 周。",
+      "source": "《陽臺種菜、種花技術全攻略》PDF p.9 / Reddit r/IndoorGarden"
     }
   ],
   "quarantine_sop": [
-    "第 1 步（物理隔离）：新买超市活体香草或苗圃小苗，带回家前 7–14 天务必放在独立窗台，绝对不要直接挨着你原有的健康植物放。",
-    "第 2 步（放大检查）：用手机手电筒照看嫩芽尖和叶片背面，排查有没有蚜虫、白粉虱、红蜘蛛丝网或黑腐叶。",
-    "第 3 步（拆盆分株）：若是超市 4 寸超密盆栽，用灭菌小刀纵切 2–4 份（百里香最多二等分），换入干净无菌的室内盆栽土（扔掉可能带虫卵的旧表土）。",
-    "第 4 步（插牌监测）：盆边插一张黄色粘虫板观察 7 天，确认无小黑飞和虫斑后再并入主力香草架。"
+    "第 1 步（物理隔離）：新買超市活體香草或苗圃小苗，帶回家前 7–14 天務必放在獨立窗臺，絕對不要直接挨著你原有的健康植物放。",
+    "第 2 步（放大檢查）：用手機手電筒照看嫩芽尖和葉片背面，排查有沒有蚜蟲、白粉蝨、紅蜘蛛絲網或黑腐葉。",
+    "第 3 步（拆盆分株）：若是超市 4 寸超密盆栽，用滅菌小刀縱切 2–4 份（百里香最多二等分），換入乾淨無菌的室內盆栽土（扔掉可能帶蟲卵的舊錶土）。",
+    "第 4 步（插牌監測）：盆邊插一張黃色粘蟲板觀察 7 天，確認無小黑飛和蟲斑後再併入主力香草架。"
   ],
   "natural_sprays": [
     {
-      "name": "辣椒大蒜皂水液（防治蚜虫、青虫）",
-      "ingredients": "水 1 升 + 干辣椒 20 克 + 捣碎大蒜 2 头 + 皂粉/肥皂碎 1 把",
-      "steps": "水加辣椒大蒜煮沸 3 分钟 → 彻底冷却后用纱布过滤 → 加入皂粉混匀 → 喷雾器喷在叶背（药效约维持 1 周）。",
-      "source": "《最新有机家庭盆栽种菜法》藤田智 第 109 页"
+      "name": "辣椒大蒜皂水液（防治蚜蟲、青蟲）",
+      "ingredients": "水 1 升 + 幹辣椒 20 克 + 搗碎大蒜 2 頭 + 皂粉/肥皂碎 1 把",
+      "steps": "水加辣椒大蒜煮沸 3 分鐘 → 徹底冷卻後用紗布過濾 → 加入皂粉混勻 → 噴霧器噴在葉背（藥效約維持 1 周）。",
+      "source": "《最新有機家庭盆栽種菜法》藤田智 第 109 頁"
     },
     {
-      "name": "醋稀释喷雾（生菜/叶菜恢复活力）",
-      "ingredients": "食用醋按 20–50 倍清水稀释",
-      "steps": "对生菜等叶片较厚的可略浓、油菜等嫩叶喷更稀，每周 1 次；注意自然配方无即效性，需先小范围测试叶片再全株喷施。",
-      "source": "《最新有机家庭盆栽种菜法》藤田智 第 110 页"
+      "name": "醋稀釋噴霧（生菜/葉菜恢復活力）",
+      "ingredients": "食用醋按 20–50 倍清水稀釋",
+      "steps": "對生菜等葉片較厚的可略濃、油菜等嫩葉噴更稀，每週 1 次；注意自然配方無即效性，需先小範圍測試葉片再全株噴施。",
+      "source": "《最新有機家庭盆栽種菜法》藤田智 第 110 頁"
     }
   ]
 };

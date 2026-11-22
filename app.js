@@ -43,85 +43,85 @@
   };
 
   const ZH_UI = {
-    pageTitle: "室内可食用香草与厨余再生 · 诚实可验证指南",
+    pageTitle: "室內可食用香草與廚餘再生 · 誠實可驗證指南",
     eyebrow: "Edible Herbs & Kitchen Scraps · Fact-Checked Guide",
-    siteTitle: "室内可食用植物：防踩坑速查总表",
+    siteTitle: "室內可食用植物：防踩坑速查總表",
     siteSubtitle:
-      '拒绝“清水泡出无限蔬菜”短视频幻觉 — 每种植物标注<strong>真实可行性</strong>、<strong>可验证验收点</strong>与<strong>书本/文献出处页码</strong>。',
-    navPlants: "🌿 植物速查总表",
-    navLighting: "💡 补光灯 PPFD/DLI",
-    navSoil: "🪴 混栽与配土计算器",
-    navPests: "🐛 病虫害与隔离检疫",
-    btnNotebookLm: "NotebookLM 导入模板",
+      '破除「光靠清水就能無限收成」的網路迷思 — 每種植物皆標註<strong>真實可行性</strong>、<strong>成功判斷指標</strong>與<strong>書本／文獻出處頁碼</strong>。',
+    navPlants: "🌿 植物速查總表",
+    navLighting: "💡 補光燈 PPFD/DLI",
+    navSoil: "🪴 混栽與配土計算器",
+    navPests: "🐛 病蟲害與隔離檢疫",
+    btnNotebookLm: "NotebookLM 導入模板",
     langToggleLabel: "🌐 EN",
-    wizardTitle: "🏠 按我家环境反向防死推荐",
-    wizardSub: "勾选你的真实室内条件，自动过滤容易养死的品种",
-    wizardLightLabel: "1. 我家光照条件",
-    wizardLightAll: "不限（显示全部植物）",
-    wizardLightNoGrow: "只有普通窗台 / 无补光灯（过滤强光死穴品种）",
-    wizardLightHasGrow: "有全光谱补光灯 / 全日照南窗",
-    wizardDiffLabel: "2. 我能接受的养护难度",
-    wizardDiffAll: "不限难度 (1★ – 5★)",
-    wizardDiffEasy: "纯新手零失败 (仅看 1★ – 2★)",
-    wizardDiffMed: "进阶可折腾 (1★ – 3★)",
-    searchPlaceholder: "搜索中英文名或别名，例如：香菜、cilantro、ginger、葱...",
+    wizardTitle: "🏠 按我家條件挑選植物（新手避坑篩選）",
+    wizardSub: "選擇你家的實際光線與照顧習慣，自動篩選出最容易種活的植物",
+    wizardLightLabel: "1. 我家光照條件",
+    wizardLightAll: "不限（顯示全部植物）",
+    wizardLightNoGrow: "只有一般窗臺 / 無植物燈（自動隱藏需強光品種）",
+    wizardLightHasGrow: "有全光譜補光燈 / 全日照南窗",
+    wizardDiffLabel: "2. 我能接受的養護難度",
+    wizardDiffAll: "不限難度 (1★ – 5★)",
+    wizardDiffEasy: "新手好養首選 (僅看 1★ – 2★)",
+    wizardDiffMed: "一般進階照顧 (1★ – 3★)",
+    searchPlaceholder: "搜索中英文名或別名，例如：香菜、cilantro、ginger、蔥...",
     chipAll: "全部",
-    chipHighValue: "高性价比再生",
-    chipPartial: "仅收嫩叶 / 长期根茎",
-    chipNotRec: "不建议菜梗水培",
-    chipGrowLight: "需强光/补光灯",
-    thName: "植物名称",
-    thVerdict: "厨余再生评级",
-    thStart: "推荐起点",
-    thWaterLimit: "纯水培上限",
-    thLight: "光照门槛",
-    thHarvest: "收获周期",
-    thSources: "出处数",
-    emptyState: "没有匹配该筛选条件的植物，请清空搜索词或切换筛选标签。",
-    btnBackTable: "← 返回总表",
-    difficultyWord: "难度",
-    citationsUnit: "条",
-    specStart: "推荐起点",
-    specWaterLimit: "纯水培上限",
-    specLight: "光照门槛",
-    specHarvestDiff: "收获周期与难度",
-    specContainerSoil: "容器与配土实操规格",
-    panelMythTitle: "网红误区 vs 植物学真相",
-    kickerMyth: "常见流言 / 误区",
-    kickerTruth: "可验证科学真相",
-    panelStepsTitle: "可验证实操步骤（带验收标准与止损红线）",
-    labelCheckpoint: "✅ 可验证验收标准：",
-    labelRedflag: "⚠️ 失败红线 / 止损信号：",
-    panelPitfallsTitle: "常见翻车症状与对策",
-    labelSymptom: "症状：",
+    chipHighValue: "高性價比再生",
+    chipPartial: "僅收嫩葉 / 長期根莖",
+    chipNotRec: "不建議菜梗水培",
+    chipGrowLight: "需強光/補光燈",
+    thName: "植物名稱",
+    thVerdict: "廚餘再生評估",
+    thStart: "建議起步方式",
+    thWaterLimit: "純水耕上限",
+    thLight: "光照需求",
+    thHarvest: "收穫週期",
+    thSources: "參考出處",
+    emptyState: "沒有匹配該篩選條件的植物，請清空搜索詞或切換篩選標籤。",
+    btnBackTable: "← 返回總表",
+    difficultyWord: "難度",
+    citationsUnit: "條",
+    specStart: "建議起步方式",
+    specWaterLimit: "純水耕上限",
+    specLight: "光照需求",
+    specHarvestDiff: "收穫週期與難度",
+    specContainerSoil: "容器與配土實操規格",
+    panelMythTitle: "常見迷思 vs 實際種植真相",
+    kickerMyth: "網路常見迷思",
+    kickerTruth: "植物學與實測真相",
+    panelStepsTitle: "詳細種植步驟（附成功指標與失敗警訊）",
+    labelCheckpoint: "✅ 成功指標（如何確認做對）：",
+    labelRedflag: "⚠️ 失敗警訊（出現此狀況請立即處理）：",
+    panelPitfallsTitle: "常見問題與急救對策",
+    labelSymptom: "症狀：",
     labelCause: "根因：",
-    labelFix: "处理：",
-    panelMediaTitle: "关键动作图解 & 媒体参考",
-    mediaPlaceholderTitle: "实拍图 / 演示视频扩展位",
-    mediaPlaceholderHint1: "将实拍照片或 MP4 放入 ",
-    mediaPlaceholderHint2: ' 并将 JSON 中 type 改为 "image" 或 "video" 即可叠加显示。',
-    panelSourcesTitle: "出处与页码溯源",
-    badgeVerified: "已核验出处",
-    badgePending: "二手中转笔记",
-    sourceTypeBook: "书籍",
-    sourceTypeWeb: "网站/机构",
-    sourceTypeCommunity: "社区共识",
+    labelFix: "處理：",
+    panelMediaTitle: "關鍵步驟圖解 & 植物照片",
+    mediaPlaceholderTitle: "實拍圖 / 演示視頻擴展位",
+    mediaPlaceholderHint1: "將實拍照片或 MP4 放入 ",
+    mediaPlaceholderHint2: ' 並將 JSON 中 type 改為 "image" 或 "video" 即可疊加顯示。',
+    panelSourcesTitle: "參考資料與書本頁碼",
+    badgeVerified: "已核驗出處",
+    badgePending: "整理筆記（待補原始出處）",
+    sourceTypeBook: "書籍",
+    sourceTypeWeb: "網站/機構",
+    sourceTypeCommunity: "社區共識",
     labelLocation: "定位：",
-    linkViewSite: "查看原文网站 ↗",
+    linkViewSite: "查看原文網站 ↗",
     footerText:
-      'Planting Tips Prototype · 数据源：<code>data/plants.json</code> · 每条步骤均需关联可核验出处',
-    modalTitle: "从 NotebookLM 整理并导入新植物",
+      'Planting Tips Prototype · 數據源：<code>data/plants.json</code> · 每條步驟均需關聯可核驗出處',
+    modalTitle: "從 NotebookLM 整理並導入新植物",
     modalDesc:
-      '本原型的数据源文件为 <code>data/plants.json</code>，标准 Markdown 模板在 <code>templates/plant-entry-template.md</code>。建议在 NotebookLM 中使用下方提问词抽取书本原文与页码：',
-    modalPrompt: `请只根据我上传的资料回答，不要编造。如果资料里没有提到某一项，请写“资料未提及”。请为每一条关键操作标注 [来源书名, 第X页]：
-1. 植物名称（中文 / 英文 / 学名）
-2. 是否适合厨余再生，还是更推荐播种 / 买苗分盆？原因是什么？
+      '本原型的數據源文件為 <code>data/plants.json</code>，標準 Markdown 模板在 <code>templates/plant-entry-template.md</code>。建議在 NotebookLM 中使用下方提問詞抽取書本原文與頁碼：',
+    modalPrompt: `請只根據我上傳的資料回答，不要編造。如果資料裡沒有提到某一項，請寫“資料未提及”。請為每一條關鍵操作標註 [來源書名, 第X頁]：
+1. 植物名稱（中文 / 英文 / 學名）
+2. 是否適合廚餘再生，還是更推薦播種 / 買苗分盆？原因是什麼？
 3. 容器深度、配土要求、pH 或基肥要求
-4. 光照需求与耐阴性
-5. 分步骤操作（每步写清楚：动作、可观察的验收标准、失败/腐烂红线）
-6. 常见病虫害与翻车原因`,
+4. 光照需求與耐陰性
+5. 分步驟操作（每步寫清楚：動作、可觀察的驗收標準、失敗/腐爛紅線）
+6. 常見病蟲害與翻車原因`,
     modalNote:
-      '更新 <code>data/plants.json</code> 后运行：<code>python scripts/validate_and_bundle.py</code> 即可校验所有页码引用并重新生成前端数据包。',
+      '更新 <code>data/plants.json</code> 後運行：<code>python scripts/validate_and_bundle.py</code> 即可校驗所有頁碼引用並重新生成前端數據包。',
   };
 
   function ui() {
@@ -139,8 +139,8 @@
   function translatePageString(pageStr) {
     if (state.lang !== "en") return pageStr;
     return String(pageStr || "")
-      .replace(/书本第\s*([0-9–\-]+)\s*页/g, "Book p. $1")
-      .replace(/PDF\s*第\s*([0-9–, \-]+)\s*页/g, "PDF p. $1")
+      .replace(/書本第\s*([0-9–\-]+)\s*頁/g, "Book p. $1")
+      .replace(/PDF\s*第\s*([0-9–, \-]+)\s*頁/g, "PDF p. $1")
       .split(" — ")[0];
   }
 
@@ -209,7 +209,7 @@
 
   function applyStaticUiLanguage() {
     const t = ui();
-    document.documentElement.lang = state.lang === "en" ? "en" : "zh-CN";
+    document.documentElement.lang = state.lang === "en" ? "en" : "zh-Hant";
     document.title = t.pageTitle;
     const eyebrow = document.querySelector(".eyebrow");
     const siteTitle = document.querySelector(".site-title");
@@ -291,7 +291,7 @@
       .map((id) => {
         const info = sourceIndexMap.get(id);
         const num = info ? info.num : "?";
-        const tip = state.lang === "en" ? `Jump to source #${num}` : `查看来源 #${num}`;
+        const tip = state.lang === "en" ? `Jump to source #${num}` : `查看來源 #${num}`;
         return `<button class="cite-pill" type="button" data-ref="${escapeHtml(id)}" title="${tip}">[${num}]</button>`;
       })
       .join("");
@@ -364,13 +364,13 @@
       return;
     }
     if (state.envLight === "no_grow_light" && state.envDiff === "easy_only") {
-      els.envAdviceBox.textContent = `✅ 新手无补光灯最优解（共 ${filteredCount} 种）：首推【芽苗菜、小葱、韭菜、大蒜苗、薄荷、空心菜、芝麻菜】，已为你自动过滤迷迭香、香菜等易死高光品种。`;
+      els.envAdviceBox.textContent = `✅ 無植物燈的新手首選（共 ${filteredCount} 種）：首推【芽苗菜、小蔥、韭菜、大蒜苗、薄荷、空心菜、芝麻菜】，已為你自動過濾迷迭香、香菜等易死高光品種。`;
     } else if (state.envLight === "no_grow_light") {
-      els.envAdviceBox.textContent = `💡 已隐藏必须配补光灯的高光品种（如迷迭香、百里香、牛至、香菜、鼠尾草、罗勒），当前保留 ${filteredCount} / ${totalCount} 种普通窗台可存活品种。`;
+      els.envAdviceBox.textContent = `💡 已隱藏必須搭配植物燈的強光品種（如迷迭香、百里香、牛至、香菜、鼠尾草、羅勒），當前保留 ${filteredCount} / ${totalCount} 種普通窗臺可存活品種。`;
     } else if (state.envDiff === "easy_only") {
-      els.envAdviceBox.textContent = `🌱 已筛选 1★–2★ 极简入门品种（${filteredCount} / ${totalCount} 种），容错率最高、最适合第一次动手。`;
+      els.envAdviceBox.textContent = `🌱 已篩選 1★–2★ 新手好養品種（${filteredCount} / ${totalCount} 種），容錯率最高、最適合第一次動手。`;
     } else {
-      els.envAdviceBox.textContent = `当前显示 ${filteredCount} / ${totalCount} 种植物；若家里无补光灯，可切换左侧下拉框一键排除易徒长暴毙的高光香草。`;
+      els.envAdviceBox.textContent = `當前顯示 ${filteredCount} / ${totalCount} 種植物；若家裡沒有植物補光燈，可用左側選單一鍵隱藏需要強光的高難度香草。`;
     }
   }
 
@@ -410,7 +410,7 @@
     els.statsStrip.textContent =
       state.lang === "en"
         ? `Showing ${filtered.length} / ${plants.length} plants · ${totalSources} total citations (${verifiedSources} verified) · Click any row for verifiable step-by-step instructions & diagrams`
-        : `当前显示 ${filtered.length} / ${plants.length} 种植物 · 共收录 ${totalSources} 条引用出处（其中 ${verifiedSources} 条已核验）· 点击任意一行查看可验证步骤与图解`;
+        : `當前顯示 ${filtered.length} / ${plants.length} 種植物 · 共收錄 ${totalSources} 條引用出處（其中 ${verifiedSources} 條已核驗）· 點擊任意一行查看可驗證步驟與圖解`;
 
     if (filtered.length === 0) {
       els.tbody.innerHTML = "";
@@ -480,7 +480,7 @@
       `;
     } else {
       const wikiLabel =
-        state.lang === "en" ? "View Wikipedia Image Source ↗" : "查看维基百科开放版权图源 ↗";
+        state.lang === "en" ? "View Wikipedia Image Source ↗" : "查看維基百科開放版權圖源 ↗";
       const wikiLink = media.wiki_url
         ? `<div style="margin-top:4px; font-size:12px;"><a href="${escapeHtml(media.wiki_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(wikiLabel)}</a></div>`
         : "";
@@ -510,7 +510,7 @@
     });
 
     const stars = "★".repeat(plant.difficulty) + "☆".repeat(5 - plant.difficulty);
-    const aliasLabel = state.lang === "en" ? "Aliases: " : "别名：";
+    const aliasLabel = state.lang === "en" ? "Aliases: " : "別名：";
 
     els.viewDetail.innerHTML = `
       <button class="btn btn-back" id="btn-back-table" type="button">${escapeHtml(t.btnBackTable)}</button>
@@ -680,16 +680,16 @@
             <h2 class="detail-title">${escapeHtml(ld.title)}</h2>
             <div class="detail-latin" style="font-style:normal;"><code>${escapeHtml(ld.formula)}</code></div>
           </div>
-          <span class="badge badge-high_value">${escapeHtml(isEn ? ld.badge : "可自测微调 · 附真实出处")}</span>
+          <span class="badge badge-high_value">${escapeHtml(isEn ? ld.badge : "可自測微調 · 附真實出處")}</span>
         </div>
 
         <div class="dli-calc-box" style="margin-top:18px; margin-bottom:0;">
           <div>
-            <label for="calc-ppfd">${escapeHtml(isEn ? ld.calcPpfdLabel : "实测 PPFD (μmol/m²/s，可用手机 Photone App 粗测)")}</label>
+            <label for="calc-ppfd">${escapeHtml(isEn ? ld.calcPpfdLabel : "實測 PPFD (μmol/m²/s，可用手機 Photone App 粗測)")}</label>
             <input id="calc-ppfd" type="number" min="10" max="1500" value="250" />
           </div>
           <div>
-            <label for="calc-hours">${escapeHtml(isEn ? ld.calcHoursLabel : "每日补光时长 (小时/天)")}</label>
+            <label for="calc-hours">${escapeHtml(isEn ? ld.calcHoursLabel : "每日補光時長 (小時/天)")}</label>
             <input id="calc-hours" type="number" min="1" max="24" step="0.5" value="14" />
           </div>
           <div class="dli-result-box" id="dli-result-box"></div>
@@ -697,23 +697,23 @@
       </div>
 
       <div class="panel">
-        <h3>${escapeHtml(isEn ? ld.svgPanelTitle : "视觉图解：不同功率灯具的安全吊挂高度")}</h3>
+        <h3>${escapeHtml(isEn ? ld.svgPanelTitle : "視覺圖解：不同功率燈具的安全吊掛高度")}</h3>
         ${renderSvgDiagrams(["dli_distance"])}
       </div>
 
       <div class="panel">
-        <h3>${escapeHtml(isEn ? ld.tableATitle : "附表 A：按香草品类与阶段的 PPFD / DLI / 吊挂距离目标")}</h3>
+        <h3>${escapeHtml(isEn ? ld.tableATitle : "附表 A：按香草品類與階段的 PPFD / DLI / 吊掛距離目標")}</h3>
         <div class="table-scroll">
           <table class="plants-table">
             <thead>
               <tr>
-                <th>${escapeHtml(isEn ? ld.thStage : "生长阶段 / 品类")}</th>
-                <th>${escapeHtml(isEn ? ld.thExamples : "适用植物示例")}</th>
-                <th>${escapeHtml(isEn ? ld.thPpfd : "目标 PPFD")}</th>
-                <th>${escapeHtml(isEn ? ld.thDli : "目标 DLI")}</th>
-                <th>${escapeHtml(isEn ? ld.thPhoto : "每日光周期")}</th>
-                <th>${escapeHtml(isEn ? ld.thDist100 : "100–150W 面板建议距离")}</th>
-                <th>${escapeHtml(isEn ? ld.thDist30 : "10–36W 灯条建议距离")}</th>
+                <th>${escapeHtml(isEn ? ld.thStage : "生長階段 / 品類")}</th>
+                <th>${escapeHtml(isEn ? ld.thExamples : "適用植物示例")}</th>
+                <th>${escapeHtml(isEn ? ld.thPpfd : "目標 PPFD")}</th>
+                <th>${escapeHtml(isEn ? ld.thDli : "目標 DLI")}</th>
+                <th>${escapeHtml(isEn ? ld.thPhoto : "每日光週期")}</th>
+                <th>${escapeHtml(isEn ? ld.thDist100 : "100–150W 面板建議距離")}</th>
+                <th>${escapeHtml(isEn ? ld.thDist30 : "10–36W 燈條建議距離")}</th>
               </tr>
             </thead>
             <tbody>
@@ -738,15 +738,15 @@
       </div>
 
       <div class="panel">
-        <h3>${escapeHtml(isEn ? ld.tableBTitle : "附表 B：不同灯具功率与类型对照")}</h3>
+        <h3>${escapeHtml(isEn ? ld.tableBTitle : "附表 B：不同燈具功率與類型對照")}</h3>
         <div class="table-scroll">
           <table class="plants-table">
             <thead>
               <tr>
-                <th>${escapeHtml(isEn ? ld.thFixture : "灯具功率 / 类型")}</th>
-                <th>${escapeHtml(isEn ? ld.thUseCase : "典型使用场景")}</th>
-                <th>${escapeHtml(isEn ? ld.thSafeDist : "安全吊挂距离")}</th>
-                <th>${escapeHtml(isEn ? ld.thNotes : "关键注意事项")}</th>
+                <th>${escapeHtml(isEn ? ld.thFixture : "燈具功率 / 類型")}</th>
+                <th>${escapeHtml(isEn ? ld.thUseCase : "典型使用場景")}</th>
+                <th>${escapeHtml(isEn ? ld.thSafeDist : "安全吊掛距離")}</th>
+                <th>${escapeHtml(isEn ? ld.thNotes : "關鍵注意事項")}</th>
               </tr>
             </thead>
             <tbody>
@@ -769,14 +769,14 @@
 
       <div class="detail-grid">
         <div class="panel">
-          <h3>${escapeHtml(isEn ? ld.diagPanelTitle : "不买专业仪器的植物反馈自检")}</h3>
+          <h3>${escapeHtml(isEn ? ld.diagPanelTitle : "不買專業儀器的植物反饋自檢")}</h3>
           ${ld.diagnostics
             .map(
               (d) => `
             <div class="pitfall-item">
               <div><strong>${escapeHtml(d.signal)}</strong></div>
-              <div style="margin-top:4px; color:var(--muted);"><strong>${escapeHtml(isEn ? ld.labelSymptoms : "常见表象：")}</strong>${escapeHtml(d.symptoms)}</div>
-              <div style="margin-top:4px;"><strong>${escapeHtml(isEn ? ld.labelAction : "调整动作：")}</strong>${escapeHtml(d.action)}</div>
+              <div style="margin-top:4px; color:var(--muted);"><strong>${escapeHtml(isEn ? ld.labelSymptoms : "常見表象：")}</strong>${escapeHtml(d.symptoms)}</div>
+              <div style="margin-top:4px;"><strong>${escapeHtml(isEn ? ld.labelAction : "調整動作：")}</strong>${escapeHtml(d.action)}</div>
             </div>
           `
             )
@@ -784,7 +784,7 @@
         </div>
 
         <div class="panel">
-          <h3>${escapeHtml(isEn ? ld.sourcesPanelTitle : "本附表数据来源")} (${rawLd.sources.length})</h3>
+          <h3>${escapeHtml(isEn ? ld.sourcesPanelTitle : "本附表數據來源")} (${rawLd.sources.length})</h3>
           ${rawLd.sources
             .map(
               (s, i) => `
@@ -815,22 +815,22 @@
       if (dli < 8) {
         verdict = isEn
           ? ld.verdictLow
-          : "偏暗（易徒长黄叶）：仅能勉强维持耐阴植物存活，建议降灯或延长时间。";
+          : "偏暗（易徒長黃葉）：僅能勉強維持耐陰植物存活，建議降燈或延長時間。";
       } else if (dli < 14) {
         verdict = isEn
           ? ld.verdictMed
-          : "中等光量：适合扦插幼苗、韭菜、小葱、散叶生菜、芝麻菜与半阴期薄荷。";
+          : "中等光量：適合扦插幼苗、韭菜、小蔥、散葉生菜、芝麻菜與半陰期薄荷。";
       } else if (dli < 18) {
         verdict = isEn
           ? ld.verdictGood
-          : "充足叶用光量：薄荷、紫苏、欧芹、罗勒、香菜、空心菜均能健康生长。";
+          : "充足葉用光量：薄荷、紫蘇、歐芹、羅勒、香菜、空心菜均能健康生長。";
       } else {
         verdict = isEn
           ? ld.verdictHigh
-          : "高光达标（18+）：可满足迷迭香、百里香、牛至、鼠尾草等地中海高光香草！";
+          : "高光達標（18+）：可滿足迷迭香、百里香、牛至、鼠尾草等地中海高光香草！";
       }
       resultBox.innerHTML = `
-        <div class="spec-label">${escapeHtml(isEn ? ld.calcResultLabel : "计算结果 DLI")}</div>
+        <div class="spec-label">${escapeHtml(isEn ? ld.calcResultLabel : "計算結果 DLI")}</div>
         <div class="spec-value" style="font-size:18px; color:var(--ok-text);">${dli.toFixed(1)} mol/m²/day</div>
         <div class="plant-sub" style="margin-top:4px; color:var(--text);">${escapeHtml(verdict)}</div>
       `;
@@ -851,15 +851,15 @@
       <div class="detail-hero">
         <div class="detail-title-row">
           <div>
-            <h2 class="detail-title">${escapeHtml(isEn ? tk.soilHeroTitle : "同盆混栽干湿矩阵 & 配土升数计算器")}</h2>
-            <div class="detail-latin" style="font-style:normal;">${escapeHtml(isEn ? tk.soilHeroSub : "防止“喜干迷迭香 + 喜湿罗勒 + 侵略性薄荷”种同一盆互相害死，并按花盆容量精确换算配土材料。")}</div>
+            <h2 class="detail-title">${escapeHtml(isEn ? tk.soilHeroTitle : "同盆混栽乾溼矩陣 & 配土升數計算器")}</h2>
+            <div class="detail-latin" style="font-style:normal;">${escapeHtml(isEn ? tk.soilHeroSub : "防止“喜幹迷迭香 + 喜溼羅勒 + 侵略性薄荷”種同一盆互相害死，並按花盆容量精確換算配土材料。")}</div>
           </div>
-          <span class="badge badge-high_value">${escapeHtml(isEn ? tk.soilHeroBadge : "源自藤田智配土标准 & 园艺流体物理")}</span>
+          <span class="badge badge-high_value">${escapeHtml(isEn ? tk.soilHeroBadge : "源自藤田智配土標準 & 園藝流體物理")}</span>
         </div>
 
         <div class="dli-calc-box" style="margin-top:18px; margin-bottom:0;">
           <div>
-            <label for="soil-recipe-select">${escapeHtml(isEn ? tk.labelSelectRecipe : "选择配土配方")}</label>
+            <label for="soil-recipe-select">${escapeHtml(isEn ? tk.labelSelectRecipe : "選擇配土配方")}</label>
             <select id="soil-recipe-select">
               ${tk.soil_recipes
                 .map((r) => `<option value="${escapeHtml(r.id)}">${escapeHtml(r.name)}</option>`)
@@ -867,7 +867,7 @@
             </select>
           </div>
           <div>
-            <label for="soil-liters-input">${escapeHtml(isEn ? tk.labelPotLiters : "花盆总容量 (升 L，1加仑盆≈3.5L，标准长条盆≈10L)")}</label>
+            <label for="soil-liters-input">${escapeHtml(isEn ? tk.labelPotLiters : "花盆總容量 (升 L，1加侖盆≈3.5L，標準長條盆≈10L)")}</label>
             <input id="soil-liters-input" type="number" min="0.5" max="100" step="0.5" value="3" />
           </div>
           <div class="dli-result-box" id="soil-recipe-meta"></div>
@@ -877,14 +877,14 @@
       <div class="panel" id="soil-calc-output"></div>
 
       <div class="panel">
-        <h3>${escapeHtml(isEn ? tk.compatPanelTitle : "同盆混栽「干湿与根系隔离」矩阵")}</h3>
+        <h3>${escapeHtml(isEn ? tk.compatPanelTitle : "同盆混栽「乾溼與根系隔離」矩陣")}</h3>
         <div class="compat-grid">
           ${tk.compatibility_groups
             .map(
               (g) => `
             <div class="compat-card">
               <div style="font-weight:700; font-size:15px; color:var(--accent); margin-bottom:6px;">${escapeHtml(g.group)}</div>
-              <div class="plant-sub"><strong>${escapeHtml(isEn ? tk.labelMoisture : "浇水节奏：")}</strong>${escapeHtml(g.moisture)}</div>
+              <div class="plant-sub"><strong>${escapeHtml(isEn ? tk.labelMoisture : "澆水節奏：")}</strong>${escapeHtml(g.moisture)}</div>
               <div class="plant-sub"><strong>${escapeHtml(isEn ? tk.labelLightReq : "光照需求：")}</strong>${escapeHtml(g.light)}</div>
               <div style="margin:8px 0;"><strong>${escapeHtml(isEn ? tk.labelIncludedPlants : "包含植物：")}</strong>${escapeHtml(g.plants.join(isEn ? ", " : "、"))}</div>
               <div style="font-size:13px; color:var(--muted);">${escapeHtml(g.rule)}</div>
@@ -897,19 +897,19 @@
 
       <div class="detail-grid">
         <div class="panel">
-          <h3>${escapeHtml(isEn ? tk.physicsPanelTitle : "容器物理红线：为什么盆底绝不垫碎石")}</h3>
+          <h3>${escapeHtml(isEn ? tk.physicsPanelTitle : "容器物理紅線：為什麼盆底絕不墊碎石")}</h3>
           ${renderSvgDiagrams(["pwt", "superpot_split"])}
         </div>
 
         <div class="panel">
-          <h3>${escapeHtml(isEn ? tk.companionPanelTitle : "书中实测伴生防虫组合（《最新有机》第105页）")}</h3>
+          <h3>${escapeHtml(isEn ? tk.companionPanelTitle : "書中實測伴生防蟲組合（《最新有機》第105頁）")}</h3>
           ${tk.companion_pairs
             .map(
               (cp) => `
             <div class="pitfall-item">
-              <div><strong>${escapeHtml(isEn ? tk.labelPair : "组合：")}${escapeHtml(cp.pair)}</strong></div>
+              <div><strong>${escapeHtml(isEn ? tk.labelPair : "組合：")}${escapeHtml(cp.pair)}</strong></div>
               <div style="margin-top:4px;">${escapeHtml(isEn ? tk.labelEffect : "功效：")}${escapeHtml(cp.effect)}</div>
-              <div class="plant-sub" style="margin-top:4px;">${escapeHtml(isEn ? tk.labelSource : "出处：")}${escapeHtml(cp.source)}</div>
+              <div class="plant-sub" style="margin-top:4px;">${escapeHtml(isEn ? tk.labelSource : "出處：")}${escapeHtml(cp.source)}</div>
             </div>
           `
             )
@@ -929,9 +929,9 @@
       const liters = Math.max(0.5, Number(litersInput.value) || 1);
 
       metaBox.innerHTML = `
-        <div class="spec-label">${escapeHtml(isEn ? tk.labelSuitableFor : "适用植物")}</div>
+        <div class="spec-label">${escapeHtml(isEn ? tk.labelSuitableFor : "適用植物")}</div>
         <div class="spec-value">${escapeHtml(recipe.suitable_for)}</div>
-        <div class="plant-sub" style="margin-top:4px;">${escapeHtml(isEn ? tk.labelSource : "出处：")}${escapeHtml(recipe.source_ref)}</div>
+        <div class="plant-sub" style="margin-top:4px;">${escapeHtml(isEn ? tk.labelSource : "出處：")}${escapeHtml(recipe.source_ref)}</div>
       `;
 
       const compRows = recipe.components
@@ -955,20 +955,20 @@
             <tr>
               <td>${escapeHtml(a.name)}</td>
               <td>${a.amount_g}${escapeHtml(isEn ? " g / L" : " 克 / 升")}</td>
-              <td><strong>${escapeHtml(isEn ? `~${totalG} g` : `约 ${totalG} 克`)}</strong></td>
+              <td><strong>${escapeHtml(isEn ? `~${totalG} g` : `約 ${totalG} 克`)}</strong></td>
             </tr>
           `;
         })
         .join("");
 
       outPanel.innerHTML = `
-        <h3>${escapeHtml(isEn ? `${tk.calcOutputTitlePrefix}${liters}${tk.calcOutputTitleSuffix}` : `计算明细（按 ${liters} 升盆容量换算）`)}</h3>
+        <h3>${escapeHtml(isEn ? `${tk.calcOutputTitlePrefix}${liters}${tk.calcOutputTitleSuffix}` : `計算明細（按 ${liters} 升盆容量換算）`)}</h3>
         <div class="table-scroll">
           <table class="plants-table">
             <thead>
               <tr>
-                <th>${escapeHtml(isEn ? tk.thMaterial : "基质 / 添加物名称")}</th>
-                <th>${escapeHtml(isEn ? tk.thRatio : "配比标准")}</th>
+                <th>${escapeHtml(isEn ? tk.thMaterial : "基質 / 添加物名稱")}</th>
+                <th>${escapeHtml(isEn ? tk.thRatio : "配比標準")}</th>
                 <th>${escapeHtml(isEn ? `${tk.thAmountPrefix}${liters}${tk.thAmountSuffix}` : `${liters} 升花盆所需用量`)}</th>
               </tr>
             </thead>
@@ -979,7 +979,7 @@
           </table>
         </div>
         <div class="checkpoint-box" style="margin-top:12px;">
-          <strong>${escapeHtml(isEn ? tk.labelPracticalNote : "📌 实操说明：")}</strong>${escapeHtml(recipe.note)}
+          <strong>${escapeHtml(isEn ? tk.labelPracticalNote : "📌 實操說明：")}</strong>${escapeHtml(recipe.note)}
         </div>
       `;
     }
@@ -999,23 +999,23 @@
       <div class="detail-hero">
         <div class="detail-title-row">
           <div>
-            <h2 class="detail-title">${escapeHtml(isEn ? tk.pestsHeroTitle : "室内病虫害看图急救 & 新买盆栽隔离检疫清单")}</h2>
-            <div class="detail-latin" style="font-style:normal;">${escapeHtml(isEn ? tk.pestsHeroSub : "整合《最新有机家庭盆栽种菜法》第 105–110 页与《阳台种菜全攻略》PDF 第 9–10 页。")}</div>
+            <h2 class="detail-title">${escapeHtml(isEn ? tk.pestsHeroTitle : "室內病蟲害看圖急救 & 新買盆栽隔離檢疫清單")}</h2>
+            <div class="detail-latin" style="font-style:normal;">${escapeHtml(isEn ? tk.pestsHeroSub : "整合《最新有機家庭盆栽種菜法》第 105–110 頁與《陽臺種菜全攻略》PDF 第 9–10 頁。")}</div>
           </div>
-          <span class="badge badge-not_recommended">${escapeHtml(isEn ? tk.pestsHeroBadge : "预防重于治疗 · 买苗必隔离")}</span>
+          <span class="badge badge-not_recommended">${escapeHtml(isEn ? tk.pestsHeroBadge : "預防重於治療 · 買苗必隔離")}</span>
         </div>
       </div>
 
       <div class="panel">
-        <h3>${escapeHtml(isEn ? tk.pestsTableTitle : "常见病虫害与生理故障：看症状快速止损表")}</h3>
+        <h3>${escapeHtml(isEn ? tk.pestsTableTitle : "常見病蟲害與生理故障：看症狀快速止損表")}</h3>
         <div class="table-scroll">
           <table class="plants-table">
             <thead>
               <tr>
-                <th>${escapeHtml(isEn ? tk.thPestSymptom : "观察到的症状")}</th>
-                <th>${escapeHtml(isEn ? tk.thPestCause : "真实病因 / 虫源")}</th>
-                <th>${escapeHtml(isEn ? tk.thPestFix : "立刻执行的急救动作")}</th>
-                <th>${escapeHtml(isEn ? tk.thPestSource : "核验出处")}</th>
+                <th>${escapeHtml(isEn ? tk.thPestSymptom : "觀察到的症狀")}</th>
+                <th>${escapeHtml(isEn ? tk.thPestCause : "真實病因 / 蟲源")}</th>
+                <th>${escapeHtml(isEn ? tk.thPestFix : "立刻執行的急救動作")}</th>
+                <th>${escapeHtml(isEn ? tk.thPestSource : "核驗出處")}</th>
               </tr>
             </thead>
             <tbody>
@@ -1038,22 +1038,22 @@
 
       <div class="detail-grid">
         <div class="panel">
-          <h3>${escapeHtml(isEn ? tk.sopPanelTitle : "超市 / 苗圃新买活盆：7–14 天防虫隔离 SOP")}</h3>
+          <h3>${escapeHtml(isEn ? tk.sopPanelTitle : "超市 / 苗圃新買活盆：7–14 天防蟲隔離 SOP")}</h3>
           <ol class="sop-list">
             ${tk.quarantine_sop.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}
           </ol>
         </div>
 
         <div class="panel">
-          <h3>${escapeHtml(isEn ? tk.spraysPanelTitle : "家庭厨房安全自然喷剂配方（藤田智 p.109–110）")}</h3>
+          <h3>${escapeHtml(isEn ? tk.spraysPanelTitle : "家庭廚房安全自然噴劑配方（藤田智 p.109–110）")}</h3>
           ${tk.natural_sprays
             .map(
               (sp) => `
             <div class="step-card">
               <div class="step-title">${escapeHtml(sp.name)}</div>
               <div style="margin-top:6px;"><strong>${escapeHtml(isEn ? tk.labelIngredients : "材料：")}</strong>${escapeHtml(sp.ingredients)}</div>
-              <div style="margin-top:6px;"><strong>${escapeHtml(isEn ? tk.labelMethod : "做法与用法：")}</strong>${escapeHtml(sp.steps)}</div>
-              <div class="plant-sub" style="margin-top:6px;">${escapeHtml(isEn ? tk.labelSource : "出处：")}${escapeHtml(sp.source)}</div>
+              <div style="margin-top:6px;"><strong>${escapeHtml(isEn ? tk.labelMethod : "做法與用法：")}</strong>${escapeHtml(sp.steps)}</div>
+              <div class="plant-sub" style="margin-top:6px;">${escapeHtml(isEn ? tk.labelSource : "出處：")}${escapeHtml(sp.source)}</div>
             </div>
           `
             )

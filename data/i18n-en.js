@@ -12,7 +12,7 @@ window.I18N_EN = {
     navPests: "🐛 Pests & Quarantine SOP",
     btnNotebookLm: "NotebookLM Import Guide",
     langToggleLabel: "🌐 中文",
-    wizardTitle: "🏠 Reverse Filter by Your Home Environment",
+    wizardTitle: "🏠 Find Plants That Fit Your Home",
     wizardSub: "Select your real indoor conditions to automatically filter out plants prone to dying",
     wizardLightLabel: "1. My Indoor Lighting",
     wizardLightAll: "Any (Show all plants)",
@@ -1721,26 +1721,26 @@ window.I18N_EN = {
     }
   },
   book_titles: {
-    "最新有机家庭盆栽种菜法": "Organic Container Vegetable Gardening (Tomohiro Fujita)",
-    "蔬菜栽培百科全书（已拆分第02章）": "Encyclopedia of Vegetable Cultivation (Ch. 02 Leafy Greens)",
-    "蔬菜栽培百科全书（已拆分第03章）": "Encyclopedia of Vegetable Cultivation (Ch. 03 Leafy Greens)",
-    "蔬菜栽培百科全书（已拆分第04章）": "Encyclopedia of Vegetable Cultivation (Ch. 04 Root & Herb Crops)",
-    "最好的家庭种菜书_日 靓丽出版社.pdf": "The Best Home Vegetable Gardening Book (Liangli Press)",
-    "阳台菜园：栽培可口蔬菜的 70 个诀窍.pdf": "Balcony Kitchen Garden: 70 Tips for Delicious Vegetables",
-    "阳台种菜、种花技术全攻略": "Complete Guide to Balcony Soilless Vegetable & Flower Gardening",
-    "香草生活，恋上有香气的日常.pdf": "Herb Life: Falling in Love with Fragrant Daily Living",
-    "家庭种菜最健康_赵玲.pdf": "Home Vegetable Gardening for Health (Zhao Ling)",
-    "[薰衣草百科圣经].(Lavender: The Genus Lavandula).pdf": "Lavender: The Genus Lavandula (Maria Lis-Balchin)"
+    "最新有機家庭盆栽種菜法": "Organic Container Vegetable Gardening (Tomohiro Fujita)",
+    "蔬菜栽培百科全書（已拆分第02章）": "Encyclopedia of Vegetable Cultivation (Ch. 02 Leafy Greens)",
+    "蔬菜栽培百科全書（已拆分第03章）": "Encyclopedia of Vegetable Cultivation (Ch. 03 Leafy Greens)",
+    "蔬菜栽培百科全書（已拆分第04章）": "Encyclopedia of Vegetable Cultivation (Ch. 04 Root & Herb Crops)",
+    "最好的家庭種菜書_日 靚麗出版社.pdf": "The Best Home Vegetable Gardening Book (Liangli Press)",
+    "陽臺菜園：栽培可口蔬菜的 70 個訣竅.pdf": "Balcony Kitchen Garden: 70 Tips for Delicious Vegetables",
+    "陽臺種菜、種花技術全攻略": "Complete Guide to Balcony Soilless Vegetable & Flower Gardening",
+    "香草生活，戀上有香氣的日常.pdf": "Herb Life: Falling in Love with Fragrant Daily Living",
+    "家庭種菜最健康_趙玲.pdf": "Home Vegetable Gardening for Health (Zhao Ling)",
+    "[薰衣草百科聖經].(Lavender: The Genus Lavandula).pdf": "Lavender: The Genus Lavandula (Maria Lis-Balchin)"
   },
   authors: {
     "藤田智": "Tomohiro Fujita",
-    "板木利隆 / 机械工业出版社": "Toshitaka Itagi / China Machine Press",
-    "中国无土栽培技术论坛": "China Soilless Cultivation Forum",
-    "靓丽出版社（已人工核对实页）": "Liangli Press (Page-verified on disk)",
-    "本地图书（已人工核对实页）": "Local PDF Book (Page-verified on disk)",
-    "赵玲（已人工核对实页）": "Zhao Ling (Page-verified on disk)",
-    "Maria Lis-Balchin（本地文字版图书）": "Maria Lis-Balchin (Local Text PDF)",
-    "NotebookLM Deep Research 综合笔记": "NotebookLM Deep Research Synthesis Note"
+    "板木利隆 / 機械工業出版社": "Toshitaka Itagi / China Machine Press",
+    "中國無土栽培技術論壇": "China Soilless Cultivation Forum",
+    "靚麗出版社（已人工核對實頁）": "Liangli Press (Page-verified on disk)",
+    "本地圖書（已人工核對實頁）": "Local PDF Book (Page-verified on disk)",
+    "趙玲（已人工核對實頁）": "Zhao Ling (Page-verified on disk)",
+    "Maria Lis-Balchin（本地文字版圖書）": "Maria Lis-Balchin (Local Text PDF)",
+    "NotebookLM Deep Research 綜合筆記": "NotebookLM Deep Research Synthesis Note"
   },
   source_notes: {
     src_watercress_baike_278: "Q&A explicitly teaches rooting market-bought watercress stems in a glass of water, then planting in a shallow river-sand + humus planter sitting inside a liquid-fertilizer water tray for bottom wicking (Book pp. 278–279 / PDF pp. 43–44).",
