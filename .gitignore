@@ -1,0 +1,8 @@
+# Keep raw NotebookLM drafts local only
+sources_from_notebooklm/
+
+# Python / OS artifacts
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>室内可食用香草与厨余再生 · 诚实可验证指南</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div>
+        <div class="eyebrow">Edible Herbs &amp; Kitchen Scraps · Fact-Checked Guide</div>
+        <h1 class="site-title">室内可食用植物：防踩坑速查总表</h1>
+        <p class="site-subtitle">
+          拒绝“清水泡出无限蔬菜”短视频幻觉 — 每种植物标注<strong>真实可行性</strong>、<strong>可验证验收点</strong>与<strong>书本/文献出处页码</strong>。
+        </p>
+      </div>
+      <div class="header-actions">
+        <nav class="top-nav" aria-label="主视图切换">
+          <button id="nav-plants" class="btn btn-nav active" type="button">🌿 植物速查总表</button>
+          <button id="nav-lighting" class="btn btn-nav" type="button">💡 补光灯 PPFD/DLI</button>
+          <button id="nav-soil" class="btn btn-nav" type="button">🪴 混栽与配土计算器</button>
+          <button id="nav-pests" class="btn btn-nav" type="button">🐛 病虫害与隔离检疫</button>
+        </nav>
+        <button id="btn-lang-toggle" class="btn btn-secondary" type="button" aria-label="切换语言 / Switch Language">
+          🌐 EN
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <!-- 视图 1：交互式总表 -->
+    <section id="view-table" class="view">
+      <!-- 按家庭环境反向筛选向导 -->
+      <div class="env-wizard">
+        <div class="env-wizard-header">
+          <strong>🏠 按我家环境反向防死推荐</strong>
+          <span class="plant-sub">勾选你的真实室内条件，自动过滤容易养死的品种</span>
+        </div>
+        <div class="env-wizard-controls">
+          <div>
+            <label for="env-light-select">1. 我家光照条件</label>
+            <select id="env-light-select">
+              <option value="all">不限（显示全部植物）</option>
+              <option value="no_grow_light">只有普通窗台 / 无补光灯（过滤强光死穴品种）</option>
+              <option value="has_grow_light">有全光谱补光灯 / 全日照南窗</option>
+            </select>
+          </div>
+          <div>
+            <label for="env-diff-select">2. 我能接受的养护难度</label>
+            <select id="env-diff-select">
+              <option value="all">不限难度 (1★ – 5★)</option>
+              <option value="easy_only">纯新手零失败 (仅看 1★ – 2★)</option>
+              <option value="medium_ok">进阶可折腾 (1★ – 3★)</option>
+            </select>
+          </div>
+          <div id="env-advice-box" class="env-advice-box">
+            当前显示全部品种；如果你没有补光灯，可切换上方下拉框一键排除易徒长暴毙的高光香草。
+          </div>
+        </div>
+      </div>
+
+      <div class="controls-bar">
+        <div class="search-wrap">
+          <input
+            id="search-input"
+            type="search"
+            placeholder="搜索中英文名或别名，例如：香菜、cilantro、ginger、葱..."
+            aria-label="搜索植物"
+          />
+        </div>
+        <div class="filter-chips" id="filter-chips" role="group" aria-label="筛选条件">
+          <button class="chip active" data-filter="all" type="button">全部 (<span id="count-all">0</span>)</button>
+          <button class="chip" data-filter="high_value" type="button">高性价比再生</button>
+          <button class="chip" data-filter="partial_or_rhizome" type="button">仅收嫩叶 / 长期根茎</button>
+          <button class="chip" data-filter="not_recommended" type="button">不建议菜梗水培</button>
+          <button class="chip" data-filter="grow_light_required" type="button">需强光/补光灯</button>
+        </div>
+      </div>
+
+      <div class="stats-strip" id="stats-strip"></div>
+
+      <div class="table-card">
+        <div class="table-scroll">
+          <table class="plants-table" id="plants-table">
+            <thead>
+              <tr>
+                <th>植物名称</th>
+                <th>厨余再生评级</th>
+                <th>推荐起点</th>
+                <th>纯水培上限</th>
+                <th>光照门槛</th>
+                <th>收获周期</th>
+                <th>出处数</th>
+              </tr>
+            </thead>
+            <tbody id="plants-tbody"></tbody>
+          </table>
+        </div>
+        <div id="empty-state" class="empty-state hidden">
+          没有匹配该筛选条件的植物，请清空搜索词或切换筛选标签。
+        </div>
+      </div>
+    </section>
+
+    <!-- 视图 2：可验证步骤详情页 -->
+    <section id="view-detail" class="view hidden" aria-live="polite"></section>
+
+    <!-- 视图 3：LED 补光灯 PPFD / DLI 与吊挂距离实用附表 -->
+    <section id="view-lighting" class="view hidden" aria-live="polite"></section>
+
+    <!-- 视图 4：同盆混栽矩阵与配土配方计算器 -->
+    <section id="view-soil" class="view hidden" aria-live="polite"></section>
+
+    <!-- 视图 5：室内病虫害急救与超市买苗隔离检疫清单 -->
+    <section id="view-pests" class="view hidden" aria-live="polite"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>Planting Tips Prototype · 数据源：<code>data/plants.json</code> · 每条步骤均需关联可核验出处</span>
+    </div>
+  </footer>
+
+  <script src="data/svg-diagrams.js"></script>
+  <script src="data/i18n-en.js"></script>
+  <script src="data/plants-bundle.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

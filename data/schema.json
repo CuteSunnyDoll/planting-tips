@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IndoorEdiblePlantsCatalog",
+  "description": "Schema for verifiable indoor edible herbs and kitchen-scrap regrowing guides with mandatory source page citations.",
+  "type": "object",
+  "required": ["version", "updated_at", "plants"],
+  "properties": {
+    "version": { "type": "string" },
+    "updated_at": { "type": "string" },
+    "plants": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/PlantEntry" }
+    }
+  },
+  "$defs": {
+    "PlantEntry": {
+      "type": "object",
+      "required": [
+        "id",
+        "name_zh",
+        "name_en",
+        "botanical_name",
+        "category",
+        "scrap_regrow_verdict",
+        "verdict_label",
+        "best_starting_method",
+        "starting_method_label",
+        "water_only_limit",
+        "light_requirement",
+        "light_label",
+        "expected_harvest_window",
+        "difficulty",
+        "myth_vs_reality",
+        "steps",
+        "pitfalls",
+        "sources"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "name_zh": { "type": "string" },
+        "name_en": { "type": "string" },
+        "aliases": { "type": "array", "items": { "type": "string" } },
+        "botanical_name": { "type": "string" },
+        "category": {
+          "type": "string",
+          "enum": ["herb", "allium", "rhizome", "leafy_stem"]
+        },
+        "scrap_regrow_verdict": {
+          "type": "string",
+          "enum": ["high_value", "partial_greens_only", "not_recommended", "long_term_rhizome"]
+        },
+        "verdict_label": { "type": "string" },
+        "best_starting_method": {
+          "type": "string",
+          "enum": ["kitchen_scrap_water_to_soil", "grocery_pot_split", "direct_seed", "clove_or_rhizome_soil"]
+        },
+        "starting_method_label": { "type": "string" },
+        "water_only_limit": { "type": "string" },
+        "light_requirement": {
+          "type": "string",
+          "enum": ["bright_windowsill_ok", "grow_light_recommended", "grow_light_required"]
+        },
+        "light_label": { "type": "string" },
+        "ppfd_dli": { "type": "string" },
+        "container_and_soil": { "type": "string" },
+        "expected_harvest_window": { "type": "string" },
+        "difficulty": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "diagrams": { "type": "array", "items": { "type": "string" } },
+        "hero_media": {
+          "type": "object",
+          "properties": {
+            "type": { "type": "string", "enum": ["image", "video", "none"] },
+            "src": { "type": "string" },
+            "wiki_url": { "type": "string" },
+            "caption": { "type": "string" }
+          }
+        },
+        "myth_vs_reality": {
+          "type": "object",
+          "required": ["common_myth", "botanical_truth", "source_refs"],
+          "properties": {
+            "common_myth": { "type": "string" },
+            "botanical_truth": { "type": "string" },
+            "source_refs": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+          }
+        },
+        "steps": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["step_number", "title", "action", "verification_checkpoint", "failure_signal", "source_refs"],
+            "properties": {
+              "step_number": { "type": "integer", "minimum": 1 },
+              "title": { "type": "string" },
+              "action": { "type": "string" },
+              "verification_checkpoint": { "type": "string" },
+              "failure_signal": { "type": "string" },
+              "media": {
+                "type": "object",
+                "properties": {
+                  "type": { "type": "string", "enum": ["image", "video", "none"] },
+                  "src": { "type": "string" },
+                  "caption": { "type": "string" }
+                }
+              },
+              "source_refs": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+            }
+          }
+        },
+        "pitfalls": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["symptom", "root_cause", "fix", "source_refs"],
+            "properties": {
+              "symptom": { "type": "string" },
+              "root_cause": { "type": "string" },
+              "fix": { "type": "string" },
+              "source_refs": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+            }
+          }
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["ref_id", "source_type", "title", "page_or_section", "verified"],
+            "properties": {
+              "ref_id": { "type": "string" },
+              "source_type": { "type": "string", "enum": ["book", "web", "community"] },
+              "title": { "type": "string" },
+              "author_or_publisher": { "type": "string" },
+              "page_or_section": { "type": "string" },
+              "url": { "type": "string" },
+              "quote_or_note": { "type": "string" },
+              "verified": { "type": "boolean" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

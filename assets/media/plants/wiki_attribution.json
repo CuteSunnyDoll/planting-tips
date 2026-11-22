@@ -1,0 +1,182 @@
+{
+  "green-onion": {
+    "local_src": "assets/media/plants/green-onion.jpg",
+    "wiki_title": "Scallion",
+    "wiki_page": "https://en.wikipedia.org/wiki/Scallion",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/CSA-Red-Spring-Onions.jpg/330px-CSA-Red-Spring-Onions.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "cilantro": {
+    "local_src": "assets/media/plants/cilantro.jpg",
+    "wiki_title": "Coriander",
+    "wiki_page": "https://en.wikipedia.org/wiki/Coriander",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-193.jpg/330px-Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-193.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "parsley": {
+    "local_src": "assets/media/plants/parsley.jpg",
+    "wiki_title": "Parsley",
+    "wiki_page": "https://en.wikipedia.org/wiki/Parsley",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Petroselinum.jpg/330px-Petroselinum.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "celery": {
+    "local_src": "assets/media/plants/celery.jpg",
+    "wiki_title": "Celery",
+    "wiki_page": "https://en.wikipedia.org/wiki/Celery",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Celery_1.jpg/330px-Celery_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "ginger": {
+    "local_src": "assets/media/plants/ginger.jpg",
+    "wiki_title": "Ginger",
+    "wiki_page": "https://en.wikipedia.org/wiki/Ginger",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Zingiber_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-146.jpg/330px-Zingiber_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-146.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "garlic": {
+    "local_src": "assets/media/plants/garlic.jpg",
+    "wiki_title": "Garlic",
+    "wiki_page": "https://en.wikipedia.org/wiki/Garlic",
+    "thumb_source": "https://upload.wikimedia.org/wikipedia/commons/3/39/Allium_sativum_Woodwill_1793.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "basil": {
+    "local_src": "assets/media/plants/basil.jpg",
+    "wiki_title": "Basil",
+    "wiki_page": "https://en.wikipedia.org/wiki/Basil",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Ocimum_basilicum_8zz.jpg/330px-Ocimum_basilicum_8zz.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "mint": {
+    "local_src": "assets/media/plants/mint.jpg",
+    "wiki_title": "Spearmint",
+    "wiki_page": "https://en.wikipedia.org/wiki/Spearmint",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Minze.jpg/330px-Minze.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "rosemary": {
+    "local_src": "assets/media/plants/rosemary.jpg",
+    "wiki_title": "Rosemary",
+    "wiki_page": "https://en.wikipedia.org/wiki/Rosemary",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Rosemary_in_bloom.JPG/330px-Rosemary_in_bloom.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "thyme": {
+    "local_src": "assets/media/plants/thyme.jpg",
+    "wiki_title": "Thymus vulgaris",
+    "wiki_page": "https://en.wikipedia.org/wiki/Thymus_vulgaris",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Thymus_vulgaris1.JPG/330px-Thymus_vulgaris1.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "chives": {
+    "local_src": "assets/media/plants/chives.jpg",
+    "wiki_title": "Chives",
+    "wiki_page": "https://en.wikipedia.org/wiki/Chives",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Allium_schoenoprasum_-_Bombus_lapidarius_-_Tootsi.jpg/330px-Allium_schoenoprasum_-_Bombus_lapidarius_-_Tootsi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "garlic-chives": {
+    "local_src": "assets/media/plants/garlic-chives.jpg",
+    "wiki_title": "Allium tuberosum",
+    "wiki_page": "https://en.wikipedia.org/wiki/Allium_tuberosum",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Allium_tuberosum_kz01.jpg/330px-Allium_tuberosum_kz01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "perilla": {
+    "local_src": "assets/media/plants/perilla.jpg",
+    "wiki_title": "Perilla frutescens",
+    "wiki_page": "https://en.wikipedia.org/wiki/Perilla_frutescens",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Perilla_frutescens_frutescens_732814283.jpg/330px-Perilla_frutescens_frutescens_732814283.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "lettuce": {
+    "local_src": "assets/media/plants/lettuce.jpg",
+    "wiki_title": "Lettuce",
+    "wiki_page": "https://en.wikipedia.org/wiki/Lettuce",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Iceberg_lettuce_in_SB.jpg/330px-Iceberg_lettuce_in_SB.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "oregano": {
+    "local_src": "assets/media/plants/oregano.jpg",
+    "wiki_title": "Oregano",
+    "wiki_page": "https://en.wikipedia.org/wiki/Oregano",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Origanum_vulgare_-_harilik_pune.jpg/330px-Origanum_vulgare_-_harilik_pune.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "microgreens": {
+    "local_src": "assets/media/plants/microgreens.jpg",
+    "wiki_title": "Microgreen",
+    "wiki_page": "https://en.wikipedia.org/wiki/Microgreen",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Liping_Kou_observes_microgreens.jpg/330px-Liping_Kou_observes_microgreens.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "water-spinach": {
+    "local_src": "assets/media/plants/water-spinach.jpg",
+    "wiki_title": "Ipomoea aquatica",
+    "wiki_page": "https://en.wikipedia.org/wiki/Ipomoea_aquatica",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/N_Ipoa_D1600.JPG/330px-N_Ipoa_D1600.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "arugula": {
+    "local_src": "assets/media/plants/arugula.jpg",
+    "wiki_title": "Eruca vesicaria",
+    "wiki_page": "https://zh.wikipedia.org/wiki/%E8%8A%9D%E9%BA%BB%E8%8F%9C",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Eruca_sativa_1_IP0206101.jpg/330px-Eruca_sativa_1_IP0206101.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "dill": {
+    "local_src": "assets/media/plants/dill.jpg",
+    "wiki_title": "Dill",
+    "wiki_page": "https://en.wikipedia.org/wiki/Dill",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Illustration_Anethum_graveolens0.jpg/330px-Illustration_Anethum_graveolens0.jpg?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "sage": {
+    "local_src": "assets/media/plants/sage.jpg",
+    "wiki_title": "Salvia officinalis",
+    "wiki_page": "https://en.wikipedia.org/wiki/Salvia_officinalis",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/%28MHNT%29_Salvia_officinalis_flowers.jpg/330px-%28MHNT%29_Salvia_officinalis_flowers.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "lemongrass": {
+    "local_src": "assets/media/plants/lemongrass.jpg",
+    "wiki_title": "Cymbopogon citratus",
+    "wiki_page": "https://en.wikipedia.org/wiki/Cymbopogon_citratus",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Gardenology.org-IMG_2892_rbgs11jan.jpg/330px-Gardenology.org-IMG_2892_rbgs11jan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "carrot-tops-and-cabbage": {
+    "local_src": "assets/media/plants/carrot-tops-and-cabbage.jpg",
+    "wiki_title": "Daucus carota",
+    "wiki_page": "https://en.wikipedia.org/wiki/Carrot",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Vegetable-Carrot-Bundle-wStalks.jpg/330px-Vegetable-Carrot-Bundle-wStalks.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "watercress": {
+    "local_src": "assets/media/plants/watercress.jpg",
+    "wiki_title": "Watercress",
+    "wiki_page": "https://en.wikipedia.org/wiki/Watercress",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Watercress_%282%29.JPG/330px-Watercress_%282%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "sweet-potato-greens": {
+    "local_src": "assets/media/plants/sweet-potato-greens.jpg",
+    "wiki_title": "Sweet potato",
+    "wiki_page": "https://en.wikipedia.org/wiki/Sweet_potato",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Ipomoea_batatas_006.JPG/330px-Ipomoea_batatas_006.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "chamomile": {
+    "local_src": "assets/media/plants/chamomile.jpg",
+    "wiki_title": "Matricaria chamomilla",
+    "wiki_page": "https://en.wikipedia.org/wiki/Matricaria_chamomilla",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Matricaria_February_2008-1.jpg/330px-Matricaria_February_2008-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "lavender": {
+    "local_src": "assets/media/plants/lavender.jpg",
+    "wiki_title": "Lavandula angustifolia",
+    "wiki_page": "https://en.wikipedia.org/wiki/Lavandula_angustifolia",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Lavandula-angustifolia-flowering.JPG/330px-Lavandula-angustifolia-flowering.JPG?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "tarragon": {
+    "local_src": "assets/media/plants/tarragon.jpg",
+    "wiki_title": "Tarragon",
+    "wiki_page": "https://en.wikipedia.org/wiki/Tarragon",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Estragon_1511.jpg/330px-Estragon_1511.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "fennel": {
+    "local_src": "assets/media/plants/fennel.jpg",
+    "wiki_title": "Fennel",
+    "wiki_page": "https://en.wikipedia.org/wiki/Fennel",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Foeniculum_July_2011-1a.jpg/330px-Foeniculum_July_2011-1a.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "garland-chrysanthemum": {
+    "local_src": "assets/media/plants/garland-chrysanthemum.jpg",
+    "wiki_title": "Glebionis coronaria",
+    "wiki_page": "https://en.wikipedia.org/wiki/Glebionis_coronaria",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Glebionis_February_2008-1.jpg/330px-Glebionis_February_2008-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "cherry-radish": {
+    "local_src": "assets/media/plants/cherry-radish.jpg",
+    "wiki_title": "Radish",
+    "wiki_page": "https://en.wikipedia.org/wiki/Radish",
+    "thumb_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Radish_3371103037_4ab07db0bf_o.jpg/330px-Radish_3371103037_4ab07db0bf_o.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  }
+}
